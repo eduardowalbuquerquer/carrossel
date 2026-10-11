@@ -1,8 +1,9 @@
-"""Baixa uma foto realista do Pexels (grátis, uso comercial) para um post.
+"""Baixa uma foto realista grátis para um post (Pixabay; Pexels se houver chave).
 
-Uso: python fetch_photo.py "man praying sunrise mountain" ../posts/<pasta>/img/foto.jpg [--orientation portrait]
-Requer PEXELS_API_KEY. Docs: https://www.pexels.com/api/documentation/#photos-search
-Evita fotos já usadas (registro em ../usados_pexels.json).
+Uso: python fetch_photo.py "man praying sunrise mountain" ../posts/<pasta>/img/foto.jpg [--orientation vertical]
+Requer PIXABAY_API_KEY (ou PEXELS_API_KEY).
+Docs: https://pixabay.com/api/docs/ · https://www.pexels.com/api/documentation/#photos-search
+Evita fotos já usadas (registro em ../usados_fotos.json).
 """
 import json
 import os
@@ -11,32 +12,49 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-USED = Path(__file__).resolve().parent.parent / "usados_pexels.json"
+USED = Path(__file__).resolve().parent.parent / "usados_fotos.json"
 
 
-def main(query, out, orientation="portrait"):
+def get_json(url, headers=None):
+    with urllib.request.urlopen(urllib.request.Request(url, headers=headers or {}), timeout=30) as r:
+        return json.loads(r.read())
+
+
+def candidates(query, orientation):
+    """Lista (id, url_da_imagem, credito) da melhor fonte disponível."""
+    if os.environ.get("PIXABAY_API_KEY"):
+        q = urllib.parse.urlencode({"key": os.environ["PIXABAY_API_KEY"], "q": query[:100], "image_type": "photo",
+                                    "orientation": orientation, "per_page": 50, "safesearch": "true",
+                                    "min_width": 1000, "order": "popular"})
+        for h in get_json(f"https://pixabay.com/api/?{q}")["hits"]:
+            yield f"pixabay:{h['id']}", h["largeImageURL"], {"autor": h["user"], "pagina": h["pageURL"]}
+    elif os.environ.get("PEXELS_API_KEY"):
+        ori = {"vertical": "portrait", "horizontal": "landscape"}.get(orientation, orientation)
+        q = urllib.parse.urlencode({"query": query, "orientation": ori, "per_page": 30, "size": "large"})
+        for p in get_json(f"https://api.pexels.com/v1/search?{q}", {"Authorization": os.environ["PEXELS_API_KEY"]})["photos"]:
+            yield f"pexels:{p['id']}", p["src"].get("large2x") or p["src"]["original"], {"autor": p["photographer"], "pagina": p["url"]}
+    else:
+        raise SystemExit("Defina PIXABAY_API_KEY (ou PEXELS_API_KEY) no ambiente.")
+
+
+def main(query, out, orientation="vertical"):
     used = set(json.loads(USED.read_text())) if USED.exists() else set()
-    q = urllib.parse.urlencode({"query": query, "orientation": orientation, "per_page": 30, "size": "large"})
-    req = urllib.request.Request(f"https://api.pexels.com/v1/search?{q}",
-                                 headers={"Authorization": os.environ["PEXELS_API_KEY"]})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        photos = json.loads(r.read())["photos"]
-    pick = next((p for p in photos if str(p["id"]) not in used), None)
+    pick = next(((i, u, c) for i, u, c in candidates(query, orientation) if i not in used), None)
     if not pick:
         raise SystemExit(f"Nenhuma foto nova para '{query}'. Tente outra busca.")
+    pid, url, credit = pick
     out = Path(out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    url = pick["src"].get("large2x") or pick["src"]["original"]
-    with urllib.request.urlopen(url, timeout=60) as r:
-        out.write_bytes(r.read())
-    used.add(str(pick["id"]))
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=60) as r:
+        out.write_bytes(r.read())  # baixamos a foto (não fazemos hotlink)
+    used.add(pid)
     USED.write_text(json.dumps(sorted(used)))
-    print(json.dumps({"arquivo": str(out), "fotografo": pick["photographer"], "pexels": pick["url"]}))
+    print(json.dumps({"arquivo": str(out), "id": pid, **credit}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    ori = sys.argv[sys.argv.index("--orientation") + 1] if "--orientation" in sys.argv else "portrait"
-    if "--orientation" in sys.argv:
-        args = [a for a in args if a != ori]
+    args = sys.argv[1:]
+    ori = "vertical"
+    if "--orientation" in args:
+        k = args.index("--orientation"); ori = args[k + 1]; del args[k:k + 2]
     main(args[0], args[1], ori)

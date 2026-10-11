@@ -27,7 +27,7 @@ Todo dia, sem intervenção humana, você cria e publica **1 post no feed + 1 Re
 10. **Falhas.** Se algo falhar (API, rede, render), não invente resultado: avise o Eduardo com o erro exato e o que ele precisa fazer.
 
 ## Fonte de imagens
-Padrão: Pexels. Busque em inglês, cinematográfico e sóbrio (ex.: "man praying sunrise", "blacksmith forge sparks", "man walking mountain fog"):
+Padrão: Pixabay (grátis; Pexels se houver PEXELS_API_KEY). Busque em inglês, cinematográfico e sóbrio (ex.: "man praying sunrise", "blacksmith forge sparks", "man walking mountain fog"):
 ```
 python3 fetch_photo.py "<busca>" ../posts/<pasta>/img/foto.jpg
 ```

@@ -54,15 +54,15 @@ Hoje o projeto roda num ambiente padrão, sem configurações, que **bloqueia** 
    - `graph.facebook.com`
    - `rupload.facebook.com`
    - `eduardowalbuquerquer.github.io` (para eu conferir que as imagens já estão no ar)
-   - se escolher fotos do Pexels: `api.pexels.com` e `images.pexels.com`
+   - `pixabay.com` e `cdn.pixabay.com` (fotos grátis)
    (deixe marcada a opção de permitir gerenciadores de pacotes)
 3. Em **Environment variables**, adicione:
    ```
    IG_ACCESS_TOKEN=<o token do passo 2>
    IG_USER_ID=<o ID da conta do passo 2>
-   PEXELS_API_KEY=<chave grátis do Pexels, se escolher fotos do Pexels>
+   PIXABAY_API_KEY=<chave grátis do Pixabay>
    ```
-   A chave do Pexels é grátis em https://www.pexels.com/api/ (crie conta e copie "Your API Key").
+   A chave do Pixabay é grátis e sai na hora: crie conta em https://pixabay.com, entre em https://pixabay.com/api/docs/ e copie a chave que aparece em verde no item **key** (Parameters).
 4. Salve. Ele já fica selecionado para o projeto.
 
 Fonte: https://code.claude.com/docs/en/cloud-environments#network-access
