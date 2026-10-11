@@ -87,8 +87,9 @@ def host_files(post_dir, files):
     base_url = os.environ["PAGES_BASE_URL"].rstrip("/")
     dest = repo / "posts" / post_dir.name
     dest.mkdir(parents=True, exist_ok=True)
-    for f in files:
-        shutil.copy(post_dir / f, dest / f)
+    if dest.resolve() != post_dir.resolve():  # o post pode já estar dentro do repo do Pages
+        for f in files:
+            shutil.copy(post_dir / f, dest / f)
     run = lambda *a: subprocess.run(["git", "-C", str(repo), *a], check=True)
     run("add", "-A")
     if subprocess.run(["git", "-C", str(repo), "diff", "--cached", "--quiet"]).returncode != 0:
