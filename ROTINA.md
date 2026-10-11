@@ -8,6 +8,13 @@ Todo dia, sem intervenção humana, você cria e publica **1 post no feed + 1 Re
 2. **Firmeza com amor bíblico.** Apresente o posicionamento bíblico com clareza e sem rodeio, mas respeitando quem pensa diferente: sem deboche, ataque, rótulo ou humilhação de pessoas ou grupos. Corrija ideias, não despreze pessoas (Efésios 4:15, "seguindo a verdade em amor").
 3. **Antes de publicar**, releia tudo e confirme: (a) nada contradiz a Bíblia; (b) o tom é firme e amoroso, nunca agressivo. Se falhar em qualquer ponto, corrija o spec e renderize de novo.
 
+## Referências e banco de pautas
+- As fontes ficam em `referencias.json` (Eduardo pode acrescentar novas a qualquer momento).
+- **Varredura semanal (todo domingo, antes do post):** para cada fonte, faça uma busca na web (WebSearch) pelo nome/perfil + temas do canal (homem cristão, casamento, paternidade, pureza, liderança, disciplina, teologia bíblica) e veja o que publicaram recentemente em canais abertos (YouTube, sites, blogs, matérias, entrevistas). O Instagram em si não é acessível deste ambiente.
+- Para cada assunto relevante, registre em `pautas.md` uma linha: data · fonte · ideia em 1 linha **com palavras nossas** · link. Nunca copie frases, legendas, artes ou a estrutura de um post alheio.
+- **No dia a dia (passo 2):** antes de inventar um tema, olhe `pautas.md` e prefira uma pauta ainda não usada que combine com a série do dia. Marque a data em "usada em".
+- Todo conteúdo nascido de uma pauta passa pelas Premissas inegociáveis como qualquer outro.
+
 ## Ambiente (antes do passo 1)
 ```
 cd <clone do repo> && git pull -q origin main
