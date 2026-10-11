@@ -28,6 +28,11 @@ from pathlib import Path
 
 HOST = "https://graph.instagram.com"
 
+# Valores colados com espaços ou entre <> (ex.: "<IGAA...>") quebram a API: limpa antes de usar.
+for _k in ("IG_ACCESS_TOKEN", "IG_USER_ID"):
+    if _k in os.environ:
+        os.environ[_k] = os.environ[_k].strip().strip("<>\"'").strip()
+
 
 def api_url(path):
     ver = os.environ.get("IG_API_VERSION", "").strip("/")
@@ -94,6 +99,9 @@ def host_files(post_dir, files):
             break
     else:
         raise SystemExit("Falha no git push do repositório de mídias")
+    # PAGES_BASE_URL pode conter {sha} (ex.: jsDelivr fixado no commit), útil enquanto o Pages não está no ar.
+    sha = subprocess.run(["git", "-C", str(repo), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
+    base_url = base_url.replace("{sha}", sha)
     urls = {f: f"{base_url}/posts/{post_dir.name}/{f}" for f in files}
     # O GitHub Pages leva ~1 min para publicar; se este ambiente não alcança github.io, espera fixa.
     probe = urls[files[0]]
