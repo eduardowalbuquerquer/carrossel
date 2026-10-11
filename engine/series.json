@@ -1,6 +1,6 @@
 {
   "timezone": "America/Sao_Paulo",
-  "publish_time": "19:00",
+  "publish_time": "09:00",
   "weekdays": {
     "1": {"key": "arquetipo", "name": "Arquétipos Bíblicos", "format": "carousel", "slides": "7",
           "visual": "tipográfico (claro/escuro/gradiente), como o carrossel do homem passivo",
