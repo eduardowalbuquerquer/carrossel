@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-14",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "4 mentiras sobre ser homem",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MITO X VERDADE",
+      "title": "4 mentiras que te ensinaram sobre <em style=\"color:#C8892C\">ser homem</em>.",
+      "body": "Todas parecem força. Nenhuma passa no teste da Bíblia.",
+      "hint": "A nº 4 é a que mais destrói casamentos →"
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 01",
+      "title": "Homem de verdade não chora.",
+      "left": {
+        "label": "MITO",
+        "text": "Lágrima é fraqueza. Engole e segue."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Jesus chorou.\" João 11:35. Força não é ausência de dor."
+      },
+      "body": "O homem forjado sente tudo. Só não deixa a dor dirigir."
+    },
+    {
+      "layout": "compare",
+      "theme": "light",
+      "tag": "MENTIRA 02",
+      "title": "Liderar é mandar.",
+      "left": {
+        "label": "MITO",
+        "text": "Quem lidera dá ordens e é servido."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Quem quiser tornar-se grande entre vós, será esse o que vos sirva.\" Marcos 10:43"
+      },
+      "body": "Na Bíblia, autoridade é peso nas costas, não trono."
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 03",
+      "title": "Homem resolve tudo sozinho.",
+      "left": {
+        "label": "MITO",
+        "text": "Pedir ajuda é admitir fracasso."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Melhor é serem dois do que um.\" Eclesiastes 4:9."
+      },
+      "body": "Até Moisés precisou de Arão e Hur segurando seus braços."
+    },
+    {
+      "layout": "big",
+      "theme": "light",
+      "big": "4",
+      "tag": "A MAIS PERIGOSA",
+      "title": "Seu prazer vem primeiro.",
+      "quote": {
+        "text": "Maridos, amai vossa mulher, como também Cristo amou a igreja e a si mesmo se entregou por ela.",
+        "ref": "Efésios 5:25 · ARA"
+      },
+      "body": "O mundo diz: satisfaça-se. A Cruz diz: entregue-se."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual dessas mentiras você já acreditou? Comente o número."
+    }
+  ],
+  "caption": "Te ensinaram que ser homem é não sentir, mandar e dar conta de tudo sozinho.\n\nA Bíblia desmonta as 4 mentiras. A última é a que mais destrói casamentos.\n\nQual delas você já acreditou? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial: homem não nasce pronto, é forjado.\n\n#hombridade #masculinidadebiblica #homemdedeus #homemcristao #forjadaalma #biblia #fecrista #casamentocristao",
+  "reel": {
+    "frames": [
+      {
+        "kicker": "VOCÊ CRESCEU OUVINDO",
+        "text": "\"Homem de verdade não chora.\""
+      },
+      {
+        "kicker": "E TAMBÉM",
+        "text": "\"Liderar é mandar.\""
+      },
+      {
+        "kicker": "MAS A Nº 4",
+        "text": "é a que mais <em>destrói casamentos</em>."
+      },
+      {
+        "kicker": "4 MENTIRAS SOBRE SER HOMEM",
+        "text": "A resposta está no post de hoje.",
+        "cta": "Toque no perfil →"
+      }
+    ],
+    "caption": "A mentira nº 4 você provavelmente ainda acredita. O post completo está no perfil 👆\n\n#hombridade #homemdedeus #forjadaalma #masculinidadebiblica"
+  }
+}
