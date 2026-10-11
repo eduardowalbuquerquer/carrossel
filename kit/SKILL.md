@@ -1,6 +1,6 @@
 ---
 name: fabrica-conteudo-social
-description: Cria e automatiza conteúdo diário (carrossel/imagem no feed + Reels de chamada) para um perfil de Instagram e/ou Página do Facebook, a partir de um tema; entrevista o dono para definir marca, premissas e séries.
+description: Cria e automatiza conteúdo diário (carrossel/imagem no feed + Reels de chamada) para um perfil de Instagram e/ou Página do Facebook, a partir de um tema; entrevista o dono sobre marca, premissas, séries e fontes de referência.
 ---
 
 # Fábrica de conteúdo social (Instagram + Facebook)
@@ -19,7 +19,8 @@ Use a primeira fonte que existir:
 Conteúdo do kit:
 | Arquivo | Função |
 |---|---|
-| `novo_perfil.py` | cria a pasta do perfil (motor + perfil.json + ROTINA.md + historico.json) |
+| `novo_perfil.py` | cria a pasta do perfil (motor + perfil.json + ROTINA.md + historico.json + ideias.json) |
+| `referencias.py` | lista, adiciona, remove e sorteia as fontes de referência do perfil |
 | `engine/brand.py` | lê o perfil.json; deriva a paleta inteira de 1 cor; fontes Google; logo ou inicial |
 | `engine/render_post.py` | spec.json → slides 1080×1350 (JPG) + preview.html no padrão das instruções de carrossel |
 | `engine/render_reel.py` | bloco `reel` → MP4 9:16 1080×1920 com áudio sintetizado |
@@ -27,6 +28,7 @@ Conteúdo do kit:
 | `engine/fetch_photo.py` | foto realista grátis (Pixabay; Pexels se houver chave), sem repetir |
 | `engine/publish.py` | publica no Instagram e/ou Página do Facebook; idempotente; `--check`, `--refresh-token` |
 | `guias/acesso-instagram.md`, `guias/acesso-facebook.md` | passo a passo do que só o dono libera (tokens, domínios, Pages) |
+| `guias/referencias.md` | como as referências são usadas e os 3 jeitos de acrescentar novas (para o dono) |
 | `exemplos/forja-da-alma/` | perfil.json completo, logo e 2 specs reais (carrossel e imagem única) |
 
 ## Fluxo (em passos)
@@ -65,6 +67,12 @@ Ajude a escrever as premissas: transforme cada resposta numa frase **verificáve
 15. Estilo das fotos (ex.: cinematográfico, claro e minimalista, natureza) e o que evitar.
 16. CTA final padrão (frase do último slide e botão "Siga @...").
 
+**Bloco E · Fontes de referência (inspiração, nunca cópia)**
+17. Quais fontes você acompanha e quer que eu vasculhe periodicamente em busca de ideias? Vale perfil do Instagram, TikTok ou Facebook, canal do YouTube, podcast, blog, matéria de portal, artigo científico (link ou DOI), livro ou site. Para cada uma, se quiser, diga o foco (ex.: "paternidade").
+18. Com que frequência pesquisar (padrão: todo dia, 3 fontes por vez, começando pelas menos consultadas)?
+19. Há alguma fonte que **não** deve ser usada?
+Explique a regra: das referências se aproveita só a ideia (tema, pergunta, dor do público, notícia); texto, título, roteiro, imagem e layout são sempre próprios. Diga também que novas fontes podem entrar a qualquer momento e mostre os 3 jeitos do `guias/referencias.md` (pedir no chat, comando `referencias.py`, editar o `perfil.json` no GitHub).
+
 Feche a entrevista com um **resumo de 10 linhas** e peça "ok" antes de gerar arquivos.
 
 ### Passo 2 · Gerar o perfil
@@ -81,9 +89,11 @@ Campos do `perfil.json`:
 - `series`: `"1"`..`"7"` → `key`, `name`, `format` (carousel | image), `slides`, `visual`, `brief`.
 - `cta`: `tag`, `titulo`, `botao`. `legenda`: `estrutura`, `hashtags_fixas[]`, `hashtags_qtd` [mín, máx].
 - `imagens`: `fonte`, `estilo`, `buscas_exemplo[]`, `evitar[]`. `reel`: `efeito` (particulas | nenhum), `audio` (impacto | suave | silencio), `cenas` [mín, máx], `regra`.
+- `referencias[]`: `tipo` (instagram, facebook, youtube, tiktok, blog, portal, artigo, podcast, livro, site, outro), `endereco` (@perfil, URL, DOI ou título), `foco`, `adicionada_em`, `consultada_em`. Preencha com `python3 referencias.py <pasta> adicionar <tipo> <endereco> ["foco"]`. `referencias_regras[]` (anti-plágio; há um padrão se faltar) e `referencias_rodada` (`frequencia`, `quantidade`).
 - `repo`: `github` (usuario/repo) e `base_url` (GitHub Pages). `nao_repetir_dias` (padrão 60).
 
 ### Passo 3 · Primeiro post de amostra (sem publicar)
+0. Se houver referências, rode `python3 referencias.py <pasta> rodada 3`, veja o conteúdo recente das fontes sorteadas e anote ideias em `ideias.json` (com a fonte). Escreva o post com palavras próprias.
 1. Escreva `posts/AAAA-MM-DD-<serie>/spec.json` (formato em `exemplos/forja-da-alma/spec-*.json`).
    Layouts: `hero`, `photo`, `text`, `list`, `big`, `verse` (citação), `compare`, `cta`. Carrossel termina em `cta`; imagem única = 1 slide.
 2. `cd engine && python3 checar_spec.py ../posts/<pasta>/spec.json` → zero ERROS.
@@ -108,6 +118,8 @@ Nunca peça token no chat. Depois que o dono disser "pronto": `python3 publish.p
 - **Premissas acima de tudo.** Post que fere uma premissa não sai; troque o tema. A ROTINA repete a checagem antes de publicar.
 - **Respeito ao contraditório**: corrigir ideias, nunca humilhar pessoas ou grupos; firmeza sem deboche.
 - **Não inventar**: citações, números e versículos só com fonte e redação exata conhecida. Resultado de API sempre real; em falha, avisar com o erro exato.
+- **Referências são inspiração, nunca cópia**: aproveitar só a ideia; nunca copiar texto, título, roteiro, imagem ou layout, nem republicar conteúdo alheio. Citação literal só curta, entre aspas e com crédito. Toda ideia passa pelas premissas. Se uma fonte não abrir (login, bloqueio de rede), passar para a próxima e dizer isso; nunca inventar o que ela publicou.
+- **Novas referências a qualquer momento**: quando o dono pedir ("adicione a referência X ao perfil Y"), rode `referencias.py ... adicionar`, faça commit e push do `perfil.json` e confirme em uma linha.
 - **Não repetir** tema, personagem ou citação dentro de `nao_repetir_dias`.
 - **Design** (instruções de carrossel): viewport 420×525 exportado a 1080×1350 com device_scale_factor 1080/420; barra de progresso e seta em cada slide (sem seta no último); alternar claro/escuro; título até ~70 caracteres, corpo até ~110; CTA no último slide.
 - **Reels de chamada**: gancho de curiosidade sem entregar a resposta; última cena "a resposta está no post de hoje" + "Toque no perfil →".
@@ -117,6 +129,7 @@ Nunca peça token no chat. Depois que o dono disser "pronto": `python3 publish.p
 
 ## Exemplo validado: Forja da Alma
 - Tema: hombridade bíblica. Premissas: (1) nunca contradizer as Escrituras; (2) respeitar o contraditório com amor bíblico, sem abrir mão da firmeza. Fonte de autoridade: Bíblia ARA, com referência exata.
+- Referências (exemplo no `perfil.json` do kit): 13 perfis do Instagram indicados pelo Eduardo (@doisdedosdeteologia, @adriano.proposito, @augustusnicodemus, @hernandesdiaslopes, @luizsayao, @papodehomembrasil, @paulo.borges.jr, @prpaulogouvea, @purelifeministriesbrasil, @prmocellin, @sebioficial, @henriquefelini, @ohenriquecafe).
 - Séries: seg Arquétipos Bíblicos (carrossel 7) · ter Versículo Forjado (foto) · qua Mito x Verdade · qui Frase de Ferro (foto) · sex Manual do Homem · sáb Homens da Bíblia em 60s · dom Pergunta de Domingo.
 - Primeiro post publicado 2026-10-11 às 9h: feed https://www.instagram.com/p/DeWltnpHETw/ · Reels https://www.instagram.com/reel/DeWlvrCiJ0-/
 - O kit, rodado com o `perfil.json` do Forja, gera slides idênticos pixel a pixel aos do motor em produção.

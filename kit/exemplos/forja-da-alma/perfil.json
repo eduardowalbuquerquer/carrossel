@@ -163,5 +163,121 @@
     "github": "eduardowalbuquerquer/carrossel",
     "base_url": "https://eduardowalbuquerquer.github.io/carrossel"
   },
-  "nao_repetir_dias": 60
+  "nao_repetir_dias": 60,
+  "referencias_regras": [
+    "Referências servem só de inspiração: extrair o tema, a pergunta ou o ângulo e escrever tudo com palavras, estrutura e exemplos próprios.",
+    "Nunca copiar texto, frase de efeito, título, roteiro, imagem ou layout de outro perfil; nunca republicar conteúdo alheio.",
+    "Citação literal só quando for da fonte de autoridade (ex.: versículo) ou curta, entre aspas e com crédito ao autor.",
+    "Toda ideia aproveitada passa pelas premissas do perfil antes de virar post; ideia que contradiz uma premissa é descartada."
+  ],
+  "referencias": [
+    {
+      "tipo": "instagram",
+      "endereco": "@doisdedosdeteologia",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/doisdedosdeteologia/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@adriano.proposito",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/adriano.proposito/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@augustusnicodemus",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/augustusnicodemus/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@hernandesdiaslopes",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/hernandesdiaslopes/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@luizsayao",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/luizsayao/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@papodehomembrasil",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/papodehomembrasil/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@paulo.borges.jr",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/paulo.borges.jr/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@prpaulogouvea",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/prpaulogouvea/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@purelifeministriesbrasil",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/purelifeministriesbrasil/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@prmocellin",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/prmocellin/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@sebioficial",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/sebioficial/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@henriquefelini",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/henriquefelini/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@ohenriquecafe",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/ohenriquecafe/"
+    }
+  ],
+  "referencias_rodada": {
+    "frequencia": "diária",
+    "quantidade": 3
+  }
 }

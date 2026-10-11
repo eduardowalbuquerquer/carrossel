@@ -72,7 +72,7 @@ def main(path):
             if not reel.get("caption"):
                 err.append("Reels sem 'caption'")
     print(json.dumps({"erros": err, "avisos": warn,
-                      "revisar_premissas": PERFIL.get("premissas", []) + PERFIL.get("limites", [])}, ensure_ascii=False, indent=2))
+                      "revisar_premissas": PERFIL.get("premissas", []) + PERFIL.get("limites", []) + PERFIL.get("referencias_regras", [])}, ensure_ascii=False, indent=2))
     sys.exit(1 if err else 0)
 
 
