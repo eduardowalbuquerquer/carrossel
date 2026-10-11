@@ -53,7 +53,7 @@ Hoje o projeto roda num ambiente padrão, sem configurações, que **bloqueia** 
    - `graph.instagram.com`
    - `graph.facebook.com`
    - `rupload.facebook.com`
-   - `SEU-USUARIO.github.io` (para eu conferir que as imagens já estão no ar)
+   - `eduardowalbuquerquer.github.io` (para eu conferir que as imagens já estão no ar)
    - se escolher fotos do Pexels: `api.pexels.com` e `images.pexels.com`
    (deixe marcada a opção de permitir gerenciadores de pacotes)
 3. Em **Environment variables**, adicione:
@@ -67,13 +67,14 @@ Hoje o projeto roda num ambiente padrão, sem configurações, que **bloqueia** 
 
 Fonte: https://code.claude.com/docs/en/cloud-environments#network-access
 
-## Passo 4 · Vitrine pública para as imagens (3 min)
+## Passo 4 · Vitrine pública para as imagens (1 min)
 O Instagram não aceita upload direto de imagem: ele **baixa** de um link público (só JPEG).
-1. No GitHub, crie um repositório **público** chamado `forja-da-alma-posts` (pode ser vazio, com README).
-2. No repositório: **Settings → Pages → Source: Deploy from a branch → main / root** → Save.
-3. Conecte o GitHub ao Claude: https://claude.ai/connect-github e adicione o repositório em **Configurações do projeto → Recursos**.
+Você já criou e conectou o repositório público `eduardowalbuquerquer/carrossel`, e o motor já está lá. Falta só ligar o Pages:
+1. Abra https://github.com/eduardowalbuquerquer/carrossel/settings/pages
+2. Em **Build and deployment → Source**, escolha **Deploy from a branch**.
+3. Em **Branch**, escolha **main** e a pasta **/ (root)** → **Save**.
 
-Assim cada post vira um link como `https://SEU-USUARIO.github.io/forja-da-alma-posts/2026-10-12/slide_1.jpg`.
+Cada post vira um link como `https://eduardowalbuquerquer.github.io/carrossel/posts/2026-10-14-mito/slide_1.jpg`.
 
 ---
 
