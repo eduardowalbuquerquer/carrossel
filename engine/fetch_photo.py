@@ -12,11 +12,16 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
+# Chaves coladas entre <> ou com espaços quebram a API: limpa antes de usar.
+for _k in ("PIXABAY_API_KEY", "PEXELS_API_KEY"):
+    if _k in os.environ:
+        os.environ[_k] = os.environ[_k].strip().strip("<>\"'").strip()
+
 USED = Path(__file__).resolve().parent.parent / "usados_fotos.json"
 
 
 def get_json(url, headers=None):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=headers or {}), timeout=30) as r:
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", **(headers or {})}), timeout=30) as r:
         return json.loads(r.read())
 
 
