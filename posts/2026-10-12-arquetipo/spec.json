@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-12",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Jacó: o homem que vive de esquema",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "ARQUÉTIPOS BÍBLICOS",
+      "title": "O homem que vence no <em style=\"color:#C8892C\">esquema</em> e perde a paz.",
+      "body": "Jacó: o manipulador que Deus precisou quebrar para colocar de pé.",
+      "hint": "Você tem um pouco de Jacó? Veja os sinais →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O PADRÃO",
+      "title": "Jacó não confiava em Deus. Confiava no próprio jeitinho.",
+      "body": "Comprou a primogenitura do irmão com um prato de comida e enganou o pai cego para tomar a bênção (Gênesis 25 e 27)."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "SINAIS DE JACÓ HOJE",
+      "title": "Você reconhece algum?",
+      "items": [
+        {"num": "01", "title": "A meia-verdade vira ferramenta", "desc": "Não mente direto. Só ajusta a história a seu favor."},
+        {"num": "02", "title": "O atalho sempre parece mais sensato", "desc": "Esperar em Deus soa ingênuo. O esquema parece prudência."},
+        {"num": "03", "title": "Precisa controlar tudo", "desc": "Se não estiver no comando, sente que vai perder."},
+        {"num": "04", "title": "Foge quando a conta chega", "desc": "Jacó fugiu do irmão e ficou longe por 20 anos."}
+      ]
+    },
+    {
+      "layout": "big",
+      "theme": "dark",
+      "big": "20",
+      "tag": "A COLHEITA",
+      "title": "Anos colhendo engano.",
+      "quote": {
+        "text": "Não vos enganeis: de Deus não se zomba; pois aquilo que o homem semear, isso também ceifará.",
+        "ref": "Gálatas 6:7 · ARA"
+      },
+      "body": "Labão trocou a noiva e mudou seu salário várias vezes (Gênesis 29 e 31)."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A NOITE DO JABOQUE",
+      "title": "Deus não negociou com Jacó. Lutou com ele.",
+      "body": "Sozinho e sem plano, Jacó lutou até o amanhecer e saiu mancando (Gênesis 32). Às vezes Deus nos fere para nos curar."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "NOVO NOME",
+      "title": "De enganador a <em style=\"color:#E3B566\">Israel</em>.",
+      "quote": {
+        "text": "Já não te chamarás Jacó, e sim Israel, pois como príncipe lutaste com Deus e com os homens e prevaleceste.",
+        "ref": "Gênesis 32:28 · ARA"
+      },
+      "body": "Em Cristo, você não precisa de esquema. A bênção é graça, não roubo."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual sinal de Jacó você precisa entregar a Deus? Comente o número."
+    }
+  ],
+  "caption": "Ele nunca mentia direto. Só ajustava a história a seu favor.\n\nJacó venceu no esquema: tomou a primogenitura, a bênção, a herança. E passou 20 anos colhendo o que plantou, até que Deus o encontrou sozinho numa noite e lutou com ele.\n\nSaiu mancando. E saiu com um novo nome.\n\nQual dos 4 sinais você precisa entregar a Deus? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial: homem não nasce pronto, é forjado.\n\n#hombridade #masculinidadebiblica #homemdedeus #homemcristao #forjadaalma #biblia #jaco #fecrista",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Ele nunca mente direto. Só <em>ajusta</em> a história."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "E Deus precisou <em>quebrá-lo</em> numa única noite."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele venceu no esquema e perdeu a paz. Quem é ele? O post completo está no perfil 👆\n\n#hombridade #homemdedeus #forjadaalma #masculinidadebiblica"
+  }
+}
