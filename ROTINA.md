@@ -10,7 +10,7 @@ Todo dia, sem intervenção humana, você cria e publica **1 post no feed + 1 Re
 
 ## Referências e banco de pautas
 - As fontes ficam em `referencias.json` (Eduardo pode acrescentar novas a qualquer momento).
-- **Varredura semanal (todo domingo, antes do post):** para cada fonte, faça uma busca na web (WebSearch) pelo nome/perfil + temas do canal (homem cristão, casamento, paternidade, pureza, liderança, disciplina, teologia bíblica) e veja o que publicaram recentemente em canais abertos (YouTube, sites, blogs, matérias, entrevistas). O Instagram em si não é acessível deste ambiente.
+- **Varredura semanal (todo domingo, antes do post):** rode `cd engine && python3 ler_referencias.py --dias 7` para ler os posts recentes dos perfis de Instagram (API Business Discovery; legendas, curtidas, comentários, links). Os que mais engajaram indicam temas que tocam o público. Para fontes que não são Instagram, ou se a leitura falhar, faça uma busca na web (WebSearch) pelo nome/perfil + temas do canal (homem cristão, casamento, paternidade, pureza, liderança, disciplina, teologia bíblica) e veja o que publicaram recentemente em canais abertos (YouTube, sites, blogs, matérias, entrevistas).
 - Para cada assunto relevante, registre em `pautas.md` uma linha: data · fonte · ideia em 1 linha **com palavras nossas** · link. Nunca copie frases, legendas, artes ou a estrutura de um post alheio.
 - **No dia a dia (passo 2):** antes de inventar um tema, olhe `pautas.md` e prefira uma pauta ainda não usada que combine com a série do dia. Marque a data em "usada em".
 - Todo conteúdo nascido de uma pauta passa pelas Premissas inegociáveis como qualquer outro.
@@ -43,8 +43,8 @@ Horário: a rotina dispara às 8h48 (Brasília) para o post sair perto das 9h.
    python3 render_reel.py ../posts/<pasta>/spec.json
    ```
 6. **Conferir.** Aplique o checklist das Premissas inegociáveis. Abra 2 ou 3 PNGs e 2 quadros do Reels (ffmpeg) e verifique: texto cortado, sobreposição com a barra de progresso, erros de português. Corrija o spec e renderize de novo se precisar.
-7. **Publicar.** `python3 publish.py ../posts/<pasta>` (feed primeiro, Reels logo depois; é idempotente).
-8. **Registrar.** Acrescente ao `historico.json`: data, série, título, tema, versículos, links. Faça commit e push no repositório.
+7. **Publicar.** `python3 publish.py ../posts/<pasta>`: Instagram (feed, depois Reels) e em seguida a Página do Facebook "Forja da Alma" (mesma arte e legenda; Reels como Reels da Página). É idempotente: o que já saiu fica em `resultado.json` e não é republicado. Se só o Facebook falhar, o Instagram já está no ar; avise o erro exato. Para pular o Facebook: `--no-facebook`.
+8. **Registrar.** Acrescente ao `historico.json`: data, série, título, tema, versículos, links (Instagram e Facebook). Faça commit e push no repositório.
 9. **Token.** No dia 1 e 15 de cada mês rode `python3 publish.py --refresh-token`. Se a resposta disser `mesmo_token: false` ou validade < 15 dias, avise o Eduardo.
 10. **Falhas.** Se algo falhar (API, rede, render), não invente resultado: avise o Eduardo com o erro exato e o que ele precisa fazer.
 
