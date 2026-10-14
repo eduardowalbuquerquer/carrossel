@@ -79,8 +79,11 @@ def publish_reel(spec, urls):
     fb("POST", f"{pid_}/video_reels", upload_phase="finish", video_id=vid, video_state="PUBLISHED",
        description=caption(spec, reel=True))
     t0 = time.time()
-    while time.time() - t0 < 900:
-        st = fb("GET", vid, fields="status").get("status", {})
+    while time.time() - t0 < 900:  # espera o processamento; a leitura do status pode ser negada sem afetar a publicação
+        try:
+            st = fb("GET", vid, fields="status").get("status", {})
+        except SystemExit:
+            break
         if st.get("video_status") == "ready" or st.get("publishing_phase", {}).get("status") == "complete":
             break
         if st.get("video_status") == "error":
