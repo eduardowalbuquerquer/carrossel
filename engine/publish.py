@@ -177,6 +177,14 @@ def main(argv):
         result["reel_id"] = publish_reel(spec, urls)
         result["reel_link"] = permalink(result["reel_id"])
         result_path.write_text(json.dumps(result, indent=2))
+    if os.environ.get("FB_ACCESS_TOKEN") and "--no-facebook" not in argv:  # Página do Facebook, depois do Instagram
+        import fb_publish
+        if not result.get("fb_feed_id"):
+            result["fb_feed_id"], result["fb_feed_link"] = fb_publish.publish_feed(spec, urls, slides)
+            result_path.write_text(json.dumps(result, indent=2))
+        if "reel.mp4" in urls and not result.get("fb_reel_id"):
+            result["fb_reel_id"], result["fb_reel_link"] = fb_publish.publish_reel(spec, urls)
+            result_path.write_text(json.dumps(result, indent=2))
     print(json.dumps(result))
 
 
