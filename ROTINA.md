@@ -54,3 +54,16 @@ Padrão: Pixabay (grátis; Pexels se houver PEXELS_API_KEY). Busque em inglês, 
 python3 fetch_photo.py "<busca>" ../posts/<pasta>/img/foto.jpg
 ```
 Prefira homens como foco, luz natural e tons quentes. Descarte fotos com texto, marcas ou logotipos.
+
+## Reels da Noite (19h, rotina separada das 18h48; escolhido pelo Eduardo em 2026-10-14)
+Segunda publicação diária: um **Reels completo**, com conteúdo próprio (não é chamada para o post da manhã). Sai no Instagram e na Página do Facebook.
+1. Ambiente igual ao da manhã. Pasta: `posts/AAAA-MM-DD-reels/`. Se já existir com `reel.mp4`, pule para o passo 5.
+2. **Tema:** diferente do post da manhã e sem repetir os últimos 60 dias do `historico.json`. Prefira uma pauta não usada de `pautas.md`. Rodízio sugerido: pureza, casamento, paternidade, trabalho, oração, disciplina, liderança, amizade entre homens, finanças, perdão.
+3. **spec.json** só com `"slides": []` e o bloco `reel` (exemplo: `posts/2026-10-14-reels/spec.json`):
+   - `scene_seconds` 3.3, `last_seconds` 4.2, `cover_scene` 0 (a capa é o gancho).
+   - 7 a 9 cenas, uma ideia por cena, texto da cena com até ~60 caracteres: gancho (pergunta ou afirmação forte) > problema > verdade bíblica com versículo ARA (só com redação exata conhecida) > 2 ou 3 passos práticos > esperança/graça > última cena com `cta: "Siga @forjadaalma.oficial"`.
+   - `reel.caption`: resumo do ensino, versículos citados, pergunta para comentar, "salve e envie para um irmão", seguir o perfil, 6 a 8 hashtags.
+   - `reel.image` é opcional (foto Pixabay, mesmas regras de imagem). Sem foto, o fundo escuro com brasas já é a identidade.
+4. `cd engine && python3 render_reel.py ../posts/<pasta>/spec.json`. Confira 3 ou 4 quadros (ffmpeg) e aplique as Premissas inegociáveis.
+5. `python3 publish.py ../posts/<pasta>`: sem slides, ele publica só o Reels (Instagram e Facebook).
+6. Registre no `historico.json` (série `reels`), faça commit e push, e responda na thread com os links.

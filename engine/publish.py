@@ -169,7 +169,7 @@ def main(argv):
         return
 
     urls = host_files(post_dir, slides + reel_files)
-    if not result.get("feed_id"):  # idempotente: não republica se já saiu
+    if slides and not result.get("feed_id"):  # idempotente: não republica se já saiu
         result["feed_id"] = publish_feed(spec, urls, slides)
         result["feed_link"] = permalink(result["feed_id"])
         result_path.write_text(json.dumps(result, indent=2))
@@ -179,7 +179,7 @@ def main(argv):
         result_path.write_text(json.dumps(result, indent=2))
     if os.environ.get("FB_ACCESS_TOKEN") and "--no-facebook" not in argv:  # Página do Facebook, depois do Instagram
         import fb_publish
-        if not result.get("fb_feed_id"):
+        if slides and not result.get("fb_feed_id"):
             result["fb_feed_id"], result["fb_feed_link"] = fb_publish.publish_feed(spec, urls, slides)
             result_path.write_text(json.dumps(result, indent=2))
         if "reel.mp4" in urls and not result.get("fb_reel_id"):

@@ -3,7 +3,8 @@
 Uso: python render_reel.py posts/AAAA-MM-DD/spec.json
 Saída: reel.mp4 e reel_capa.jpg na pasta do spec.
 
-Cada frame do spec vira uma "cena" com texto animado. O tempo é controlado por JS (determinístico),
+Cada frame do spec vira uma "cena" com texto animado. Opcional no bloco "reel": scene_seconds,
+last_seconds e cover_scene (índice da cena usada como capa; padrão = última). O tempo é controlado por JS (determinístico),
 cada quadro é capturado com Playwright e montado pelo ffmpeg a 30 fps.
 """
 import asyncio
@@ -64,7 +65,7 @@ html,body {{ width:{W}px; height:{H}px; overflow:hidden; background:{DBG}; }}
 <div class="brand"><img src="{LOGO_URI}" alt=""><span class="sans">@{HANDLE}</span></div>
 {''.join(scenes)}
 <script>
-const N = {len(frames)}, S = {SCENE}, L = {LAST};
+const N = {len(frames)}, S = {reel.get("scene_seconds", SCENE)}, L = {reel.get("last_seconds", LAST)};
 const starts = [...Array(N).keys()].map(k => k * S);
 const TOTAL = (N - 1) * S + L;
 // brasas determinísticas
@@ -97,13 +98,13 @@ window.TOTAL = TOTAL; window.setTime = setTime; setTime(0);
 </script></body></html>"""
 
 
-def build_audio(path, total, n):
+def build_audio(path, total, n, scene=SCENE):
     """Trilha sintetizada: grave contínuo + 'golpe de bigorna' em cada troca de cena (WAV -> AAC)."""
     import math
     import struct
     import wave
     sr = 44100
-    hits = [k * SCENE for k in range(n)]
+    hits = [k * scene for k in range(n)]
     wav = path.with_suffix(".wav")
     frames = bytearray()
     for i in range(int(total * sr)):
@@ -151,14 +152,14 @@ def main(spec_path):
     try:
         total = asyncio.run(capture(html, tmp))
         audio = tmp / "a.m4a"
-        build_audio(audio, total, len(reel["frames"]))
+        build_audio(audio, total, len(reel["frames"]), reel.get("scene_seconds", SCENE))
         out = base / "reel.mp4"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", str(tmp / "f%05d.jpg"),
                         "-i", str(audio), "-c:v", "libx264", "-pix_fmt", "yuv420p", "-profile:v", "high",
                         "-preset", "medium", "-crf", "20", "-r", str(FPS), "-c:a", "copy", "-shortest",
                         "-movflags", "+faststart", str(out)], check=True)
         # capa = início da última cena estabilizada
-        cover_idx = min(int(((len(reel["frames"]) - 1) * SCENE + 1.4) * FPS), int(total * FPS) - 1)
+        cover_idx = min(int((reel.get("cover_scene", len(reel["frames"]) - 1) * reel.get("scene_seconds", SCENE) + 1.4) * FPS), int(total * FPS) - 1)
         shutil.copy(tmp / f"f{cover_idx:05d}.jpg", base / "reel_capa.jpg")
         print(json.dumps({"reel": str(out), "seconds": round(total, 2)}))
     finally:

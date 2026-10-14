@@ -2,28 +2,73 @@
   "timezone": "America/Sao_Paulo",
   "publish_time": "09:00",
   "weekdays": {
-    "1": {"key": "arquetipo", "name": "Arquétipos Bíblicos", "format": "carousel", "slides": "7",
-          "visual": "tipográfico (claro/escuro/gradiente), como o carrossel do homem passivo",
-          "brief": "Um homem da Bíblia como diagnóstico de um padrão masculino de hoje. Arco: gancho > problema com versículo > sinais/pontos > destaque > contraste com Cristo > CTA."},
-    "2": {"key": "versiculo", "name": "Versículo Forjado", "format": "image", "slides": "1",
-          "visual": "foto realista de fundo (homem, natureza, forja, luz dourada) + versículo",
-          "brief": "Um versículo curto e forte, com uma linha de aplicação prática para o homem."},
-    "3": {"key": "mito", "name": "Mito x Verdade", "format": "carousel", "slides": "5-6",
-          "visual": "informativo, layout compare (mito riscado x verdade)",
-          "brief": "Desmontar crenças comuns sobre masculinidade com a Bíblia. Gancho > 3 a 4 mitos > CTA."},
-    "4": {"key": "frase", "name": "Frase de Ferro", "format": "image", "slides": "1",
-          "visual": "foto realista cinematográfica + frase curta de impacto",
-          "brief": "Uma frase autoral, curta, que dá vontade de salvar e enviar para um amigo."},
-    "5": {"key": "manual", "name": "Manual do Homem", "format": "carousel", "slides": "6",
-          "visual": "informativo, lista numerada/passos",
-          "brief": "Guia prático: hábitos, disciplinas, liderança no lar, finanças, oração. Passo a passo aplicável hoje."},
-    "6": {"key": "cena", "name": "Homens da Bíblia em 60s", "format": "carousel", "slides": "5",
-          "visual": "foto realista de cena bíblica na capa + slides de texto",
-          "brief": "A história de um personagem bíblico contada em 60 segundos, com uma lição para hoje."},
-    "7": {"key": "pergunta", "name": "Pergunta de Domingo", "format": "image", "slides": "1",
-          "visual": "tipográfico (gradiente ou escuro), uma pergunta grande",
-          "brief": "Uma pergunta de reflexão que provoca resposta nos comentários."}
+    "1": {
+      "key": "arquetipo",
+      "name": "Arquétipos Bíblicos",
+      "format": "carousel",
+      "slides": "7",
+      "visual": "tipográfico (claro/escuro/gradiente), como o carrossel do homem passivo",
+      "brief": "Um homem da Bíblia como diagnóstico de um padrão masculino de hoje. Arco: gancho > problema com versículo > sinais/pontos > destaque > contraste com Cristo > CTA."
+    },
+    "2": {
+      "key": "versiculo",
+      "name": "Versículo Forjado",
+      "format": "image",
+      "slides": "1",
+      "visual": "foto realista de fundo (homem, natureza, forja, luz dourada) + versículo",
+      "brief": "Um versículo curto e forte, com uma linha de aplicação prática para o homem."
+    },
+    "3": {
+      "key": "mito",
+      "name": "Mito x Verdade",
+      "format": "carousel",
+      "slides": "5-6",
+      "visual": "informativo, layout compare (mito riscado x verdade)",
+      "brief": "Desmontar crenças comuns sobre masculinidade com a Bíblia. Gancho > 3 a 4 mitos > CTA."
+    },
+    "4": {
+      "key": "frase",
+      "name": "Frase de Ferro",
+      "format": "image",
+      "slides": "1",
+      "visual": "foto realista cinematográfica + frase curta de impacto",
+      "brief": "Uma frase autoral, curta, que dá vontade de salvar e enviar para um amigo."
+    },
+    "5": {
+      "key": "manual",
+      "name": "Manual do Homem",
+      "format": "carousel",
+      "slides": "6",
+      "visual": "informativo, lista numerada/passos",
+      "brief": "Guia prático: hábitos, disciplinas, liderança no lar, finanças, oração. Passo a passo aplicável hoje."
+    },
+    "6": {
+      "key": "cena",
+      "name": "Homens da Bíblia em 60s",
+      "format": "carousel",
+      "slides": "5",
+      "visual": "foto realista de cena bíblica na capa + slides de texto",
+      "brief": "A história de um personagem bíblico contada em 60 segundos, com uma lição para hoje."
+    },
+    "7": {
+      "key": "pergunta",
+      "name": "Pergunta de Domingo",
+      "format": "image",
+      "slides": "1",
+      "visual": "tipográfico (gradiente ou escuro), uma pergunta grande",
+      "brief": "Uma pergunta de reflexão que provoca resposta nos comentários."
+    }
   },
-  "reel": {"format": "9:16 1080x1920", "duration_s": 9,
-           "rule": "Não entregar a resposta. Gancho de curiosidade que leva ao post do feed (\"o post completo está no perfil\")."}
+  "reel": {
+    "format": "9:16 1080x1920",
+    "duration_s": 9,
+    "rule": "Não entregar a resposta. Gancho de curiosidade que leva ao post do feed (\"o post completo está no perfil\")."
+  },
+  "noite": {
+    "key": "reels",
+    "name": "Reels da Noite",
+    "publish_time": "19:00",
+    "format": "reels",
+    "brief": "Reels completo de 25-30s, 7-9 cenas: gancho > problema > verdade bíblica (ARA) > passos práticos > esperança > CTA seguir. Tema diferente do post da manhã."
+  }
 }
