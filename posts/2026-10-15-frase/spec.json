@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "series": "frase",
+  "series_name": "Frase de Ferro",
+  "title": "O fogo que te queima é o mesmo que te forja",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 30%",
+      "tag": "FRASE DE FERRO",
+      "big": true,
+      "title": "O fogo que te queima hoje é o mesmo que <em style=\"color:#E3B566\">te forja</em>.",
+      "body": "“A provação da vossa fé, uma vez confirmada, produz perseverança.” Tiago 1:3 · ARA"
+    }
+  ],
+  "caption": "Ferro não vira espada no conforto. Vira na brasa, debaixo do martelo.\n\nA dor que você está atravessando não é desperdício nas mãos de Deus. \"Sabendo que a provação da vossa fé, uma vez confirmada, produz perseverança\" (Tiago 1:3).\n\nIsso não torna a dor pequena. Torna ela útil.\n\nQue fogo você está atravessando hoje? Se quiser, escreva nos comentários e vamos orar por você 🙏\nSalve e envie para um irmão que está na brasa.\n\nSiga @forjadaalma.oficial: homem não nasce pronto, é forjado.\n\n#hombridade #homemdedeus #masculinidadebiblica #fecrista #homemcristao #forjadaalma #perseveranca #fraseforte",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "FRASE DE FERRO", "text": "Ferro não vira espada <em>no conforto</em>."},
+      {"kicker": "E VOCÊ?", "text": "O que o fogo de hoje está <em>fazendo</em> com você?"},
+      {"kicker": "A FRASE DE HOJE", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ferro não vira espada no conforto. A frase de hoje está no perfil 👆\n\n#hombridade #homemdedeus #forjadaalma #fraseforte"
+  }
+}
