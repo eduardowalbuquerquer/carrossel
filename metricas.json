@@ -1,0 +1,94 @@
+[
+  {
+    "post": "2026-10-14-mito",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-14-reels",
+    "ig_reel": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-15-frase",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 4,
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-15-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  }
+]
