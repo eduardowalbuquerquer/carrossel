@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-16",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "O devocional de 15 minutos",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MANUAL DO HOMEM",
+      "title": "O devocional de <em style=\"color:#C8892C\">15 minutos</em> para quem diz que não tem tempo.",
+      "body": "Um passo a passo simples para começar o dia com Deus antes de começar o dia com o mundo.",
+      "hint": "Salve e comece amanhã →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O EXEMPLO",
+      "title": "Ninguém teve agenda mais cheia que Jesus.",
+      "quote": {
+        "text": "Tendo-se levantado alta madrugada, saiu, foi para um lugar deserto e ali orava.",
+        "ref": "Marcos 1:35 · ARA"
+      },
+      "body": "Antes das multidões, Ele buscava o Pai. Se Ele precisou, quanto mais nós."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "PASSO A PASSO · PARTE 1",
+      "title": "Os primeiros 9 minutos",
+      "items": [
+        {"num": "01", "title": "Celular longe (1 min)", "desc": "Antes de qualquer tela, sente em um lugar quieto."},
+        {"num": "02", "title": "Leia um capítulo (5 min)", "desc": "Comece por um Evangelho. Um capítulo, sem pressa."},
+        {"num": "03", "title": "Faça uma pergunta (3 min)", "desc": "O que este texto me mostra sobre Deus e sobre mim?"}
+      ]
+    },
+    {
+      "layout": "list",
+      "theme": "dark",
+      "tag": "PASSO A PASSO · PARTE 2",
+      "title": "Os últimos 6 minutos",
+      "items": [
+        {"num": "04", "title": "Ore com o texto (5 min)", "desc": "Agradeça, confesse e interceda pela família e pelo trabalho."},
+        {"num": "05", "title": "Uma decisão (1 min)", "desc": "Escolha uma atitude concreta para obedecer hoje."}
+      ]
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "NÃO É RITUAL",
+      "title": "Você não ora para ganhar o amor de Deus.",
+      "quote": {
+        "text": "De manhã, SENHOR, ouves a minha voz; de manhã te apresento a minha oração e fico esperando.",
+        "ref": "Salmo 5:3 · ARA"
+      },
+      "body": "Ora porque já foi amado em Cristo. É encontro, não obrigação."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda sexta: o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Vai começar amanhã? Comente EU VOU e marque um irmão para ir junto."
+    }
+  ],
+  "caption": "Você não precisa de uma hora. Precisa de 15 minutos e de uma decisão.\n\nJesus, com a agenda mais cheia da história, começava o dia orando (Marcos 1:35). Aqui está o passo a passo para você começar amanhã.\n\nQual passo é o mais difícil para você? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #devocional #oracao #homemcristao #masculinidadebiblica #forjadaalma #biblia",
+  "caption_facebook": "Muitos homens dizem: \"eu queria ler a Bíblia e orar, mas não tenho tempo\". Eu entendo. A rotina aperta, o celular puxa, o dia começa correndo.\n\nMas veja Jesus: com multidões atrás dele, \"tendo-se levantado alta madrugada, saiu, foi para um lugar deserto e ali orava\" (Marcos 1:35).\n\nMontamos um devocional simples de 15 minutos, em 5 passos, para quem quer recomeçar. Não é ritual para ganhar o amor de Deus. É encontro com quem já nos amou em Cristo.\n\nE você, qual é o maior obstáculo para ter esse tempo com Deus pela manhã? Conta aqui nos comentários.\n\n#homemcristao #devocional #oracao",
+  "reel": {
+    "frames": [
+      {"kicker": "SEJA SINCERO", "text": "Você diz que <em>não tem tempo</em> para Deus?"},
+      {"kicker": "JESUS TINHA A AGENDA MAIS CHEIA", "text": "E mesmo assim começava o dia <em>orando</em>."},
+      {"kicker": "15 MINUTOS. 5 PASSOS.", "text": "O passo a passo está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Não é falta de tempo. O passo a passo de 15 minutos está no perfil 👆\n\n#homemdedeus #devocional #forjadaalma #oracao",
+    "caption_facebook": "Você diz que não tem tempo para Deus? Jesus tinha a agenda mais cheia e começava o dia orando. O devocional de 15 minutos está na nossa página 👆"
+  }
+}
