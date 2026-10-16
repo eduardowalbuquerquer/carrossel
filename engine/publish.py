@@ -185,6 +185,18 @@ def main(argv):
         if "reel.mp4" in urls and not result.get("fb_reel_id"):
             result["fb_reel_id"], result["fb_reel_link"] = fb_publish.publish_reel(spec, urls)
             result_path.write_text(json.dumps(result, indent=2))
+    if (os.environ.get("TIKTOK_CLIENT_KEY") and "--no-tiktok" not in argv and (post_dir / "reel.mp4").exists()
+            and not result.get("tiktok_publish_id")):  # TikTok: falha não derruba IG/FB já publicados
+        import tiktok_publish
+        if tiktok_publish.TOKENS.exists():
+            try:
+                result["tiktok_publish_id"], result["tiktok_privacy"], result["tiktok_link"] = \
+                    tiktok_publish.publish_reel(spec, post_dir / "reel.mp4")
+                result_path.write_text(json.dumps(result, indent=2))
+            except SystemExit as e:
+                result["tiktok_erro"] = str(e)
+                result_path.write_text(json.dumps(result, indent=2))
+                print(f"AVISO TikTok: {e}")
     print(json.dumps(result))
 
 

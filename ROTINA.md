@@ -67,3 +67,9 @@ Segunda publicação diária: um **Reels completo**, com conteúdo próprio (nã
 4. `cd engine && python3 render_reel.py ../posts/<pasta>/spec.json`. Confira 3 ou 4 quadros (ffmpeg) e aplique as Premissas inegociáveis.
 5. `python3 publish.py ../posts/<pasta>`: sem slides, ele publica só o Reels (Instagram e Facebook).
 6. Registre no `historico.json` (série `reels`), faça commit e push, e responda na thread com os links.
+
+## TikTok (desde 2026-10-16)
+- publish.py publica o reel.mp4 no TikTok depois do IG e do FB (engine/tiktok_publish.py, envio do arquivo). `--no-tiktok` pula.
+- Tokens: /mnt/project-files/forja-da-alma/automacao/.segredos/tiktok_tokens.json (renova sozinho; refresh vale 1 ano). Chaves do app Sandbox em TIKTOK_CLIENT_KEY/SECRET.
+- Até a auditoria do app: só posta SELF_ONLY e a conta precisa estar PRIVADA. Erro do TikTok não derruba IG/FB: fica em resultado.json (tiktok_erro) e deve ser relatado na resposta.
+- Rede: *.tiktokapis.com liberado no ambiente Carrossel (upload vai para servidores regionais, ex. open-upload-sg).
