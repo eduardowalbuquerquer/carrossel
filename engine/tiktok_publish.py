@@ -84,7 +84,7 @@ def publish_reel(spec, video_path):
         st = api("post/publish/status/fetch/", {"publish_id": pid})
         if st.get("status") == "PUBLISH_COMPLETE":
             ids = st.get("publicaly_available_post_id") or st.get("publicly_available_post_id") or []
-            return pid, privacy, (f"https://www.tiktok.com/@forjadaalma.oficial/video/{ids[0]}" if ids else None)
+            return pid, privacy, (f"https://www.tiktok.com/@forjadaalma8/video/{ids[0]}" if ids else None)
         if st.get("status") == "FAILED":
             raise SystemExit(f"TikTok recusou o vídeo: {st.get('fail_reason')}")
         time.sleep(5)
