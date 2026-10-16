@@ -185,8 +185,11 @@ def main(argv):
         if "reel.mp4" in urls and not result.get("fb_reel_id"):
             result["fb_reel_id"], result["fb_reel_link"] = fb_publish.publish_reel(spec, urls)
             result_path.write_text(json.dumps(result, indent=2))
+    # TikTok: só Reels que se sustentam sozinhos (o teaser da manhã aponta para um post que lá não existe).
+    # Falha no TikTok não derruba IG/FB já publicados.
+    tiktok_ok = spec.get("reel", {}).get("tiktok", not slides)
     if (os.environ.get("TIKTOK_CLIENT_KEY") and "--no-tiktok" not in argv and (post_dir / "reel.mp4").exists()
-            and not result.get("tiktok_publish_id")):  # TikTok: falha não derruba IG/FB já publicados
+            and tiktok_ok and not result.get("tiktok_publish_id")):
         import tiktok_publish
         if tiktok_publish.TOKENS.exists():
             try:

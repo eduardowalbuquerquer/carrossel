@@ -73,3 +73,23 @@ Segunda publicação diária: um **Reels completo**, com conteúdo próprio (nã
 - Tokens: /mnt/project-files/forja-da-alma/automacao/.segredos/tiktok_tokens.json (renova sozinho; refresh vale 1 ano). Chaves do app Sandbox em TIKTOK_CLIENT_KEY/SECRET.
 - Até a auditoria do app: só posta SELF_ONLY e a conta precisa estar PRIVADA. Erro do TikTok não derruba IG/FB: fica em resultado.json (tiktok_erro) e deve ser relatado na resposta.
 - Rede: *.tiktokapis.com liberado no ambiente Carrossel (upload vai para servidores regionais, ex. open-upload-sg).
+
+## Adaptação por plataforma (desde 2026-10-16)
+Mesma mensagem e mesmas premissas bíblicas em todas; muda a embalagem. Cada spec leva legendas próprias:
+`caption` (IG), `caption_facebook`, `reel.caption`, `reel.caption_facebook`, `reel.caption_tiktok` (só nos Reels da Noite).
+
+| | Instagram | Facebook | TikTok |
+|---|---|---|---|
+| O que posta | feed 9h + teaser 9h + Reels 19h | igual ao IG | **só o Reels da Noite** (o teaser aponta para um post que lá não existe; forçar com `reel.tiktok: true`) |
+| Gancho | 1ª linha forte; Reels: frase de impacto na 1ª cena | 1ª linha em forma de pergunta ou história pessoal | 1ª cena em até 1,5 s, frase curta e direta, sem logo antes |
+| Legenda | 150 a 300 caracteres + pergunta + "envie para um irmão" (envios e salvamentos são o sinal mais forte) | mais longa e conversada (300 a 600), puxa comentário, no máximo 3 hashtags | curta (até 150), com as palavras que o público digita na busca do TikTok (ex.: "como vencer a pornografia"), 3 a 5 hashtags |
+| CTA | "Salve e envie para um irmão" / "Siga @forjadaalma.oficial" | "Compartilhe com um amigo" / "Comente AMÉM se..." evitar; preferir pergunta real | "Siga para a parte 2" / "Comente sua resposta" |
+| Formato que mais rende nas referências | vídeo e carrossel (~3x a foto única em interações, varredura de 30 dias, 215 posts dos 13 perfis) | Reels e texto pessoal | vídeo curto 20 a 45 s |
+
+Referências (30 dias, 13 perfis): os posts que mais superaram a média de cada perfil foram curtos e pessoais (fé no sofrimento, testemunho, convite direto a comentar). Legenda mediana: ~300 caracteres.
+
+**Revisão de domingo (junto com a varredura):**
+1. `python3 engine/metricas.py --dias 14` grava metricas.json (IG: views, alcance, salvos, envios; FB Reels: reações/comentários).
+2. Comparar por série e por plataforma; o que superar a média ganha mais espaço na semana seguinte (tema, gancho, duração), sempre dentro das premissas.
+3. Registrar 3 aprendizados no fim de pautas.md ("Aprendizados da semana").
+Limites: FB feed precisa da permissão pages_read_user_content; TikTok precisa do escopo video.list (pedir após a auditoria).
