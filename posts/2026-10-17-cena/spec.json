@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-17",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Neemias: o homem que reconstruiu o muro",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 40%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "Os muros estavam no chão. Um homem <em style=\"color:#E3B566\">chorou, orou e levantou</em>.",
+      "body": "Neemias: o copeiro do rei que reconstruiu Jerusalém em 52 dias."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CENÁRIO",
+      "title": "Ele tinha conforto no palácio. E escolheu sentir a ruína do seu povo.",
+      "body": "Ao saber que os muros de Jerusalém estavam derribados, Neemias chorou, jejuou e orou por dias antes de agir (Neemias 1:3-4)."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A OBRA",
+      "title": "Uma mão na obra. A outra pronta para lutar.",
+      "body": "Sob ameaça dos inimigos, os construtores trabalhavam armados (Neemias 4:17). O muro ficou pronto em 52 dias (Neemias 6:15)."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "Quando chamarem você para descer, <em style=\"color:#E3B566\">não desça</em>.",
+      "quote": {
+        "text": "Estou fazendo grande obra, de modo que não poderei descer.",
+        "ref": "Neemias 6:3 · ARA"
+      },
+      "body": "Qual muro Deus colocou nas suas mãos: seu lar, sua fé, seu trabalho? Ore primeiro. Depois, não pare."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Que muro você está reconstruindo? Conte nos comentários."
+    }
+  ],
+  "caption": "Os muros estavam no chão. Neemias chorou, orou e levantou a obra em 52 dias.\n\nQuando os inimigos tentaram tirá-lo do muro, ele respondeu: \"Estou fazendo grande obra, de modo que não poderei descer\" (Ne 6:3).\n\nQual muro Deus colocou nas suas mãos hoje? Comente 👇\nSalve e envie para um irmão que está reconstruindo algo.\n\nSiga @forjadaalma.oficial\n\n#neemias #homensdabiblia #homemdedeus #homemcristao #masculinidadebiblica #forjadaalma #biblia",
+  "caption_facebook": "Neemias tinha uma vida confortável no palácio do rei. Mas quando soube que os muros de Jerusalém estavam no chão, ele não deu de ombros: chorou, jejuou e orou por dias antes de fazer qualquer coisa.\n\nDepois, liderou a reconstrução com o povo, mesmo sob ameaça, e o muro ficou pronto em 52 dias. Quando tentaram distraí-lo, ele respondeu: \"Estou fazendo grande obra, de modo que não poderei descer\" (Neemias 6:3).\n\nTodo homem tem um muro para reconstruir: o lar, a fé, a vida financeira, uma amizade. Qual é o seu? Conta aqui nos comentários.\n\n#neemias #homemcristao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "Os muros da cidade estavam <em>no chão</em>."},
+      {"kicker": "UM HOMEM CHOROU", "text": "E em 52 dias, levantou <em>tudo de novo</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Muros no chão. 52 dias depois, tudo de pé. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "Os muros estavam no chão. Um homem chorou, orou e, em 52 dias, levantou tudo de novo. Quem era ele? A história está na nossa página 👆"
+  }
+}
