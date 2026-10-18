@@ -7,7 +7,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-10-11 · Luiz Sayão · José no Egito como modelo de caráter sob pressão (Homens da Bíblia em 60s) · https://www.deezer.com/en/show/834972 · 
 - 2026-10-11 · Hernandes Dias Lopes · Jacó: o homem que só mudou depois de ser quebrado por Deus (Arquétipos) · https://www.martinsfontespaulista.com.br/jaco-1126477/p · 2026-10-12
 - 2026-10-18 · Augustus Nicodemus · Viver o evangelho sem depender do que o mundo acha (aprovação de Deus x aplauso dos homens) · https://www.instagram.com/reel/DeXo4moh1pI/ · 2026-10-18 (pergunta)
-- 2026-10-18 · Hernandes Dias Lopes · Ansiedade tira os olhos de Deus e põe nas circunstâncias: manual "o que fazer quando a ansiedade aperta" (Fp 4:6-7) · https://www.instagram.com/p/DefTIIxDNiu/ · 
+- 2026-10-18 · Hernandes Dias Lopes · Ansiedade tira os olhos de Deus e põe nas circunstâncias: manual "o que fazer quando a ansiedade aperta" (Fp 4:6-7) · https://www.instagram.com/p/DefTIIxDNiu/ · 2026-10-18 (reels)
 - 2026-10-18 · Henrique Felini · Quem se posiciona será amado e odiado pelo mesmo motivo: coragem de falar a verdade com amor (Reels da Noite) · https://www.instagram.com/reel/Del85bcASot/ · 
 - 2026-10-18 · Hernandes Dias Lopes · Colheita: o homem colhe o que planta, hábitos de hoje são o caráter de amanhã (Mito x Verdade "um deslize não faz diferença") · https://www.instagram.com/p/DeluiT8Fqz6/ · 
 
