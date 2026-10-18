@@ -1,5 +1,70 @@
 [
   {
+    "post": "2026-10-11-pergunta",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 4,
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  },
+  {
+    "post": "2026-10-12-arquetipo",
+    "ig_feed": {
+      "views": 3,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 5,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    }
+  },
+  {
+    "post": "2026-10-13-versiculo",
+    "ig_feed": {
+      "views": 3,
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 12,
+      "reach": 4,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
     "post": "2026-10-14-mito",
     "ig_feed": {
       "views": 1,
@@ -56,8 +121,8 @@
       "comments": 0
     },
     "ig_reel": {
-      "views": 4,
-      "reach": 4,
+      "views": 5,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
       "likes": 0,
@@ -75,10 +140,99 @@
   {
     "post": "2026-10-15-reels",
     "ig_reel": {
+      "views": 3,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-16-manual",
+    "ig_feed": {
       "views": 0,
       "reach": 0,
       "saved": 0,
       "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 3,
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-16-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-17-cena",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 4,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-17-reels",
+    "ig_reel": {
+      "views": 8,
+      "reach": 4,
+      "saved": 0,
+      "shares": 1,
       "likes": 0,
       "comments": 0
     },
