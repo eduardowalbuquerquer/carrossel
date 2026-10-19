@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-19",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Sansão: o homem forte que não governava a si mesmo",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "ARQUÉTIPOS BÍBLICOS",
+      "title": "O homem mais forte da Bíblia perdeu para <em style=\"color:#C8892C\">si mesmo</em>.",
+      "body": "Sansão: força por fora, desgoverno por dentro.",
+      "hint": "Você tem um pouco de Sansão? Veja os sinais →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O PADRÃO",
+      "title": "Sansão tinha um dom enorme e nenhum freio.",
+      "body": "Matou um leão com as mãos, mas não dominava os próprios desejos nem a própria raiva (Juízes 14 a 16)."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "SINAIS DE SANSÃO HOJE",
+      "title": "Você reconhece algum?",
+      "items": [
+        {"num": "01", "title": "Confia no talento, não no caráter", "desc": "Acha que o dom compensa a falta de disciplina."},
+        {"num": "02", "title": "Brinca perto do limite", "desc": "Sabe onde está o perigo e volta lá toda semana."},
+        {"num": "03", "title": "Reage no impulso", "desc": "A raiva decide antes da cabeça e do coração."},
+        {"num": "04", "title": "Acha que sempre vai escapar", "desc": "Deu certo antes, então vai dar certo de novo."}
+      ]
+    },
+    {
+      "layout": "big",
+      "theme": "dark",
+      "big": "1",
+      "tag": "O DIA EM QUE NÃO DEU",
+      "title": "Ele acordou achando que era só mais uma vez.",
+      "quote": {
+        "text": "Porque ele não sabia ainda que já o SENHOR se tinha retirado dele.",
+        "ref": "Juízes 16:20 · ARA"
+      },
+      "body": "Preso, cego e moendo grão para os filisteus."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A FORÇA QUE IMPORTA",
+      "title": "Força de verdade é governar a si mesmo.",
+      "quote": {
+        "text": "Melhor é o longânimo do que o herói da guerra, e o que domina o seu espírito, do que o que toma uma cidade.",
+        "ref": "Provérbios 16:32 · ARA"
+      }
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A GRAÇA NO FIM",
+      "title": "No fundo do poço, Sansão <em style=\"color:#E3B566\">clamou</em>.",
+      "body": "Deus ouviu um homem quebrado (Juízes 16:28). Em Cristo, seu fracasso não é o fim. O mesmo Deus que perdoa também dá domínio próprio."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual sinal de Sansão você precisa entregar a Deus? Comente o número."
+    }
+  ],
+  "caption": "Ele matou um leão com as mãos. E perdeu para os próprios desejos.\n\nSansão tinha o maior dom de força da Bíblia e nenhum freio. Um dia acordou achando que ia escapar mais uma vez, \"porque ele não sabia ainda que já o SENHOR se tinha retirado dele\" (Jz 16:20).\n\nForça de verdade é governar a si mesmo (Pv 16:32).\n\nQual dos 4 sinais você precisa entregar a Deus? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #dominioproprio #forjadaalma #biblia #sansao",
+  "caption_facebook": "Sansão matou um leão com as mãos, derrubou exércitos e mesmo assim perdeu para si mesmo.\n\nTinha o maior dom de força da Bíblia, mas não governava os próprios desejos nem a própria raiva. Brincou perto do limite tantas vezes que achou que sempre ia escapar. Até o dia em que acordou e \"não sabia ainda que já o SENHOR se tinha retirado dele\" (Juízes 16:20).\n\nA Bíblia diz que \"o que domina o seu espírito\" vale mais \"do que o que toma uma cidade\" (Provérbios 16:32). E a boa notícia: no fundo do poço Sansão clamou, e Deus ouviu.\n\nQual desses sinais você reconhece em você hoje? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Forte por fora. <em>Sem freio</em> por dentro."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "Venceu um leão e <em>perdeu para si mesmo</em>."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele venceu um leão e perdeu para si mesmo. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Ele venceu um leão e perdeu para si mesmo. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
