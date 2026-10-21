@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-21",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "Um deslize não faz diferença?",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MITO X VERDADE", "title": "\"Um deslize não faz <em style=\"color:#C8892C\">diferença</em>.\"", "body": "É assim que a maioria dos homens cai: não de uma vez, mas aos poucos.", "hint": "4 mentiras das pequenas concessões →"},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 01", "title": "\"É só uma vez.\"", "left": {"label": "MITO", "text": "Uma vez não vira hábito."}, "right": {"label": "VERDADE", "text": "\"A cobiça, depois de haver concebido, dá à luz o pecado.\" Tiago 1:15"}, "body": "Todo vício começou com \"só uma vez\"."},
+    {"layout": "compare", "theme": "light", "tag": "MENTIRA 02", "title": "\"Coisa pequena não conta.\"", "left": {"label": "MITO", "text": "Deus só se importa com o pecado grande."}, "right": {"label": "VERDADE", "text": "\"Quem é fiel no pouco também é fiel no muito.\" Lucas 16:10"}, "body": "O caráter é forjado nas escolhas que ninguém aplaude."},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 03", "title": "\"Ninguém vai saber.\"", "left": {"label": "MITO", "text": "O que é escondido não tem consequência."}, "right": {"label": "VERDADE", "text": "\"Sabei que o vosso pecado vos há de achar.\" Números 32:23"}, "body": "Deus vê. E o segredo cobra juros."},
+    {"layout": "big", "theme": "light", "big": "4", "tag": "A MAIS PERIGOSA", "title": "\"Já caí. Agora tanto faz.\"", "quote": {"text": "Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.", "ref": "1 João 1:9 · ARA"}, "body": "A queda não é o fim. Ficar no chão é que é escolha."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual dessas mentiras você já repetiu para si mesmo? Comente o número."}
+  ],
+  "caption": "Ninguém cai de uma vez. Cai aos poucos, uma \"pequena concessão\" de cada vez.\n\n1. \"É só uma vez.\"\n2. \"Coisa pequena não conta.\"\n3. \"Ninguém vai saber.\"\n4. \"Já caí, agora tanto faz.\"\n\nA Bíblia desmonta as quatro. E a última tem a resposta mais bonita: \"Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar\" (1 Jo 1:9).\n\nQual delas você já repetiu para si mesmo? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #fecrista #forjadaalma #biblia #santidade",
+  "caption_facebook": "Nenhum homem acorda decidido a destruir o casamento, a reputação ou a fé. A queda vem aos poucos, uma pequena concessão de cada vez.\n\n\"É só uma vez.\" \"Coisa pequena não conta.\" \"Ninguém vai saber.\" E, depois de cair: \"Agora tanto faz.\"\n\nA Bíblia responde cada uma. Jesus disse que \"quem é fiel no pouco também é fiel no muito\" (Lucas 16:10). E para quem já caiu: \"Se confessarmos os nossos pecados, ele é fiel e justo para nos perdoar os pecados e nos purificar de toda injustiça.\" (1 João 1:9)\n\nQual dessas frases você já disse para si mesmo? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ JÁ DISSE ISSO", "text": "\"É só <em>uma vez</em>.\""},
+      {"kicker": "E TAMBÉM", "text": "\"Ninguém vai <em>saber</em>.\""},
+      {"kicker": "MAS A Nº 4", "text": "é a que mantém o homem <em>no chão</em>."},
+      {"kicker": "4 MENTIRAS DAS PEQUENAS CONCESSÕES", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "A mentira nº 4 é a que mantém o homem no chão. O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "A mentira nº 4 é a que mantém o homem no chão. O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
