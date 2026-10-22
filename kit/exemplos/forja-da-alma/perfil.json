@@ -1,0 +1,283 @@
+{
+  "idioma": "pt-BR",
+  "marca": {
+    "nome": "Forja da Alma",
+    "handle": "forjadaalma.oficial",
+    "subtitulo": "Hombridade bíblica",
+    "logo": "assets/logo.jpg",
+    "cores": {
+      "primaria": "#C8892C",
+      "clara": "#E3B566",
+      "escura": "#8A5A17",
+      "fundo_claro": "#F5EFE4",
+      "borda_clara": "#E6DCCB",
+      "fundo_escuro": "#171411",
+      "texto_suave": "#8A8178"
+    },
+    "fontes": {
+      "titulo": "Playfair Display",
+      "corpo": "DM Sans"
+    }
+  },
+  "tema": {
+    "nome": "Hombridade / masculinidade bíblica",
+    "descricao": "Exemplos e arquétipos bíblicos aplicados ao homem de hoje: diagnóstico de padrões, contraste com Cristo, chamada à ação.",
+    "publico": "Homens cristãos (e curiosos) de 20 a 50 anos que querem amadurecer como homens, maridos e pais.",
+    "objetivo": "Atrair seguidores, ampliar alcance e construir autoridade em hombridade bíblica.",
+    "tom": "Direto, firme, sem frescura; nunca agressivo.",
+    "usar": [
+      "forjado",
+      "hombridade",
+      "homem de Deus",
+      "irmão"
+    ],
+    "evitar": [
+      "deboche",
+      "rótulos pejorativos",
+      "promessas de prosperidade"
+    ]
+  },
+  "premissas": [
+    "Nunca contradizer as Escrituras Bíblicas. Nada de frase de efeito que distorça, relativize ou acrescente ao texto bíblico. Na dúvida, reescreva ou troque o tema.",
+    "Respeitar o contraditório com amor bíblico, sem abrir mão de apresentar com firmeza o posicionamento bíblico. Corrigir ideias, nunca desprezar pessoas (Efésios 4:15)."
+  ],
+  "fontes_autoridade": {
+    "nome": "Bíblia, tradução ARA (Almeida Revista e Atualizada)",
+    "regras": [
+      "Citar livro, capítulo e versículo.",
+      "Usar só texto cuja redação exata na ARA é conhecida; na dúvida, escolher outro versículo."
+    ]
+  },
+  "limites": [
+    "Sem política partidária.",
+    "Sem ataques a denominações ou pessoas."
+  ],
+  "plataformas": [
+    "instagram"
+  ],
+  "agenda": {
+    "fuso": "America/Sao_Paulo",
+    "horario": "09:00",
+    "disparo": "08:48",
+    "posts_por_dia": 1,
+    "reel": true
+  },
+  "series": {
+    "1": {
+      "key": "arquetipo",
+      "name": "Arquétipos Bíblicos",
+      "format": "carousel",
+      "slides": "7",
+      "visual": "tipográfico (claro/escuro/gradiente), como o carrossel do homem passivo",
+      "brief": "Um homem da Bíblia como diagnóstico de um padrão masculino de hoje. Arco: gancho > problema com versículo > sinais/pontos > destaque > contraste com Cristo > CTA."
+    },
+    "2": {
+      "key": "versiculo",
+      "name": "Versículo Forjado",
+      "format": "image",
+      "slides": "1",
+      "visual": "foto realista de fundo (homem, natureza, forja, luz dourada) + versículo",
+      "brief": "Um versículo curto e forte, com uma linha de aplicação prática para o homem."
+    },
+    "3": {
+      "key": "mito",
+      "name": "Mito x Verdade",
+      "format": "carousel",
+      "slides": "5-6",
+      "visual": "informativo, layout compare (mito riscado x verdade)",
+      "brief": "Desmontar crenças comuns sobre masculinidade com a Bíblia. Gancho > 3 a 4 mitos > CTA."
+    },
+    "4": {
+      "key": "frase",
+      "name": "Frase de Ferro",
+      "format": "image",
+      "slides": "1",
+      "visual": "foto realista cinematográfica + frase curta de impacto",
+      "brief": "Uma frase autoral, curta, que dá vontade de salvar e enviar para um amigo."
+    },
+    "5": {
+      "key": "manual",
+      "name": "Manual do Homem",
+      "format": "carousel",
+      "slides": "6",
+      "visual": "informativo, lista numerada/passos",
+      "brief": "Guia prático: hábitos, disciplinas, liderança no lar, finanças, oração. Passo a passo aplicável hoje."
+    },
+    "6": {
+      "key": "cena",
+      "name": "Homens da Bíblia em 60s",
+      "format": "carousel",
+      "slides": "5",
+      "visual": "foto realista de cena bíblica na capa + slides de texto",
+      "brief": "A história de um personagem bíblico contada em 60 segundos, com uma lição para hoje."
+    },
+    "7": {
+      "key": "pergunta",
+      "name": "Pergunta de Domingo",
+      "format": "image",
+      "slides": "1",
+      "visual": "tipográfico (gradiente ou escuro), uma pergunta grande",
+      "brief": "Uma pergunta de reflexão que provoca resposta nos comentários."
+    }
+  },
+  "cta": {
+    "tag": "FORJA DA ALMA",
+    "titulo": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+    "botao": "Siga @forjadaalma.oficial"
+  },
+  "legenda": {
+    "estrutura": "gancho na 1ª linha · desenvolvimento curto · pergunta para comentar · 'salve e envie para um irmão' · CTA para seguir · hashtags",
+    "hashtags_fixas": [
+      "#forjadaalma",
+      "#hombridade",
+      "#masculinidadebiblica",
+      "#homemdedeus"
+    ],
+    "hashtags_qtd": [
+      6,
+      8
+    ]
+  },
+  "imagens": {
+    "fonte": "pixabay",
+    "estilo": "cinematográfico e sóbrio, luz natural, tons quentes, homens como foco",
+    "buscas_exemplo": [
+      "man praying sunrise",
+      "blacksmith forge sparks",
+      "man walking mountain fog"
+    ],
+    "evitar": [
+      "fotos com texto, marcas ou logotipos"
+    ]
+  },
+  "reel": {
+    "efeito": "particulas",
+    "audio": "impacto",
+    "cenas": [
+      3,
+      4
+    ],
+    "regra": "Gancho de curiosidade sem entregar a resposta; a última cena diz que a resposta está no post de hoje, com cta 'Toque no perfil →'."
+  },
+  "repo": {
+    "github": "eduardowalbuquerquer/carrossel",
+    "base_url": "https://eduardowalbuquerquer.github.io/carrossel"
+  },
+  "nao_repetir_dias": 60,
+  "referencias_regras": [
+    "Referências servem só de inspiração: extrair o tema, a pergunta ou o ângulo e escrever tudo com palavras, estrutura e exemplos próprios.",
+    "Nunca copiar texto, frase de efeito, título, roteiro, imagem ou layout de outro perfil; nunca republicar conteúdo alheio.",
+    "Citação literal só quando for da fonte de autoridade (ex.: versículo) ou curta, entre aspas e com crédito ao autor.",
+    "Toda ideia aproveitada passa pelas premissas do perfil antes de virar post; ideia que contradiz uma premissa é descartada."
+  ],
+  "referencias": [
+    {
+      "tipo": "instagram",
+      "endereco": "@doisdedosdeteologia",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/doisdedosdeteologia/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@adriano.proposito",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/adriano.proposito/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@augustusnicodemus",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/augustusnicodemus/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@hernandesdiaslopes",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/hernandesdiaslopes/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@luizsayao",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/luizsayao/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@papodehomembrasil",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/papodehomembrasil/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@paulo.borges.jr",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/paulo.borges.jr/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@prpaulogouvea",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/prpaulogouvea/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@purelifeministriesbrasil",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/purelifeministriesbrasil/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@prmocellin",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/prmocellin/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@sebioficial",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/sebioficial/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@henriquefelini",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/henriquefelini/"
+    },
+    {
+      "tipo": "instagram",
+      "endereco": "@ohenriquecafe",
+      "foco": "",
+      "adicionada_em": "2026-10-11",
+      "consultada_em": null,
+      "url": "https://www.instagram.com/ohenriquecafe/"
+    }
+  ],
+  "referencias_rodada": {
+    "frequencia": "diária",
+    "quantidade": 3
+  }
+}
