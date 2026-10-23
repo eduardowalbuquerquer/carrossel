@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-23",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Culto doméstico de 10 minutos",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MANUAL DO HOMEM",
+      "title": "Culto doméstico de <em style=\"color:#C8892C\">10 minutos</em> para o pai que não sabe por onde começar.",
+      "body": "Você não precisa ser pastor. Precisa ser o homem que reúne a casa diante de Deus.",
+      "hint": "Salve e faça hoje à noite →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A ORDEM",
+      "title": "A fé passa de pai para filho dentro de casa.",
+      "quote": {
+        "text": "Estas palavras que, hoje, te ordeno estarão no teu coração; tu as inculcarás a teus filhos, e delas falarás assentado em tua casa…",
+        "ref": "Deuteronômio 6:6-7 · ARA"
+      },
+      "body": "Antes da escola dominical, Deus pensou na mesa de jantar."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "PASSO A PASSO · PARTE 1",
+      "title": "Os primeiros 6 minutos",
+      "items": [
+        {"num": "01", "title": "Reúna todos (1 min)", "desc": "Mesmo horário, mesmo lugar. Celulares fora da mesa."},
+        {"num": "02", "title": "Leia um trecho curto (3 min)", "desc": "Comece por Marcos ou Provérbios. Poucos versículos bastam."},
+        {"num": "03", "title": "Faça uma pergunta (2 min)", "desc": "O que este texto ensina sobre Deus? Deixe os filhos falarem primeiro."}
+      ]
+    },
+    {
+      "layout": "list",
+      "theme": "dark",
+      "tag": "PASSO A PASSO · PARTE 2",
+      "title": "Os últimos 4 minutos",
+      "items": [
+        {"num": "04", "title": "Orem juntos (3 min)", "desc": "Cada um agradece por uma coisa. O pai encerra pela família."},
+        {"num": "05", "title": "Abençoe (1 min)", "desc": "Mão no ombro de cada filho e uma palavra de bênção."}
+      ]
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "NÃO PRECISA SER PERFEITO",
+      "title": "Vai ter noite com criança sonolenta e dia esquecido.",
+      "quote": {
+        "text": "…Eu e a minha casa serviremos ao SENHOR.",
+        "ref": "Josué 24:15 · ARA"
+      },
+      "body": "Constância vale mais que perfeição. Errou um dia? Recomece no outro, pela graça."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda sexta: o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Vai fazer hoje? Comente MINHA CASA e envie para um irmão que é pai."
+    }
+  ],
+  "caption": "Você não precisa ser pastor para liderar a fé da sua casa. Precisa de 10 minutos e de uma decisão.\n\n\"…Eu e a minha casa serviremos ao SENHOR.\" (Js 24:15)\n\nQual passo você começa hoje? Comente 👇\nSalve e envie para um irmão que é pai.\n\nSiga @forjadaalma.oficial\n\n#cultodomestico #paicristao #homemdedeus #familiacrista #homemcristao #forjadaalma #biblia",
+  "caption_facebook": "Muitos pais cristãos querem ensinar a fé aos filhos, mas travam na mesma dúvida: \"por onde eu começo?\". A boa notícia é que não precisa ser um sermão.\n\nDeus mandou: \"Estas palavras que, hoje, te ordeno estarão no teu coração; tu as inculcarás a teus filhos, e delas falarás assentado em tua casa…\" (Deuteronômio 6:6-7).\n\nMontamos um culto doméstico de 10 minutos em 5 passos: reunir todos, ler um trecho curto, fazer uma pergunta, orar juntos e abençoar cada filho. Vai ter noite que não sai perfeito, e tudo bem. Constância vale mais que perfeição.\n\nVocê já faz culto doméstico na sua casa? Conta aqui o que funciona com seus filhos.\n\n#homemcristao #familiacrista #cultodomestico",
+  "reel": {
+    "frames": [
+      {"kicker": "PAI, SEJA SINCERO", "text": "Quem está ensinando a fé aos seus <em>filhos</em>?"},
+      {"kicker": "NÃO É TAREFA SÓ DA IGREJA", "text": "Deus começou pela <em>mesa de jantar</em>."},
+      {"kicker": "10 MINUTOS. 5 PASSOS.", "text": "O culto doméstico está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "10 minutos, 5 passos: o culto doméstico para o pai que não sabe por onde começar está no perfil 👆\n\n#cultodomestico #paicristao #forjadaalma #familiacrista",
+    "caption_facebook": "Quem está ensinando a fé aos seus filhos? Deus começou pela mesa de jantar. O passo a passo do culto doméstico de 10 minutos está na nossa página 👆"
+  }
+}
