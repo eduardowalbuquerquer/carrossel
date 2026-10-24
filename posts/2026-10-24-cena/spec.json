@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-24",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Daniel: o homem que não mudou de hábito diante dos leões",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 45%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "A lei proibia orar. Ele abriu a janela e <em style=\"color:#E3B566\">orou como sempre</em>.",
+      "body": "Daniel: o homem que preferiu a cova dos leões a esconder sua fé."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CENÁRIO",
+      "title": "Levado jovem para a Babilônia. Firme desde o primeiro dia.",
+      "body": "Longe de casa, numa corte pagã, Daniel resolveu firmemente não se contaminar com a comida do rei (Daniel 1:8). A fidelidade dele começou nas coisas pequenas."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A PROVA",
+      "title": "Um decreto de 30 dias. Uma escolha que custava a vida.",
+      "body": "Invejosos convenceram o rei a proibir qualquer oração que não fosse a ele. Quem desobedecesse iria para a cova dos leões (Daniel 6:7)."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "Na crise, você faz o que <em style=\"color:#E3B566\">já costumava fazer</em>.",
+      "quote": {
+        "text": "…três vezes por dia, se punha de joelhos, e orava, e dava graças, diante do seu Deus, como costumava fazer.",
+        "ref": "Daniel 6:10 · ARA"
+      },
+      "body": "Daniel não inventou coragem na hora. Ela foi forjada em anos de oração. Deus fechou a boca dos leões (Daniel 6:22). Qual hábito está forjando você hoje?"
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Que hábito com Deus você precisa retomar? Conte nos comentários."
+    }
+  ],
+  "caption": "A lei proibia orar. Daniel abriu a janela e orou, \"…como costumava fazer\" (Dn 6:10).\n\nCoragem na crise nasce de hábito na rotina.\n\nQue hábito com Deus você precisa retomar? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#daniel #homensdabiblia #homemdedeus #homemcristao #oracao #forjadaalma #biblia",
+  "caption_facebook": "Daniel foi levado ainda jovem para a Babilônia. Longe de casa, numa corte que não conhecia o Deus de Israel, ele decidiu ser fiel desde as coisas pequenas.\n\nAnos depois, homens invejosos conseguiram um decreto: por 30 dias, ninguém poderia orar a não ser ao rei. Daniel sabia o preço. Mesmo assim, foi para o quarto, abriu as janelas e \"três vezes por dia, se punha de joelhos, e orava, e dava graças, diante do seu Deus, como costumava fazer\" (Daniel 6:10). Foi lançado na cova, e Deus fechou a boca dos leões.\n\nA coragem dele não nasceu naquele dia. Foi forjada em anos de oração. Que hábito com Deus você precisa retomar? Conta aqui.\n\n#daniel #homemcristao #oracao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "A lei dizia: <em>não ore</em>."},
+      {"kicker": "ELE ABRIU A JANELA", "text": "E orou como <em>sempre fazia</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "A lei proibia orar. Ele abriu a janela e orou como sempre. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "A lei proibia orar. Um homem abriu a janela e orou como sempre fazia, mesmo sabendo que iria para a cova dos leões. Quem era ele? A história está na nossa página 👆"
+  }
+}
