@@ -11,7 +11,7 @@ Uso:
 Ambiente:
   SO_IG_ACCESS_TOKEN, SO_IG_USER_ID          Instagram API com login do Instagram (mesmo app da Meta da Forja)
   SO_YT_CLIENT_ID, SO_YT_CLIENT_SECRET       OAuth do Google (app para computador); token salvo em SEGREDOS/yt_token.json
-  TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET    app do TikTok (o mesmo da Forja); token salvo em SEGREDOS/tiktok_tokens.json
+  SO_TT_CLIENT_KEY, SO_TT_CLIENT_SECRET      chaves do Sandbox do app Forja (ou TIKTOK_CLIENT_KEY/SECRET); token em SEGREDOS/tiktok_tokens.json
   PAGES_REPO_DIR, PAGES_BASE_URL             repositório público com GitHub Pages (o Instagram baixa o vídeo de lá)
   SO_SEGREDOS                                pasta dos tokens (padrão /mnt/project-files/canais/automacao/.segredos)
   SO_TIKTOK_MODO                             inbox (padrão: rascunho na caixa de entrada) ou direct (só após a auditoria)
@@ -141,7 +141,7 @@ def tt_token():
     t = json.loads(f.read_text())
     if time.time() < t["obtido_em"] + t["expires_in"] - 600:
         return t["access_token"]
-    r = http(f"{TT}/oauth/token/", form({"client_key": env("TIKTOK_CLIENT_KEY"), "client_secret": env("TIKTOK_CLIENT_SECRET"),
+    r = http(f"{TT}/oauth/token/", form({"client_key": (env("SO_TT_CLIENT_KEY") or env("TIKTOK_CLIENT_KEY")), "client_secret": (env("SO_TT_CLIENT_SECRET") or env("TIKTOK_CLIENT_SECRET")),
                                          "grant_type": "refresh_token", "refresh_token": t["refresh_token"]}),
              {"Content-Type": "application/x-www-form-urlencoded"})[0]
     if "access_token" not in r:
@@ -196,12 +196,12 @@ def auth(argv):
         r["obtido_em"] = int(time.time()); (SEGREDOS / "yt_token.json").write_text(json.dumps(r, indent=2)); print("YouTube autorizado.")
     elif "--tt-auth-url" in argv:
         print("https://www.tiktok.com/v2/auth/authorize/?" + urllib.parse.urlencode({
-            "client_key": env("TIKTOK_CLIENT_KEY"), "scope": "user.info.basic,video.upload,video.publish",
+            "client_key": (env("SO_TT_CLIENT_KEY") or env("TIKTOK_CLIENT_KEY")), "scope": "user.info.basic,video.upload,video.publish",
             "response_type": "code", "redirect_uri": REDIRECT_TT, "state": secrets.token_hex(8)}))
     elif "--tt-auth-code" in argv:
         code = argv[argv.index("--tt-auth-code") + 1]
         code = urllib.parse.parse_qs(urllib.parse.urlparse(code).query).get("code", [code])[0]
-        r = http(f"{TT}/oauth/token/", form({"client_key": env("TIKTOK_CLIENT_KEY"), "client_secret": env("TIKTOK_CLIENT_SECRET"),
+        r = http(f"{TT}/oauth/token/", form({"client_key": (env("SO_TT_CLIENT_KEY") or env("TIKTOK_CLIENT_KEY")), "client_secret": (env("SO_TT_CLIENT_SECRET") or env("TIKTOK_CLIENT_SECRET")),
                  "code": code, "grant_type": "authorization_code", "redirect_uri": REDIRECT_TT}),
                  {"Content-Type": "application/x-www-form-urlencoded"})[0]
         if "access_token" not in r:
