@@ -12,7 +12,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-10-18 · Hernandes Dias Lopes · Colheita: o homem colhe o que planta, hábitos de hoje são o caráter de amanhã (Mito x Verdade "um deslize não faz diferença") · https://www.instagram.com/p/DeluiT8Fqz6/ · 2026-10-21 (mito)
 
 - 2026-10-25 · Hernandes Dias Lopes · A volta de Cristo como direção para viver a semana, não como medo · https://www.instagram.com/reel/De1OGfQiuJM/ · 2026-10-25 (pergunta)
-- 2026-10-25 · Hernandes Dias Lopes · Louvar a Deus quando as circunstâncias não mudam (cântico na dificuldade) · https://www.instagram.com/p/DewCosBCnTK/ · 
+- 2026-10-25 · Hernandes Dias Lopes · Louvar a Deus quando as circunstâncias não mudam (cântico na dificuldade) · https://www.instagram.com/p/DewCosBCnTK/ · 2026-10-25 (reels)
 - 2026-10-25 · Adriano Propósito · A ofensa que você fica remoendo à noite: como não deixar a discussão morar na cabeça · https://www.instagram.com/reel/DesYu_USSam/ · 
 - 2026-10-25 · Hernandes Dias Lopes · Peregrino: o homem cristão vive aqui, mas sua pátria está no céu · https://www.instagram.com/p/De17-t4iblH/ · 
 ## Aprendizados da semana (2026-10-18)
