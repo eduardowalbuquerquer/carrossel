@@ -167,8 +167,8 @@
       "comments": 0
     },
     "ig_reel": {
-      "views": 3,
-      "reach": 2,
+      "views": 4,
+      "reach": 3,
       "saved": 0,
       "shares": 0,
       "likes": 0,
@@ -229,10 +229,332 @@
   {
     "post": "2026-10-17-reels",
     "ig_reel": {
-      "views": 8,
-      "reach": 4,
+      "views": 33,
+      "reach": 22,
       "saved": 0,
       "shares": 1,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-18-pergunta",
+    "ig_feed": {
+      "views": 2,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-18-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-19-arquetipo",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 8,
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-19-reels",
+    "ig_reel": {
+      "views": 3,
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 1,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-20-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-20-versiculo",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 9,
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-21-mito",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-21-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-22-frase",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 3,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-22-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-23-manual",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-23-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-10-24-cena",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 3,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-10-24-reels",
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
       "likes": 0,
       "comments": 0
     },
