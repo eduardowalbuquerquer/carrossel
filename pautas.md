@@ -11,7 +11,16 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-10-18 · Henrique Felini · Quem se posiciona será amado e odiado pelo mesmo motivo: coragem de falar a verdade com amor (Reels da Noite) · https://www.instagram.com/reel/Del85bcASot/ · 2026-10-19 (reels)
 - 2026-10-18 · Hernandes Dias Lopes · Colheita: o homem colhe o que planta, hábitos de hoje são o caráter de amanhã (Mito x Verdade "um deslize não faz diferença") · https://www.instagram.com/p/DeluiT8Fqz6/ · 2026-10-21 (mito)
 
+- 2026-10-25 · Hernandes Dias Lopes · A volta de Cristo como direção para viver a semana, não como medo · https://www.instagram.com/reel/De1OGfQiuJM/ · 2026-10-25 (pergunta)
+- 2026-10-25 · Hernandes Dias Lopes · Louvar a Deus quando as circunstâncias não mudam (cântico na dificuldade) · https://www.instagram.com/p/DewCosBCnTK/ · 
+- 2026-10-25 · Adriano Propósito · A ofensa que você fica remoendo à noite: como não deixar a discussão morar na cabeça · https://www.instagram.com/reel/DesYu_USSam/ · 
+- 2026-10-25 · Hernandes Dias Lopes · Peregrino: o homem cristão vive aqui, mas sua pátria está no céu · https://www.instagram.com/p/De17-t4iblH/ · 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
 2. Facebook: zero interações nos Reels da Página até agora; o feed não é medível sem pages_read_user_content. A Página precisa de seguidores iniciais (convidar contatos) antes de qualquer ajuste de formato.
 3. Referências da semana: o que mais engajou fora de política foi curto e direto (ansiedade x fé, viver o evangelho sem buscar aplauso). Política/eleição domina os números, mas fica fora do escopo do canal.
+
+## Aprendizados da semana (2026-10-25)
+1. Os Reels da Noite de 30s (9 quadros, só texto) zeraram: 0 views em 6 de 7 publicados entre 18 e 24/10. Os teasers curtos das 9h (7s) ainda tiveram 1 a 9 views. Ajuste da semana: Reels da Noite com 5 a 6 quadros (~18 a 20s) e gancho mais forte no 1º quadro.
+2. Feed segue com alcance de 0 a 1 por post no IG e zero interações no FB. O melhor resultado ainda é o Reels de trabalho de 17/10 (33 views, 1 envio): temas práticos do dia a dia continuam na frente.
+3. Referências da semana foram dominadas pela eleição (19 de 68 posts). Fica fora do nosso escopo. Entre os não políticos, os que mais engajaram falaram de esperança na dificuldade e da volta de Cristo.
