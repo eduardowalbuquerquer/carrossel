@@ -18,7 +18,7 @@ pip install -q playwright pillow
 export PAGES_REPO_DIR=$(pwd) PAGES_BASE_URL=https://eduardowalbuquerquer.github.io/carrossel
 cd salario/engine
 ```
-Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLIENT_SECRET`, `SO_GOOGLE_TTS_KEY`, `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET`. Tokens de YouTube e TikTok ficam em `/mnt/project-files/canais/automacao/.segredos/`.
+Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLIENT_SECRET`, `SO_GEMINI_KEY`, `TIKTOK_CLIENT_KEY`, `TIKTOK_CLIENT_SECRET`. Tokens de YouTube e TikTok ficam em `/mnt/project-files/canais/automacao/.segredos/`.
 
 ## Passo a passo
 1. **Qual vídeo.** Leia `../fila.json`: primeiro item com o slot de agora (v1 ao meio-dia, v2 à noite) sem `publicado_em`.
@@ -27,7 +27,7 @@ Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLI
    - `say` de cada cena = a narração (frases curtas, números por extenso quando a voz tropeçar). 25 a 40 s no total.
    - `captions`: `ig`, `tt`, `yt_title` (até 60 caracteres + #shorts), `yt_desc` (com o link do site e utm_source=youtube).
    - Pauta nova: antes, veja o que está funcionando nos perfis de referência (os que o TikTok do @salario.organizado segue) e escreva **com palavras nossas**; nunca copie roteiro, frase ou arte.
-3. **Renderizar.** `python3 render_video.py ../posts/<pasta>/spec.json` (gera `video_ig.mp4`, `video_tt.mp4`, `video_yt.mp4` e `capa.jpg`; voz Google Chirp 3 HD, trilha própria sem direitos autorais, áudio normalizado em -14 LUFS).
+3. **Renderizar.** `python3 render_video.py ../posts/<pasta>/spec.json` (gera `video_ig.mp4`, `video_tt.mp4`, `video_yt.mp4` e `capa.jpg`; voz Gemini TTS grátis, trilha própria sem direitos autorais, áudio normalizado em -14 LUFS).
 4. **Conferir.** Extraia 4 quadros (`ffmpeg -ss <t> -i video_ig.mp4 -frames:v 1 q.png`) e veja: texto cortado, legenda sobre o conteúdo, português, soma dos números. Ouça a duração: se `narração não` aparecer na saída, a voz falhou; avise antes de publicar.
 5. **Publicar.** v1: `python3 publish.py ../posts/<pasta>`; v2: `python3 publish.py ../posts/<pasta> --so tt`. É idempotente (`resultado.json`).
    - TikTok: enquanto o app não for auditado, o vídeo chega como **rascunho** na caixa de entrada do app do TikTok. Avise o Eduardo: "abrir o TikTok, tocar na notificação, colar a legenda de `legendas`, publicar".
