@@ -1,0 +1,78 @@
+{
+ "id": "r07-descobri-5min",
+ "roteiro": 7,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Salários reais #7",
+   "title": "Ganho <em>R$ 4.000</em> e não sei para onde vai.",
+   "sub": "Descobri em 5 minutos 👇",
+   "say": "Ganho 4 mil reais e não sei para onde vai. Descobri em 5 minutos."
+  },
+  {
+   "type": "list",
+   "cap": "Anotei tudo do mês:",
+   "cap_hot": "Isso eu nem lembrava.",
+   "renda": 4000,
+   "items": [
+    [
+     "Aluguel",
+     1100
+    ],
+    [
+     "Mercado",
+     750
+    ],
+    [
+     "Contas da casa",
+     320
+    ],
+    [
+     "Transporte",
+     350
+    ],
+    [
+     "Parcelas",
+     360
+    ],
+    [
+     "Comprinhas e apps",
+     1120
+    ]
+   ],
+   "hot": "Comprinhas e apps",
+   "step": 0.85,
+   "say": "Aluguel, mercado, contas, transporte, parcelas. E comprinhas e apps que eu nem lembrava."
+  },
+  {
+   "type": "number",
+   "label": "Gastos que eu nem lembrava",
+   "value": "28%",
+   "tone": "red",
+   "text": "do salário: R$&nbsp;1.120 em lanchinho, app e compra por impulso.",
+   "say": "28 por cento do salário. 1.120 reais em coisa que eu nem lembro de ter comprado."
+  },
+  {
+   "type": "compare",
+   "label": "Se cortar só metade",
+   "value": "R$ 560",
+   "text": "todo mês de volta no bolso…",
+   "from": "0",
+   "to": "+560",
+   "after": "para quitar dívida ou guardar.",
+   "say": "Cortando só metade, são 560 reais por mês de volta no bolso."
+  },
+  {
+   "type": "cta",
+   "title": "Quer descobrir os <em>seus</em> 28%?",
+   "say": "Quer descobrir os seus?"
+  }
+ ],
+ "captions": {
+  "ig": "Ganho R$ 4.000 e não sabia para onde ia. Descobri em 5 minutos 👇\n\n28% do salário (R$ 1.120) em comprinha, app e lanche que eu nem lembrava. Cortando só metade: R$ 560 de volta por mês.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Ganho R$ 4 mil e não sabia para onde ia: 28% 😳 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Ganho R$ 4 mil e não sabia para onde ia o dinheiro #shorts",
+  "yt_desc": "28% do salário em gastos que eu nem lembrava.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

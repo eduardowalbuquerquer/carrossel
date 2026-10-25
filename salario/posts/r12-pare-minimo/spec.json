@@ -1,0 +1,54 @@
+{
+ "id": "r12-pare-minimo",
+ "roteiro": 12,
+ "pilar": "dividas",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Dívida desmontada #12",
+   "title": "Se você paga só o <em>mínimo</em> do cartão, para agora.",
+   "sub": "Olha o porquê 👇",
+   "say": "Se você paga só o mínimo do cartão, para agora."
+  },
+  {
+   "type": "steps",
+   "title": "O que acontece",
+   "items": [
+    "Você paga o mínimo",
+    "O resto vai pro <b>rotativo</b>",
+    "E cresce com o juro mais caro do país"
+   ],
+   "say": "Pagou o mínimo, o resto vai pro rotativo. E cresce com um dos juros mais caros do país."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "442,4%",
+   "tone": "red",
+   "text": "ao ano, média de junho de 2026.",
+   "source": "Banco Central, jun/2026",
+   "say": "442 por cento ao ano, segundo o Banco Central."
+  },
+  {
+   "type": "steps",
+   "title": "Faça isso no lugar",
+   "items": [
+    "Pague um valor <b>fixo</b> maior todo mês",
+    "Ou parcele a fatura, que costuma ser mais barato",
+    "Corte um gasto pra bancar a diferença"
+   ],
+   "say": "No lugar, pague um valor fixo maior todo mês, ou parcele a fatura. E corte um gasto para bancar essa diferença."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar o gasto <em>pra cortar</em>?",
+   "say": "Quer achar o gasto pra cortar?"
+  }
+ ],
+ "captions": {
+  "ig": "Se você paga só o mínimo do cartão, para agora 👇\n\nO resto vai para o rotativo, que chegou a 442,4% ao ano (Banco Central, jun/2026). Pague um valor fixo maior ou parcele a fatura, e corte um gasto para bancar a diferença.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Paga só o mínimo do cartão? Para agora 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Paga só o mínimo do cartão? Pare agora #shorts",
+  "yt_desc": "O mínimo joga o resto no rotativo: 442,4% ao ano (Banco Central, junho/2026).\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

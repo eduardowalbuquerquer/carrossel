@@ -1,0 +1,54 @@
+{
+ "id": "r16-rotativo-442",
+ "roteiro": 16,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Choque #16",
+   "title": "O juro do rotativo chegou a <em>442% ao ano</em>.",
+   "sub": "E você pode estar pagando sem saber 👇",
+   "say": "O juro do rotativo do cartão chegou a 442 por cento ao ano. E você pode estar pagando isso sem saber."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "442,4%",
+   "tone": "red",
+   "text": "ao ano, a média em junho de 2026.",
+   "source": "Banco Central, jun/2026",
+   "say": "Esse é o dado do Banco Central de junho de 2026: 442 vírgula 4 por cento ao ano."
+  },
+  {
+   "type": "steps",
+   "title": "Quando ele aparece?",
+   "items": [
+    "Você paga <b>menos</b> que o total da fatura",
+    "O que faltou vira dívida no rotativo",
+    "No mês seguinte, vem com esse juro"
+   ],
+   "say": "Ele aparece quando você paga menos que o total da fatura. O que faltou vira rotativo, e volta no mês seguinte com esse juro."
+  },
+  {
+   "type": "steps",
+   "title": "Como fugir dele",
+   "items": [
+    "Pague o <b>total</b> da fatura",
+    "Não dá? Parcele a fatura em vez do mínimo",
+    "Liste tudo que deve e veja o número real"
+   ],
+   "say": "Pra fugir: pague o total. Não deu? Parcelar a fatura costuma sair mais barato que o mínimo. E liste tudo o que você deve."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver para onde vai o <em>seu</em> salário?",
+   "say": "Quer ver para onde vai o seu salário?"
+  }
+ ],
+ "captions": {
+  "ig": "O juro do rotativo do cartão chegou a 442,4% ao ano (Banco Central, jun/2026) 😳\n\nEle aparece quando você paga menos que o total da fatura. Pague o total; se não der, parcelar a fatura costuma sair mais barato que o mínimo.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Rotativo do cartão: 442% ao ano (BCB, jun/2026) 😳 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Rotativo do cartão a 442% ao ano: como fugir #shorts",
+  "yt_desc": "Juro médio do rotativo do cartão: 442,4% ao ano (Banco Central, junho/2026). Quando ele aparece e como fugir.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

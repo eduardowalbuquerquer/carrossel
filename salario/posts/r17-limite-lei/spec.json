@@ -1,0 +1,54 @@
+{
+ "id": "r17-limite-lei",
+ "roteiro": 17,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Choque #17",
+   "title": "Existe um <em>limite por lei</em> pros juros do cartão.",
+   "sub": "Quase ninguém sabe 👇",
+   "say": "Existe um limite por lei para os juros do rotativo do cartão. E quase ninguém sabe."
+  },
+  {
+   "type": "number",
+   "label": "Teto de juros e encargos",
+   "value": "100%",
+   "tone": "green",
+   "text": "do valor original da dívida, no rotativo e no parcelamento da fatura.",
+   "source": "Lei 14.690/2023, desde jan/2024",
+   "say": "Desde janeiro de 2024, juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100 por cento do valor original."
+  },
+  {
+   "type": "compare",
+   "label": "Na prática",
+   "value": "R$ 1.000",
+   "text": "de fatura não paga…",
+   "from": "1.000",
+   "to": "2.000",
+   "after": "no máximo, por lei. Não vira 5 ou 10 mil.",
+   "say": "Ou seja: uma dívida de mil reais pode chegar, no máximo, a dois mil."
+  },
+  {
+   "type": "steps",
+   "title": "Mas atenção",
+   "items": [
+    "Dobrar ainda é <b>muito</b> caro",
+    "Vale para dívidas do rotativo e da fatura parcelada",
+    "Melhor: saber quanto deve e ter um plano"
+   ],
+   "say": "Mas dobrar ainda é muito caro. O melhor é saber exatamente quanto você deve e ter um plano."
+  },
+  {
+   "type": "cta",
+   "title": "Quer começar pelo <em>seu</em> número?",
+   "say": "Quer começar pelo seu número?"
+  }
+ ],
+ "captions": {
+  "ig": "Existe um limite por lei para os juros do cartão 👇\n\nDesde jan/2024 (Lei 14.690/2023), juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100% do valor original. R$ 1.000 pode virar no máximo R$ 2.000. Ainda é caro: o melhor é ter um plano.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Juros do cartão têm limite por lei. Quase ninguém sabe 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Juros do cartão têm limite por lei (Lei 14.690) #shorts",
+  "yt_desc": "Desde janeiro de 2024, juros e encargos do rotativo e do parcelamento da fatura não passam de 100% da dívida original (Lei 14.690/2023).\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

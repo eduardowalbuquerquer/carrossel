@@ -1,0 +1,53 @@
+{
+ "id": "r10-ordem-cartoes",
+ "roteiro": 10,
+ "pilar": "dividas",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Dívida desmontada #10",
+   "title": "Deve em mais de um cartão? <em>A ordem</em> muda tudo.",
+   "sub": "Faz assim 👇",
+   "say": "Deve em mais de um cartão? A ordem que você paga muda tudo."
+  },
+  {
+   "type": "steps",
+   "title": "3 dívidas, uma ordem",
+   "items": [
+    "Cartão A: <b>R$ 600</b> ← começa aqui",
+    "Cartão B: R$ 2.100",
+    "Empréstimo: R$ 5.300"
+   ],
+   "say": "Três dívidas: 600, 2.100 e 5.300 reais. Paga o mínimo em todas, e todo o resto vai pra menor."
+  },
+  {
+   "type": "steps",
+   "title": "Método bola de neve",
+   "items": [
+    "Mínimo em <b>todas</b> as dívidas",
+    "Todo o resto na <b>menor</b>",
+    "Quitou? O valor dela vai pra próxima"
+   ],
+   "say": "É o método bola de neve. Quitou a menor, o valor que ia pra ela soma na próxima. A bola vai crescendo."
+  },
+  {
+   "type": "number",
+   "label": "Por que funciona",
+   "value": "1ª vitória",
+   "tone": "green",
+   "text": "logo nos primeiros meses. E quem vê progresso não desiste.",
+   "say": "Você tem uma vitória logo no começo. E quem vê progresso, não desiste."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver a <em>sua</em> ordem?",
+   "say": "Quer montar a sua ordem?"
+  }
+ ],
+ "captions": {
+  "ig": "Deve em mais de um cartão? A ordem em que você paga muda tudo 👇\n\nMétodo bola de neve: mínimo em todas, todo o resto na menor. Quitou, o valor dela vai para a próxima.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Deve em mais de um cartão? Paga nessa ordem 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Deve em vários cartões? A ordem certa para pagar #shorts",
+  "yt_desc": "Método bola de neve explicado com 3 dívidas de verdade.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

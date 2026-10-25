@@ -1,0 +1,26 @@
+{
+  "id": "r01-salario-2300",
+  "roteiro": 1,
+  "pilar": "salarios-reais",
+  "scenes": [
+    {"type": "hook", "tag": "Salários reais #1", "title": "Ganho <em>R$ 2.300</em> e no dia 15 já acabou.", "sub": "Vou achar o furo agora 👇",
+     "say": "Ganho R$ 2.300 e no dia 15 o dinheiro já acabou. Vou achar o furo agora."},
+    {"type": "list", "cap": "Tudo que entra e tudo que sai:", "cap_hot": "Achei o furo.", "renda": 2300,
+     "items": [["Aluguel", 800], ["Mercado", 600], ["Contas da casa", 250], ["Transporte", 220], ["Cartão", 300], ["Delivery", 380]],
+     "hot": "Delivery", "step": 0.85,
+     "say": "Aluguel, mercado, contas, transporte, cartão e delivery. Somando tudo, a conta não fecha."},
+    {"type": "number", "label": "Falta todo mês", "value": "R$ 250", "tone": "red",
+     "text": "Gasta R$&nbsp;2.550 com um salário de R$&nbsp;2.300. A diferença vira dívida no cartão.",
+     "say": "Faltam R$ 250 todo mês. E essa diferença vira dívida no cartão, com juros."},
+    {"type": "compare", "label": "O furo é o delivery", "value": "R$ 380", "text": "Cortando só a metade…",
+     "from": "−250", "to": "−60", "after": "o rombo cai de R$&nbsp;250 para R$&nbsp;60.",
+     "say": "O furo é o delivery: R$ 380. Cortando só a metade, o rombo cai de 250 para 60 reais. Sem passar fome."},
+    {"type": "cta", "title": "Quer achar o <em>seu</em> furo?", "say": "Quer achar o seu furo em 2 minutos?"}
+  ],
+  "captions": {
+    "ig": "Ganho R$ 2.300 e no dia 15 o dinheiro já acabou. Fui atrás do furo 👇\n\nGastos: R$ 2.550. Falta R$ 250 todo mês, e essa diferença vira dívida no cartão.\nO furo? Delivery: R$ 380. Cortando só metade, o rombo cai para R$ 60.\n\nQuer achar o seu? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda esse vídeo para quem vive dizendo que o salário some 👀\n\n#organizacaofinanceira #financaspessoais #salario #dividas #educacaofinanceira",
+    "tt": "Ganho R$ 2.300 e no dia 15 acabou: achei o furo 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #organizacaofinanceira #salario #dividas #dinheiro",
+    "yt_title": "Ganho R$ 2.300 e no dia 15 acabou: onde está o furo? #shorts",
+    "yt_desc": "Organizei um salário de R$ 2.300 e achei o furo: delivery. A mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #salario"
+  }
+}

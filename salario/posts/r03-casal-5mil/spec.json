@@ -1,0 +1,83 @@
+{
+ "id": "r03-casal-5mil",
+ "roteiro": 3,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Salários reais #3",
+   "title": "Casal ganha <em>R$ 5 mil</em> e vive no vermelho.",
+   "sub": "O erro está aqui 👇",
+   "say": "Casal ganha 5 mil reais juntos e vive no vermelho. O erro está aqui."
+  },
+  {
+   "type": "list",
+   "cap": "Duas rendas, um mês:",
+   "cap_hot": "3 assinaturas esquecidas.",
+   "renda_label": "Renda do casal",
+   "renda": 5000,
+   "items": [
+    [
+     "Aluguel",
+     1500
+    ],
+    [
+     "Mercado",
+     1200
+    ],
+    [
+     "Contas da casa",
+     450
+    ],
+    [
+     "Transporte",
+     600
+    ],
+    [
+     "Cartão",
+     900
+    ],
+    [
+     "Lazer",
+     400
+    ],
+    [
+     "Assinaturas",
+     190
+    ]
+   ],
+   "hot": "Assinaturas",
+   "step": 0.75,
+   "say": "Aluguel, mercado, contas, transporte, cartão, lazer. E três assinaturas que ninguém usa."
+  },
+  {
+   "type": "number",
+   "label": "Falta todo mês",
+   "value": "R$ 240",
+   "tone": "red",
+   "text": "Gastam R$&nbsp;5.240 com R$&nbsp;5.000 de renda.",
+   "say": "Faltam 240 reais todo mês."
+  },
+  {
+   "type": "compare",
+   "label": "Assinaturas esquecidas",
+   "value": "R$ 190",
+   "text": "Cancelando as 3…",
+   "from": "−240",
+   "to": "−50",
+   "after": "o rombo cai de R$&nbsp;240 para R$&nbsp;50.",
+   "say": "Só cancelando essas três assinaturas, o rombo cai de 240 pra 50 reais."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar o furo <em>de vocês</em>?",
+   "say": "Quer achar o furo de vocês?"
+  }
+ ],
+ "captions": {
+  "ig": "Casal ganha R$ 5 mil juntos e vive no vermelho. O erro está aqui 👇\n\nGastos: R$ 5.240. Falta R$ 240 por mês. Só 3 assinaturas esquecidas somam R$ 190: cancelando, o rombo cai para R$ 50.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Casal ganha R$ 5 mil e vive no vermelho: o erro 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Casal ganha R$ 5 mil e vive no vermelho: o erro #shorts",
+  "yt_desc": "3 assinaturas esquecidas somavam R$ 190 por mês.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "id": "r05-antes-de-gastar",
+ "roteiro": 5,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Salários reais #5",
+   "title": "Recebi o salário. Antes de gastar <em>1 real</em>, faço isso.",
+   "sub": "3 passos 👇",
+   "say": "Recebi o salário. Antes de gastar um real, eu faço isso."
+  },
+  {
+   "type": "steps",
+   "title": "No dia do pagamento",
+   "items": [
+    "Separe as contas <b>fixas</b> (aluguel, luz, internet)",
+    "Separe o valor das <b>dívidas</b>",
+    "Divida o resto em <b>4 semanas</b>"
+   ],
+   "say": "Primeiro, separo as contas fixas. Depois, o valor das dívidas. E o que sobra eu divido em quatro semanas."
+  },
+  {
+   "type": "compare",
+   "label": "Exemplo: sobrou",
+   "value": "R$ 800",
+   "text": "Em vez de gastar tudo na 1ª semana…",
+   "from": "800",
+   "to": "4×200",
+   "after": "cada semana tem o seu dinheiro.",
+   "say": "Sobrou 800? São 200 por semana. Acabou a semana, acabou o dinheiro dela."
+  },
+  {
+   "type": "steps",
+   "title": "A regra",
+   "items": [
+    "Dinheiro <b>com data</b> não some"
+   ],
+   "say": "Dinheiro com data não some."
+  },
+  {
+   "type": "cta",
+   "title": "Quer fazer a <em>sua</em> divisão?",
+   "say": "Quer fazer a sua divisão?"
+  }
+ ],
+ "captions": {
+  "ig": "Recebi o salário. Antes de gastar 1 real, faço isso 👇\n\n1. Separo as contas fixas\n2. Separo o valor das dívidas\n3. Divido o resto em 4 semanas\n\nDinheiro com data não some.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ver isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "Antes de gastar 1 real do salário, faço isso 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "Recebi o salário: faça isso antes de gastar 1 real #shorts",
+  "yt_desc": "3 passos no dia do pagamento para o dinheiro não sumir.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas"
+ }
+}

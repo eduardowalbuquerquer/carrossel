@@ -1,0 +1,16 @@
+{
+  "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok).",
+  "itens": [
+    {"dia": 4, "v1": {"roteiro": 1, "pasta": "r01-salario-2300"}, "v2": {"roteiro": 16, "pasta": "r16-rotativo-442"}},
+    {"dia": 5, "v1": {"roteiro": 10, "pasta": "r10-ordem-cartoes"}, "v2": {"roteiro": 5, "pasta": "r05-antes-de-gastar"}},
+    {"dia": 6, "v1": {"roteiro": 3, "pasta": "r03-casal-5mil"}, "v2": {"roteiro": 17, "pasta": "r17-limite-lei"}},
+    {"dia": 7, "v1": {"roteiro": 12, "pasta": "r12-pare-minimo"}, "v2": {"roteiro": 7, "pasta": "r07-descobri-5min"}},
+    {"dia": 8, "v1": {"roteiro": 2}, "v2": {"roteiro": 18}},
+    {"dia": 9, "v1": {"roteiro": 11}, "v2": {"roteiro": 6}},
+    {"dia": 10, "v1": {"roteiro": 9}, "v2": {"roteiro": 20}},
+    {"dia": 11, "v1": {"roteiro": 4}, "v2": {"roteiro": 13}},
+    {"dia": 12, "v1": {"roteiro": 14}, "v2": {"roteiro": 8}},
+    {"dia": 13, "v1": {"roteiro": 21}, "v2": {"roteiro": 19}},
+    {"dia": 14, "v1": {"roteiro": 15}, "v2": {"roteiro": "melhor gancho da semana com outro número"}}
+  ]
+}
