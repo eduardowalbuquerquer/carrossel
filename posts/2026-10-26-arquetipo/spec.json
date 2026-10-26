@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-26",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Davi: o homem segundo o coração de Deus que caiu e se levantou",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "ARQUÉTIPOS BÍBLICOS",
+      "title": "Ele venceu um gigante. E caiu numa <em style=\"color:#C8892C\">tarde à toa</em>.",
+      "body": "Davi: o rei que pecou feio e se arrependeu de verdade.",
+      "hint": "Você tem um pouco de Davi? Veja os sinais →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O PADRÃO",
+      "title": "Era tempo de guerra. Davi ficou em casa.",
+      "body": "Enquanto o exército lutava, o rei estava parado no terraço. Ali viu Bate-Seba, e uma queda puxou a outra (2 Samuel 11)."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "SINAIS DE DAVI HOJE",
+      "title": "Você reconhece algum?",
+      "items": [
+        {"num": "01", "title": "Está onde não deveria estar", "desc": "Tempo livre sem propósito vira porta aberta."},
+        {"num": "02", "title": "Esconde um erro com outro", "desc": "Uma mentira pede outra para não aparecer."},
+        {"num": "03", "title": "Vê o pecado dos outros", "desc": "Fica indignado com os outros e cego para si."},
+        {"num": "04", "title": "Acha que a posição protege", "desc": "Já fez tanto por Deus que pensa estar seguro."}
+      ]
+    },
+    {
+      "layout": "big",
+      "theme": "dark",
+      "big": "4",
+      "tag": "AS QUATRO PALAVRAS",
+      "title": "O profeta contou uma história. O rei se indignou. E ouviu:",
+      "quote": {
+        "text": "Então, disse Natã a Davi: Tu és o homem.",
+        "ref": "2 Samuel 12:7 · ARA"
+      },
+      "body": "O que estava escondido veio à luz."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A DIFERENÇA DE DAVI",
+      "title": "Ele não se justificou. <em style=\"color:#C8892C\">Se quebrou</em>.",
+      "quote": {
+        "text": "Cria em mim, ó Deus, um coração puro e renova dentro em mim um espírito inabalável.",
+        "ref": "Salmo 51:10 · ARA"
+      }
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A GRAÇA E O PREÇO",
+      "title": "Deus perdoou. As <em style=\"color:#E3B566\">consequências</em> vieram.",
+      "body": "Perdão não apaga toda colheita, mas restaura a comunhão. Em Cristo, o homem que confessa não é descartado: é restaurado."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual sinal de Davi você precisa entregar a Deus? Comente o número."
+    }
+  ],
+  "caption": "Ele venceu um gigante. E caiu numa tarde em que deveria estar na batalha.\n\nQuando o profeta disse \"Tu és o homem\" (2Sm 12:7), Davi não se justificou. Orou: \"Cria em mim, ó Deus, um coração puro\" (Sl 51:10).\n\nQual dos 4 sinais você reconhece? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #arrependimento #forjadaalma #biblia #davi",
+  "caption_facebook": "Davi venceu Golias, foi chamado de homem segundo o coração de Deus e mesmo assim caiu feio.\n\nEra tempo de guerra e ele ficou em casa. Do terraço viu Bate-Seba, e um pecado puxou o outro: adultério, mentira e até a morte de Urias. Quando o profeta Natã o confrontou, ouviu: \"Tu és o homem\" (2 Samuel 12:7).\n\nA diferença de Davi foi a resposta. Ele não se justificou. Se quebrou diante de Deus: \"Cria em mim, ó Deus, um coração puro e renova dentro em mim um espírito inabalável\" (Salmo 51:10). Deus perdoou, as consequências vieram, e a comunhão foi restaurada.\n\nQual desses sinais você reconhece em você hoje? Conta aqui.\n\n#homemcristao #forjadaalma #davi",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Venceu um gigante. Caiu numa <em>tarde à toa</em>."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "E o que ele fez <em>depois da queda</em> mudou tudo."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Venceu um gigante e caiu numa tarde à toa. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Venceu um gigante e caiu numa tarde à toa. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
