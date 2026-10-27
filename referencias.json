@@ -2,18 +2,71 @@
   "regra": "Referências servem só de inspiração de pauta. Nunca copiar texto, frase, arte ou estrutura de post. Sempre reescrever com voz própria do Forja da Alma, checar contra a Bíblia (ARA) e aplicar as Premissas inegociáveis.",
   "como_adicionar": "Acrescente um item em 'fontes' com tipo (instagram, facebook, youtube, blog, portal, artigo, outro), id (@perfil ou URL) e nome se souber.",
   "fontes": [
-    {"tipo": "instagram", "id": "@doisdedosdeteologia"},
-    {"tipo": "instagram", "id": "@adriano.proposito"},
-    {"tipo": "instagram", "id": "@augustusnicodemus", "nome": "Augustus Nicodemus"},
-    {"tipo": "instagram", "id": "@hernandesdiaslopes", "nome": "Hernandes Dias Lopes"},
-    {"tipo": "instagram", "id": "@luizsayao", "nome": "Luiz Sayão"},
-    {"tipo": "instagram", "id": "@papodehomembrasil", "nome": "Papo de Homem"},
-    {"tipo": "instagram", "id": "@paulo.borges.jr", "nome": "Paulo Borges Jr."},
-    {"tipo": "instagram", "id": "@prpaulogouvea", "nome": "Pr. Paulo Gouvêa"},
-    {"tipo": "instagram", "id": "@purelifeministriesbrasil", "nome": "Pure Life Ministries Brasil"},
-    {"tipo": "instagram", "id": "@prmocellin", "nome": "Pr. Mocellin"},
-    {"tipo": "instagram", "id": "@sebioficial"},
-    {"tipo": "instagram", "id": "@henriquefelini", "nome": "Henrique Felini"},
-    {"tipo": "instagram", "id": "@ohenriquecafe", "nome": "Henrique Café"}
+    {
+      "tipo": "instagram",
+      "id": "@doisdedosdeteologia"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@adriano.proposito"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@augustusnicodemus",
+      "nome": "Augustus Nicodemus"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@hernandesdiaslopes",
+      "nome": "Hernandes Dias Lopes"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@luizsayao",
+      "nome": "Luiz Sayão"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@papodehomembrasil",
+      "nome": "Papo de Homem"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@paulo.borges.jr",
+      "nome": "Paulo Borges Jr."
+    },
+    {
+      "tipo": "instagram",
+      "id": "@prpaulogouvea",
+      "nome": "Pr. Paulo Gouvêa"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@purelifeministriesbrasil",
+      "nome": "Pure Life Ministries Brasil"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@prmocellin",
+      "nome": "Pr. Mocellin"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@sebioficial"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@henriquefelini",
+      "nome": "Henrique Felini"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@ohenriquecafe",
+      "nome": "Henrique Café"
+    },
+    {
+      "tipo": "instagram",
+      "id": "@natanaelknabben"
+    }
   ]
 }
