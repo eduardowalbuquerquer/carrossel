@@ -26,7 +26,7 @@ Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLI
    - cenas: `hook`, `list` (renda + gastos; a soma mostra sobra/falta), `number` (valor grande + `source`), `compare` (de → para), `steps` (até 3 itens), `cta`. Sempre começa em `hook` e termina em `cta`.
    - `say` de cada cena = a narração (frases curtas, números por extenso quando a voz tropeçar). 25 a 40 s no total.
    - `captions`: `ig`, `tt`, `yt_title` (até 60 caracteres + #shorts), `yt_desc` (com o link do site e utm_source=youtube).
-   - Pauta nova: antes, veja o que está funcionando nos perfis de referência (os que o TikTok do @salario.organizado segue) e escreva **com palavras nossas**; nunca copie roteiro, frase ou arte.
+   - Pauta nova: antes, veja o que está funcionando nos perfis de `../referencias.md` e escreva **com palavras nossas**; nunca copie roteiro, frase ou arte.
 3. **Renderizar.** `python3 render_video.py ../posts/<pasta>/spec.json` (gera `video_ig.mp4`, `video_tt.mp4`, `video_yt.mp4` e `capa.jpg`; voz Gemini TTS grátis, trilha própria sem direitos autorais, áudio normalizado em -14 LUFS).
 4. **Conferir.** Extraia 4 quadros (`ffmpeg -ss <t> -i video_ig.mp4 -frames:v 1 q.png`) e veja: texto cortado, legenda sobre o conteúdo, português, soma dos números. Ouça a duração: se `narração não` aparecer na saída, a voz falhou; avise antes de publicar.
 5. **Publicar.** v1: `python3 publish.py ../posts/<pasta>`; v2: `python3 publish.py ../posts/<pasta> --so tt`. É idempotente (`resultado.json`).
