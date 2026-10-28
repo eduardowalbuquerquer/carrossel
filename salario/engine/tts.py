@@ -8,7 +8,7 @@ Docs: https://ai.google.dev/gemini-api/docs/speech-generation
       https://cloud.google.com/text-to-speech/docs/reference/rest/v1/text/synthesize
       https://elevenlabs.io/docs/api-reference/text-to-speech/convert
 """
-import base64, hashlib, json, os, subprocess, urllib.error, urllib.request
+import base64, hashlib, json, os, subprocess, time, urllib.error, urllib.request
 from pathlib import Path
 
 CACHE = Path(__file__).resolve().parents[1] / ".cache_tts"
@@ -32,6 +32,7 @@ def _google(text, out):
     return True
 
 
+FALLBACK = "gemini-3.8-flash-lite-tts,gemini-3.1-flash-tts-preview"
 STYLE = ("Português do Brasil, sotaque neutro. Narrador de vídeo curto de finanças: confiante, próximo e animado, "
          "ritmo ágil, ênfase nos números.")
 
@@ -46,11 +47,24 @@ def _gemini(text, out):
             "response_format": {"type": "audio"},
             "generation_config": {"speech_config": [{"voice": os.environ.get("SO_GEMINI_VOICE", "Charon")}]}}
 
+    # Pico de demanda (503/429) é comum e passageiro: espera e tenta de novo; se persistir, cai para os modelos reserva.
+    models = [body["model"]] + [m for m in os.environ.get("SO_GEMINI_FALLBACK", FALLBACK).split(",") if m and m != body["model"]]
+
     def call():
-        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions", data=json.dumps(body).encode(),
-                                     headers={"Content-Type": "application/json", "x-goog-api-key": key})
-        with urllib.request.urlopen(req, timeout=180) as r:
-            return json.loads(r.read())
+        for model in models:
+            body["model"] = model
+            for wait in (0, 10, 30, 60):
+                time.sleep(wait)
+                req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions", data=json.dumps(body).encode(),
+                                             headers={"Content-Type": "application/json", "x-goog-api-key": key})
+                try:
+                    with urllib.request.urlopen(req, timeout=180) as r:
+                        return json.loads(r.read())
+                except urllib.error.HTTPError as e:
+                    if e.code not in (429, 500, 503):
+                        raise
+                    last = e
+        raise last
     try:
         r = call()
     except urllib.error.HTTPError as e:
@@ -60,8 +74,12 @@ def _gemini(text, out):
         r = call()
     audio = [c for st in r.get("steps", []) if st.get("type") == "model_output" for c in st.get("content", []) if c.get("type") == "audio"]
     raw = out.with_suffix(".src.wav")
-    raw.write_bytes(base64.b64decode(audio[-1]["data"]))
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw), "-ar", "44100", "-ac", "1", str(out)], check=True)
+    data = base64.b64decode(audio[-1]["data"])
+    raw.write_bytes(data)
+    # Alguns modelos devolvem WAV; outros, PCM cru (audio/L16;rate=24000), que o ffmpeg precisa receber descrito.
+    mime = audio[-1].get("mime_type", "")
+    fmt = [] if data[:4] == b"RIFF" else ["-f", "s16le", "-ar", (mime.split("rate=")[1].split(";")[0] if "rate=" in mime else "24000"), "-ac", "1"]
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *fmt, "-i", str(raw), "-ar", "44100", "-ac", "1", str(out)], check=True)
     raw.unlink()
     return True
 
