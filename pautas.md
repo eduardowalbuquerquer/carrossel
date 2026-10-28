@@ -13,7 +13,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 
 - 2026-10-25 · Hernandes Dias Lopes · A volta de Cristo como direção para viver a semana, não como medo · https://www.instagram.com/reel/De1OGfQiuJM/ · 2026-10-25 (pergunta)
 - 2026-10-25 · Hernandes Dias Lopes · Louvar a Deus quando as circunstâncias não mudam (cântico na dificuldade) · https://www.instagram.com/p/DewCosBCnTK/ · 2026-10-25 (reels)
-- 2026-10-25 · Adriano Propósito · A ofensa que você fica remoendo à noite: como não deixar a discussão morar na cabeça · https://www.instagram.com/reel/DesYu_USSam/ · 
+- 2026-10-25 · Adriano Propósito · A ofensa que você fica remoendo à noite: como não deixar a discussão morar na cabeça · https://www.instagram.com/reel/DesYu_USSam/ · 2026-10-28 (reels)
 - 2026-10-25 · Hernandes Dias Lopes · Peregrino: o homem cristão vive aqui, mas sua pátria está no céu · https://www.instagram.com/p/De17-t4iblH/ · 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
