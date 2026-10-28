@@ -1,429 +1,445 @@
 [
-  {
-    "data": "2026-10-11",
-    "serie": "pergunta",
-    "titulo": "Se seu filho fizesse tudo o que você faz, ele seria um homem melhor?",
-    "tema": "paternidade, exemplo, integridade",
-    "versiculos": [],
-    "feed": "https://www.instagram.com/p/DeWltnpHETw/",
-    "reel": "https://www.instagram.com/reel/DeWlvrCiJ0-/"
-  },
-  {
-    "data": "2026-10-12",
-    "serie": "arquetipo",
-    "titulo": "Jacó: o homem que vive de esquema",
-    "tema": "manipulação, atalhos, quebrantamento",
-    "personagem": "Jacó",
-    "versiculos": [
-      "Gálatas 6:7",
-      "Gênesis 32:28"
-    ],
-    "feed": "https://www.instagram.com/p/DeZK-GwHOSQ/",
-    "reel": "https://www.instagram.com/reel/DeZK_wECZ_U/"
-  },
-  {
-    "data": "2026-10-13",
-    "serie": "versiculo",
-    "titulo": "Portai-vos varonilmente",
-    "tema": "vigilância, firmeza na fé, força com amor",
-    "versiculos": [
-      "1 Coríntios 16:13",
-      "1 Coríntios 16:14"
-    ],
-    "feed": "https://www.instagram.com/p/Debv0Y3FpfK/",
-    "reel": "https://www.instagram.com/reel/Debv1gKCfKf/",
-    "fb_feed": "https://www.facebook.com/122103158103506150/posts/122103158055506150",
-    "fb_reel": "https://www.facebook.com/reel/1898364277996789/"
-  },
-  {
-    "data": "2026-10-14",
-    "serie": "mito",
-    "titulo": "4 mentiras sobre ser homem",
-    "tema": "emoção, liderança servidora, comunhão, entrega no casamento",
-    "versiculos": [
-      "João 11:35",
-      "Marcos 10:43",
-      "Eclesiastes 4:9"
-    ],
-    "feed": "https://www.instagram.com/p/DeeUcqXnPJl/",
-    "reel": "https://www.instagram.com/reel/DeeUd0_jdxJ/",
-    "fb_feed": "https://www.facebook.com/122103158103506150/posts/122103566835506150",
-    "fb_reel": "https://www.facebook.com/reel/1163164126035383"
-  },
-  {
-    "data": "2026-10-14",
-    "serie": "reels",
-    "titulo": "Por que só força de vontade não vence a tentação",
-    "tema": "pureza, tentação, rendição diária, prestação de contas",
-    "versiculos": [
-      "Gálatas 5:16",
-      "1 Coríntios 10:13",
-      "Gênesis 39:12",
-      "Salmo 119:9",
-      "Tiago 5:16"
-    ],
-    "reel": "https://www.instagram.com/reel/DefYtttEjtr/",
-    "fb_reel": "https://www.facebook.com/reel/1823784305640140"
-  },
-  {
-    "data": "2026-10-15",
-    "serie": "frase",
-    "titulo": "O fogo que te queima hoje é o mesmo que te forja",
-    "tema": "provação, perseverança, sofrimento com propósito",
-    "versiculos": [
-      "Tiago 1:3"
-    ],
-    "feed": "https://www.instagram.com/p/Deg5KJ9oATM/",
-    "reel": "https://www.instagram.com/reel/Deg5Pd8DPQR/",
-    "fb_feed": "https://www.facebook.com/122103158103506150/posts/122104536417506150",
-    "fb_reel": "https://www.facebook.com/reel/1666017445069975"
-  },
-  {
-    "data": "2026-10-15",
-    "serie": "reels",
-    "titulo": "Antes de mais romance, seu casamento precisa de entrega",
-    "tema": "casamento, marido servo, oração a dois",
-    "versiculos": [
-      "Efésios 5:25",
-      "Colossenses 3:19",
-      "1 Pedro 3:7"
-    ],
-    "reel": "https://www.instagram.com/reel/Deh926_E5Kc/",
-    "fb_reel": "https://www.facebook.com/reel/2515160715671540"
-  },
-  {
-    "data": "2026-10-16",
-    "serie": "manual",
-    "titulo": "O devocional de 15 minutos",
-    "tema": "devocional, oração, disciplina espiritual, graça",
-    "versiculos": [
-      "Marcos 1:35",
-      "Salmo 5:3"
-    ],
-    "links": {
-      "instagram_feed": "https://www.instagram.com/p/DejeG37lWcQ/",
-      "instagram_reel": "https://www.instagram.com/reel/DejeIefCSpf/",
-      "facebook_post": "https://www.facebook.com/122103158103506150/posts/122105584017506150",
-      "facebook_reel": "https://www.facebook.com/reel/2509394336212231"
-    }
-  },
-  {
-    "data": "2026-10-16",
-    "serie": "reels",
-    "titulo": "Perdoar não é fingir que não doeu",
-    "tema": "perdão, rancor, entregar a vingança a Deus, graça",
-    "versiculos": [
-      "Efésios 4:32",
-      "Romanos 12:19"
-    ],
-    "links": {
-      "instagram_reel": "https://www.instagram.com/reel/Deki5CwHeu7/",
-      "facebook_reel": "https://www.facebook.com/reel/2246381192602687",
-      "tiktok": "não publicado (conta pública, app ainda sem auditoria)"
-    }
-  },
-  {
-    "data": "2026-10-17",
-    "serie": "cena",
-    "titulo": "Neemias: o homem que reconstruiu o muro",
-    "tema": "Neemias, oração antes da ação, perseverança, foco na obra",
-    "versiculos": [
-      "Neemias 1:3-4",
-      "Neemias 4:17",
-      "Neemias 6:15",
-      "Neemias 6:3"
-    ],
-    "links": {
-      "instagram_feed": "https://www.instagram.com/p/DemCxluFRj8/",
-      "instagram_reel": "https://www.instagram.com/reel/DemCzSDlycH/",
-      "facebook_post": "https://www.facebook.com/122103158103506150/posts/122106600873506150",
-      "facebook_reel": "https://www.facebook.com/reel/3732782850192706"
-    }
-  },
-  {
-    "date": "2026-10-17",
-    "series": "reels",
-    "title": "Seu trabalho também é culto",
-    "tema": "trabalho",
-    "versiculos": [
-      "Gênesis 2:15",
-      "Colossenses 3:23"
-    ],
-    "reel_link": "https://www.instagram.com/reel/DenHlhMjPyI/",
-    "fb_reel_link": "https://www.facebook.com/reel/957152653670041",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-18",
-    "series": "pergunta",
-    "title": "De quem é a aprovação que você mais busca?",
-    "tema": "aprovação de Deus x aplauso dos homens",
-    "versiculos": [
-      "Gálatas 1:10"
-    ],
-    "feed_link": "https://www.instagram.com/p/DeonjmkG1_z/",
-    "reel_link": "https://www.instagram.com/reel/DeonlINk7kc/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122107551003506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1864112154945957"
-  },
-  {
-    "date": "2026-10-18",
-    "series": "reels",
-    "title": "Domingo à noite e a ansiedade da segunda",
-    "tema": "ansiedade",
-    "versiculos": [
-      "Filipenses 4:6",
-      "1 Pedro 5:7"
-    ],
-    "reel_link": "https://www.instagram.com/reel/DepvPt2CDYF/",
-    "fb_reel_link": "https://www.facebook.com/reel/1664183035375097",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-19",
-    "series": "arquetipo",
-    "title": "Sansão: o homem forte que não governava a si mesmo",
-    "tema": "domínio próprio",
-    "personagem": "Sansão",
-    "versiculos": [
-      "Juízes 16:20",
-      "Provérbios 16:32"
-    ],
-    "feed_link": "https://www.instagram.com/p/DerMhr1EXVd/",
-    "reel_link": "https://www.instagram.com/reel/DerMjsiEeX_/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122108443611506150",
-    "fb_reel_link": "https://www.facebook.com/reel/2184745529117530"
-  },
-  {
-    "date": "2026-10-19",
-    "series": "reels",
-    "title": "Coragem de falar a verdade, com amor",
-    "tema": "coragem / verdade em amor",
-    "versiculos": [
-      "Efésios 4:15",
-      "Josué 1:9"
-    ],
-    "reel_link": "https://www.instagram.com/reel/DesRasOFK-G/",
-    "fb_reel_link": "https://www.facebook.com/reel/1661083089070924",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-20",
-    "series": "versiculo",
-    "title": "Os que esperam no Senhor renovam as forças",
-    "tema": "cansaço / força renovada",
-    "versiculos": [
-      "Isaías 40:31"
-    ],
-    "foto": "pixabay:4385430",
-    "feed_link": "https://www.instagram.com/p/DetxJP7IENV/",
-    "reel_link": "https://www.instagram.com/reel/DetxLRJk4N9/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122109396507506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1442781637797702"
-  },
-  {
-    "date": "2026-10-20",
-    "series": "reels",
-    "title": "Ferro afia ferro: o homem precisa de amigos",
-    "tema": "amizade entre homens",
-    "versiculos": [
-      "Provérbios 27:17",
-      "Hebreus 10:24"
-    ],
-    "reel_link": "https://www.instagram.com/reel/Deu2B9IFLsC/",
-    "fb_reel_link": "https://www.facebook.com/reel/1111812171827654",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-21",
-    "series": "mito",
-    "title": "Um deslize não faz diferença?",
-    "tema": "pequenas concessões / santidade",
-    "versiculos": [
-      "Tiago 1:15",
-      "Lucas 16:10",
-      "Números 32:23",
-      "1 João 1:9"
-    ],
-    "feed_link": "https://www.instagram.com/p/DewWFBUkavP/",
-    "reel_link": "https://www.instagram.com/reel/DewWHKCimsU/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122109945963506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1642378534139966"
-  },
-  {
-    "date": "2026-10-21",
-    "series": "reels",
-    "title": "Dívida também é escravidão",
-    "tema": "finanças / dívidas",
-    "versiculos": [
-      "Provérbios 22:7",
-      "Mateus 6:21"
-    ],
-    "reel_link": "https://www.instagram.com/reel/Dexa2quAm8l/",
-    "fb_reel_link": "https://www.facebook.com/reel/2177100449893848",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-22",
-    "series": "frase",
-    "title": "Homem de palavra não precisa de contrato",
-    "tema": "integridade / cumprir a palavra",
-    "versiculos": [
-      "Mateus 5:37"
-    ],
-    "foto": "pixabay:3556090",
-    "feed_link": "https://www.instagram.com/p/Dey7GBtnCEU/",
-    "reel_link": "https://www.instagram.com/reel/Dey7PPGDryr/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122110585281506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1610607400811935"
-  },
-  {
-    "date": "2026-10-22",
-    "series": "reels",
-    "title": "Você está em casa. Mas sua família sabe disso?",
-    "tema": "presença do pai / celular em casa",
-    "versiculos": [
-      "Efésios 5:15-16"
-    ],
-    "reel_link": "https://www.instagram.com/reel/Dez_pC_oLi2/",
-    "fb_reel_link": "https://www.facebook.com/reel/1116371457919995",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-23",
-    "series": "manual",
-    "title": "Culto doméstico de 10 minutos",
-    "tema": "culto doméstico / pai que lidera a fé em casa",
-    "versiculos": [
-      "Deuteronômio 6:6-7",
-      "Josué 24:15"
-    ],
-    "feed_link": "https://www.instagram.com/p/De1fu5plZ2I/",
-    "reel_link": "https://www.instagram.com/reel/De1fxQhCMlp/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122111150601506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1953157428978842"
-  },
-  {
-    "date": "2026-10-23",
-    "series": "reels",
-    "title": "Paciente com o chefe. Explosivo com a família?",
-    "tema": "ira em casa / ouvir antes de falar",
-    "versiculos": [
-      "Tiago 1:19-20"
-    ],
-    "reel_link": "https://www.instagram.com/reel/De2keinD59V/",
-    "fb_reel_link": "https://www.facebook.com/reel/1648325980077336",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-24",
-    "series": "cena",
-    "title": "Daniel: o homem que não mudou de hábito diante dos leões",
-    "tema": "Daniel, fidelidade no hábito de oração, coragem",
-    "versiculos": [
-      "Daniel 1:8",
-      "Daniel 6:7",
-      "Daniel 6:10",
-      "Daniel 6:22"
-    ],
-    "foto": "pixabay:4294407",
-    "feed_link": "https://www.instagram.com/p/De4EaKqlc7f/",
-    "reel_link": "https://www.instagram.com/reel/De4Ebo2AOxl/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122111642259506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1682562796641688"
-  },
-  {
-    "date": "2026-10-24",
-    "series": "reels",
-    "title": "O orgulho que não admite erro",
-    "tema": "orgulho / humildade / admitir erro",
-    "versiculos": [
-      "Provérbios 16:18",
-      "Tiago 4:6"
-    ],
-    "reel_link": "https://www.instagram.com/reel/De5JCYWFfuL/",
-    "fb_reel_link": "https://www.facebook.com/reel/2187231425166907",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-25",
-    "series": "pergunta",
-    "title": "Se Cristo voltasse hoje, como Ele te encontraria?",
-    "tema": "volta de Cristo / vigilância no cotidiano",
-    "versiculos": [
-      "Mateus 24:42"
-    ],
-    "feed_link": "https://www.instagram.com/p/De6pUrqFSi6/",
-    "reel_link": "https://www.instagram.com/reel/De6pWrzCWxI/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122112152301506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1135813789365524"
-  },
-  {
-    "date": "2026-10-25",
-    "series": "reels",
-    "title": "Quando a oração não mudou nada (ainda)",
-    "tema": "alegria em Deus na dificuldade / fé quando nada muda",
-    "versiculos": [
-      "Habacuque 3:18"
-    ],
-    "formato": "curto 6 quadros 19s",
-    "reel_link": "https://www.instagram.com/reel/De7tx8tAWCp/",
-    "fb_reel_link": "https://www.facebook.com/reel/2175532509981256",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-26",
-    "series": "arquetipo",
-    "title": "Davi: o homem segundo o coração de Deus que caiu e se levantou",
-    "tema": "Davi, queda por ociosidade, confronto, arrependimento verdadeiro",
-    "versiculos": [
-      "2 Samuel 11",
-      "2 Samuel 12:7",
-      "Salmo 51:10"
-    ],
-    "feed_link": "https://www.instagram.com/p/De9OTSNoN1b/",
-    "reel_link": "https://www.instagram.com/reel/De9OV3GCUbz/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122112635793506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1801829121064985"
-  },
-  {
-    "date": "2026-10-26",
-    "series": "reels",
-    "title": "A comparação que apodrece por dentro",
-    "tema": "comparação / inveja nas redes",
-    "versiculos": [
-      "Provérbios 14:30"
-    ],
-    "formato": "curto 6 quadros 19s",
-    "reel_link": "https://www.instagram.com/reel/De-S2MejVhH/",
-    "fb_reel_link": "https://www.facebook.com/reel/1509430187735445",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
-  },
-  {
-    "date": "2026-10-27",
-    "series": "versiculo",
-    "title": "O que o SENHOR pede de ti, ó homem",
-    "tema": "justiça, misericórdia e humildade",
-    "versiculos": [
-      "Miqueias 6:8"
-    ],
-    "foto": "pixabay:6818253",
-    "feed_link": "https://www.instagram.com/p/De_zEgTEdnQ/",
-    "reel_link": "https://www.instagram.com/reel/De_zGclCM2s/",
-    "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122113185633506150",
-    "fb_reel_link": "https://www.facebook.com/reel/1891764985138844"
-  },
-  {
-    "date": "2026-10-27",
-    "series": "reels",
-    "title": "Prover não é só pagar as contas",
-    "tema": "homem provedor / cuidar da família além do dinheiro",
-    "versiculos": [
-      "1 Timóteo 5:8"
-    ],
-    "formato": "curto 6 quadros 19s",
-    "reel_link": "https://www.instagram.com/reel/DfA3ZvJjdW7/",
-    "fb_reel_link": "https://www.facebook.com/reel/1108274705391580",
-    "tiktok": "SELF_ONLY (privado, sandbox)"
+ {
+  "data": "2026-10-11",
+  "serie": "pergunta",
+  "titulo": "Se seu filho fizesse tudo o que você faz, ele seria um homem melhor?",
+  "tema": "paternidade, exemplo, integridade",
+  "versiculos": [],
+  "feed": "https://www.instagram.com/p/DeWltnpHETw/",
+  "reel": "https://www.instagram.com/reel/DeWlvrCiJ0-/"
+ },
+ {
+  "data": "2026-10-12",
+  "serie": "arquetipo",
+  "titulo": "Jacó: o homem que vive de esquema",
+  "tema": "manipulação, atalhos, quebrantamento",
+  "personagem": "Jacó",
+  "versiculos": [
+   "Gálatas 6:7",
+   "Gênesis 32:28"
+  ],
+  "feed": "https://www.instagram.com/p/DeZK-GwHOSQ/",
+  "reel": "https://www.instagram.com/reel/DeZK_wECZ_U/"
+ },
+ {
+  "data": "2026-10-13",
+  "serie": "versiculo",
+  "titulo": "Portai-vos varonilmente",
+  "tema": "vigilância, firmeza na fé, força com amor",
+  "versiculos": [
+   "1 Coríntios 16:13",
+   "1 Coríntios 16:14"
+  ],
+  "feed": "https://www.instagram.com/p/Debv0Y3FpfK/",
+  "reel": "https://www.instagram.com/reel/Debv1gKCfKf/",
+  "fb_feed": "https://www.facebook.com/122103158103506150/posts/122103158055506150",
+  "fb_reel": "https://www.facebook.com/reel/1898364277996789/"
+ },
+ {
+  "data": "2026-10-14",
+  "serie": "mito",
+  "titulo": "4 mentiras sobre ser homem",
+  "tema": "emoção, liderança servidora, comunhão, entrega no casamento",
+  "versiculos": [
+   "João 11:35",
+   "Marcos 10:43",
+   "Eclesiastes 4:9"
+  ],
+  "feed": "https://www.instagram.com/p/DeeUcqXnPJl/",
+  "reel": "https://www.instagram.com/reel/DeeUd0_jdxJ/",
+  "fb_feed": "https://www.facebook.com/122103158103506150/posts/122103566835506150",
+  "fb_reel": "https://www.facebook.com/reel/1163164126035383"
+ },
+ {
+  "data": "2026-10-14",
+  "serie": "reels",
+  "titulo": "Por que só força de vontade não vence a tentação",
+  "tema": "pureza, tentação, rendição diária, prestação de contas",
+  "versiculos": [
+   "Gálatas 5:16",
+   "1 Coríntios 10:13",
+   "Gênesis 39:12",
+   "Salmo 119:9",
+   "Tiago 5:16"
+  ],
+  "reel": "https://www.instagram.com/reel/DefYtttEjtr/",
+  "fb_reel": "https://www.facebook.com/reel/1823784305640140"
+ },
+ {
+  "data": "2026-10-15",
+  "serie": "frase",
+  "titulo": "O fogo que te queima hoje é o mesmo que te forja",
+  "tema": "provação, perseverança, sofrimento com propósito",
+  "versiculos": [
+   "Tiago 1:3"
+  ],
+  "feed": "https://www.instagram.com/p/Deg5KJ9oATM/",
+  "reel": "https://www.instagram.com/reel/Deg5Pd8DPQR/",
+  "fb_feed": "https://www.facebook.com/122103158103506150/posts/122104536417506150",
+  "fb_reel": "https://www.facebook.com/reel/1666017445069975"
+ },
+ {
+  "data": "2026-10-15",
+  "serie": "reels",
+  "titulo": "Antes de mais romance, seu casamento precisa de entrega",
+  "tema": "casamento, marido servo, oração a dois",
+  "versiculos": [
+   "Efésios 5:25",
+   "Colossenses 3:19",
+   "1 Pedro 3:7"
+  ],
+  "reel": "https://www.instagram.com/reel/Deh926_E5Kc/",
+  "fb_reel": "https://www.facebook.com/reel/2515160715671540"
+ },
+ {
+  "data": "2026-10-16",
+  "serie": "manual",
+  "titulo": "O devocional de 15 minutos",
+  "tema": "devocional, oração, disciplina espiritual, graça",
+  "versiculos": [
+   "Marcos 1:35",
+   "Salmo 5:3"
+  ],
+  "links": {
+   "instagram_feed": "https://www.instagram.com/p/DejeG37lWcQ/",
+   "instagram_reel": "https://www.instagram.com/reel/DejeIefCSpf/",
+   "facebook_post": "https://www.facebook.com/122103158103506150/posts/122105584017506150",
+   "facebook_reel": "https://www.facebook.com/reel/2509394336212231"
   }
+ },
+ {
+  "data": "2026-10-16",
+  "serie": "reels",
+  "titulo": "Perdoar não é fingir que não doeu",
+  "tema": "perdão, rancor, entregar a vingança a Deus, graça",
+  "versiculos": [
+   "Efésios 4:32",
+   "Romanos 12:19"
+  ],
+  "links": {
+   "instagram_reel": "https://www.instagram.com/reel/Deki5CwHeu7/",
+   "facebook_reel": "https://www.facebook.com/reel/2246381192602687",
+   "tiktok": "não publicado (conta pública, app ainda sem auditoria)"
+  }
+ },
+ {
+  "data": "2026-10-17",
+  "serie": "cena",
+  "titulo": "Neemias: o homem que reconstruiu o muro",
+  "tema": "Neemias, oração antes da ação, perseverança, foco na obra",
+  "versiculos": [
+   "Neemias 1:3-4",
+   "Neemias 4:17",
+   "Neemias 6:15",
+   "Neemias 6:3"
+  ],
+  "links": {
+   "instagram_feed": "https://www.instagram.com/p/DemCxluFRj8/",
+   "instagram_reel": "https://www.instagram.com/reel/DemCzSDlycH/",
+   "facebook_post": "https://www.facebook.com/122103158103506150/posts/122106600873506150",
+   "facebook_reel": "https://www.facebook.com/reel/3732782850192706"
+  }
+ },
+ {
+  "date": "2026-10-17",
+  "series": "reels",
+  "title": "Seu trabalho também é culto",
+  "tema": "trabalho",
+  "versiculos": [
+   "Gênesis 2:15",
+   "Colossenses 3:23"
+  ],
+  "reel_link": "https://www.instagram.com/reel/DenHlhMjPyI/",
+  "fb_reel_link": "https://www.facebook.com/reel/957152653670041",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-18",
+  "series": "pergunta",
+  "title": "De quem é a aprovação que você mais busca?",
+  "tema": "aprovação de Deus x aplauso dos homens",
+  "versiculos": [
+   "Gálatas 1:10"
+  ],
+  "feed_link": "https://www.instagram.com/p/DeonjmkG1_z/",
+  "reel_link": "https://www.instagram.com/reel/DeonlINk7kc/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122107551003506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1864112154945957"
+ },
+ {
+  "date": "2026-10-18",
+  "series": "reels",
+  "title": "Domingo à noite e a ansiedade da segunda",
+  "tema": "ansiedade",
+  "versiculos": [
+   "Filipenses 4:6",
+   "1 Pedro 5:7"
+  ],
+  "reel_link": "https://www.instagram.com/reel/DepvPt2CDYF/",
+  "fb_reel_link": "https://www.facebook.com/reel/1664183035375097",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-19",
+  "series": "arquetipo",
+  "title": "Sansão: o homem forte que não governava a si mesmo",
+  "tema": "domínio próprio",
+  "personagem": "Sansão",
+  "versiculos": [
+   "Juízes 16:20",
+   "Provérbios 16:32"
+  ],
+  "feed_link": "https://www.instagram.com/p/DerMhr1EXVd/",
+  "reel_link": "https://www.instagram.com/reel/DerMjsiEeX_/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122108443611506150",
+  "fb_reel_link": "https://www.facebook.com/reel/2184745529117530"
+ },
+ {
+  "date": "2026-10-19",
+  "series": "reels",
+  "title": "Coragem de falar a verdade, com amor",
+  "tema": "coragem / verdade em amor",
+  "versiculos": [
+   "Efésios 4:15",
+   "Josué 1:9"
+  ],
+  "reel_link": "https://www.instagram.com/reel/DesRasOFK-G/",
+  "fb_reel_link": "https://www.facebook.com/reel/1661083089070924",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-20",
+  "series": "versiculo",
+  "title": "Os que esperam no Senhor renovam as forças",
+  "tema": "cansaço / força renovada",
+  "versiculos": [
+   "Isaías 40:31"
+  ],
+  "foto": "pixabay:4385430",
+  "feed_link": "https://www.instagram.com/p/DetxJP7IENV/",
+  "reel_link": "https://www.instagram.com/reel/DetxLRJk4N9/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122109396507506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1442781637797702"
+ },
+ {
+  "date": "2026-10-20",
+  "series": "reels",
+  "title": "Ferro afia ferro: o homem precisa de amigos",
+  "tema": "amizade entre homens",
+  "versiculos": [
+   "Provérbios 27:17",
+   "Hebreus 10:24"
+  ],
+  "reel_link": "https://www.instagram.com/reel/Deu2B9IFLsC/",
+  "fb_reel_link": "https://www.facebook.com/reel/1111812171827654",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-21",
+  "series": "mito",
+  "title": "Um deslize não faz diferença?",
+  "tema": "pequenas concessões / santidade",
+  "versiculos": [
+   "Tiago 1:15",
+   "Lucas 16:10",
+   "Números 32:23",
+   "1 João 1:9"
+  ],
+  "feed_link": "https://www.instagram.com/p/DewWFBUkavP/",
+  "reel_link": "https://www.instagram.com/reel/DewWHKCimsU/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122109945963506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1642378534139966"
+ },
+ {
+  "date": "2026-10-21",
+  "series": "reels",
+  "title": "Dívida também é escravidão",
+  "tema": "finanças / dívidas",
+  "versiculos": [
+   "Provérbios 22:7",
+   "Mateus 6:21"
+  ],
+  "reel_link": "https://www.instagram.com/reel/Dexa2quAm8l/",
+  "fb_reel_link": "https://www.facebook.com/reel/2177100449893848",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-22",
+  "series": "frase",
+  "title": "Homem de palavra não precisa de contrato",
+  "tema": "integridade / cumprir a palavra",
+  "versiculos": [
+   "Mateus 5:37"
+  ],
+  "foto": "pixabay:3556090",
+  "feed_link": "https://www.instagram.com/p/Dey7GBtnCEU/",
+  "reel_link": "https://www.instagram.com/reel/Dey7PPGDryr/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122110585281506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1610607400811935"
+ },
+ {
+  "date": "2026-10-22",
+  "series": "reels",
+  "title": "Você está em casa. Mas sua família sabe disso?",
+  "tema": "presença do pai / celular em casa",
+  "versiculos": [
+   "Efésios 5:15-16"
+  ],
+  "reel_link": "https://www.instagram.com/reel/Dez_pC_oLi2/",
+  "fb_reel_link": "https://www.facebook.com/reel/1116371457919995",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-23",
+  "series": "manual",
+  "title": "Culto doméstico de 10 minutos",
+  "tema": "culto doméstico / pai que lidera a fé em casa",
+  "versiculos": [
+   "Deuteronômio 6:6-7",
+   "Josué 24:15"
+  ],
+  "feed_link": "https://www.instagram.com/p/De1fu5plZ2I/",
+  "reel_link": "https://www.instagram.com/reel/De1fxQhCMlp/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122111150601506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1953157428978842"
+ },
+ {
+  "date": "2026-10-23",
+  "series": "reels",
+  "title": "Paciente com o chefe. Explosivo com a família?",
+  "tema": "ira em casa / ouvir antes de falar",
+  "versiculos": [
+   "Tiago 1:19-20"
+  ],
+  "reel_link": "https://www.instagram.com/reel/De2keinD59V/",
+  "fb_reel_link": "https://www.facebook.com/reel/1648325980077336",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-24",
+  "series": "cena",
+  "title": "Daniel: o homem que não mudou de hábito diante dos leões",
+  "tema": "Daniel, fidelidade no hábito de oração, coragem",
+  "versiculos": [
+   "Daniel 1:8",
+   "Daniel 6:7",
+   "Daniel 6:10",
+   "Daniel 6:22"
+  ],
+  "foto": "pixabay:4294407",
+  "feed_link": "https://www.instagram.com/p/De4EaKqlc7f/",
+  "reel_link": "https://www.instagram.com/reel/De4Ebo2AOxl/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122111642259506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1682562796641688"
+ },
+ {
+  "date": "2026-10-24",
+  "series": "reels",
+  "title": "O orgulho que não admite erro",
+  "tema": "orgulho / humildade / admitir erro",
+  "versiculos": [
+   "Provérbios 16:18",
+   "Tiago 4:6"
+  ],
+  "reel_link": "https://www.instagram.com/reel/De5JCYWFfuL/",
+  "fb_reel_link": "https://www.facebook.com/reel/2187231425166907",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-25",
+  "series": "pergunta",
+  "title": "Se Cristo voltasse hoje, como Ele te encontraria?",
+  "tema": "volta de Cristo / vigilância no cotidiano",
+  "versiculos": [
+   "Mateus 24:42"
+  ],
+  "feed_link": "https://www.instagram.com/p/De6pUrqFSi6/",
+  "reel_link": "https://www.instagram.com/reel/De6pWrzCWxI/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122112152301506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1135813789365524"
+ },
+ {
+  "date": "2026-10-25",
+  "series": "reels",
+  "title": "Quando a oração não mudou nada (ainda)",
+  "tema": "alegria em Deus na dificuldade / fé quando nada muda",
+  "versiculos": [
+   "Habacuque 3:18"
+  ],
+  "formato": "curto 6 quadros 19s",
+  "reel_link": "https://www.instagram.com/reel/De7tx8tAWCp/",
+  "fb_reel_link": "https://www.facebook.com/reel/2175532509981256",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-26",
+  "series": "arquetipo",
+  "title": "Davi: o homem segundo o coração de Deus que caiu e se levantou",
+  "tema": "Davi, queda por ociosidade, confronto, arrependimento verdadeiro",
+  "versiculos": [
+   "2 Samuel 11",
+   "2 Samuel 12:7",
+   "Salmo 51:10"
+  ],
+  "feed_link": "https://www.instagram.com/p/De9OTSNoN1b/",
+  "reel_link": "https://www.instagram.com/reel/De9OV3GCUbz/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122112635793506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1801829121064985"
+ },
+ {
+  "date": "2026-10-26",
+  "series": "reels",
+  "title": "A comparação que apodrece por dentro",
+  "tema": "comparação / inveja nas redes",
+  "versiculos": [
+   "Provérbios 14:30"
+  ],
+  "formato": "curto 6 quadros 19s",
+  "reel_link": "https://www.instagram.com/reel/De-S2MejVhH/",
+  "fb_reel_link": "https://www.facebook.com/reel/1509430187735445",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-27",
+  "series": "versiculo",
+  "title": "O que o SENHOR pede de ti, ó homem",
+  "tema": "justiça, misericórdia e humildade",
+  "versiculos": [
+   "Miqueias 6:8"
+  ],
+  "foto": "pixabay:6818253",
+  "feed_link": "https://www.instagram.com/p/De_zEgTEdnQ/",
+  "reel_link": "https://www.instagram.com/reel/De_zGclCM2s/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122113185633506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1891764985138844"
+ },
+ {
+  "date": "2026-10-27",
+  "series": "reels",
+  "title": "Prover não é só pagar as contas",
+  "tema": "homem provedor / cuidar da família além do dinheiro",
+  "versiculos": [
+   "1 Timóteo 5:8"
+  ],
+  "formato": "curto 6 quadros 19s",
+  "reel_link": "https://www.instagram.com/reel/DfA3ZvJjdW7/",
+  "fb_reel_link": "https://www.facebook.com/reel/1108274705391580",
+  "tiktok": "SELF_ONLY (privado, sandbox)"
+ },
+ {
+  "date": "2026-10-28",
+  "series": "mito",
+  "title": "Descansar é coisa de preguiçoso?",
+  "tema": "descanso / excesso de trabalho / confiança na provisão de Deus",
+  "versiculos": [
+   "Marcos 6:31",
+   "Salmo 127:2",
+   "Eclesiastes 4:6",
+   "Mateus 11:28"
+  ],
+  "feed_link": "https://www.instagram.com/p/DfCYO3_FZB8/",
+  "reel_link": "https://www.instagram.com/reel/DfCYQlNiRxR/",
+  "fb_feed_link": "https://www.facebook.com/122103158103506150/posts/122113611333506150",
+  "fb_reel_link": "https://www.facebook.com/reel/1658520189006231"
+ }
 ]
