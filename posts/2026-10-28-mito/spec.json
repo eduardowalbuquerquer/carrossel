@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "Descansar é coisa de preguiçoso?",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MITO X VERDADE", "title": "\"Homem de verdade <em style=\"color:#C8892C\">não para</em>.\"", "body": "Preguiça é pecado. Mas trabalhar sem nunca parar também não é virtude.", "hint": "4 mentiras sobre descanso →"},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 01", "title": "\"Descanso é coisa de fraco.\"", "left": {"label": "MITO", "text": "Quem para está perdendo tempo."}, "right": {"label": "VERDADE", "text": "\"Vinde repousadamente, à parte, para um lugar deserto, e descansai um pouco.\" Marcos 6:31"}, "body": "Foi Jesus quem mandou os discípulos pararem."},
+    {"layout": "compare", "theme": "light", "tag": "MENTIRA 02", "title": "\"Se eu parar, tudo desaba.\"", "left": {"label": "MITO", "text": "A provisão da casa depende só de mim."}, "right": {"label": "VERDADE", "text": "\"Aos seus amados ele o dá enquanto dormem.\" Salmo 127:2"}, "body": "Você trabalha. Mas quem sustenta é Deus."},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 03", "title": "\"Mais horas, mais vida.\"", "left": {"label": "MITO", "text": "Mãos cheias valem qualquer preço."}, "right": {"label": "VERDADE", "text": "\"Melhor é um punhado de descanso do que ambas as mãos cheias de trabalho e correr atrás do vento.\" Eclesiastes 4:6"}, "body": "Tem homem rico de agenda e pobre de casa."},
+    {"layout": "big", "theme": "light", "big": "4", "tag": "A MAIS SUTIL", "title": "\"Descansar é só dormir mais.\"", "quote": {"text": "Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei.", "ref": "Mateus 11:28 · ARA"}, "body": "O cansaço da alma não sai no travesseiro. Sai aos pés de Cristo."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual dessas mentiras mais te prende hoje? Comente o número."}
+  ],
+  "caption": "Preguiça é pecado. Mas viver sem nunca parar também não é virtude.\n\n1. \"Descanso é coisa de fraco.\"\n2. \"Se eu parar, tudo desaba.\"\n3. \"Mais horas, mais vida.\"\n4. \"Descansar é só dormir mais.\"\n\nJesus responde a última: \"Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei\" (Mt 11:28).\n\nQual delas mais te prende? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #fecrista #forjadaalma #biblia #descanso",
+  "caption_facebook": "Muito homem cristão aprendeu que parar é fraqueza. Trabalha até tarde, leva o celular para a mesa, tira férias respondendo mensagem. E chama isso de responsabilidade.\n\nA Bíblia é clara contra a preguiça. Mas também é clara sobre o descanso. Jesus chamou os discípulos: \"Vinde repousadamente, à parte, para um lugar deserto, e descansai um pouco\" (Marcos 6:31). E o salmista lembra que a provisão vem de Deus: \"aos seus amados ele o dá enquanto dormem\" (Salmo 127:2).\n\nO descanso mais fundo não é dormir mais. É ir a Cristo: \"Vinde a mim, todos os que estais cansados e sobrecarregados, e eu vos aliviarei.\" (Mateus 11:28)\n\nQual dessas mentiras mais te prende hoje? Conta aqui.\n\n#homemcristao #forjadaalma #descanso",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ JÁ DISSE ISSO", "text": "\"Se eu parar, <em>tudo desaba</em>.\""},
+      {"kicker": "E TAMBÉM", "text": "\"Descanso é coisa de <em>fraco</em>.\""},
+      {"kicker": "MAS A Nº 4", "text": "é a que deixa o homem <em>cansado por dentro</em>."},
+      {"kicker": "4 MENTIRAS SOBRE DESCANSO", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "A mentira nº 4 é a que deixa o homem cansado por dentro. O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "A mentira nº 4 é a que deixa o homem cansado por dentro. O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
