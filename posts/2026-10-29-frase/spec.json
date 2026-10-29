@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "series": "frase",
+  "series_name": "Frase de Ferro",
+  "title": "Quem sabe para onde vai não se apega ao caminho",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 75%",
+      "tag": "FRASE DE FERRO",
+      "big": true,
+      "title": "Quem sabe para onde vai não se <em style=\"color:#E3B566\">apega ao caminho</em>.",
+      "body": "“Pois a nossa pátria está nos céus…” Filipenses 3:20 · ARA"
+    }
+  ],
+  "caption": "Carro, cargo, aplauso, conforto. Nada disso é ruim. Mas nada disso é casa.\n\n\"Pois a nossa pátria está nos céus, de onde também aguardamos o Salvador, o Senhor Jesus Cristo\" (Fp 3:20).\n\nO homem que sabe para onde vai trabalha firme aqui, mas não vende a alma pelo caminho.\n\nO que tem prendido seu coração aqui? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #homemcristao #masculinidadebiblica #fecrista #forjadaalma #fraseforte",
+  "caption_facebook": "Tem homem que vive como se esta vida fosse tudo. Corre atrás do próximo carro, do próximo cargo, do próximo aplauso. E quando consegue, descobre que o vazio continua lá.\n\nPaulo lembrou à igreja de Filipos: \"Pois a nossa pátria está nos céus, de onde também aguardamos o Salvador, o Senhor Jesus Cristo\" (Filipenses 3:20).\n\nIsso não é desculpa para largar o trabalho ou a família. É o contrário: quem sabe para onde vai trabalha firme aqui, mas não vende a alma pelo caminho.\n\nO que tem prendido seu coração aqui? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "FRASE DE FERRO", "text": "Carro, cargo, aplauso. Nada disso é <em>casa</em>."},
+      {"kicker": "O HOMEM QUE SABE", "text": "para onde vai não vende a alma <em>pelo caminho</em>."},
+      {"kicker": "A FRASE DE HOJE", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Carro, cargo, aplauso. Nada disso é casa. A frase de hoje está no perfil 👆\n\n#homemdedeus #forjadaalma #homemcristao #fraseforte",
+    "caption_facebook": "Carro, cargo, aplauso. Nada disso é casa. A frase de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
