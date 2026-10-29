@@ -15,7 +15,11 @@
       },
       "v2": {
         "roteiro": 16,
-        "pasta": "r16-rotativo-442"
+        "pasta": "r16-rotativo-442",
+        "publicado_em": "2026-10-29T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
       }
     },
     {
