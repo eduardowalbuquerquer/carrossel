@@ -26,7 +26,13 @@
       "dia": 5,
       "v1": {
         "roteiro": 10,
-        "pasta": "r10-ordem-cartoes"
+        "pasta": "r10-ordem-cartoes",
+        "publicado_em": "2026-10-30T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfH2m7Ale1U/",
+          "yt": "https://youtube.com/shorts/P9YvQN0mnm4",
+          "tt": "rascunho no app (Sandbox)"
+        }
       },
       "v2": {
         "roteiro": 5,
