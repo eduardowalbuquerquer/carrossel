@@ -36,7 +36,11 @@
       },
       "v2": {
         "roteiro": 5,
-        "pasta": "r05-antes-de-gastar"
+        "pasta": "r05-antes-de-gastar",
+        "publicado_em": "2026-10-30T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
       }
     },
     {
