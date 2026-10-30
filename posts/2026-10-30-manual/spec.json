@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Como guardar a Bíblia na memória",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MANUAL DO HOMEM", "title": "Como guardar a Bíblia na memória em <em style=\"color:#C8892C\">5 minutos</em> por dia.", "body": "Na hora da tentação, não dá tempo de procurar o versículo no celular.", "hint": "Salve e comece hoje →"},
+    {"layout": "text", "theme": "dark", "tag": "A RAZÃO", "title": "Jesus venceu a tentação com a Palavra que já trazia no coração.", "quote": {"text": "…Está escrito: Não só de pão viverá o homem, mas de toda palavra que procede da boca de Deus.", "ref": "Mateus 4:4 · ARA"}, "body": "Três ataques no deserto. Três respostas: \"está escrito\"."},
+    {"layout": "list", "theme": "light", "tag": "PASSO A PASSO · PARTE 1", "title": "Comece pela manhã", "items": [
+      {"num": "01", "title": "Um versículo por semana", "desc": "Curto, e que fale da sua luta de agora."},
+      {"num": "02", "title": "Escreva à mão num cartão", "desc": "Texto de um lado, referência do outro."},
+      {"num": "03", "title": "Leia em voz alta 3 vezes", "desc": "Ao acordar, antes de pegar o celular."}
+    ]},
+    {"layout": "list", "theme": "dark", "tag": "PASSO A PASSO · PARTE 2", "title": "Use o resto do dia", "items": [
+      {"num": "04", "title": "Repita nos tempos mortos", "desc": "Fila, trânsito, banho. Tire o cartão do bolso."},
+      {"num": "05", "title": "Recite para alguém no sábado", "desc": "Esposa, filho ou um irmão. Isso fixa e encoraja."}
+    ]},
+    {"layout": "text", "theme": "light", "tag": "COMECE POR ESTE", "title": "Seu primeiro versículo da lista:", "quote": {"text": "Guardo no coração as tuas palavras, para não pecar contra ti.", "ref": "Salmo 119:11 · ARA"}, "body": "Um por semana são 52 por ano. Esqueceu? Volte ao cartão. Constância, não perfeição."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda sexta: o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual será o seu versículo desta semana? Comente e envie para um irmão."}
+  ],
+  "caption": "Na hora da tentação, não dá tempo de procurar o versículo no celular. Jesus respondeu ao diabo com \"está escrito\" (Mt 4:4).\n\n5 passos, 5 minutos por dia. Comece por este: \"Guardo no coração as tuas palavras, para não pecar contra ti\" (Sl 119:11).\n\nQual será o seu versículo desta semana? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #biblia #homemcristao #masculinidadebiblica #forjadaalma #palavradedeus #devocional",
+  "caption_facebook": "Muitos homens leem a Bíblia, mas na hora da pressão não lembram de nada. A tentação chega no trânsito, no escritório, no celular à noite, e não dá tempo de procurar o versículo.\n\nNo deserto, Jesus respondeu às três tentações com a Palavra que trazia no coração: \"Está escrito: Não só de pão viverá o homem, mas de toda palavra que procede da boca de Deus.\" (Mateus 4:4)\n\nMontamos um método simples de 5 minutos por dia: um versículo por semana, escrito à mão num cartão, lido em voz alta ao acordar, repetido nos tempos mortos e recitado para alguém no fim da semana. Comece por este: \"Guardo no coração as tuas palavras, para não pecar contra ti.\" (Salmo 119:11)\n\nQual versículo você sabe de cor hoje? Conta aqui.\n\n#homemcristao #forjadaalma #biblia",
+  "reel": {
+    "frames": [
+      {"kicker": "SEJA SINCERO", "text": "Quantos versículos você sabe <em>de cor</em>?"},
+      {"kicker": "NA HORA DA TENTAÇÃO", "text": "não dá tempo de procurar no <em>celular</em>."},
+      {"kicker": "5 MINUTOS. 5 PASSOS.", "text": "O método está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Quantos versículos você sabe de cor? O método de 5 minutos por dia está no perfil 👆\n\n#homemdedeus #forjadaalma #biblia #homemcristao",
+    "caption_facebook": "Quantos versículos você sabe de cor? O método de 5 minutos por dia está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
