@@ -57,7 +57,11 @@
       },
       "v2": {
         "roteiro": 17,
-        "pasta": "r17-limite-lei"
+        "pasta": "r17-limite-lei",
+        "publicado_em": "2026-10-31T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
       }
     },
     {
