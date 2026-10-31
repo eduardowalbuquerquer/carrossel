@@ -47,7 +47,13 @@
       "dia": 6,
       "v1": {
         "roteiro": 3,
-        "pasta": "r03-casal-5mil"
+        "pasta": "r03-casal-5mil",
+        "publicado_em": "2026-10-31T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfKZgnWkTT1/",
+          "yt": "https://youtube.com/shorts/OHBH14RQ0Ts",
+          "tt": "rascunho no app (Sandbox)"
+        }
       },
       "v2": {
         "roteiro": 17,
