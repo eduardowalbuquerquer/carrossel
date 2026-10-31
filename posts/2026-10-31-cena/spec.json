@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-31",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Gideão: o homem que se achava o menor",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 40%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "Ele se escondia para malhar trigo. Deus o chamou de <em style=\"color:#E3B566\">homem valente</em>.",
+      "body": "Gideão: o homem que se achava o menor da casa."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CENÁRIO",
+      "title": "Um povo oprimido. Um homem com medo.",
+      "body": "Os midianitas saqueavam Israel a cada colheita. Gideão malhava o trigo escondido no lagar, para que não o vissem (Juízes 6:11). Foi ali que o Anjo do SENHOR o encontrou."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A DESCULPA",
+      "title": "\"Eu sou o menor.\"",
+      "quote": {
+        "text": "…Eis que a minha família é a mais pobre em Manassés, e eu, o menor na casa de meu pai.",
+        "ref": "Juízes 6:15 · ARA"
+      },
+      "body": "Deus não discutiu o currículo. Respondeu com a sua presença: \"Já que eu estou contigo\" (Juízes 6:16)."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "Deus tirou o exército dele para que a glória <em style=\"color:#E3B566\">fosse só de Deus</em>.",
+      "quote": {
+        "text": "…Israel se poderia gloriar contra mim, dizendo: A minha própria mão me livrou.",
+        "ref": "Juízes 7:2 · ARA"
+      },
+      "body": "De 32 mil, ficaram 300. Sua fraqueza não impede Deus. Seu orgulho, sim. Onde você tem dito \"eu sou o menor\"?"
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Em que área você se sente \"o menor\"? Conte nos comentários."
+    }
+  ],
+  "caption": "Ele se escondia para malhar trigo. Deus o chamou de \"homem valente\" (Jz 6:12).\n\nGideão se achava o menor. Deus não discutiu o currículo: deu a sua presença. E reduziu o exército para que a glória fosse só dele.\n\nEm que área você se sente \"o menor\"? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#gideao #homensdabiblia #homemdedeus #homemcristao #forjadaalma #biblia #coragem",
+  "caption_facebook": "Gideão vivia num tempo de medo. Os midianitas saqueavam Israel a cada colheita, e ele malhava o trigo escondido no lagar para não ser visto. Foi ali que o Anjo do SENHOR apareceu e disse: \"O SENHOR é contigo, homem valente\" (Juízes 6:12).\n\nGideão respondeu com a desculpa que muitos de nós usamos: \"a minha família é a mais pobre em Manassés, e eu, o menor na casa de meu pai\" (Juízes 6:15). Deus não discutiu. Prometeu estar com ele. Depois, reduziu o exército de 32 mil para 300 homens, para que ninguém dissesse \"a minha própria mão me livrou\" (Juízes 7:2).\n\nSua fraqueza não impede Deus. Em que área você tem dito \"eu sou o menor\"? Conta aqui.\n\n#gideao #homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "Ele se escondia para <em>malhar trigo</em>."},
+      {"kicker": "DEUS O CHAMOU DE", "text": "<em>homem valente</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele se escondia para malhar trigo, e Deus o chamou de homem valente. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "Ele se escondia para malhar trigo, e Deus o chamou de homem valente. Quem era ele? A história está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
