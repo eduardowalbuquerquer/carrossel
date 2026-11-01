@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-01",
+  "series": "reels",
+  "series_name": "Reels da Noite",
+  "title": "Crer ou confiar?",
+  "slides": [],
+  "reel": {
+    "image": "img/foto.jpg",
+    "scene_seconds": 3.0,
+    "last_seconds": 4.2,
+    "cover_scene": 0,
+    "frames": [
+      {"kicker": "REELS DA NOITE", "text": "Amanhã é segunda. Você <em>crê</em> em Deus ou <em>confia</em> nele?"},
+      {"kicker": "A DIFERENÇA", "text": "Crer é concordar que Ele existe. Confiar é <em>descansar</em> nele."},
+      {"kicker": "PROVÉRBIOS 3:5 · ARA", "text": "“Confia no SENHOR de todo o teu coração e <em>não te estribes</em> no teu próprio entendimento.”"},
+      {"kicker": "O ERRO COMUM", "text": "Ir para a cama com a semana inteira <em>nas costas</em>."},
+      {"kicker": "HOJE À NOITE", "text": "Diga a Deus o que te preocupa e entregue <em>um por um</em>."},
+      {"kicker": "LEMBRE", "text": "Você não precisa ter todas as respostas. Precisa confiar <em>em quem tem</em>.", "cta": "Siga @forjadaalma.oficial"}
+    ],
+    "caption": "Amanhã é segunda. Você crê em Deus ou confia nele?\n\n\"Confia no SENHOR de todo o teu coração e não te estribes no teu próprio entendimento.\" (Pv 3:5)\n\nHoje à noite, entregue as preocupações da semana uma por uma.\n\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #homemcristao #confianca #fe #forjadaalma #biblia",
+    "caption_facebook": "Domingo à noite costuma ser pesado. A semana ainda nem começou e a cabeça já está cheia: contas, trabalho, decisões, família.\n\nMuitos de nós cremos em Deus, mas não confiamos nele. Crer é concordar que Ele existe. Confiar é descansar nele quando não temos as respostas. Salomão escreveu: \"Confia no SENHOR de todo o teu coração e não te estribes no teu próprio entendimento.\" (Provérbios 3:5)\n\nHoje à noite, diga a Deus o que te preocupa e entregue uma coisa por vez. Você não precisa ter todas as respostas. Precisa confiar em quem tem.\n\nO que mais pesa na sua semana? Conta aqui.\n\n#homemcristao #forjadaalma",
+    "caption_tiktok": "Crer em Deus ou confiar nele? Provérbios 3:5 para domingo à noite #homemcristao #fe #biblia #confianca #forjadaalma"
+  }
+}
