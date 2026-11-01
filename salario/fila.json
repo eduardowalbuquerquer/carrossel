@@ -68,7 +68,13 @@
       "dia": 7,
       "v1": {
         "roteiro": 12,
-        "pasta": "r12-pare-minimo"
+        "pasta": "r12-pare-minimo",
+        "publicado_em": "2026-11-01T11:44-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfM-TrSAule/",
+          "yt": "https://youtube.com/shorts/YxHP9xGr7Sk",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703213834013625621 (Buffer)"
+        }
       },
       "v2": {
         "roteiro": 7,
