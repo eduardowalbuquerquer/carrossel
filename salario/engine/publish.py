@@ -14,12 +14,16 @@ Ambiente:
   SO_TT_CLIENT_KEY, SO_TT_CLIENT_SECRET      chaves do Sandbox do app Forja (ou TIKTOK_CLIENT_KEY/SECRET); token em SEGREDOS/tiktok_tokens.json
   PAGES_REPO_DIR, PAGES_BASE_URL             repositório público com GitHub Pages (o Instagram baixa o vídeo de lá)
   SO_SEGREDOS                                pasta dos tokens (padrão /mnt/project-files/canais/automacao/.segredos)
-  SO_TIKTOK_MODO                             inbox (padrão: rascunho na caixa de entrada) ou direct (só após a auditoria)
+  SO_BUFFER_KEY                              chave da API do Buffer (grátis): o Buffer publica no TikTok de forma pública
+  SO_TIKTOK_MODO                             buffer (padrão se houver SO_BUFFER_KEY) ou inbox (rascunho na caixa de entrada).
+                                             O TikTok recusou a auditoria do app Forja (01/11/2026), então "direct" não funciona.
+                                             Se o Buffer falhar, o vídeo cai no rascunho (plano B) automaticamente.
 
 Docs:
   https://developers.facebook.com/docs/instagram-platform/content-publishing
   https://developers.google.com/youtube/v3/guides/using_resumable_upload_protocol
   https://developers.tiktok.com/doc/content-posting-api-reference-upload-video
+  https://developers.buffer.com/guides/getting-started.html (GraphQL em https://api.buffer.com)
 """
 import json, os, secrets, subprocess, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
@@ -27,6 +31,7 @@ from pathlib import Path
 SEGREDOS = Path(os.environ.get("SO_SEGREDOS", "/mnt/project-files/canais/automacao/.segredos"))
 IG = "https://graph.instagram.com"
 TT = "https://open.tiktokapis.com/v2"
+BUFFER = "https://api.buffer.com"
 YT_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 REDIRECT_YT = "http://localhost"
 REDIRECT_TT = os.environ.get("SO_TT_REDIRECT", "https://eduardowalbuquerquer.github.io/carrossel/tiktok.html")
@@ -158,7 +163,59 @@ def tt(path, payload):
     return r.get("data", {})
 
 
+def buffer(query, variables=None):
+    r = http(BUFFER, json.dumps({"query": query, "variables": variables or {}}).encode(),
+             {"Authorization": f"Bearer {env('SO_BUFFER_KEY')}", "Content-Type": "application/json"}, "POST")[0]
+    if r.get("errors"):
+        raise SystemExit(f"Erro no Buffer: {r['errors']}")
+    return r["data"]
+
+
+def buffer_tiktok_channel():
+    for org in buffer("{ account { organizations { id } } }")["account"]["organizations"]:
+        q = "query($o: OrganizationId!) { channels(input: {organizationId: $o}) { id service } }"
+        for c in buffer(q, {"o": org["id"]})["channels"]:
+            if c["service"] == "tiktok":
+                return c["id"]
+    raise SystemExit("Nenhum canal do TikTok conectado no Buffer")
+
+
+BUFFER_CREATE = """mutation($i: CreatePostInput!) { createPost(input: $i) {
+  __typename ... on PostActionSuccess { post { id status externalLink } } ... on MutationError { message } } }"""
+
+
+def publish_tt_buffer(post_dir, spec, draft=False):
+    """Manda o vídeo ao Buffer, que publica no TikTok na hora (modo automático, conta pessoal)."""
+    urls = host(post_dir, ["video_tt.mp4"])
+    i = {"channelId": buffer_tiktok_channel(), "text": spec["captions"]["tt"][:2200], "mode": "shareNow",
+         "schedulingType": "automatic", "needsApproval": False, "source": "salario-organizado",
+         "assets": [{"video": {"url": urls["video_tt.mp4"], "metadata": {"thumbnailOffset": 600}}}],
+         "metadata": {"tiktok": {"isAiGenerated": os.environ.get("SO_TT_IA", "0") == "1"}}}
+    if draft:
+        i["saveToDraft"] = True
+    r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
+    if r["__typename"] != "PostActionSuccess":
+        raise SystemExit(f"Buffer recusou o post ({r['__typename']}): {r.get('message')}")
+    post = r["post"]
+    if draft:
+        return post["id"], post["status"], None
+    q = "query($i: PostId!) { post(input: {id: $i}) { status externalLink error { message } } }"
+    for _ in range(36):  # até ~6 min para o Buffer enviar ao TikTok
+        if post.get("status") in ("sent", "error"):
+            break
+        time.sleep(10)
+        post = buffer(q, {"i": r["post"]["id"]})["post"]
+    if post.get("status") == "error":
+        raise SystemExit(f"Buffer não conseguiu publicar no TikTok: {post.get('error')}")
+    return r["post"]["id"], f"BUFFER_{(post.get('status') or 'enviado').upper()}", post.get("externalLink")
+
+
 def publish_tt(post_dir, spec):
+    if os.environ.get("SO_TIKTOK_MODO", "buffer" if env("SO_BUFFER_KEY") else "inbox") == "buffer":
+        try:
+            return publish_tt_buffer(post_dir, spec)
+        except SystemExit as e:  # plano B: rascunho na caixa de entrada do app
+            print(f"AVISO tt: Buffer falhou, enviando como rascunho. {e}")
     video = post_dir / "video_tt.mp4"
     size = video.stat().st_size
     src = {"source": "FILE_UPLOAD", "video_size": size, "chunk_size": size, "total_chunk_count": 1}
@@ -215,7 +272,7 @@ def check():
         out["instagram"] = ig("GET", "me", fields="user_id,username,account_type")
     except SystemExit as e:
         out["instagram"] = str(e)
-    for k, f in (("youtube", yt_token), ("tiktok", tt_token)):
+    for k, f in (("youtube", yt_token), ("tiktok", tt_token)) + ((("buffer", buffer_tiktok_channel),) if env("SO_BUFFER_KEY") else ()):
         try:
             f(); out[k] = "ok"
         except SystemExit as e:

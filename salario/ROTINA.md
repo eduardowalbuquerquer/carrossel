@@ -30,10 +30,11 @@ Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLI
 3. **Renderizar.** Se a pasta já tem `video_ig.mp4` narrado (os 8 da semana 1 já têm, com a voz aprovada), pule para o passo 4. Senão: `python3 render_video.py ../posts/<pasta>/spec.json` (gera `video_ig.mp4`, `video_tt.mp4`, `video_yt.mp4` e `capa.jpg`; voz Gemini TTS grátis, trilha própria sem direitos autorais, áudio normalizado em -14 LUFS).
 4. **Conferir.** Extraia 4 quadros (`ffmpeg -ss <t> -i video_ig.mp4 -frames:v 1 q.png`) e veja: texto cortado, legenda sobre o conteúdo, português, soma dos números. Ouça a duração: se `narração não` aparecer na saída, a voz falhou; avise antes de publicar.
 5. **Publicar.** v1: `python3 publish.py ../posts/<pasta>`; v2: `python3 publish.py ../posts/<pasta> --so tt`. É idempotente (`resultado.json`).
-   - TikTok: enquanto o app não for auditado, o vídeo chega como **rascunho** na caixa de entrada do app do TikTok. Avise o Eduardo: "abrir o TikTok, tocar na notificação, colar a legenda de `legendas`, publicar".
+   - TikTok: publica **pelo Buffer** (plano grátis, modo automático, conta pessoal; limite 25 posts/dia), usando `SO_BUFFER_KEY`. O TikTok recusou a auditoria do app próprio em 01/11/2026, então a publicação direta não existe.
+   - Se o Buffer falhar, o `publish.py` manda o vídeo como **rascunho** (plano B) e `tt_status` fica `SEND_TO_USER_INBOX`. Só nesse caso avise o Eduardo: "abrir o TikTok, tocar na notificação, colar a legenda de `legendas`, publicar", junto com o aviso de erro do Buffer.
 6. **Registrar.** Em `../fila.json` grave `publicado_em` e os links do `resultado.json`. Commit e push.
 7. **Comentários.** Na rotina das 12h, responda à mão (texto curto e humano) comentários que não sejam PLANILHA, se houver acesso; nunca prometa o que o produto não faz.
-8. **Token.** Dias 1 e 15: `python3 publish.py --refresh-token`. `python3 publish.py --check` mostra o estado das 3 redes.
+8. **Token.** Dias 1 e 15: `python3 publish.py --refresh-token`. `python3 publish.py --check` mostra o estado das 3 redes e do Buffer.
 9. **Falhas.** Nunca invente resultado. Se uma rede falhar, as outras seguem; avise o Eduardo com o erro exato e o que ele precisa fazer.
 
 ## Depois do dia 14
