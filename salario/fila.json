@@ -88,7 +88,14 @@
   {
    "dia": 8,
    "v1": {
-    "roteiro": 2
+    "roteiro": 2,
+    "pasta": "r02-salario-minimo",
+    "publicado_em": "2026-11-02T13:18-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfPtxmjj-wm/",
+     "yt": "https://youtube.com/shorts/2OSiYjglv2Q",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7703609027304901909 (Buffer)"
+    }
    },
    "v2": {
     "roteiro": 18
