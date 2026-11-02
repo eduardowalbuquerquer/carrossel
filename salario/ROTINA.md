@@ -9,7 +9,8 @@ Tudo serve ao cronograma do Projeto 10K: `/mnt/project-files/canais/plano-lancam
 2. **Números verdadeiros:** dado de mercado só com fonte na tela (`source`), conferida em fonte oficial (Banco Central, planalto.gov.br, CNC). Data de quitação só se calculada; nunca chutada. Cenários ("ganho R$ 2.300") somam certo: confira a conta antes de renderizar.
 3. **Sem recomendação de investimento específico** (CVM). Fale de organização, dívida e hábito.
 4. **Persuasão em toda peça:** gancho nos 3 primeiros segundos (número concreto, dor ou curiosidade), problema, prova (número/conta na tela), virada (solução simples), CTA da plataforma. Legenda: 1ª linha = gancho; pedir comentário (PLANILHA) e compartilhamento.
-5. **CTA por rede** (vem pronto de `engine/brand.py`): Instagram "Comenta PLANILHA" (a Zorcha manda a mini-planilha no direct); TikTok "Comenta PLANILHA no nosso Instagram @salario.organizado" (até 1.000 seguidores); YouTube "link no perfil".
+5. **CTA por rede** (vem pronto de `engine/brand.py`): Instagram "Comenta PLANILHA" (a Zorcha manda a mini-planilha no direct); TikTok "Comenta PLANILHA aqui" + endereço salarioorganizado.netlify.app/mini escrito na tela e na legenda (conta pessoal não permite resposta automática; link clicável só com 1.000 seguidores); YouTube "link no perfil".
+6. **Gancho:** siga `ganchos.md` (número grande no 1º quadro com `hook.value`, 1ª fala até 12 palavras, resposta até 10 s, 25 a 35 s no total). Sem `tag` nem "olha o porquê".
 
 ## Ambiente
 ```
@@ -23,9 +24,9 @@ Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLI
 ## Passo a passo
 1. **Qual vídeo.** Leia `../fila.json`: primeiro item com o slot de agora (v1 ao meio-dia, v2 à noite) sem `publicado_em`.
 2. **Roteiro.** Se o item já tem `pasta` com `spec.json`, use. Senão, escreva `../posts/rNN-<tema>/spec.json` a partir da linha do roteiro no plano, no formato de `../posts/r01-salario-2300/spec.json`:
-   - cenas: `hook`, `list` (renda + gastos; a soma mostra sobra/falta), `number` (valor grande + `source`), `compare` (de → para), `steps` (até 3 itens), `cta`. Sempre começa em `hook` e termina em `cta`.
+   - cenas: `hook` (com `value`, `value_label`, `tone`; ver `ganchos.md`), `list` (renda + gastos; a soma mostra sobra/falta), `number` (valor grande + `source`), `compare` (de → para), `steps` (até 3 itens), `cta`. Sempre começa em `hook` e termina em `cta`.
    - `say` de cada cena = a narração (frases curtas, números por extenso quando a voz tropeçar). 25 a 40 s no total.
-   - `captions`: `ig`, `tt`, `yt_title` (até 60 caracteres + #shorts), `yt_desc` (com o link do site e utm_source=youtube).
+   - `captions`: `ig`, `tt` (termina com "Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini"), `yt_title` (até 60 caracteres + #shorts), `yt_desc` (com o link do site e utm_source=youtube).
    - Pauta nova: antes, veja o que está funcionando nos perfis de `../referencias.md` e escreva **com palavras nossas**; nunca copie roteiro, frase ou arte.
 3. **Renderizar.** Se a pasta já tem `video_ig.mp4` narrado (os 8 da semana 1 já têm, com a voz aprovada), pule para o passo 4. Senão: `python3 render_video.py ../posts/<pasta>/spec.json` (gera `video_ig.mp4`, `video_tt.mp4`, `video_yt.mp4` e `capa.jpg`; voz Gemini TTS grátis, trilha própria sem direitos autorais, áudio normalizado em -14 LUFS).
 4. **Conferir.** Extraia 4 quadros (`ffmpeg -ss <t> -i video_ig.mp4 -frames:v 1 q.png`) e veja: texto cortado, legenda sobre o conteúdo, português, soma dos números. Ouça a duração: se `narração não` aparecer na saída, a voz falhou; avise antes de publicar.

@@ -1,0 +1,54 @@
+{
+ "id": "r20-gastos-invisiveis",
+ "roteiro": 20,
+ "pilar": "salarios",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Some todo mês",
+   "value": "R$ 443",
+   "tone": "red",
+   "title": "do seu salário. E você <em>nem percebe</em>.",
+   "say": "443 reais somem do seu salário todo mês. E você nem percebe."
+  },
+  {
+   "type": "steps",
+   "title": "Os 3 ralos",
+   "items": [
+    "<b>3 assinaturas</b> esquecidas: R$&nbsp;95",
+    "<b>Taxa de entrega</b>: 12 pedidos × R$&nbsp;9 = R$&nbsp;108",
+    "<b>Parcelinhas</b>: 4 de R$&nbsp;60 = R$&nbsp;240"
+   ],
+   "say": "Assinaturas esquecidas, 95 reais. Taxa de entrega, 108. Parcelinhas, 240."
+  },
+  {
+   "type": "number",
+   "label": "Em 12 meses",
+   "value": "R$ 5.316",
+   "tone": "red",
+   "text": "R$&nbsp;443 por mês, vezes 12. Sem nenhuma compra grande.",
+   "say": "Em um ano, 5.316 reais."
+  },
+  {
+   "type": "steps",
+   "title": "Faça hoje",
+   "items": [
+    "Cancele o que você não usou no último mês",
+    "Junte os pedidos ou retire no local",
+    "Nenhuma parcela nova até a última acabar"
+   ],
+   "say": "Cancele o que não usou. Junte os pedidos. E nenhuma parcela nova."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar os ralos <em>do seu</em> salário?",
+   "say": "Quer achar os ralos do seu salário?"
+  }
+ ],
+ "captions": {
+  "ig": "R$ 443 somem do seu salário todo mês. E você nem percebe 👇\n\n3 assinaturas esquecidas (R$ 95) + taxa de entrega de 12 pedidos (R$ 108) + 4 parcelinhas de R$ 60 (R$ 240). Em um ano: R$ 5.316.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive dizendo que o salário some 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dinheiro #salario",
+  "tt": "R$ 443 somem do seu salário todo mês 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #salario",
+  "yt_title": "R$ 443 somem do seu salário todo mês #shorts",
+  "yt_desc": "Assinaturas esquecidas, taxa de entrega e parcelinhas: R$ 443 por mês, R$ 5.316 por ano (exemplo).\n\nMini-planilha grátis: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dinheiro"
+ }
+}
