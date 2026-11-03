@@ -1,0 +1,29 @@
+{
+  "id": "r06-aluguel-metade",
+  "roteiro": 6,
+  "pilar": "salarios-reais",
+  "scenes": [
+    {"type": "hook", "tag": "Salários reais #6", "title": "Ganho R$ 1.800 e pago <em>R$ 900 de aluguel.</em> Tem saída?", "sub": "Metade do salário na casa 👇",
+     "say": "Ganho mil e oitocentos e pago novecentos de aluguel. Tem saída? Fiz a conta."},
+    {"type": "list", "cap": "Uma pessoa, morando sozinha:", "cap_hot": "O aluguel leva metade da renda.", "renda": 1800, "renda_label": "Salário líquido",
+     "items": [["Aluguel", 900], ["Mercado", 450], ["Luz, água e gás", 150], ["Transporte", 160], ["Celular e internet", 80], ["Farmácia", 50]],
+     "hot": "Aluguel", "step": 0.85,
+     "say": "Aluguel, mercado, luz, água e gás, transporte, celular e farmácia. Vamos ver o que sobra."},
+    {"type": "number", "label": "Sobra no mês", "value": "R$ 10", "tone": "red",
+     "text": "Gastos de R$&nbsp;1.790 com R$&nbsp;1.800 de salário. Não cabe nenhum imprevisto.",
+     "say": "Sobram dez reais. Não cabe nenhum imprevisto."},
+    {"type": "compare", "label": "Moradia na renda", "value": "50%", "text": "Se a casa caísse para 40%…",
+     "from": "R$ 900", "to": "R$ 720", "after": "sobrariam R$ 190 por mês.",
+     "say": "A casa leva metade da renda. Se caísse para quarenta por cento, setecentos e vinte reais, sobrariam cento e noventa por mês."},
+    {"type": "steps", "title": "A virada",
+     "items": ["Casa acima de <b>30% a 40%</b>: o resto precisa ser <b>milimetrado</b>.", "Teto para cada gasto, <b>anotado</b>.", "Revise o mercado <b>toda semana</b>."],
+     "say": "Quando a casa passa de trinta a quarenta por cento, o resto precisa ser milimetrado. Teto para cada gasto, e o mercado revisado toda semana."},
+    {"type": "cta", "title": "Quanto a casa leva do <em>seu</em> salário?", "say": "Quer saber quanto a casa leva do seu salário?"}
+  ],
+  "captions": {
+    "ig": "Ganho R$ 1.800 e pago R$ 900 de aluguel. Tem saída? Fiz a conta 👇\n\nAluguel, mercado, contas, transporte, celular e farmácia: R$ 1.790. Sobram R$ 10.\nSe a moradia caísse para 40% da renda (R$ 720), sobrariam R$ 190 por mês.\n\nQuando a casa passa de 30% a 40% do salário, o resto precisa ser milimetrado: teto para cada gasto e mercado revisado toda semana.\n\nQuer saber quanto a casa leva do seu salário? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem paga aluguel caro 👀\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #aluguel #dividas #educacaofinanceira",
+    "tt": "Ganho R$ 1.800 e pago R$ 900 de aluguel: sobram R$ 10. Tem saída? 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #aluguel #financaspessoais #organizacaofinanceira #dinheiro #salario",
+    "yt_title": "Ganho R$ 1.800 e pago R$ 900 de aluguel. Tem saída? #shorts",
+    "yt_desc": "Fiz a conta de um salário de R$ 1.800 com aluguel de R$ 900 (50% da renda): sobram R$ 10. Com a moradia em 40% (R$ 720), sobrariam R$ 190. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #aluguel"
+  }
+}
