@@ -109,7 +109,14 @@
   {
    "dia": 9,
    "v1": {
-    "roteiro": 11
+    "roteiro": 11,
+    "pasta": "r11-neve-avalanche",
+    "publicado_em": "2026-11-03T12:10-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfSKotEj9jF/",
+     "yt": "https://youtube.com/shorts/3ZioTnYwhqY",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7703962339833416978 (Buffer)"
+    }
    },
    "v2": {
     "roteiro": 6
