@@ -2,7 +2,7 @@
 
 Uso:
   python3 publish.py ../posts/<pasta>                 # publica onde ainda não saiu (idempotente via resultado.json)
-  python3 publish.py ../posts/<pasta> --so ig,yt      # só algumas redes
+  python3 publish.py ../posts/<pasta> --so ig,yt      # só algumas redes (ig, yt, tt, pin = Pinterest pelo Buffer)
   python3 publish.py --check                          # valida as credenciais de cada rede
   python3 publish.py --refresh-token                  # renova o token do Instagram (60 dias)
   python3 publish.py --yt-auth-url | --yt-auth-code <código>   # autoriza o canal do YouTube (uma vez)
@@ -15,6 +15,7 @@ Ambiente:
   PAGES_REPO_DIR, PAGES_BASE_URL             repositório público com GitHub Pages (o Instagram baixa o vídeo de lá)
   SO_SEGREDOS                                pasta dos tokens (padrão /mnt/project-files/canais/automacao/.segredos)
   SO_BUFFER_KEY                              chave da API do Buffer (grátis): o Buffer publica no TikTok de forma pública
+  SO_PIN_BOARD                               nome da pasta do Pinterest para os pins (padrão: a 1ª pasta do canal no Buffer)
   SO_TIKTOK_MODO                             buffer (padrão se houver SO_BUFFER_KEY) ou inbox (rascunho na caixa de entrada).
                                              O TikTok recusou a auditoria do app Forja (01/11/2026), então "direct" não funciona.
                                              Se o Buffer falhar, o vídeo cai no rascunho (plano B) automaticamente.
@@ -32,6 +33,7 @@ SEGREDOS = Path(os.environ.get("SO_SEGREDOS", "/mnt/project-files/canais/automac
 IG = "https://graph.instagram.com"
 TT = "https://open.tiktokapis.com/v2"
 BUFFER = "https://api.buffer.com"
+SITE = "salarioorganizado.netlify.app"
 YT_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 REDIRECT_YT = "http://localhost"
 REDIRECT_TT = os.environ.get("SO_TT_REDIRECT", "https://eduardowalbuquerquer.github.io/carrossel/tiktok.html")
@@ -171,13 +173,27 @@ def buffer(query, variables=None):
     return r["data"]
 
 
-def buffer_tiktok_channel():
+def buffer_channel(service):
     for org in buffer("{ account { organizations { id } } }")["account"]["organizations"]:
         q = "query($o: OrganizationId!) { channels(input: {organizationId: $o}) { id service } }"
         for c in buffer(q, {"o": org["id"]})["channels"]:
-            if c["service"] == "tiktok":
+            if c["service"] == service:
                 return c["id"]
-    raise SystemExit("Nenhum canal do TikTok conectado no Buffer")
+    raise SystemExit(f"Nenhum canal {service} conectado no Buffer")
+
+
+def buffer_tiktok_channel():
+    return buffer_channel("tiktok")
+
+
+def pinterest_board(channel):
+    """serviceId da pasta do Pinterest (SO_PIN_BOARD pelo nome; senão a primeira)."""
+    q = "query($i: ChannelId!) { channel(input: {id: $i}) { metadata { ... on PinterestMetadata { boards { serviceId name } } } } }"
+    boards = (buffer(q, {"i": channel})["channel"].get("metadata") or {}).get("boards") or []
+    if not boards:
+        raise SystemExit("O Pinterest no Buffer não tem nenhuma pasta (crie uma no Pinterest)")
+    want = (os.environ.get("SO_PIN_BOARD") or "").strip().lower()
+    return next((b for b in boards if b["name"].strip().lower() == want), boards[0])["serviceId"]
 
 
 BUFFER_CREATE = """mutation($i: CreatePostInput!) { createPost(input: $i) {
@@ -208,6 +224,24 @@ def publish_tt_buffer(post_dir, spec, draft=False):
     if post.get("status") == "error":
         raise SystemExit(f"Buffer não conseguiu publicar no TikTok: {post.get('error')}")
     return r["post"]["id"], f"BUFFER_{(post.get('status') or 'enviado').upper()}", post.get("externalLink")
+
+
+def publish_pin(post_dir, spec):
+    """Pin de vídeo no Pinterest pelo Buffer (grátis), com link clicável para o site."""
+    ch = buffer_channel("pinterest")
+    cap = spec["captions"]
+    title = (cap.get("pin_title") or cap.get("yt_title") or "").replace("#shorts", "").strip()[:100]
+    text = cap.get("pin") or cap.get("ig", "").split("Comenta PLANILHA")[0].strip()
+    link = f"https://{SITE}/?utm_source=pinterest&utm_medium=pin&utm_content={spec.get('id', post_dir.name)}"
+    urls = host(post_dir, ["video_ig.mp4", "capa.jpg"])
+    i = {"channelId": ch, "text": (text + "\n\nPlanilha grátis: " + link)[:500], "mode": "shareNow",
+         "schedulingType": "automatic", "source": "salario-organizado",
+         "assets": [{"video": {"url": urls["video_ig.mp4"], "thumbnailUrl": urls["capa.jpg"], "metadata": {"title": title}}}],
+         "metadata": {"pinterest": {"boardServiceId": pinterest_board(ch), "title": title, "url": link}}}
+    r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
+    if r["__typename"] != "PostActionSuccess":
+        raise SystemExit(f"Buffer recusou o pin ({r['__typename']}): {r.get('message')}")
+    return r["post"]["id"], r["post"].get("externalLink") or f"BUFFER_{(r['post'].get('status') or 'enviado').upper()}"
 
 
 def publish_tt(post_dir, spec):
@@ -272,7 +306,7 @@ def check():
         out["instagram"] = ig("GET", "me", fields="user_id,username,account_type")
     except SystemExit as e:
         out["instagram"] = str(e)
-    for k, f in (("youtube", yt_token), ("tiktok", tt_token)) + ((("buffer", buffer_tiktok_channel),) if env("SO_BUFFER_KEY") else ()):
+    for k, f in (("youtube", yt_token), ("tiktok", tt_token)) + ((("buffer", buffer_tiktok_channel), ("pinterest", lambda: buffer_channel("pinterest"))) if env("SO_BUFFER_KEY") else ()):
         try:
             f(); out[k] = "ok"
         except SystemExit as e:
@@ -291,10 +325,10 @@ def main(argv):
         return
     post_dir = Path(argv[0]).resolve()
     spec = json.loads((post_dir / "spec.json").read_text(encoding="utf-8"))
-    redes = argv[argv.index("--so") + 1].split(",") if "--so" in argv else spec.get("redes", ["ig", "yt", "tt"])
+    redes = argv[argv.index("--so") + 1].split(",") if "--so" in argv else spec.get("redes", ["ig", "yt", "tt", "pin"])
     rp = post_dir / "resultado.json"
     res = json.loads(rp.read_text()) if rp.exists() else {}
-    for rede, fn in (("ig", publish_ig), ("yt", publish_yt), ("tt", publish_tt)):
+    for rede, fn in (("ig", publish_ig), ("yt", publish_yt), ("tt", publish_tt), ("pin", publish_pin)):
         if rede not in redes or res.get(f"{rede}_id"):
             continue
         try:  # uma rede com erro não impede as outras
@@ -304,6 +338,8 @@ def main(argv):
                 res["tt_link"] = rest[1]
             res.pop(f"{rede}_erro", None)
         except SystemExit as e:
+            if rede == "pin" and "Nenhum canal pinterest" in str(e):
+                continue  # Pinterest ainda não conectado no Buffer: segue sem ele, sem alarme
             res[f"{rede}_erro"] = str(e)
             print(f"AVISO {rede}: {e}")
         rp.write_text(json.dumps(res, indent=2, ensure_ascii=False))
