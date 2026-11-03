@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "series": "versiculo",
+  "series_name": "Versículo Forjado",
+  "title": "Renovam-se cada manhã",
+  "slides": [
+    {
+      "layout": "verse",
+      "theme": "dark",
+      "image": "img/foto.jpg",
+      "focus": "center 70%",
+      "tag": "VERSÍCULO FORJADO",
+      "text": "As misericórdias do SENHOR são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; renovam-se cada manhã. Grande é a tua fidelidade.",
+      "ref": "Lamentações 3:22-23 · ARA",
+      "body": "Ontem você falhou. Hoje a misericórdia de Deus chegou antes de você acordar."
+    }
+  ],
+  "caption": "Você acordou carregando o erro de ontem? A misericórdia de Deus acordou antes de você.\n\nNão é desculpa para continuar no erro. É graça para levantar, se arrepender e recomeçar hoje.\n\nSalve e envie para um irmão que precisa recomeçar.\n\nSiga @forjadaalma.oficial\n\n#versiculododia #homemdedeus #homemcristao #masculinidadebiblica #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Tem homem que acorda e a primeira coisa que sente é o peso de ontem: a palavra dura que disse, a promessa que não cumpriu, o pecado que voltou.\n\nJeremias escreveu em meio a ruínas, e mesmo assim afirmou: \"As misericórdias do SENHOR são a causa de não sermos consumidos, porque as suas misericórdias não têm fim; renovam-se cada manhã. Grande é a tua fidelidade.\" (Lamentações 3:22-23)\n\nIsso não é licença para continuar errando. É convite para se arrepender e recomeçar com Deus hoje. Qual recomeço você precisa fazer nesta manhã? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VERSÍCULO FORJADO", "text": "Acordou carregando o <em>erro de ontem</em>?"},
+      {"kicker": "A BÍBLIA RESPONDE", "text": "Tem algo que chega <em>antes de você</em> acordar."},
+      {"kicker": "O QUÊ?", "text": "O versículo está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Tem algo que se renova toda manhã. O versículo de hoje está no perfil 👆\n\n#versiculododia #homemdedeus #forjadaalma #homemcristao",
+    "caption_facebook": "Tem algo que se renova toda manhã. O versículo de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
