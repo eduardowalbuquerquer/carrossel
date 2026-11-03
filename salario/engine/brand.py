@@ -19,8 +19,8 @@ LOGO_SVG = ('<svg viewBox="0 0 18 18"><g fill="{fg}"><rect x="2" y="1" width="14
 CTA = {
     "ig": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> que eu te mando a grátis no direct.",
            "say": "Comenta planilha aqui embaixo que eu te mando a minha grátis no direct."},
-    "tt": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> no nosso Instagram, <b>@salario.organizado</b>, que eu te mando.",
-           "say": "Comenta planilha no nosso Instagram, arroba salário ponto organizado, que eu te mando a grátis."},
+    "tt": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> aqui. A grátis está em <b>salarioorganizado.netlify.app/mini</b>",
+           "say": "Comenta planilha aqui embaixo. E o link da planilha grátis está escrito aqui na tela."},
     "yt": {"kw": "LINK NO PERFIL", "line": "A planilha grátis está no <b>link do perfil</b>.",
            "say": "A planilha grátis está no link do perfil. Se inscreve para o próximo."},
 }
