@@ -130,7 +130,14 @@
   {
    "dia": 10,
    "v1": {
-    "roteiro": 9
+    "roteiro": 9,
+    "pasta": "r09-me-manda-salario",
+    "publicado_em": "2026-11-04T12:25-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfUtmxbDdCA/",
+     "yt": "https://youtube.com/shorts/UhZ7laLTuO8",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704329303634513204 (Buffer)"
+    }
    },
    "v2": {
     "roteiro": 20
