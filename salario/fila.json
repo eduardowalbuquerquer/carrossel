@@ -151,7 +151,14 @@
   {
    "dia": 11,
    "v1": {
-    "roteiro": 4
+    "roteiro": 4,
+    "pasta": "r04-3200-dois-cartoes",
+    "publicado_em": "2026-11-05T11:58-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfXSsfzgHlP/",
+     "yt": "https://youtube.com/shorts/SPz4-l_kDrk",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704701011214028039 (Buffer)"
+    }
    },
    "v2": {
     "roteiro": 13
