@@ -18,7 +18,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-01 · Augustus Nicodemus / Hernandes Dias Lopes · Reforma 509 anos: voltar às Escrituras e deixar a Bíblia ter a última palavra · https://www.instagram.com/reel/DfKMufJhxqS/ · 2026-11-01 (pergunta)
 - 2026-11-01 · Hernandes Dias Lopes · Salvos pela graça, não pelas obras, mas salvos PARA as boas obras (Ef 2:8-10): Mito x Verdade "se é pela graça, tanto faz como eu vivo" · https://www.instagram.com/reel/DfHUbJqDP_F/ · 2026-11-04 (mito)
 - 2026-11-01 · Hernandes Dias Lopes · O desânimo é contagioso: o pai desanimado contamina a casa; reanimar-se no Senhor (usar após 60 dias de Davi, ou com outro texto) · https://www.instagram.com/p/DfIm0djiV9s/ · 2026-11-02 (reels, com Sl 42:5)
-- 2026-11-01 · Dois Dedos de Teologia · Arrependimento em uma palavra: posts de imagem com frase curtíssima e imperativa tiveram o maior engajamento da semana (formato para a Frase de Ferro) · https://www.instagram.com/p/DfDzgkONUmS/ · 
+- 2026-11-01 · Dois Dedos de Teologia · Arrependimento em uma palavra: posts de imagem com frase curtíssima e imperativa tiveram o maior engajamento da semana (formato para a Frase de Ferro) · https://www.instagram.com/p/DfDzgkONUmS/ · 2026-11-05 (frase)
 - 2026-11-01 · Luiz Sayão · Crer x confiar: fé que descansa mesmo sem ter todas as respostas · https://www.instagram.com/reel/DfHUDDVPJEv/ · 2026-11-01 (reels)
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
