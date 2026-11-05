@@ -1,54 +1,28 @@
 {
  "id": "r20-gastos-invisiveis",
  "roteiro": 20,
- "pilar": "salarios",
+ "pilar": "erros-comuns",
  "scenes": [
-  {
-   "type": "hook",
-   "value_label": "Some todo mês",
-   "value": "R$ 443",
-   "tone": "red",
-   "title": "do seu salário. E você <em>nem percebe</em>.",
-   "say": "443 reais somem do seu salário todo mês. E você nem percebe."
-  },
-  {
-   "type": "steps",
-   "title": "Os 3 ralos",
-   "items": [
-    "<b>3 assinaturas</b> esquecidas: R$&nbsp;95",
-    "<b>Taxa de entrega</b>: 12 pedidos × R$&nbsp;9 = R$&nbsp;108",
-    "<b>Parcelinhas</b>: 4 de R$&nbsp;60 = R$&nbsp;240"
-   ],
-   "say": "Assinaturas esquecidas, 95 reais. Taxa de entrega, 108. Parcelinhas, 240."
-  },
-  {
-   "type": "number",
-   "label": "Em 12 meses",
-   "value": "R$ 5.316",
-   "tone": "red",
-   "text": "R$&nbsp;443 por mês, vezes 12. Sem nenhuma compra grande.",
-   "say": "Em um ano, 5.316 reais."
-  },
-  {
-   "type": "steps",
-   "title": "Faça hoje",
-   "items": [
-    "Cancele o que você não usou no último mês",
-    "Junte os pedidos ou retire no local",
-    "Nenhuma parcela nova até a última acabar"
-   ],
-   "say": "Cancele o que não usou. Junte os pedidos. E nenhuma parcela nova."
-  },
-  {
-   "type": "cta",
-   "title": "Quer achar os ralos <em>do seu</em> salário?",
-   "say": "Quer achar os ralos do seu salário?"
-  }
+  {"type": "hook", "tag": "Gastos invisíveis", "title": "3 gastos que somem com seu salário <em>sem você perceber.</em>", "sub": "O 3º é o pior 👇",
+   "say": "Três gastos que somem com o seu salário sem você perceber. O terceiro é o pior."},
+  {"type": "steps", "title": "Os 3 vazamentos",
+   "items": ["<b>Assinaturas:</b> 3 streamings + 1 app = <b>R$ 105</b>", "<b>Taxa de entrega:</b> 10 pedidos × R$ 8 = <b>R$ 80</b>", "<b>Parcelinhas:</b> 4 de R$ 55 = <b>R$ 220</b>"],
+   "say": "Um: assinaturas. Três streamings e um aplicativo, cento e cinco reais. Dois: taxa de entrega. Dez pedidos de oito reais, oitenta reais. Três: as parcelinhas. Quatro de cinquenta e cinco, duzentos e vinte reais."},
+  {"type": "number", "label": "Por mês, sem perceber", "value": "R$ 405", "tone": "red",
+   "text": "Num salário de R$&nbsp;2.500, é 16% da renda.",
+   "say": "Somando, quatrocentos e cinco reais por mês. Num salário de dois mil e quinhentos, é dezesseis por cento da renda."},
+  {"type": "compare", "label": "Em 12 meses", "value": "R$ 4.860", "text": "Cortando só assinaturas e entregas…",
+   "from": "R$ 405", "to": "R$ 220", "after": "voltam R$ 185 por mês para o seu bolso.",
+   "say": "Em um ano, quatro mil oitocentos e sessenta reais. Cortando só assinaturas e entregas, cento e oitenta e cinco reais voltam para o seu bolso todo mês."},
+  {"type": "steps", "title": "A virada",
+   "items": ["Abra a fatura e <b>cancele</b> a assinatura que não usou no mês.", "Coloque um <b>teto</b> no delivery.", "Antes de parcelar, <b>some as parcelas</b> que já tem."],
+   "say": "Abra a fatura e cancele a assinatura que você não usou no mês. Coloque um teto no delivery. E, antes de parcelar, some as parcelas que você já tem."},
+  {"type": "cta", "title": "Quer achar os <em>seus</em> vazamentos?", "say": "Quer achar os seus vazamentos?"}
  ],
  "captions": {
-  "ig": "R$ 443 somem do seu salário todo mês. E você nem percebe 👇\n\n3 assinaturas esquecidas (R$ 95) + taxa de entrega de 12 pedidos (R$ 108) + 4 parcelinhas de R$ 60 (R$ 240). Em um ano: R$ 5.316.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive dizendo que o salário some 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dinheiro #salario",
-  "tt": "R$ 443 somem do seu salário todo mês 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #salario",
-  "yt_title": "R$ 443 somem do seu salário todo mês #shorts",
-  "yt_desc": "Assinaturas esquecidas, taxa de entrega e parcelinhas: R$ 443 por mês, R$ 5.316 por ano (exemplo).\n\nMini-planilha grátis: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dinheiro"
+  "ig": "3 gastos que somem com seu salário sem você perceber (o 3º é o pior) 👇\n\n1. Assinaturas: 3 streamings + 1 app = R$ 105\n2. Taxa de entrega: 10 pedidos × R$ 8 = R$ 80\n3. Parcelinhas: 4 de R$ 55 = R$ 220\n\nTotal: R$ 405 por mês, 16% de um salário de R$ 2.500. Em 12 meses, R$ 4.860.\nCortando só assinaturas e entregas, voltam R$ 185 por mês.\n\nAbra a fatura, cancele o que não usou, coloque teto no delivery e some as parcelas antes de parcelar de novo.\n\nQuer achar os seus vazamentos? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive dizendo que o salário some 👀\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #gastos #educacaofinanceira #dinheiro",
+  "tt": "3 gastos que somem com seu salário sem você perceber: R$ 405 por mês 😳 O 3º é o pior 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #organizacaofinanceira #dinheiro #salario #gastos",
+  "yt_title": "3 gastos que somem com seu salário sem você ver #shorts",
+  "yt_desc": "Assinaturas (R$ 105), taxa de entrega (R$ 80) e parcelinhas (R$ 220): R$ 405 por mês, 16% de um salário de R$ 2.500 e R$ 4.860 em um ano. Cortando só assinaturas e entregas, voltam R$ 185 por mês. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #gastos"
  }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "r02-salario-minimo",
+  "roteiro": 2,
+  "pilar": "salarios-reais",
+  "scenes": [
+    {"type": "hook", "tag": "Salários reais #2", "title": "Salário mínimo dá para viver? <em>Fiz a conta.</em>", "sub": "R$ 1.621 em 2026 👇",
+     "say": "Salário mínimo dá para viver? Eu fiz a conta, com o valor de 2026: mil seiscentos e vinte e um reais."},
+    {"type": "list", "cap": "Uma pessoa, morando sozinha:", "cap_hot": "O aluguel leva quase 40%.", "renda": 1621, "renda_label": "Salário mínimo",
+     "items": [["INSS (7,5%)", 122], ["Aluguel", 600], ["Mercado", 450], ["Luz, água e gás", 160], ["Transporte", 150], ["Farmácia", 60]],
+     "hot": "Aluguel", "step": 0.85,
+     "say": "Tira o INSS. Depois aluguel, mercado, luz, água e gás, transporte e farmácia. Vamos ver o que sobra."},
+    {"type": "number", "label": "Sobra no mês", "value": "R$ 79", "tone": "red",
+     "text": "Gastos de R$&nbsp;1.542 com um salário de R$&nbsp;1.621. Qualquer imprevisto estoura.",
+     "source": "Salário mínimo 2026: Decreto 12.797/2025",
+     "say": "Sobram setenta e nove reais. Qualquer imprevisto estoura a conta."},
+    {"type": "compare", "label": "Um imprevisto de", "value": "R$ 200", "text": "Sem saber que só sobram R$&nbsp;79…",
+     "from": "+79", "to": "−121", "after": "vira cheque especial, com juros.",
+     "say": "Um remédio ou um conserto de duzentos reais, e você entra no vermelho. Sem perceber, vira cheque especial, com juros."},
+    {"type": "steps", "title": "A virada",
+     "items": ["Não sobra muito.", "Mas saber o <b>número exato</b> evita o cheque especial."],
+     "say": "Não sobra muito. Mas saber o número exato é o que evita o cheque especial."},
+    {"type": "cta", "title": "Quer saber o <em>seu</em> número?", "say": "Quer saber o seu número em dois minutos?"}
+  ],
+  "captions": {
+    "ig": "Salário mínimo dá para viver? Fiz a conta com o valor de 2026 👇\n\nR$ 1.621 menos INSS, aluguel, mercado, contas, transporte e farmácia: sobram R$ 79.\nUm imprevisto de R$ 200 e você está no cheque especial.\n\nNão sobra muito, mas saber o número exato é o que evita o vermelho.\n\nQuer saber o seu? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive com um salário mínimo 👀\n\n(Cenário de exemplo. Salário mínimo 2026: Decreto 12.797/2025.)\n\n#organizacaofinanceira #financaspessoais #salariominimo #dividas #educacaofinanceira",
+    "tt": "Salário mínimo dá para viver? Fiz a conta: sobram R$ 79 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #salariominimo #financaspessoais #organizacaofinanceira #dinheiro #dividas",
+    "yt_title": "Salário mínimo de R$ 1.621 dá para viver? Fiz a conta #shorts",
+    "yt_desc": "Fiz a conta de um salário mínimo de 2026 (R$ 1.621, Decreto 12.797/2025) para uma pessoa morando sozinha: sobram R$ 79. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #salariominimo"
+  }
+}

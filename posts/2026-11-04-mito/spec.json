@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-04",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "Se é pela graça, tanto faz como eu vivo?",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MITO X VERDADE",
+      "title": "\"Se é pela graça, <em style=\"color:#C8892C\">tanto faz</em> como eu vivo.\"",
+      "body": "Você não é salvo pelas obras. Mas é salvo para elas.",
+      "hint": "4 mentiras sobre graça →"
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 01",
+      "title": "\"Deus perdoa mesmo. Posso continuar.\"",
+      "left": {
+        "label": "MITO",
+        "text": "Mais pecado, mais graça."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"…Permaneceremos no pecado, para que seja a graça mais abundante? De modo nenhum!…\" Romanos 6:1-2"
+      },
+      "body": "Graça não é licença. É libertação."
+    },
+    {
+      "layout": "compare",
+      "theme": "light",
+      "tag": "MENTIRA 02",
+      "title": "\"Minhas boas obras me garantem o céu.\"",
+      "left": {
+        "label": "MITO",
+        "text": "Sou um homem bom, Deus vai levar isso em conta."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Porque pela graça sois salvos, mediante a fé; e isto não vem de vós; é dom de Deus; não de obras, para que ninguém se glorie.\" Efésios 2:8-9"
+      },
+      "body": "Ninguém compra o que Deus dá de graça."
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 03",
+      "title": "\"Fé é o que eu sinto por dentro.\"",
+      "left": {
+        "label": "MITO",
+        "text": "O que importa é o coração, não a prática."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Assim, também a fé, se não tiver obras, por si só está morta.\" Tiago 2:17"
+      },
+      "body": "Fé viva aparece na segunda-feira, não só no domingo."
+    },
+    {
+      "layout": "big",
+      "theme": "light",
+      "big": "4",
+      "tag": "A MAIS SUTIL",
+      "title": "\"Graça é só perdão. Não muda nada.\"",
+      "quote": {
+        "text": "Pois somos feitura dele, criados em Cristo Jesus para boas obras, as quais Deus de antemão preparou para que andássemos nelas.",
+        "ref": "Efésios 2:10 · ARA"
+      },
+      "body": "A graça que salva é a mesma que forja o homem novo."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual dessas mentiras você já ouviu, ou já repetiu? Comente o número."
+    }
+  ],
+  "caption": "Você não é salvo pelas obras. Mas é salvo para elas.\n\n1. \"Deus perdoa mesmo. Posso continuar.\"\n2. \"Minhas boas obras me garantem o céu.\"\n3. \"Fé é o que eu sinto por dentro.\"\n4. \"Graça é só perdão. Não muda nada.\"\n\n\"Pois somos feitura dele, criados em Cristo Jesus para boas obras…\" (Ef 2:10).\n\nQual delas você já ouviu? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #fecrista #forjadaalma #biblia #graca",
+  "caption_facebook": "Tem dois erros opostos que rondam o homem cristão. Um acha que vai chegar ao céu por ser \"gente boa\". O outro acha que, como a salvação é pela graça, tanto faz como vive.\n\nA Bíblia derruba os dois no mesmo texto. \"Porque pela graça sois salvos, mediante a fé; e isto não vem de vós; é dom de Deus; não de obras, para que ninguém se glorie.\" E logo em seguida: \"Pois somos feitura dele, criados em Cristo Jesus para boas obras, as quais Deus de antemão preparou para que andássemos nelas.\" (Efésios 2:8-10)\n\nNão somos salvos pelas obras. Somos salvos para elas. A graça que perdoa é a mesma que transforma.\n\nQual desses erros você já viu mais de perto? Conta aqui.\n\n#homemcristao #forjadaalma #graca",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {
+        "kicker": "VOCÊ JÁ OUVIU ISSO",
+        "text": "\"Se é pela graça, <em>tanto faz</em> como eu vivo.\""
+      },
+      {
+        "kicker": "OU O CONTRÁRIO",
+        "text": "\"Sou gente boa, <em>Deus vai levar em conta</em>.\""
+      },
+      {
+        "kicker": "4 MENTIRAS SOBRE GRAÇA",
+        "text": "A resposta está no post de hoje.",
+        "cta": "Toque no perfil →"
+      }
+    ],
+    "caption": "Graça é licença ou é forja? As 4 mentiras estão no post do perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Graça é licença ou é forja? As 4 mentiras estão no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}

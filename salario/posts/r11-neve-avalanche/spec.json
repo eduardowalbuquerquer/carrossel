@@ -1,0 +1,31 @@
+{
+ "id": "r11-neve-avalanche",
+ "roteiro": 11,
+ "pilar": "dividas",
+ "scenes": [
+  {"type": "hook", "tag": "Dívida desmontada #11", "title": "Bola de neve ou avalanche? <em>Fiz a conta</em> com a mesma dívida.", "sub": "Mesmas 3 dívidas, R$ 800 por mês 👇",
+   "say": "Bola de neve ou avalanche? Fiz a conta dos dois métodos com a mesma dívida."},
+  {"type": "steps", "title": "As mesmas 3 dívidas",
+   "items": ["Cartão A: <b>R$ 600</b> a 6% ao mês", "Cartão B: <b>R$ 2.100</b> a 9% ao mês", "Empréstimo: <b>R$ 5.300</b> a 3% ao mês"],
+   "say": "Seiscentos reais a seis por cento ao mês. Dois mil e cem a nove por cento. E cinco mil e trezentos a três por cento. Oitocentos reais por mês para pagar tudo."},
+  {"type": "steps", "title": "Os dois métodos",
+   "items": ["<b>Bola de neve:</b> o resto vai para a <b>menor</b> dívida", "<b>Avalanche:</b> o resto vai para o <b>juro mais alto</b>"],
+   "say": "Nos dois, paga o mínimo em todas. Na bola de neve, o resto vai para a menor. Na avalanche, para o juro mais alto."},
+  {"type": "compare", "label": "Juros pagos no total", "value": "R$ 120", "text": "a menos na avalanche:",
+   "from": "R$ 2.524", "to": "R$ 2.404", "after": "E os dois quitam tudo no mês 14.",
+   "say": "A avalanche pagou cento e vinte reais a menos de juros. E os dois quitam tudo no mesmo mês, o décimo quarto."},
+  {"type": "number", "label": "Primeira dívida quitada", "value": "Mês 2", "tone": "green",
+   "text": "na bola de neve. Na avalanche, só no mês 6.",
+   "say": "Mas a bola de neve quita a primeira dívida já no segundo mês. A avalanche, só no sexto."},
+  {"type": "steps", "title": "A virada",
+   "items": ["Avalanche <b>economiza juros</b>.", "Bola de neve dá <b>vitória rápida</b>.", "Escolha o que você <b>consegue manter</b>."],
+   "say": "Um economiza juros, o outro dá vitória rápida. Escolha o que você consegue manter."},
+  {"type": "cta", "title": "Quer comparar a <em>sua</em> dívida?", "say": "Quer fazer essa conta com a sua dívida?"}
+ ],
+ "captions": {
+  "ig": "Bola de neve ou avalanche? Fiz a conta dos dois com a mesma dívida 👇\n\n3 dívidas (R$ 600, R$ 2.100 e R$ 5.300) e R$ 800 por mês para pagar:\n• Avalanche (juro mais alto primeiro): R$ 120 a menos de juros.\n• Bola de neve (menor primeiro): primeira dívida quitada no mês 2, contra o mês 6.\n• Os dois quitam tudo no mês 14.\n\nUm economiza juros, o outro dá vitória rápida. Escolha o que você consegue manter.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem está com mais de uma dívida 👀\n\n(Cenário de exemplo: juros de 6%, 9% e 3% ao mês, mínimos de R$ 60, R$ 200 e R$ 250.)\n\n#organizacaofinanceira #financaspessoais #dividas #educacaofinanceira #dinheiro",
+  "tt": "Bola de neve ou avalanche? Fiz a conta com a mesma dívida 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #dividas #financaspessoais #educacaofinanceira #organizacaofinanceira #dinheiro",
+  "yt_title": "Bola de neve ou avalanche? A conta com a mesma dívida #shorts",
+  "yt_desc": "Comparei os métodos bola de neve e avalanche com as mesmas 3 dívidas (R$ 600, R$ 2.100 e R$ 5.300) e R$ 800 por mês: a avalanche paga R$ 120 a menos de juros, a bola de neve quita a primeira dívida no mês 2 (contra o mês 6). Os dois terminam no mês 14. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #educacaofinanceira"
+ }
+}

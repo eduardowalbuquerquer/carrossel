@@ -1,5 +1,5 @@
 {
- "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 02/11/2026: dias 8 a 13 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana).",
+ "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana).",
  "itens": [
   {
    "dia": 4,
@@ -88,25 +88,89 @@
   {
    "dia": 8,
    "v1": {
-    "roteiro": 20,
-    "pasta": "r20-gastos-invisiveis"
+    "roteiro": 2,
+    "pasta": "r02-salario-minimo",
+    "publicado_em": "2026-11-02T13:18-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfPtxmjj-wm/",
+     "yt": "https://youtube.com/shorts/2OSiYjglv2Q",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7703609027304901909 (Buffer)"
+    }
    },
    "v2": {
     "roteiro": 18,
-    "pasta": "r18-oito-em-dez"
+    "pasta": "r18-endividadas-82",
+    "publicado_em": "2026-11-02T19:20-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7703702303609556245 (Buffer)"
+    }
    }
   },
   {
    "dia": 9,
    "v1": {
-    "roteiro": 15
+    "roteiro": 11,
+    "pasta": "r11-neve-avalanche",
+    "publicado_em": "2026-11-03T12:10-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfSKotEj9jF/",
+     "yt": "https://youtube.com/shorts/3ZioTnYwhqY",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7703962339833416978 (Buffer)"
+    }
    },
    "v2": {
-    "roteiro": 13
+    "roteiro": 6,
+    "pasta": "r06-aluguel-metade",
+    "publicado_em": "2026-11-03T19:13-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704073977626414354 (Buffer)"
+    }
    }
   },
   {
    "dia": 10,
+   "v1": {
+    "roteiro": 9,
+    "pasta": "r09-me-manda-salario",
+    "publicado_em": "2026-11-04T12:25-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfUtmxbDdCA/",
+     "yt": "https://youtube.com/shorts/UhZ7laLTuO8",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704329303634513204 (Buffer)"
+    }
+   },
+   "v2": {
+    "roteiro": 20,
+    "pasta": "r20-gastos-invisiveis",
+    "publicado_em": "2026-11-04T19:15-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704444101378280712 (Buffer)"
+    }
+   }
+  },
+  {
+   "dia": 11,
+   "v1": {
+    "roteiro": 4,
+    "pasta": "r04-3200-dois-cartoes",
+    "publicado_em": "2026-11-05T11:58-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfXSsfzgHlP/",
+     "yt": "https://youtube.com/shorts/SPz4-l_kDrk",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704701011214028039 (Buffer)"
+    }
+   },
+   "v2": {
+    "roteiro": 13,
+    "pasta": "r13-100-a-mais",
+    "publicado_em": "2026-11-05T19:22-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704815811223129365 (Buffer)"
+    }
+   }
+  },
+  {
+   "dia": 12,
    "v1": {
     "roteiro": 14
    },
@@ -115,27 +179,9 @@
    }
   },
   {
-   "dia": 11,
-   "v1": {
-    "roteiro": 11
-   },
-   "v2": {
-    "roteiro": 4
-   }
-  },
-  {
-   "dia": 12,
-   "v1": {
-    "roteiro": 9
-   },
-   "v2": {
-    "roteiro": 6
-   }
-  },
-  {
    "dia": 13,
    "v1": {
-    "roteiro": 2
+    "roteiro": 15
    },
    "v2": {
     "roteiro": 8
@@ -144,7 +190,7 @@
   {
    "dia": 14,
    "v1": {
-    "roteiro": 15
+    "roteiro": 21
    },
    "v2": {
     "roteiro": "melhor gancho da semana com outro número"

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-02",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Saul: o homem que vivia de aparência",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "ARQUÉTIPOS BÍBLICOS", "title": "Alto, belo, escolhido. E governado pelo <em style=\"color:#C8892C\">medo do que os outros pensam</em>.", "body": "Saul: o primeiro rei de Israel, que vivia de aparência.", "hint": "Você tem um pouco de Saul? Veja os sinais →"},
+    {"layout": "text", "theme": "dark", "tag": "O PADRÃO", "title": "No dia de ser proclamado rei, ele estava escondido.", "body": "Quando procuraram o novo rei, encontraram Saul escondido entre a bagagem (1 Samuel 10:22). A insegurança escondida ali governou o reinado inteiro."},
+    {"layout": "list", "theme": "light", "tag": "SINAIS DE SAUL HOJE", "title": "Você reconhece algum?", "items": [
+      {"num": "01", "title": "Decide pelo que vão pensar", "desc": "A opinião do grupo pesa mais que a Palavra."},
+      {"num": "02", "title": "Obedece pela metade", "desc": "Faz parte do que Deus mandou e chama de obediência."},
+      {"num": "03", "title": "Sempre tem uma explicação", "desc": "O erro nunca é só dele."},
+      {"num": "04", "title": "Pede perdão, mas quer a imagem", "desc": "Admite o erro e negocia a reputação."}
+    ]},
+    {"layout": "text", "theme": "dark", "tag": "A RAIZ", "title": "Ele admitiu o pecado. E contou <em style=\"color:#E3B566\">por que</em> pecou:", "quote": {"text": "…porque temi o povo e dei ouvidos à sua voz.", "ref": "1 Samuel 15:24 · ARA"}, "body": "O medo do povo foi maior que o temor de Deus."},
+    {"layout": "text", "theme": "light", "tag": "O DETALHE QUE ENTREGA", "title": "Pediu perdão e, na mesma frase, <em style=\"color:#C8892C\">pediu honra</em>.", "quote": {"text": "Então, disse Saul: Pequei; honra-me, porém, agora, diante dos anciãos do meu povo…", "ref": "1 Samuel 15:30 · ARA"}, "body": "Arrependimento de verdade não negocia a própria imagem."},
+    {"layout": "text", "theme": "dark", "tag": "O CAMINHO", "title": "Deus quer obediência, não <em style=\"color:#E3B566\">espetáculo</em>.", "quote": {"text": "…Eis que o obedecer é melhor do que o sacrificar…", "ref": "1 Samuel 15:22 · ARA"}, "body": "Em Cristo, você não precisa provar nada a ninguém. Pode obedecer em paz, mesmo sem plateia."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual sinal de Saul você reconhece? Comente o número."}
+  ],
+  "caption": "Alto, belo, escolhido. E governado pelo medo do que os outros pensam.\n\nSaul confessou: \"…temi o povo e dei ouvidos à sua voz\" (1Sm 15:24). E logo pediu: \"honra-me, porém, agora\" (1Sm 15:30).\n\nQual dos 4 sinais você reconhece? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #obediencia #forjadaalma #biblia #saul",
+  "caption_facebook": "Saul tinha tudo para dar certo. Era alto, belo e foi escolhido por Deus para ser o primeiro rei de Israel. Mas no dia da proclamação, estava escondido entre a bagagem (1 Samuel 10:22).\n\nEssa insegurança governou o reinado. Quando desobedeceu a Deus, a explicação veio da própria boca: \"temi o povo e dei ouvidos à sua voz\" (1 Samuel 15:24). E, na mesma conversa em que confessou, pediu: \"honra-me, porém, agora, diante dos anciãos do meu povo\" (1 Samuel 15:30).\n\nSamuel respondeu com uma frase que serve para todo homem: \"o obedecer é melhor do que o sacrificar\" (1 Samuel 15:22). Deus quer obediência, não espetáculo.\n\nQual desses sinais você reconhece em você hoje? Conta aqui.\n\n#homemcristao #forjadaalma #saul",
+  "reel": {
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Alto, belo, escolhido. E <em>escondido</em> no dia da posse."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "O que ele mais temia não era Deus. Era <em>o povo</em>."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Alto, belo, escolhido, e escondido no dia da posse. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Alto, belo, escolhido, e escondido no dia da posse. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
