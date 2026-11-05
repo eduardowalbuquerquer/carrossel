@@ -4,7 +4,7 @@ Uso: python3 render_video.py ../posts/<pasta>/spec.json [--so ig,tt,yt]
 Saída na pasta do spec: video_ig.mp4, video_tt.mp4, video_yt.mp4 (muda só a chamada final) e capa.jpg.
 
 Cenas (spec["scenes"]), cada uma com "say" (narração) e, opcional, "secs" (duração mínima):
-  hook    tag, title (aceita <em>), sub
+  hook    title (aceita <em>); opcionais: value (número grande no 1º quadro), value_label, tone, sub, tag
   list    cap, renda, items [[nome, valor], ...], hot (nome destacado), cap_hot
   number  label, value, text, tone (red|green|warm)
   compare label, value, text, from, to, after
@@ -38,8 +38,12 @@ def fit(v, base, width=900):
 def scene_html(s, k, cta):
     t = s["type"]
     if t == "hook":
-        return f'''<section class="scene dark" data-k="{k}"><div class="tag">{s.get("tag","")}</div>
-<h1>{s["title"]}</h1><p class="sub">{s.get("sub","")}</p></section>'''
+        tag = f'<div class="tag">{s["tag"]}</div>' if s.get("tag") else ""
+        val = (f'<div class="hlbl">{s.get("value_label","")}</div><div class="hv {s.get("tone","red")}"{fit(s["value"], 230)}>{s["value"]}</div>'
+               if s.get("value") else "")
+        sub = f'<p class="sub">{s["sub"]}</p>' if s.get("sub") else ""
+        return f'''<section class="scene dark" data-k="{k}">{tag}{val}
+<h1{' class="sm"' if s.get("value") else ""}>{s["title"]}</h1>{sub}</section>'''
     if t == "list":
         rows = [f'<div class="it renda" data-i="0"><span>{s.get("renda_label","Salário")}</span><b>{brl(s["renda"])}</b></div>']
         for i, (n, v) in enumerate(s["items"], 1):
@@ -82,6 +86,10 @@ body{{background:{B.BG};font-family:'Source Sans 3',sans-serif;color:{B.INK};pos
 h1{{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:110px;line-height:1.02;letter-spacing:-.02em}}
 h1 em,h2 em{{font-style:normal;color:{B.YELLOW}}} .scene:not(.dark):not(.cta) h2 em{{color:{B.GREEN}}}
 .sub{{font-size:52px;margin-top:40px;color:#cfe8df;font-weight:600}}
+.hlbl{{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:34px;letter-spacing:.14em;text-transform:uppercase;color:{B.MINT2}}}
+.hv{{display:inline-block;align-self:flex-start;font-family:'JetBrains Mono',monospace;font-weight:700;font-size:230px;line-height:1.02;letter-spacing:-.04em;margin:6px 0 34px;transform-origin:left center}}
+.dark .hv.red{{color:#ff8a7a}} .dark .hv.warm{{color:{B.YELLOW}}} .dark .hv.green{{color:{B.MINT2}}}
+h1.sm{{font-size:84px;line-height:1.05}}
 h2{{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:84px;line-height:1.05;letter-spacing:-.015em}}
 .cap{{position:absolute;left:90px;right:90px;top:210px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:62px;line-height:1.08}}
 .list{{background:#fff;border:2px solid {B.LINE};border-radius:40px;padding:24px 44px;margin-top:110px}}
@@ -130,6 +138,8 @@ window.render=t=>{{
   const br=document.getElementById('brand'); br.style.color=dark?'#fff':'{B.INK}';
   document.getElementById('lgbox').style.background=dark?'rgba(255,255,255,.16)':'{B.DEEP}';
   document.getElementById('pg').style.width=(100*t/TL.total)+'%'; document.getElementById('pg').style.background=dark?'#fff':'{B.GREEN}';
+  // gancho: número entra com um "soco" (escala 1,35 -> 1 em 0,3 s)
+  el.querySelectorAll('.hv').forEach(x=>{{const p=Math.min(1,lt/0.3);x.style.transform=`scale(${{1+0.35*(1-ease(p))}})`;}});
   // lista: itens entram um a um, barra calcula sobra/falta
   if(el.querySelector('.list')){{const its=[...el.querySelectorAll('.it')];const step=s.step||0.9;let tot=0;const renda=s.renda||0;
     its.forEach((it,i)=>{{const on=lt>=0.3+i*step;it.classList.toggle('on',on);if(on&&i>0)tot+=s.vals[i-1];}});

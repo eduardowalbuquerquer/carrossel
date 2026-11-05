@@ -1,5 +1,5 @@
 {
- "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok).",
+ "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana).",
  "itens": [
   {
    "dia": 4,
@@ -175,22 +175,22 @@
     "roteiro": 14
    },
    "v2": {
-    "roteiro": 8
+    "roteiro": 19
    }
   },
   {
    "dia": 13,
    "v1": {
-    "roteiro": 21
+    "roteiro": 15
    },
    "v2": {
-    "roteiro": 19
+    "roteiro": 8
    }
   },
   {
    "dia": 14,
    "v1": {
-    "roteiro": 15
+    "roteiro": 21
    },
    "v2": {
     "roteiro": "melhor gancho da semana com outro número"
