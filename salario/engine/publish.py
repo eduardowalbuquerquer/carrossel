@@ -15,7 +15,7 @@ Ambiente:
   PAGES_REPO_DIR, PAGES_BASE_URL             repositório público com GitHub Pages (o Instagram baixa o vídeo de lá)
   SO_SEGREDOS                                pasta dos tokens (padrão /mnt/project-files/canais/automacao/.segredos)
   SO_BUFFER_KEY                              chave da API do Buffer (grátis): o Buffer publica no TikTok de forma pública
-  SO_PIN_BOARD                               nome da pasta do Pinterest para os pins (padrão: a 1ª pasta do canal no Buffer)
+  SO_PIN_BOARD                               nome da pasta do Pinterest (padrão: "Planilha de gastos e orçamento"; se não achar, a 1ª)
   SO_TIKTOK_MODO                             buffer (padrão se houver SO_BUFFER_KEY) ou inbox (rascunho na caixa de entrada).
                                              O TikTok recusou a auditoria do app Forja (01/11/2026), então "direct" não funciona.
                                              Se o Buffer falhar, o vídeo cai no rascunho (plano B) automaticamente.
@@ -192,7 +192,7 @@ def pinterest_board(channel):
     boards = (buffer(q, {"i": channel})["channel"].get("metadata") or {}).get("boards") or []
     if not boards:
         raise SystemExit("O Pinterest no Buffer não tem nenhuma pasta (crie uma no Pinterest)")
-    want = (os.environ.get("SO_PIN_BOARD") or "").strip().lower()
+    want = (os.environ.get("SO_PIN_BOARD") or "Planilha de gastos e orçamento").strip().lower()
     return next((b for b in boards if b["name"].strip().lower() == want), boards[0])["serviceId"]
 
 
@@ -233,10 +233,10 @@ def publish_pin(post_dir, spec):
     title = (cap.get("pin_title") or cap.get("yt_title") or "").replace("#shorts", "").strip()[:100]
     text = cap.get("pin") or cap.get("ig", "").split("Comenta PLANILHA")[0].strip()
     link = f"https://{SITE}/?utm_source=pinterest&utm_medium=pin&utm_content={spec.get('id', post_dir.name)}"
-    urls = host(post_dir, ["video_ig.mp4", "capa.jpg"])
+    urls = host(post_dir, ["video_ig.mp4"])
     i = {"channelId": ch, "text": (text + "\n\nPlanilha grátis: " + link)[:500], "mode": "shareNow",
          "schedulingType": "automatic", "source": "salario-organizado",
-         "assets": [{"video": {"url": urls["video_ig.mp4"], "thumbnailUrl": urls["capa.jpg"], "metadata": {"title": title}}}],
+         "assets": [{"video": {"url": urls["video_ig.mp4"], "metadata": {"title": title, "thumbnailOffset": 600}}}],
          "metadata": {"pinterest": {"boardServiceId": pinterest_board(ch), "title": title, "url": link}}}
     r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
     if r["__typename"] != "PostActionSuccess":
