@@ -188,7 +188,11 @@
    },
    "v3": {
     "remix_de": "r03-casal-5mil",
-    "pasta": "r03b-casal-furo"
+    "pasta": "r03b-casal-furo",
+    "publicado_em": "2026-11-06T18:20-03:00",
+    "links": {
+     "tt": "rascunho no app (Buffer falhou: Video could not be read from its URL); Eduardo publica"
+    }
    },
    "v4": {
     "remix_de": "v1 do mesmo dia"
