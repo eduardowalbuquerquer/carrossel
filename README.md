@@ -7,3 +7,4 @@ Motor que cria e publica 1 post por dia no feed + 1 Reels de chamada em @forjada
 - `posts/<data>-<serie>/` cada post (spec.json, slides JPG, reel.mp4). Servidos pelo GitHub Pages para o Instagram baixar.
 - `ROTINA.md` procedimento diário seguido pela rotina agendada
 - `PASSO-A-PASSO-ACESSO.md` o que o dono da conta precisa liberar
+- `teste/` teste grátis "Qual homem da Bíblia você é hoje?" (isca do funil): `index.html` (página), `dados.js` (texto único), `plano.html` + `gerar_pdfs.py` (PDFs em `teste/pdf/`)

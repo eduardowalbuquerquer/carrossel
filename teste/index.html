@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Qual homem da Bíblia você é hoje? · Forja da Alma</title>
+<meta name="description" content="12 perguntas, 2 minutos. Descubra com qual homem da Bíblia você mais se parece hoje e receba um plano de 7 dias.">
+<meta property="og:title" content="Qual homem da Bíblia você é hoje?">
+<meta property="og:description" content="12 perguntas, 2 minutos. Um espelho à luz da Bíblia e um plano de 7 dias.">
+<meta property="og:image" content="logo.jpg">
+<meta name="theme-color" content="#171411">
+<link rel="icon" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+  :root{
+    --p:#C8892C; --pl:#E3B566; --pd:#8A5A17;
+    --bg:#171411; --card:#211C17; --line:#3A3129;
+    --ink:#F5EFE4; --muted:#B8AC9C; --soft:#8A8178;
+    --grad:linear-gradient(165deg,#8A5A17 0%,#C8892C 50%,#E3B566 100%);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--ink)}
+  body{font-family:"DM Sans",system-ui,sans-serif;font-size:17px;line-height:1.5;min-height:100vh;
+       -webkit-font-smoothing:antialiased;
+       background:radial-gradient(120% 60% at 50% -10%,rgba(200,137,44,.18),transparent 60%),var(--bg)}
+  .wrap{max-width:520px;margin:0 auto;padding:20px 16px 48px}
+  header{display:flex;align-items:center;gap:10px;margin-bottom:28px}
+  header img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:1px solid var(--line)}
+  header span{font-family:"Playfair Display",serif;font-weight:600;letter-spacing:.02em}
+  h1,h2{font-family:"Playfair Display",serif;line-height:1.15}
+  h1{font-size:clamp(32px,9vw,44px);margin:8px 0 14px}
+  h1 em{font-style:italic;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .eyebrow{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--pl);font-weight:600}
+  .lead{color:var(--muted);font-size:18px}
+  .meta{display:flex;gap:18px;margin:22px 0 28px;color:var(--soft);font-size:15px}
+  .meta b{color:var(--ink);font-weight:600}
+  .btn{display:block;width:100%;border:0;border-radius:14px;padding:17px 20px;font:600 17px "DM Sans",sans-serif;
+       background:var(--grad);color:#171411;cursor:pointer;text-align:center;text-decoration:none;
+       box-shadow:0 8px 24px rgba(200,137,44,.25)}
+  .btn:active{transform:translateY(1px)}
+  .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line);box-shadow:none}
+  .btn + .btn{margin-top:12px}
+  .note{color:var(--soft);font-size:13px;margin-top:18px;text-align:center}
+  .bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-bottom:10px}
+  .bar i{display:block;height:100%;background:var(--grad);width:0;transition:width .3s}
+  .count{display:flex;justify-content:space-between;color:var(--soft);font-size:14px;margin-bottom:22px}
+  .back{background:none;border:0;color:var(--muted);font:500 14px "DM Sans";cursor:pointer;padding:0}
+  .back[hidden]{visibility:hidden;display:inline}
+  .q{font-family:"Playfair Display",serif;font-size:clamp(24px,6.6vw,30px);line-height:1.2;margin-bottom:22px}
+  .opt{display:block;width:100%;text-align:left;background:var(--card);color:var(--ink);border:1px solid var(--line);
+       border-radius:14px;padding:16px 18px;margin-bottom:12px;font:500 17px/1.4 "DM Sans",sans-serif;cursor:pointer;
+       transition:border-color .15s,background .15s}
+  .opt:hover,.opt:focus-visible{border-color:var(--p);outline:none}
+  .opt.on{border-color:var(--pl);background:rgba(200,137,44,.14)}
+  .fade{animation:fade .28s ease}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .hero{text-align:center;padding:8px 0 4px}
+  .hero .name{font-family:"Playfair Display",serif;font-size:clamp(52px,16vw,72px);font-weight:700;line-height:1;margin:10px 0 6px;
+       background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero .tit{font-size:19px;color:var(--ink);font-weight:600}
+  .verse{margin:26px 0;padding:22px 20px;border-radius:16px;background:var(--card);border:1px solid var(--line);position:relative}
+  .verse p{font-family:"Playfair Display",serif;font-style:italic;font-size:20px;line-height:1.4}
+  .verse cite{display:block;margin-top:10px;font-style:normal;color:var(--pl);font-size:14px;font-weight:600;letter-spacing:.04em}
+  .verse:before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:3px;border-radius:3px;background:var(--grad)}
+  .sec{margin:22px 0}
+  .sec h2{font-size:22px;margin-bottom:8px}
+  .sec p{color:var(--muted)}
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+  .duo div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .duo small{display:block;color:var(--pl);font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;margin-bottom:4px}
+  .duo span{font-size:15px}
+  .care{border:1px solid var(--pd);background:rgba(138,90,23,.15);border-radius:14px;padding:14px 16px;font-size:15px;color:var(--ink);margin:18px 0}
+  ol.plan{list-style:none;counter-reset:d;margin-top:10px}
+  ol.plan li{counter-increment:d;display:grid;grid-template-columns:44px 1fr;gap:12px;padding:14px 0;border-top:1px solid var(--line)}
+  ol.plan li:before{content:"Dia " counter(d);font-size:12px;font-weight:700;color:var(--pl);text-transform:uppercase;letter-spacing:.06em;padding-top:3px}
+  ol.plan b{display:block;font-weight:600;font-size:15px;color:var(--ink)}
+  ol.plan span{color:var(--muted);font-size:15px}
+  .second{color:var(--muted);font-size:15px;text-align:center;margin-top:6px}
+  .second b{color:var(--ink)}
+  .cta{margin-top:30px;padding:22px 18px;border-radius:18px;background:var(--card);border:1px solid var(--line);text-align:center}
+  .cta h2{font-size:22px;margin-bottom:6px}
+  .cta p{color:var(--muted);font-size:15px;margin-bottom:16px}
+  footer{margin-top:34px;text-align:center;color:var(--soft);font-size:13px}
+  footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><img src="logo.jpg" alt=""><span>Forja da Alma</span></header>
+  <main id="app"></main>
+  <footer>Forja da Alma · <a href="https://www.instagram.com/forjadaalma.oficial/">@forjadaalma.oficial</a><br>Bíblia: Almeida Revista e Atualizada (ARA).</footer>
+</div>
+<script src="dados.js"></script>
+<script>
+(function(){
+  var D = window.DADOS, app = document.getElementById('app');
+  var N = D.perguntas.length, resp = new Array(N), atual = 0;
+  var IG = 'https://www.instagram.com/forjadaalma.oficial/';
+
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function show(html){app.innerHTML = '<div class="fade">' + html + '</div>'; window.scrollTo(0,0);}
+
+  function intro(){
+    show(
+      '<div class="eyebrow">Teste grátis · Arquétipos Bíblicos</div>' +
+      '<h1>Qual homem da Bíblia <em>você é hoje?</em></h1>' +
+      '<p class="lead">Jacó, Pedro, Elias, Davi, Gideão ou José. Responda com sinceridade e veja quem mais se parece com o seu momento.</p>' +
+      '<div class="meta"><span><b>12</b> perguntas</span><span><b>2</b> minutos</span><span><b>7</b> dias de plano</span></div>' +
+      '<button class="btn" id="go">Começar o teste</button>' +
+      '<p class="note">Não é um teste científico. É um espelho para pensar à luz da Bíblia.</p>'
+    );
+    document.getElementById('go').onclick = function(){ atual = 0; pergunta(); };
+  }
+
+  function pergunta(){
+    var p = D.perguntas[atual], ops = '';
+    p.o.forEach(function(o, i){
+      ops += '<button class="opt' + (resp[atual] === i ? ' on' : '') + '" data-i="' + i + '">' + esc(o[0]) + '</button>';
+    });
+    show(
+      '<div class="bar"><i style="width:' + Math.round(atual / N * 100) + '%"></i></div>' +
+      '<div class="count"><button class="back" id="back"' + (atual ? '' : ' hidden') + '>← Voltar</button><span>' + (atual + 1) + ' de ' + N + '</span></div>' +
+      '<div class="q">' + esc(p.q) + '</div>' + ops
+    );
+    app.querySelectorAll('.opt').forEach(function(b){
+      b.onclick = function(){
+        resp[atual] = +b.dataset.i; b.classList.add('on');
+        setTimeout(function(){ if (++atual < N) pergunta(); else fim(); }, 180);
+      };
+    });
+    document.getElementById('back').onclick = function(){ if (atual) { atual--; pergunta(); } };
+  }
+
+  function calcular(){
+    var pts = {}, max = {};
+    D.ordem.forEach(function(k){ pts[k] = 0; max[k] = 0; });
+    D.perguntas.forEach(function(p, qi){
+      p.o.forEach(function(o, oi){ o[1].forEach(function(k){ max[k]++; if (resp[qi] === oi) pts[k]++; }); });
+    });
+    return D.ordem.slice().sort(function(a, b){
+      return (pts[b] / max[b]) - (pts[a] / max[a]) || D.ordem.indexOf(a) - D.ordem.indexOf(b);
+    });
+  }
+
+  function fim(){
+    var r = calcular();
+    history.replaceState(null, '', '#r=' + r[0] + '&s=' + r[1]);
+    resultado(r[0], r[1]);
+  }
+
+  function resultado(k, s){
+    var P = D.perfis[k], S = D.perfis[s], plano = '';
+    P.plano.forEach(function(d){ plano += '<li><div><b>' + esc(d[0]) + '</b><span>' + esc(d[1]) + '</span></div></li>'; });
+    var url = location.href.split('#')[0];
+    var zap = 'https://wa.me/?text=' + encodeURIComponent('Fiz o teste e deu ' + P.nome + ' (' + P.titulo.toLowerCase() + '). E você, qual homem da Bíblia é hoje? ' + url);
+    show(
+      '<div class="hero"><div class="eyebrow">Hoje você se parece com</div><div class="name">' + esc(P.nome) + '</div><div class="tit">' + esc(P.titulo) + '</div></div>' +
+      (S ? '<p class="second">Segundo traço mais forte: <b>' + esc(S.nome) + '</b></p>' : '') +
+      '<div class="verse"><p>“' + esc(P.verso) + '”</p><cite>' + esc(P.ref) + ' (ARA)</cite></div>' +
+      '<div class="sec"><h2>O seu retrato</h2><p>' + esc(P.retrato) + '</p></div>' +
+      '<div class="duo"><div><small>Força</small><span>' + esc(P.forca) + '</span></div><div><small>Armadilha</small><span>' + esc(P.armadilha) + '</span></div></div>' +
+      '<div class="sec"><h2>Em Cristo</h2><p>' + esc(P.cristo) + '</p></div>' +
+      (P.cuidado ? '<div class="care">' + esc(P.cuidado) + '</div>' : '') +
+      '<div class="sec"><h2>Seu plano de 7 dias</h2><p>Uma leitura e uma atitude por dia. Cabe em 10 minutos.</p><ol class="plan">' + plano + '</ol></div>' +
+      '<a class="btn" href="pdf/plano-' + k + '.pdf" download>Baixar o plano em PDF</a>' +
+      '<a class="btn ghost" href="' + zap + '" target="_blank" rel="noopener">Enviar o teste para um irmão</a>' +
+      '<div class="cta"><h2>Uma palavra por dia, direto ao ponto</h2><p>No Instagram do Forja da Alma tem conteúdo bíblico para homens todos os dias.</p>' +
+      '<a class="btn" href="' + IG + '" target="_blank" rel="noopener">Seguir @forjadaalma.oficial</a></div>' +
+      '<p class="note"><a href="#" id="again" style="color:var(--muted)">Refazer o teste</a></p>'
+    );
+    document.getElementById('again').onclick = function(e){ e.preventDefault(); resp = new Array(N); history.replaceState(null, '', location.pathname + location.search); intro(); };
+  }
+
+  var m = location.hash.match(/r=(\w+)(?:&s=(\w+))?/);
+  if (m && D.perfis[m[1]]) resultado(m[1], D.perfis[m[2]] ? m[2] : null); else intro();
+})();
+</script>
+</body>
+</html>
