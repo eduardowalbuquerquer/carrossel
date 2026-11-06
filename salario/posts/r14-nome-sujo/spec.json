@@ -3,25 +3,55 @@
  "roteiro": 14,
  "pilar": "divida-desmontada",
  "scenes": [
-  {"type": "hook", "value": "R$ 4.870", "value_label": "O total real das dívidas", "tone": "red",
-   "title": "Nome sujo? O 1º passo <em>não é pagar.</em>", "sub": "É descobrir este número 👇",
-   "say": "Nome sujo? O primeiro passo não é pagar. É descobrir este número."},
-  {"type": "steps", "title": "Liste tudo, uma dívida por linha",
-   "items": ["Cartão de crédito: <b>R$ 2.900</b>", "Empréstimo pessoal: <b>R$ 1.450</b>", "Conta de celular atrasada: <b>R$ 520</b>"],
-   "say": "Liste tudo, uma dívida por linha. Cartão, dois mil e novecentos. Empréstimo, mil quatrocentos e cinquenta. Celular atrasado, quinhentos e vinte."},
-  {"type": "number", "label": "Total real", "value": "R$ 4.870", "tone": "red",
+  {
+   "type": "hook",
+   "value": "R$ 4.870",
+   "value_label": "O total real das dívidas",
+   "tone": "red",
+   "title": "Nome sujo? O 1º passo <em>não é pagar.</em>",
+   "sub": "É descobrir este número 👇",
+   "say": "Nome sujo? O primeiro passo não é pagar. É descobrir este número."
+  },
+  {
+   "type": "steps",
+   "title": "Liste tudo, uma dívida por linha",
+   "items": [
+    "Cartão de crédito: <b>R$ 2.900</b>",
+    "Empréstimo pessoal: <b>R$ 1.450</b>",
+    "Conta de celular atrasada: <b>R$ 520</b>"
+   ],
+   "say": "Liste tudo, uma dívida por linha. Cartão, dois mil e novecentos. Empréstimo, mil quatrocentos e cinquenta. Celular atrasado, quinhentos e vinte."
+  },
+  {
+   "type": "number",
+   "label": "Total real",
+   "value": "R$ 4.870",
+   "tone": "red",
    "text": "Com o número na mão, você negocia sem chutar e sem aceitar a 1ª proposta.",
-   "say": "Total real: quatro mil oitocentos e setenta reais. Com esse número na mão, você negocia sem chutar."},
-  {"type": "steps", "title": "Antes de negociar",
-   "items": ["Veja as dívidas com bancos no <b>Registrato</b>, do Banco Central (grátis)", "Defina quanto <b>cabe por mês</b> sem atrasar aluguel e mercado", "Só aceite parcela que <b>cabe nesse valor</b>"],
-   "say": "Antes de negociar: veja as dívidas com bancos no Registrato, do Banco Central, de graça. Defina quanto cabe por mês sem atrasar aluguel e mercado. E só aceite a parcela que cabe nesse valor."},
-  {"type": "cta", "title": "Quer ver o <em>seu</em> total real?", "say": "Quer ver o seu total real?"}
+   "say": "Total real: quatro mil oitocentos e setenta reais. Com esse número na mão, você negocia sem chutar."
+  },
+  {
+   "type": "steps",
+   "title": "Antes de negociar",
+   "items": [
+    "Veja as dívidas com bancos no <b>Registrato</b>, do Banco Central (grátis)",
+    "Defina quanto <b>cabe por mês</b> sem atrasar aluguel e mercado",
+    "Só aceite parcela que <b>cabe nesse valor</b>"
+   ],
+   "say": "Antes de negociar: veja as dívidas com bancos no Registrato, do Banco Central, de graça. Defina quanto cabe por mês sem atrasar aluguel e mercado. E só aceite a parcela que cabe nesse valor."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver o <em>seu</em> total real?",
+   "say": "Quer ver o seu total real?"
+  }
  ],
  "captions": {
   "ig": "Nome sujo? O 1º passo não é pagar. É descobrir o total real 👇\n\n1. Liste tudo, uma dívida por linha: cartão R$ 2.900, empréstimo R$ 1.450, celular atrasado R$ 520.\n2. Total real: R$ 4.870. Com esse número na mão, você negocia sem chutar.\n3. Antes de negociar: veja as dívidas com bancos no Registrato, do Banco Central (grátis), defina quanto cabe por mês sem atrasar aluguel e mercado, e só aceite parcela que cabe nesse valor.\n\nQuer ver o seu total real? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem está com o nome sujo e não sabe por onde começar 👀\n\n(Cenário de exemplo.)\n\n#dividas #nomesujo #organizacaofinanceira #financaspessoais #educacaofinanceira",
   "tt": "Nome sujo? O 1º passo não é pagar: é descobrir o total real (no exemplo, R$ 4.870) 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #nomesujo #financaspessoais #organizacaofinanceira #dinheiro",
   "yt_title": "Nome sujo? O 1º passo não é pagar #shorts",
   "yt_desc": "Antes de negociar, liste todas as dívidas e descubra o total real (no exemplo: cartão R$ 2.900 + empréstimo R$ 1.450 + celular R$ 520 = R$ 4.870). Veja as dívidas com bancos no Registrato, do Banco Central (grátis), defina quanto cabe por mês e só aceite parcela que cabe nesse valor. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #nomesujo",
-  "pin_title": "Nome sujo: o 1º passo para sair das dívidas (planilha grátis)"
+  "pin_title": "Nome sujo: o 1º passo para sair das dívidas (planilha grátis)",
+  "pin": "Nome sujo? O 1º passo não é pagar: é descobrir o total real. Liste cada dívida numa linha (no exemplo, cartão R$ 2.900 + empréstimo R$ 1.450 + celular R$ 520 = R$ 4.870), veja as dívidas com bancos no Registrato, do Banco Central (grátis), e só aceite parcela que cabe no seu mês."
  }
 }
