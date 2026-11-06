@@ -55,6 +55,13 @@ python3 fetch_photo.py "<busca>" ../posts/<pasta>/img/foto.jpg
 ```
 Prefira homens como foco, luz natural e tons quentes. Descarte fotos com texto, marcas ou logotipos.
 
+## CTA do teste grátis (Fase 0 do funil, aprovada pelo Eduardo em 2026-11-06)
+O teste "Qual homem da Bíblia você é hoje?" fica em `teste/` (https://eduardowalbuquerquer.github.io/carrossel/teste/). Quem comenta **TESTE** recebe o link no direct pelo Zorcha e deixa o e-mail.
+- **Só vale se o arquivo `teste/zorcha_ativo` existir** (criado quando o Eduardo confirmar que a automação TESTE está ligada). Sem ele, não peça o comentário: a pessoa ficaria sem resposta.
+- Com o arquivo: na série **Arquétipos** (segunda), o slide `cta` e a legenda pedem "Comente TESTE e descubra qual homem da Bíblia você é hoje" no lugar da pergunta. Nos **Reels da Noite de terça e sexta**, a última cena usa `cta: "Comente TESTE"` e a legenda explica o teste em 1 linha. Nos outros dias, nada muda.
+- No TikTok e no Facebook o Zorcha não responde: lá a legenda diz "link do teste no perfil do Instagram @forjadaalma.oficial".
+- O texto do teste e dos PDFs vive em `teste/dados.js`. Se mudar, rode `python3 teste/gerar_pdfs.py` para refazer os PDFs.
+
 ## Reels da Noite (19h, rotina separada das 18h48; escolhido pelo Eduardo em 2026-10-14)
 Segunda publicação diária: um **Reels completo**, com conteúdo próprio (não é chamada para o post da manhã). Sai no Instagram e na Página do Facebook.
 1. Ambiente igual ao da manhã. Pasta: `posts/AAAA-MM-DD-reels/`. Se já existir com `reel.mp4`, pule para o passo 5.

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Plano de 7 dias · Forja da Alma</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+<style>
+  @page{size:A4;margin:0}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"DM Sans",sans-serif;color:#2A241E;background:#F5EFE4;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .pg{width:210mm;height:297mm;position:relative;overflow:hidden;padding:16mm 16mm 14mm}
+  .top{position:absolute;inset:0 0 auto 0;height:86mm;background:#171411;color:#F5EFE4;padding:14mm 16mm}
+  .top:after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,#8A5A17,#C8892C,#E3B566)}
+  .brand{display:flex;align-items:center;gap:8px;font-family:"Playfair Display",serif;font-weight:600;font-size:13px}
+  .brand img{width:26px;height:26px;border-radius:50%}
+  .eyebrow{margin-top:9mm;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#E3B566;font-weight:700}
+  h1{font-family:"Playfair Display",serif;font-size:44px;line-height:1;margin:3mm 0 2mm;color:#E3B566}
+  .tit{font-size:15px;font-weight:600}
+  .verse{margin-top:5mm;font-family:"Playfair Display",serif;font-style:italic;font-size:12.5px;line-height:1.45;color:#E8DFD0;max-width:160mm}
+  .verse cite{font-family:"DM Sans";font-style:normal;font-weight:700;color:#E3B566;font-size:10px;letter-spacing:.05em;margin-left:4px}
+  .body{margin-top:76mm}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:5mm;margin-bottom:5mm}
+  .box{background:#fff;border:1px solid #E6DCCB;border-radius:10px;padding:4mm 5mm;font-size:11.5px;line-height:1.45}
+  .box small{display:block;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:#8A5A17;font-weight:700;margin-bottom:1.5mm}
+  h2{font-family:"Playfair Display",serif;font-size:19px;margin:2mm 0 1mm}
+  .sub{font-size:11px;color:#6F655A;margin-bottom:2mm}
+  table{width:100%;border-collapse:collapse}
+  td{border-top:1px solid #E6DCCB;padding:2.6mm 0;vertical-align:top;font-size:11.5px;line-height:1.4}
+  td.d{width:16mm;font-size:9px;font-weight:700;color:#8A5A17;letter-spacing:.08em;text-transform:uppercase;padding-top:3mm}
+  td b{display:block;font-size:11.5px}
+  td.ck{width:9mm;text-align:right}
+  td.ck i{display:inline-block;width:4mm;height:4mm;border:1.2px solid #C8892C;border-radius:1mm;margin-top:.6mm}
+  .care{margin-top:3mm;border:1px solid #C8892C;border-radius:8px;padding:3mm 4mm;font-size:10.5px;background:#FBF4E6}
+  .foot{position:absolute;left:16mm;right:16mm;bottom:10mm;display:flex;justify-content:space-between;font-size:9.5px;color:#8A8178}
+</style>
+</head>
+<body>
+<div class="pg" id="pg"></div>
+<script src="dados.js"></script>
+<script>
+  var k = new URLSearchParams(location.search).get('p') || 'jaco', P = window.DADOS.perfis[k];
+  var e = function(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});};
+  var rows = P.plano.map(function(d, i){
+    return '<tr><td class="d">Dia ' + (i + 1) + '</td><td><b>' + e(d[0]) + '</b>' + e(d[1]) + '</td><td class="ck"><i></i></td></tr>';
+  }).join('');
+  document.getElementById('pg').innerHTML =
+    '<div class="top"><div class="brand"><img src="logo.jpg">Forja da Alma</div>' +
+    '<div class="eyebrow">Teste: qual homem da Bíblia você é hoje?</div>' +
+    '<h1>' + e(P.nome) + '</h1><div class="tit">' + e(P.titulo) + '</div>' +
+    '<p class="verse">“' + e(P.verso) + '” <cite>' + e(P.ref).toUpperCase() + ' · ARA</cite></p></div>' +
+    '<div class="body">' +
+    '<div class="row"><div class="box"><small>O seu retrato</small>' + e(P.retrato) + '</div><div class="box"><small>Em Cristo</small>' + e(P.cristo) + '</div></div>' +
+    '<div class="row"><div class="box"><small>Força</small>' + e(P.forca) + '</div><div class="box"><small>Armadilha</small>' + e(P.armadilha) + '</div></div>' +
+    '<h2>Plano de 7 dias</h2><p class="sub">Leia o texto na sua Bíblia e faça a atitude do dia. Marque o quadrado quando terminar.</p>' +
+    '<table>' + rows + '</table>' +
+    (P.cuidado ? '<div class="care">' + e(P.cuidado) + '</div>' : '') +
+    '</div><div class="foot"><span>@forjadaalma.oficial · Envie para um irmão</span><span>Bíblia: Almeida Revista e Atualizada</span></div>';
+</script>
+</body>
+</html>
