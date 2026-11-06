@@ -1,0 +1,54 @@
+{
+ "id": "r19-guardar-com-divida",
+ "roteiro": 19,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 153",
+   "value_label": "o juro de R$ 1.000 no rotativo em 1 mês",
+   "tone": "red",
+   "title": "Guardar dinheiro com dívida no cartão <em>é perder dinheiro.</em>",
+   "sub": "Olha a conta de 1 mês 👇",
+   "say": "Mil reais no rotativo do cartão custam 153 reais em um mês. Olha a conta."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "15,29% ao mês",
+   "tone": "red",
+   "text": "Média de set/2026 (451,7% ao ano). Em R$ 1.000, cerca de R$ 153 de juro em 1 mês.",
+   "source": "Banco Central, set/2026 (preliminar)",
+   "say": "No rotativo, o juro médio foi de quinze vírgula três por cento ao mês, segundo o Banco Central."
+  },
+  {
+   "type": "number",
+   "label": "Poupança",
+   "value": "0,5% ao mês + TR",
+   "tone": "green",
+   "text": "Em R$ 1.000, cerca de R$ 5 mais a TR no mesmo mês.",
+   "source": "Lei 12.703/2012 (com Selic acima de 8,5%)",
+   "say": "Já a poupança rende meio por cento ao mês, mais a TR. Em mil reais, uns cinco reais, mais a TR."
+  },
+  {
+   "type": "steps",
+   "title": "O que fazer",
+   "items": [
+    "Guarde só uma <b>reserva pequena</b> para emergência",
+    "O resto vai para <b>pagar a fatura</b> e sair do rotativo",
+    "Sem dívida cara, aí sim volte a <b>guardar</b>"
+   ],
+   "say": "Guarde só uma reserva pequena. O resto vai para sair do rotativo. Depois, volte a guardar."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver quanto a <em>sua</em> dívida custa?",
+   "say": "Quer ver quanto a sua dívida custa por mês?"
+  }
+ ],
+ "captions": {
+  "tt": "Guardar dinheiro com dívida no cartão é perder dinheiro: R$ 1.000 no rotativo custam cerca de R$ 153 em 1 mês (15,29% a.m., Banco Central, set/2026, dado preliminar). Na poupança, rendem uns R$ 5 + TR 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #cartaodecredito #financaspessoais #organizacaofinanceira #dinheiro",
+  "pin_title": "Guardar dinheiro com dívida no cartão: a conta de 1 mês (planilha grátis)",
+  "pin": "R$ 1.000 no rotativo do cartão custam cerca de R$ 153 de juro em 1 mês (15,29% ao mês, Banco Central, set/2026, preliminar). Na poupança, os mesmos R$ 1.000 rendem uns R$ 5 + TR (Lei 12.703/2012). Guarde só uma reserva pequena e use o resto para sair do rotativo."
+ }
+}
