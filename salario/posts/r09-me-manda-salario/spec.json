@@ -1,0 +1,28 @@
+{
+ "id": "r09-me-manda-salario",
+ "roteiro": 9,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {"type": "hook", "tag": "Salários reais #9", "title": "Me manda <em>seu salário</em> nos comentários.", "sub": "Eu organizo o próximo 👇",
+   "say": "Me manda o seu salário nos comentários, que eu organizo o próximo. Olha o que já achei nos outros."},
+  {"type": "steps", "title": "O que já achei",
+   "items": ["<b>R$ 2.300:</b> o furo era o <b>delivery</b>", "<b>Salário mínimo:</b> sobravam só <b>R$ 79</b>", "<b>Casal com R$ 5 mil:</b> <b>R$ 190</b> em assinaturas"],
+   "say": "Dois mil e trezentos: o furo era o delivery. Salário mínimo: sobravam setenta e nove reais. Casal com cinco mil: cento e noventa em assinaturas esquecidas."},
+  {"type": "steps", "title": "E mais",
+   "items": ["<b>R$ 1.800:</b> metade ia no <b>aluguel</b>", "<b>R$ 4.000:</b> <b>28%</b> em gasto que nem lembrava"],
+   "say": "Mil e oitocentos: metade ia no aluguel. Quatro mil: vinte e oito por cento em gasto que nem lembrava."},
+  {"type": "number", "label": "Em 5 salários", "value": "5 furos", "tone": "warm",
+   "text": "diferentes. Cada salário vaza por um lugar.",
+   "say": "Cinco salários, cinco furos diferentes. Cada salário vaza por um lugar."},
+  {"type": "steps", "title": "Como mandar o seu",
+   "items": ["Seu <b>salário</b> (valor aproximado)", "Seu <b>maior gasto</b> do mês", "<b>Sem nome</b> e sem dado pessoal"],
+   "say": "Comenta o valor aproximado do salário e o maior gasto do mês. Sem nome, sem dado pessoal. O mais pedido vira o próximo vídeo."},
+  {"type": "cta", "title": "Quer achar o <em>seu</em> furo antes?", "say": "Quer achar o seu furo antes?"}
+ ],
+ "captions": {
+  "ig": "Me manda seu salário nos comentários que eu organizo o próximo 👇\n\nO que já achei na série:\n• R$ 2.300: o furo era o delivery.\n• Salário mínimo: sobravam só R$ 79.\n• Casal com R$ 5 mil: R$ 190 em assinaturas esquecidas.\n• R$ 1.800: metade ia no aluguel.\n• R$ 4.000: 28% em gasto que nem lembrava.\n\n5 salários, 5 furos diferentes.\n\nComenta o valor aproximado do seu salário e o maior gasto do mês (sem nome). O mais pedido vira o próximo vídeo.\nQuer achar o seu furo antes? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenários de exemplo da série Salários reais.)\n\n#organizacaofinanceira #financaspessoais #salario #educacaofinanceira #dinheiro",
+  "tt": "Me manda seu salário nos comentários que eu organizo o próximo 👇 5 salários, 5 furos diferentes. Quer a planilha? Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #salario #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "yt_title": "Me manda seu salário que eu organizo o próximo #shorts",
+  "yt_desc": "Série Salários reais: R$ 2.300 (furo no delivery), salário mínimo (sobram R$ 79), casal com R$ 5 mil (R$ 190 em assinaturas), R$ 1.800 (metade no aluguel) e R$ 4.000 (28% em gastos esquecidos). Comenta seu salário aproximado e o maior gasto do mês, sem nome: o mais pedido vira o próximo vídeo. Cenários de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #salario"
+ }
+}

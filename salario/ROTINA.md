@@ -46,4 +46,4 @@ Variáveis: `SO_IG_ACCESS_TOKEN`, `SO_IG_USER_ID`, `SO_YT_CLIENT_ID`, `SO_YT_CLI
 9. **Falhas.** Nunca invente resultado. Se uma rede falhar, as outras seguem; avise o Eduardo com o erro exato e o que ele precisa fazer.
 
 ## Depois do dia 14
-Repita a estrutura dos vídeos que mais trouxeram comentários PLANILHA (veja as métricas e o painel da Zorcha). Os slots v3 e v4 já levam o TikTok a 4 vídeos por dia desde o dia 10. Cota de voz: ~10 pedidos/dia por modelo; um vídeo novo gasta ~6 e um remix ~1 (cache em `/mnt/project-files/canais/automacao/cache_tts`).
+Repita a estrutura dos vídeos que mais trouxeram comentários PLANILHA (veja as métricas e o painel da Zorcha). Os slots v3 e v4 levam o TikTok a 4 vídeos por dia (desde o dia 12). Cota de voz: ~10 pedidos/dia por modelo; um vídeo novo gasta ~6 e um remix ~1 (cache em `/mnt/project-files/canais/automacao/cache_tts`).

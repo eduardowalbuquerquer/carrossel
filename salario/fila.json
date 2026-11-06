@@ -1,5 +1,5 @@
 {
- "_sobre": "Ordem dos vídeos. A rotina pega, para o slot de agora, o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v3 = 16h (só TikTok, remix de um vídeo campeão); v2 = 19h a 21h (só TikTok); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). 03/11/2026: dias 10 a 14 priorizam dívida e cartão e ganham v3 e v4 (aceleração, ver ROTINA.md).",
+ "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas.",
  "itens": [
   {
    "dia": 4,
@@ -130,11 +130,52 @@
   {
    "dia": 10,
    "v1": {
-    "roteiro": 20,
-    "pasta": "r20-gastos-invisiveis"
+    "roteiro": 9,
+    "pasta": "r09-me-manda-salario",
+    "publicado_em": "2026-11-04T12:25-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfUtmxbDdCA/",
+     "yt": "https://youtube.com/shorts/UhZ7laLTuO8",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704329303634513204 (Buffer)"
+    }
    },
    "v2": {
-    "roteiro": 15
+    "roteiro": 20,
+    "pasta": "r20-gastos-invisiveis",
+    "publicado_em": "2026-11-04T19:15-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704444101378280712 (Buffer)"
+    }
+   }
+  },
+  {
+   "dia": 11,
+   "v1": {
+    "roteiro": 4,
+    "pasta": "r04-3200-dois-cartoes",
+    "publicado_em": "2026-11-05T11:58-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfXSsfzgHlP/",
+     "yt": "https://youtube.com/shorts/SPz4-l_kDrk",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704701011214028039 (Buffer)"
+    }
+   },
+   "v2": {
+    "roteiro": 13,
+    "pasta": "r13-100-a-mais",
+    "publicado_em": "2026-11-05T19:22-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7704815811223129365 (Buffer)"
+    }
+   }
+  },
+  {
+   "dia": 12,
+   "v1": {
+    "roteiro": 14
+   },
+   "v2": {
+    "roteiro": 19
    },
    "v3": {
     "remix_de": "r03-casal-5mil",
@@ -145,48 +186,16 @@
    }
   },
   {
-   "dia": 11,
-   "v1": {
-    "roteiro": 13
-   },
-   "v2": {
-    "roteiro": 14
-   },
-   "v3": {
-    "remix_de": "r16-rotativo-442",
-    "pasta": "r16b-rotativo-fatura"
-   },
-   "v4": {
-    "remix_de": "v1 do mesmo dia"
-   }
-  },
-  {
-   "dia": 12,
-   "v1": {
-    "roteiro": 19
-   },
-   "v2": {
-    "roteiro": 4
-   },
-   "v3": {
-    "remix_de": "r12-pare-minimo",
-    "pasta": "r12b-minimo-dobra"
-   },
-   "v4": {
-    "remix_de": "v1 do mesmo dia"
-   }
-  },
-  {
    "dia": 13,
    "v1": {
-    "roteiro": 9
+    "roteiro": 15
    },
    "v2": {
     "roteiro": 8
    },
    "v3": {
-    "remix_de": "r03-casal-5mil",
-    "pasta": "r03c-casal-assinaturas"
+    "remix_de": "r16-rotativo-442",
+    "pasta": "r16b-rotativo-fatura"
    },
    "v4": {
     "remix_de": "v1 do mesmo dia"
@@ -201,7 +210,8 @@
     "roteiro": "melhor gancho da semana com outro número"
    },
    "v3": {
-    "remix_de": "o vídeo com mais views da semana (ver métricas)"
+    "remix_de": "r12-pare-minimo",
+    "pasta": "r12b-minimo-dobra"
    },
    "v4": {
     "remix_de": "v1 do mesmo dia"
