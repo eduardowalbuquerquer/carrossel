@@ -5,5 +5,6 @@
   "yt_link": "https://youtube.com/shorts/ODugifu-JIk",
   "tt_id": "6aee016a229bf05daff77bc2",
   "tt_status": "BUFFER_SENT",
-  "tt_link": "https://tiktok.com/@salrio.organizado/video/7705097563678051604"
+  "tt_link": "https://tiktok.com/@salrio.organizado/video/7705097563678051604",
+  "pin_erro": "Buffer recusou o pin (InvalidInputError): Invalid post: Pinterest posts cannot exceed 500 characters."
 }
