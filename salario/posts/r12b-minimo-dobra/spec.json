@@ -1,0 +1,65 @@
+{
+ "id": "r12b-minimo-dobra",
+ "roteiro": 12,
+ "pilar": "dividas",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "R$ 1.000 no mínimo pode virar",
+   "value": "R$ 2.000",
+   "tone": "red",
+   "title": "pagando só o mínimo do cartão. <em>E é dentro da lei</em>.",
+   "say": "Mil reais no cartão podem virar dois mil pagando só o mínimo. E é dentro da lei."
+  },
+  {
+   "type": "steps",
+   "title": "O que acontece",
+   "items": [
+    "Você paga o mínimo",
+    "O resto vai pro <b>rotativo</b>",
+    "E cresce com o juro mais caro do país"
+   ],
+   "say": "Pagou o mínimo, o resto vai pro rotativo. E cresce com um dos juros mais caros do país."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "442,4%",
+   "tone": "red",
+   "text": "ao ano, média de junho de 2026.",
+   "source": "Banco Central, jun/2026",
+   "say": "442 por cento ao ano, segundo o Banco Central."
+  },
+  {
+   "type": "number",
+   "label": "Teto de juros e encargos",
+   "value": "100%",
+   "tone": "warm",
+   "text": "da dívida original, no rotativo e no parcelamento da fatura.",
+   "source": "Lei 14.690/2023",
+   "say": "A lei limita juros e encargos a cem por cento da dívida. Ou seja: mil podem virar dois mil."
+  },
+  {
+   "type": "steps",
+   "title": "Faça isso no lugar",
+   "items": [
+    "Pague um valor <b>fixo</b> maior todo mês",
+    "Ou parcele a fatura, que costuma ser mais barato",
+    "Corte um gasto pra bancar a diferença"
+   ],
+   "say": "No lugar, pague um valor fixo maior todo mês, ou parcele a fatura. E corte um gasto para bancar essa diferença."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar o gasto <em>pra cortar</em>?",
+   "say": "Quer achar o gasto pra cortar?"
+  }
+ ],
+ "captions": {
+  "tt": "Pagando só o mínimo, R$ 1.000 no cartão podem virar R$ 2.000. E é dentro da lei 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #dividas"
+ },
+ "remix_de": "r12-pare-minimo",
+ "redes": [
+  "tt"
+ ]
+}

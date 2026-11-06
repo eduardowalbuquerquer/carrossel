@@ -1,5 +1,5 @@
 {
- "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana).",
+ "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas.",
  "itens": [
   {
    "dia": 4,
@@ -176,6 +176,13 @@
    },
    "v2": {
     "roteiro": 19
+   },
+   "v3": {
+    "remix_de": "r03-casal-5mil",
+    "pasta": "r03b-casal-furo"
+   },
+   "v4": {
+    "remix_de": "v1 do mesmo dia"
    }
   },
   {
@@ -185,6 +192,13 @@
    },
    "v2": {
     "roteiro": 8
+   },
+   "v3": {
+    "remix_de": "r16-rotativo-442",
+    "pasta": "r16b-rotativo-fatura"
+   },
+   "v4": {
+    "remix_de": "v1 do mesmo dia"
    }
   },
   {
@@ -194,6 +208,13 @@
    },
    "v2": {
     "roteiro": "melhor gancho da semana com outro número"
+   },
+   "v3": {
+    "remix_de": "r12-pare-minimo",
+    "pasta": "r12b-minimo-dobra"
+   },
+   "v4": {
+    "remix_de": "v1 do mesmo dia"
    }
   }
  ]
