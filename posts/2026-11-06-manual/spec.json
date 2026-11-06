@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-06",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Como orar quando você não sabe o que dizer",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MANUAL DO HOMEM",
+      "title": "Como orar quando você <em style=\"color:#C8892C\">não sabe o que dizer</em>.",
+      "body": "Jesus deixou um roteiro. Use o Pai Nosso como mapa da sua oração.",
+      "hint": "Salve e use hoje →"
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A RAZÃO",
+      "title": "Oração não é discurso bonito. É conversa sincera com o Pai.",
+      "quote": {
+        "text": "E, orando, não useis de vãs repetições, como os gentios; porque presumem que pelo seu muito falar serão ouvidos.",
+        "ref": "Mateus 6:7 · ARA"
+      },
+      "body": "Logo depois, Jesus ensina: \"Portanto, vós orareis assim…\" (Mt 6:9)."
+    },
+    {
+      "layout": "list",
+      "theme": "light",
+      "tag": "O ROTEIRO · PARTE 1",
+      "title": "Comece olhando para Deus",
+      "items": [
+        {
+          "num": "01",
+          "title": "\"Santificado seja o teu nome\"",
+          "desc": "Agradeça por quem Ele é antes de pedir qualquer coisa."
+        },
+        {
+          "num": "02",
+          "title": "\"Faça-se a tua vontade\"",
+          "desc": "Entregue os planos do dia. Diga: o que o Senhor quer de mim hoje?"
+        },
+        {
+          "num": "03",
+          "title": "\"O pão nosso de cada dia dá-nos hoje\"",
+          "desc": "Peça o necessário de hoje: trabalho, saúde, sabedoria."
+        }
+      ]
+    },
+    {
+      "layout": "list",
+      "theme": "dark",
+      "tag": "O ROTEIRO · PARTE 2",
+      "title": "Termine olhando para você",
+      "items": [
+        {
+          "num": "04",
+          "title": "\"Perdoa-nos as nossas dívidas\"",
+          "desc": "Nomeie o pecado. E libere quem te deve."
+        },
+        {
+          "num": "05",
+          "title": "\"Não nos deixes cair em tentação\"",
+          "desc": "Diga a Deus qual tentação vai te encontrar hoje."
+        }
+      ]
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "SE AS PALAVRAS FALTAREM",
+      "title": "Você não ora sozinho.",
+      "quote": {
+        "text": "…não sabemos orar como convém, mas o mesmo Espírito intercede por nós sobremaneira, com gemidos inexprimíveis.",
+        "ref": "Romanos 8:26 · ARA"
+      },
+      "body": "Cinco minutos sinceros valem mais que uma hora de frases decoradas."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda sexta: o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual desses passos você costuma pular? Comente e envie para um irmão."
+    }
+  ],
+  "caption": "Não sabe o que dizer quando ora? Jesus deixou um roteiro: o Pai Nosso.\n\nAdore. Entregue. Peça o de hoje. Confesse. Peça proteção.\n\nE se as palavras faltarem: \"…o mesmo Espírito intercede por nós…\" (Rm 8:26).\n\nQual passo você costuma pular? Comente 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #oracao #homemcristao #masculinidadebiblica #forjadaalma #painosso #biblia",
+  "caption_facebook": "Muito homem cristão não ora porque acha que não sabe orar. Fica sem palavras, se sente travado, ou repete as mesmas frases todo dia sem pensar no que está dizendo.\n\nJesus disse: \"E, orando, não useis de vãs repetições, como os gentios; porque presumem que pelo seu muito falar serão ouvidos.\" (Mateus 6:7). E logo em seguida deu um roteiro: o Pai Nosso.\n\nUse cada frase como um passo: adore o nome de Deus, entregue os planos do dia à vontade dEle, peça o pão de hoje, confesse e perdoe, e peça proteção contra a tentação que vai te encontrar.\n\nE quando as palavras faltarem, lembre: \"não sabemos orar como convém, mas o mesmo Espírito intercede por nós sobremaneira, com gemidos inexprimíveis\" (Romanos 8:26).\n\nQual desses passos você costuma pular? Conta aqui.\n\n#homemcristao #forjadaalma #oracao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {
+        "kicker": "SEJA SINCERO",
+        "text": "Você trava quando <em>tenta orar</em>?"
+      },
+      {
+        "kicker": "JESUS DEIXOU",
+        "text": "um roteiro de <em>5 passos</em>."
+      },
+      {
+        "kicker": "O MANUAL DE HOJE",
+        "text": "Está no post de hoje.",
+        "cta": "Toque no perfil →"
+      }
+    ],
+    "caption": "Trava na hora de orar? Jesus deixou um roteiro de 5 passos. Está no perfil 👆\n\n#homemdedeus #forjadaalma #oracao #homemcristao",
+    "caption_facebook": "Trava na hora de orar? Jesus deixou um roteiro de 5 passos. Está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
