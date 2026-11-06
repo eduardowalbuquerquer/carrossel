@@ -68,6 +68,17 @@ def wait_container(cid, label, timeout=600):
         time.sleep(10 if "reel" in label else 4)
 
 
+def publish_container(uid, c, tries=8, pause=20):
+    """media_publish às vezes responde 9007 ("media is not ready") mesmo com o container FINISHED: tenta de novo."""
+    for i in range(tries):
+        try:
+            return call("POST", f"{uid}/media_publish", creation_id=c)["id"]
+        except SystemExit as e:
+            if "2207027" not in str(e) or i == tries - 1:
+                raise
+            time.sleep(pause)
+
+
 def wait_public(url, timeout=420):
     t0 = time.time()
     while time.time() - t0 < timeout:
@@ -126,8 +137,7 @@ def publish_feed(spec, urls, slides):
             wait_container(cid, "item do carrossel")
         c = call("POST", f"{uid}/media", media_type="CAROUSEL", children=",".join(children), caption=caption)["id"]
         wait_container(c, "carrossel")
-    mid = call("POST", f"{uid}/media_publish", creation_id=c)["id"]
-    return mid
+    return publish_container(uid, c)
 
 
 def publish_reel(spec, urls):
@@ -138,7 +148,7 @@ def publish_reel(spec, urls):
         params["cover_url"] = urls["reel_capa.jpg"]
     c = call("POST", f"{uid}/media", **params)["id"]
     wait_container(c, "reel", timeout=900)
-    return call("POST", f"{uid}/media_publish", creation_id=c)["id"]
+    return publish_container(uid, c)
 
 
 def permalink(mid):
