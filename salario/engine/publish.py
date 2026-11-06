@@ -2,7 +2,7 @@
 
 Uso:
   python3 publish.py ../posts/<pasta>                 # publica onde ainda não saiu (idempotente via resultado.json)
-  python3 publish.py ../posts/<pasta> --so ig,yt      # só algumas redes (ig, yt, tt, pin = Pinterest pelo Buffer)
+  python3 publish.py ../posts/<pasta> --so ig,yt      # só algumas redes (ig, yt, tt, pin = Pinterest, fb = Página do Facebook; os dois pelo Buffer)
   python3 publish.py --check                          # valida as credenciais de cada rede
   python3 publish.py --refresh-token                  # renova o token do Instagram (60 dias)
   python3 publish.py --yt-auth-url | --yt-auth-code <código>   # autoriza o canal do YouTube (uma vez)
@@ -16,6 +16,7 @@ Ambiente:
   SO_SEGREDOS                                pasta dos tokens (padrão /mnt/project-files/canais/automacao/.segredos)
   SO_BUFFER_KEY                              chave da API do Buffer (grátis): o Buffer publica no TikTok de forma pública
   SO_PIN_BOARD                               nome da pasta do Pinterest (padrão: "Planilha de gastos e orçamento"; se não achar, a 1ª)
+  SO_FB_TIPO                                 reel (padrão) ou post: formato do vídeo na Página do Facebook (pelo Buffer)
   SO_TIKTOK_MODO                             buffer (padrão se houver SO_BUFFER_KEY) ou inbox (rascunho na caixa de entrada).
                                              O TikTok recusou a auditoria do app Forja (01/11/2026), então "direct" não funciona.
                                              Se o Buffer falhar, o vídeo cai no rascunho (plano B) automaticamente.
@@ -33,6 +34,7 @@ SEGREDOS = Path(os.environ.get("SO_SEGREDOS", "/mnt/project-files/canais/automac
 IG = "https://graph.instagram.com"
 TT = "https://open.tiktokapis.com/v2"
 BUFFER = "https://api.buffer.com"
+MINI = "https://salarioorganizado.netlify.app/mini/"
 SITE = "salarioorganizado.netlify.app"
 YT_SCOPE = "https://www.googleapis.com/auth/youtube.upload"
 REDIRECT_YT = "http://localhost"
@@ -226,6 +228,44 @@ def publish_tt_buffer(post_dir, spec, draft=False):
     return r["post"]["id"], f"BUFFER_{(post.get('status') or 'enviado').upper()}", post.get("externalLink")
 
 
+def fb_caption(spec, link):
+    """Legenda do Instagram com o CTA trocado: no Facebook não há resposta automática ao 'PLANILHA'."""
+    cap = spec["captions"].get("fb")
+    if not cap:
+        linhas = []
+        for ln in spec["captions"]["ig"].splitlines():
+            if "PLANILHA" in ln.upper() and "comenta" in ln.lower():
+                ln = f"👉 Mini-planilha grátis (sem cadastro): {link}"
+            linhas.append(ln)
+        cap = "\n".join(linhas)
+    return cap if link in cap else f"{cap}\n\n👉 Mini-planilha grátis: {link}"
+
+
+def publish_fb(post_dir, spec):
+    """Reel na Página do Facebook pelo Buffer (grátis). Posts feitos pela API do Instagram não
+    passam pelo 'compartilhar no Facebook' da Central de Contas, então publicamos direto na Página."""
+    ch = buffer_channel("facebook")
+    link = f"{MINI}?utm_source=facebook&utm_medium=reel&utm_content={spec.get('id', post_dir.name)}"
+    urls = host(post_dir, ["video_ig.mp4"])
+    i = {"channelId": ch, "text": fb_caption(spec, link), "mode": "shareNow", "schedulingType": "automatic",
+         "source": "salario-organizado", "assets": [{"video": {"url": urls["video_ig.mp4"]}}],
+         "metadata": {"facebook": {"type": os.environ.get("SO_FB_TIPO", "reel"), "firstComment": f"Planilha grátis aqui 👉 {link}"}}}
+    r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
+    if r["__typename"] != "PostActionSuccess":  # 1º comentário pode não existir no plano grátis: tenta sem
+        i["metadata"]["facebook"].pop("firstComment")
+        r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
+    if r["__typename"] != "PostActionSuccess":
+        raise SystemExit(f"Buffer recusou o post do Facebook ({r['__typename']}): {r.get('message')}")
+    post = r["post"]
+    q = "query($i: PostId!) { post(input: {id: $i}) { status externalLink error { message } } }"
+    for _ in range(36):  # até ~6 min para o Buffer enviar ao Facebook
+        if post.get("status") in ("sent", "error"):
+            break
+        time.sleep(10)
+        post = buffer(q, {"i": r["post"]["id"]})["post"]
+    if post.get("status") == "error":
+        raise SystemExit(f"Buffer não conseguiu publicar no Facebook: {post.get('error')}")
+    return r["post"]["id"], post.get("externalLink") or f"BUFFER_{(post.get('status') or 'enviado').upper()}"
 def publish_pin(post_dir, spec):
     """Pin de imagem (capa do vídeo) no Pinterest pelo Buffer (grátis), com link clicável 'Acessar o site'."""
     ch = buffer_channel("pinterest")
@@ -307,7 +347,7 @@ def check():
         out["instagram"] = ig("GET", "me", fields="user_id,username,account_type")
     except SystemExit as e:
         out["instagram"] = str(e)
-    for k, f in (("youtube", yt_token), ("tiktok", tt_token)) + ((("buffer", buffer_tiktok_channel), ("pinterest", lambda: buffer_channel("pinterest"))) if env("SO_BUFFER_KEY") else ()):
+    for k, f in (("youtube", yt_token), ("tiktok", tt_token)) + ((("buffer", buffer_tiktok_channel), ("pinterest", lambda: buffer_channel("pinterest")), ("facebook", lambda: buffer_channel("facebook"))) if env("SO_BUFFER_KEY") else ()):
         try:
             f(); out[k] = "ok"
         except SystemExit as e:
@@ -326,10 +366,10 @@ def main(argv):
         return
     post_dir = Path(argv[0]).resolve()
     spec = json.loads((post_dir / "spec.json").read_text(encoding="utf-8"))
-    redes = argv[argv.index("--so") + 1].split(",") if "--so" in argv else spec.get("redes", ["ig", "yt", "tt", "pin"])
+    redes = argv[argv.index("--so") + 1].split(",") if "--so" in argv else spec.get("redes", ["ig", "yt", "tt", "pin", "fb"])
     rp = post_dir / "resultado.json"
     res = json.loads(rp.read_text()) if rp.exists() else {}
-    for rede, fn in (("ig", publish_ig), ("yt", publish_yt), ("tt", publish_tt), ("pin", publish_pin)):
+    for rede, fn in (("ig", publish_ig), ("yt", publish_yt), ("tt", publish_tt), ("pin", publish_pin), ("fb", publish_fb)):
         if rede not in redes or res.get(f"{rede}_id"):
             continue
         try:  # uma rede com erro não impede as outras
@@ -339,8 +379,8 @@ def main(argv):
                 res["tt_link"] = rest[1]
             res.pop(f"{rede}_erro", None)
         except SystemExit as e:
-            if rede == "pin" and "Nenhum canal pinterest" in str(e):
-                continue  # Pinterest ainda não conectado no Buffer: segue sem ele, sem alarme
+            if rede in ("pin", "fb") and f"Nenhum canal {dict(pin='pinterest', fb='facebook')[rede]}" in str(e):
+                continue  # canal ainda não conectado no Buffer: segue sem ele, sem alarme
             res[f"{rede}_erro"] = str(e)
             print(f"AVISO {rede}: {e}")
         rp.write_text(json.dumps(res, indent=2, ensure_ascii=False))
