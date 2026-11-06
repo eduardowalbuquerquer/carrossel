@@ -3,7 +3,10 @@ ou ElevenLabs. Sem chave, devolve None e o vídeo sai sem voz.
 
 Variáveis: SO_TTS (gemini|google|elevenlabs|off), SO_GEMINI_KEY, SO_GEMINI_VOICE (ex.: Charon), SO_GEMINI_MODEL,
 SO_GOOGLE_TTS_KEY, SO_GOOGLE_VOICE (ex.: pt-BR-Chirp3-HD-Charon),
-ELEVENLABS_API_KEY, SO_ELEVEN_VOICE (voice_id). Cache por texto em salario/.cache_tts para não pagar duas vezes.
+ELEVENLABS_API_KEY, SO_ELEVEN_VOICE (voice_id).
+Cache por texto (não paga duas vezes a mesma fala): SO_TTS_CACHE; senão a pasta compartilhada do projeto
+(/mnt/project-files/canais/automacao/cache_tts), que sobrevive entre sessões; senão salario/.cache_tts.
+É o que deixa barato o remix (v3/v4): só o gancho novo vai para a API.
 Docs: https://ai.google.dev/gemini-api/docs/speech-generation
       https://cloud.google.com/text-to-speech/docs/reference/rest/v1/text/synthesize
       https://elevenlabs.io/docs/api-reference/text-to-speech/convert
@@ -11,7 +14,8 @@ Docs: https://ai.google.dev/gemini-api/docs/speech-generation
 import base64, hashlib, json, os, subprocess, time, urllib.error, urllib.request
 from pathlib import Path
 
-CACHE = Path(__file__).resolve().parents[1] / ".cache_tts"
+_SHARED = Path("/mnt/project-files/canais/automacao")
+CACHE = Path(os.environ.get("SO_TTS_CACHE") or (_SHARED / "cache_tts" if _SHARED.is_dir() else Path(__file__).resolve().parents[1] / ".cache_tts"))
 
 
 def _clean(v):
@@ -106,7 +110,7 @@ def speak(text):
     mode = os.environ.get("SO_TTS", "gemini").lower()
     if mode == "off" or not text.strip():
         return None
-    CACHE.mkdir(exist_ok=True)
+    CACHE.mkdir(parents=True, exist_ok=True)
     out = CACHE / (hashlib.sha1(f"{mode}|{os.environ.get('SO_GEMINI_VOICE','')}|{os.environ.get('SO_GOOGLE_VOICE','')}|{os.environ.get('SO_ELEVEN_VOICE','')}|{text}".encode()).hexdigest() + ".wav")
     if out.exists():
         return out

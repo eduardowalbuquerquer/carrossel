@@ -1,0 +1,56 @@
+{
+ "id": "r16b-rotativo-fatura",
+ "roteiro": 16,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Juro do rotativo ao ano",
+   "value": "442%",
+   "tone": "red",
+   "title": "Pagou menos que a fatura? <em>Esse juro é seu</em>.",
+   "say": "442 por cento ao ano. É o juro de quem paga menos que a fatura."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "442,4%",
+   "tone": "red",
+   "text": "ao ano, a média em junho de 2026.",
+   "source": "Banco Central, jun/2026",
+   "say": "Esse é o dado do Banco Central de junho de 2026: 442 vírgula 4 por cento ao ano."
+  },
+  {
+   "type": "steps",
+   "title": "Quando ele aparece?",
+   "items": [
+    "Você paga <b>menos</b> que o total da fatura",
+    "O que faltou vira dívida no rotativo",
+    "No mês seguinte, vem com esse juro"
+   ],
+   "say": "Ele aparece quando você paga menos que o total da fatura. O que faltou vira rotativo, e volta no mês seguinte com esse juro."
+  },
+  {
+   "type": "steps",
+   "title": "Como fugir dele",
+   "items": [
+    "Pague o <b>total</b> da fatura",
+    "Não dá? Parcele a fatura em vez do mínimo",
+    "Liste tudo que deve e veja o número real"
+   ],
+   "say": "Pra fugir: pague o total. Não deu? Parcelar a fatura costuma sair mais barato que o mínimo. E liste tudo o que você deve."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver para onde vai o <em>seu</em> salário?",
+   "say": "Quer ver para onde vai o seu salário?"
+  }
+ ],
+ "captions": {
+  "tt": "Pagou menos que a fatura do cartão? Esse juro de 442% ao ano é seu (BCB, jun/2026) 😳 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #dividas"
+ },
+ "remix_de": "r16-rotativo-442",
+ "redes": [
+  "tt"
+ ]
+}
