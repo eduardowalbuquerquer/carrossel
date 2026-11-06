@@ -184,7 +184,13 @@
     }
    },
    "v2": {
-    "roteiro": 19
+    "roteiro": 19,
+    "pasta": "r19-guardar-com-divida",
+    "publicado_em": "2026-11-06T19:25-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7705186398235577618 (Buffer)",
+     "pin": "https://www.pinterest.com/pin/264727284344366409"
+    }
    },
    "v3": {
     "remix_de": "r03-casal-5mil",
