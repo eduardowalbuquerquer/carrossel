@@ -227,16 +227,17 @@ def publish_tt_buffer(post_dir, spec, draft=False):
 
 
 def publish_pin(post_dir, spec):
-    """Pin de vídeo no Pinterest pelo Buffer (grátis), com link clicável para o site."""
+    """Pin de imagem (capa do vídeo) no Pinterest pelo Buffer (grátis), com link clicável 'Acessar o site'."""
     ch = buffer_channel("pinterest")
     cap = spec["captions"]
     title = (cap.get("pin_title") or cap.get("yt_title") or "").replace("#shorts", "").strip()[:100]
     text = cap.get("pin") or cap.get("ig", "").split("Comenta PLANILHA")[0].strip()
     link = f"https://{SITE}/?utm_source=pinterest&utm_medium=pin&utm_content={spec.get('id', post_dir.name)}"
-    urls = host(post_dir, ["video_ig.mp4"])
+    urls = host(post_dir, ["capa.jpg"])
     i = {"channelId": ch, "text": (text + "\n\nPlanilha grátis: " + link)[:500], "mode": "shareNow",
          "schedulingType": "automatic", "source": "salario-organizado",
-         "assets": [{"video": {"url": urls["video_ig.mp4"], "metadata": {"title": title, "thumbnailOffset": 600}}}],
+         # Pin de IMAGEM (capa): em pin de vídeo o Buffer não repassa o link de destino (teste de 06/11/2026).
+         "assets": [{"image": {"url": urls["capa.jpg"]}}],
          "metadata": {"pinterest": {"boardServiceId": pinterest_board(ch), "title": title, "url": link}}}
     r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
     if r["__typename"] != "PostActionSuccess":
