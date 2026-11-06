@@ -172,7 +172,16 @@
   {
    "dia": 12,
    "v1": {
-    "roteiro": 14
+    "roteiro": 14,
+    "pasta": "r14-nome-sujo",
+    "publicado_em": "2026-11-06T13:35-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfaC2FoFINX/",
+     "yt": "https://youtube.com/shorts/ODugifu-JIk",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7705097563678051604 (Buffer)",
+     "fb": "https://facebook.com/1446527975200486_122104331169533531",
+     "pin": "https://www.pinterest.com/pin/264727284344358509"
+    }
    },
    "v2": {
     "roteiro": 19
