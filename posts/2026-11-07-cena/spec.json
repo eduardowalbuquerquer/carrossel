@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-07",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Elias: o profeta que pediu para parar",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 45%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "Ele venceu no monte. Logo depois, <em style=\"color:#E3B566\">fugiu para o deserto</em>.",
+      "body": "Elias: o profeta que chegou ao fim das forças."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CENÁRIO",
+      "title": "Fogo do céu. Depois, uma ameaça.",
+      "body": "No Carmelo, Deus respondeu com fogo e o povo se prostrou (1 Reis 18:38-39). Logo depois, a rainha Jezabel jurou matá-lo (1 Reis 19:2). O homem do fogo correu para o deserto."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A CRISE",
+      "title": "\"Basta.\"",
+      "quote": {
+        "text": "…se assentou debaixo de um zimbro; e pediu para si a morte e disse: Basta; toma agora, ó SENHOR, a minha alma, pois não sou melhor do que meus pais.",
+        "ref": "1 Reis 19:4 · ARA"
+      },
+      "body": "Até homens de Deus chegam ao limite. A Bíblia não esconde isso."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "Deus não deu sermão. Deu <em style=\"color:#E3B566\">pão, água e sono</em>.",
+      "quote": {
+        "text": "…Levanta-te e come, porque o caminho te será sobremodo longo.",
+        "ref": "1 Reis 19:7 · ARA"
+      },
+      "body": "Às vezes o próximo passo espiritual é descansar, comer e não ficar sozinho. Se o cansaço virou vontade de sumir, fale com alguém hoje."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Você já chegou ao seu \"basta\"? Envie para um irmão que está cansado."
+    }
+  ],
+  "caption": "Ele venceu no monte Carmelo. Logo depois, fugiu para o deserto e disse: \"Basta\" (1Rs 19:4).\n\nDeus não deu sermão a Elias. Deu pão, água e sono. \"…Levanta-te e come, porque o caminho te será sobremodo longo\" (1Rs 19:7).\n\nSe o cansaço virou vontade de sumir, não fique sozinho. Fale com alguém hoje. No Brasil, o CVV atende 24h pelo 188.\n\nEnvie para um irmão que está cansado.\n\nSiga @forjadaalma.oficial\n\n#elias #homensdabiblia #homemdedeus #homemcristao #forjadaalma #biblia #saudemental",
+  "caption_facebook": "Elias tinha acabado de ver fogo descer do céu no monte Carmelo. O povo se prostrou e disse que o SENHOR é Deus. Mas bastou uma ameaça de Jezabel para o profeta correr para o deserto, sentar debaixo de um zimbro e dizer: \"Basta; toma agora, ó SENHOR, a minha alma, pois não sou melhor do que meus pais\" (1 Reis 19:4).\n\nA resposta de Deus surpreende. Não veio bronca. Veio cuidado: Elias dormiu, comeu, bebeu, e o anjo voltou a tocá-lo: \"Levanta-te e come, porque o caminho te será sobremodo longo\" (1 Reis 19:7).\n\nMuito homem esconde o próprio esgotamento porque acha que é falta de fé. Não é. Às vezes o próximo passo espiritual é descansar, comer e não ficar sozinho. Se o cansaço virou vontade de sumir, fale com alguém hoje: seu pastor, um irmão, um profissional. No Brasil, o CVV atende 24 horas pelo 188.\n\nVocê conhece alguém que está no deserto agora? Mande uma mensagem para ele hoje.\n\n#elias #homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "Ele venceu no monte. Logo depois, <em>fugiu</em>."},
+      {"kicker": "E DEUS NÃO DEU SERMÃO", "text": "Deu <em>pão, água e sono</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele venceu no monte e, logo depois, fugiu para o deserto. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "Ele venceu no monte e, logo depois, fugiu para o deserto. Quem era ele? A história está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
