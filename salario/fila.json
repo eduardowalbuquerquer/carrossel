@@ -212,7 +212,16 @@
   {
    "dia": 13,
    "v1": {
-    "roteiro": 15
+    "roteiro": 15,
+    "pasta": "r15-quanto-deve",
+    "publicado_em": "2026-11-07T12:00-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DfccPyjgdGU/",
+     "yt": "https://youtube.com/shorts/Np3RDAoTMY4",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7705443052516560136",
+     "pin": "https://www.pinterest.com/pin/264727284344388437",
+     "fb": "https://facebook.com/1446527975200486_122105281125533531"
+    }
    },
    "v2": {
     "roteiro": 8
