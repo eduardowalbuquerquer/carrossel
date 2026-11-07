@@ -224,7 +224,13 @@
     }
    },
    "v2": {
-    "roteiro": 8
+    "roteiro": 8,
+    "pasta": "r08-freelancer",
+    "publicado_em": "2026-11-07T19:26-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7705559136368413959",
+     "pin": "https://www.pinterest.com/pin/264727284344400612"
+    }
    },
    "v3": {
     "remix_de": "r16-rotativo-442",
