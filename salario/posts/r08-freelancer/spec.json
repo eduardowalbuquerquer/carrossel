@@ -1,0 +1,55 @@
+{
+ "id": "r08-freelancer",
+ "roteiro": 8,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 2.100",
+   "value_label": "O salário certo desse freelancer",
+   "tone": "green",
+   "title": "Renda muda todo mês? <em>Não use a média.</em>",
+   "sub": "Entrou de R$ 1.800 a R$ 5.200 👇",
+   "say": "Freelancer, renda muda todo mês? Seu salário é dois mil e cem."
+  },
+  {
+   "type": "number",
+   "label": "Média dos últimos 6 meses",
+   "value": "R$ 3.200",
+   "tone": "red",
+   "text": "Entrou de R$&nbsp;1.800 a R$&nbsp;5.200. Gastando R$&nbsp;3.200 todo mês, no mês fraco faltam <b>R$&nbsp;1.400</b>.",
+   "say": "Entrou de mil e oitocentos a cinco mil e duzentos. A média é três mil e duzentos. No mês fraco, faltam mil e quatrocentos."
+  },
+  {
+   "type": "steps",
+   "title": "A regra: média dos 3 piores meses",
+   "items": [
+    "Piores meses:<br><b>R$&nbsp;1.800 + R$&nbsp;2.100 + R$&nbsp;2.400</b>",
+    "Soma <b>R$&nbsp;6.300</b> ÷ 3",
+    "Seu salário: <b>R$&nbsp;2.100</b>"
+   ],
+   "say": "A regra: média dos três piores meses. Mil e oitocentos, dois mil e cem, dois mil e quatrocentos. Dá dois mil e cem."
+  },
+  {
+   "type": "number",
+   "label": "O que passou disso em 6 meses",
+   "value": "R$ 6.600",
+   "tone": "green",
+   "text": "Entraram R$&nbsp;19.200. Menos 6&nbsp;×&nbsp;R$&nbsp;2.100 = <b>R$&nbsp;6.600</b> para a reserva, que cobre o mês ruim.",
+   "say": "O que passou disso, seis mil e seiscentos, vira reserva para o mês ruim."
+  },
+  {
+   "type": "cta",
+   "title": "Planeje pelo mês ruim, <em>comemore o mês bom.</em>",
+   "say": "Planeje pelo mês ruim. Comemore o mês bom."
+  }
+ ],
+ "captions": {
+  "ig": "Freelancer: sua renda muda todo mês? Seu salário não é a média 👇\n\nNo exemplo, nos últimos 6 meses entrou R$ 4.200, R$ 2.100, R$ 3.500, R$ 1.800, R$ 5.200 e R$ 2.400. A média é R$ 3.200, mas quem gasta isso fica R$ 1.400 no vermelho no mês fraco.\n\nA regra: média dos 3 piores meses. (R$ 1.800 + R$ 2.100 + R$ 2.400) ÷ 3 = R$ 2.100. Esse é o seu salário.\nO que passar disso (R$ 6.600 em 6 meses) vai para a reserva.\n\nPlaneje pelo mês ruim, comemore o mês bom. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para um amigo freela 👀\n\n(Cenário de exemplo.)\n\n#freelancer #organizacaofinanceira #financaspessoais #educacaofinanceira #rendavariavel",
+  "tt": "Freelancer: seu salário é a média dos 3 piores meses, não a média de todos 👇 (R$ 1.800 + R$ 2.100 + R$ 2.400) ÷ 3 = R$ 2.100. O resto vai para a reserva. Planeje pelo mês ruim, comemore o mês bom. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #freelancer #financaspessoais #organizacaofinanceira #rendavariavel #educacaofinanceira",
+  "yt_title": "Freelancer: qual é o seu salário de verdade? #shorts",
+  "yt_desc": "Renda variável? Use a média dos 3 piores meses como salário. Exemplo: (R$ 1.800 + R$ 2.100 + R$ 2.400) ÷ 3 = R$ 2.100. O que passar disso vai para a reserva. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#freelancer #financaspessoais #organizacaofinanceira",
+  "pin_title": "Renda variável: como organizar o salário de freelancer (planilha grátis)",
+  "pin": "Freelancer com renda que muda todo mês: use a média dos 3 piores meses como salário. Exemplo: (R$ 1.800 + R$ 2.100 + R$ 2.400) ÷ 3 = R$ 2.100. O que passar disso vai para a reserva, que cobre o mês ruim. Planeje pelo mês ruim, comemore o mês bom."
+ }
+}
