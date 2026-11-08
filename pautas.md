@@ -20,6 +20,9 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-01 · Hernandes Dias Lopes · O desânimo é contagioso: o pai desanimado contamina a casa; reanimar-se no Senhor (usar após 60 dias de Davi, ou com outro texto) · https://www.instagram.com/p/DfIm0djiV9s/ · 2026-11-02 (reels, com Sl 42:5)
 - 2026-11-01 · Dois Dedos de Teologia · Arrependimento em uma palavra: posts de imagem com frase curtíssima e imperativa tiveram o maior engajamento da semana (formato para a Frase de Ferro) · https://www.instagram.com/p/DfDzgkONUmS/ · 2026-11-05 (frase)
 - 2026-11-01 · Luiz Sayão · Crer x confiar: fé que descansa mesmo sem ter todas as respostas · https://www.instagram.com/reel/DfHUDDVPJEv/ · 2026-11-01 (reels)
+- 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 
+- 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 
+- 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
 2. Facebook: zero interações nos Reels da Página até agora; o feed não é medível sem pages_read_user_content. A Página precisa de seguidores iniciais (convidar contatos) antes de qualquer ajuste de formato.
@@ -34,4 +37,9 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 1. O Reels da Noite curto funcionou. De 26 a 31/10, os 6 Reels de ~19s tiveram views em todos (2 a 6 cada, 21 no total, 5 curtidas). Os 7 longos de 18 a 24/10 tiveram 5 views no total, com 5 deles zerados. Fica o formato curto.
 2. Teasers das 9h com foto de fundo renderam mais: versículo 27/10 (17 views), cena 31/10 (9), versículo 20/10 (9). Teasers só de texto (mito, manual) ficaram entre 0 e 1. Teste da semana: usar foto de fundo também no Reels da Noite em 2 ou 3 dias, e no teaser do mito e do manual.
 3. Feed do IG segue com alcance de 0 a 1 por post, e o Facebook segue sem interações. Referências: 11 dos 108 posts foram de política (fora do escopo). Entre os demais, o que mais engajou foi frase curta e imperativa ("Arrependa-se.") e a Reforma.
+
+## Aprendizados da semana (2026-11-08)
+1. Foto x só texto no Reels da Noite: inconclusivo. Com foto: 01/11 (51 views), 03/11 (4), 05/11 (6), 07/11 (27 em menos de 1 dia). Só texto: 02/11 (45), 04/11 (4), 06/11 (5). O que pesou foi o dia: domingo, segunda e sábado à noite renderam 27 a 51; de terça a sexta, 4 a 6. Fica a foto de fundo quando houver uma boa (não piora), e os temas mais fortes vão para sábado, domingo e segunda à noite.
+2. Teaser das 9h com foto confirmou vantagem: cena 07/11 (23 views), frase 05/11 (15), mito 04/11 (7), versículo 03/11 (5). Só texto: arquétipo 02/11 (1). Passa a ser padrão: todo teaser das 9h com foto de fundo, inclusive arquétipo e pergunta.
+3. O feed do IG subiu: arquétipo 02/11 (31 views, 1 salvamento, 1 envio), frase curta 05/11 (21 views, 1 envio), versículo 03/11 (15). Antes ficava entre 0 e 4. Frase curta e imperativa segue boa aposta. Referências: 16 de 91 posts foram de política (fora do escopo); fora disso, engajaram fofoca, memória da fidelidade de Deus e "para onde vai a alma".
 

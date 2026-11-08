@@ -1,327 +1,5 @@
 [
   {
-    "post": "2026-10-18-pergunta",
-    "ig_feed": {
-      "views": 2,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-18-reels",
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-19-arquetipo",
-    "ig_feed": {
-      "views": 1,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 8,
-      "reach": 5,
-      "saved": 0,
-      "shares": 0,
-      "likes": 1,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-19-reels",
-    "ig_reel": {
-      "views": 3,
-      "reach": 2,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 1,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-20-reels",
-    "ig_reel": {
-      "views": 0,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-20-versiculo",
-    "ig_feed": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 9,
-      "reach": 5,
-      "saved": 0,
-      "shares": 0,
-      "likes": 1,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-21-mito",
-    "ig_feed": {
-      "views": 1,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-21-reels",
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-22-frase",
-    "ig_feed": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 3,
-      "reach": 3,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-22-reels",
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-23-manual",
-    "ig_feed": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 1,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-23-reels",
-    "ig_reel": {
-      "views": 0,
-      "reach": 0,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
-    "post": "2026-10-24-cena",
-    "ig_feed": {
-      "views": 1,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 0,
-      "comments": 0
-    },
-    "ig_reel": {
-      "views": 5,
-      "reach": 4,
-      "saved": 0,
-      "shares": 0,
-      "likes": 1,
-      "comments": 0
-    },
-    "fb_feed": {
-      "erro": "pages_read_user_content"
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    }
-  },
-  {
-    "post": "2026-10-24-reels",
-    "ig_reel": {
-      "views": 2,
-      "reach": 1,
-      "saved": 0,
-      "shares": 0,
-      "likes": 1,
-      "comments": 0
-    },
-    "fb_reel": {
-      "reacoes": 0,
-      "comentarios": 0,
-      "compartilhamentos": 0
-    },
-    "tiktok": {
-      "privacidade": "SELF_ONLY"
-    }
-  },
-  {
     "post": "2026-10-25-pergunta",
     "ig_feed": {
       "views": 3,
@@ -435,8 +113,8 @@
   {
     "post": "2026-10-27-versiculo",
     "ig_feed": {
-      "views": 0,
-      "reach": 0,
+      "views": 1,
+      "reach": 1,
       "saved": 0,
       "shares": 0,
       "likes": 0,
@@ -508,19 +186,19 @@
   {
     "post": "2026-10-29-frase",
     "ig_feed": {
-      "views": 0,
-      "reach": 0,
+      "views": 1,
+      "reach": 1,
       "saved": 0,
       "shares": 0,
       "likes": 0,
       "comments": 0
     },
     "ig_reel": {
-      "views": 5,
-      "reach": 4,
+      "views": 6,
+      "reach": 5,
       "saved": 0,
       "shares": 0,
-      "likes": 0,
+      "likes": 1,
       "comments": 0
     },
     "fb_feed": {
@@ -554,16 +232,16 @@
   {
     "post": "2026-10-30-manual",
     "ig_feed": {
-      "views": 0,
-      "reach": 0,
+      "views": 3,
+      "reach": 2,
       "saved": 0,
       "shares": 0,
       "likes": 0,
       "comments": 0
     },
     "ig_reel": {
-      "views": 1,
-      "reach": 1,
+      "views": 3,
+      "reach": 2,
       "saved": 0,
       "shares": 0,
       "likes": 0,
@@ -581,8 +259,8 @@
   {
     "post": "2026-10-30-reels",
     "ig_reel": {
-      "views": 3,
-      "reach": 1,
+      "views": 4,
+      "reach": 2,
       "saved": 0,
       "shares": 0,
       "likes": 1,
@@ -600,8 +278,8 @@
   {
     "post": "2026-10-31-cena",
     "ig_feed": {
-      "views": 0,
-      "reach": 0,
+      "views": 4,
+      "reach": 2,
       "saved": 0,
       "shares": 0,
       "likes": 0,
@@ -627,8 +305,8 @@
   {
     "post": "2026-10-31-reels",
     "ig_reel": {
-      "views": 2,
-      "reach": 1,
+      "views": 3,
+      "reach": 2,
       "saved": 1,
       "shares": 0,
       "likes": 0,
@@ -641,6 +319,355 @@
     },
     "tiktok": {
       "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-01-pergunta",
+    "ig_feed": {
+      "views": 4,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 9,
+      "reach": 7,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-01-reels",
+    "ig_reel": {
+      "views": 51,
+      "reach": 46,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-02-arquetipo",
+    "ig_feed": {
+      "views": 31,
+      "reach": 24,
+      "saved": 1,
+      "shares": 1,
+      "likes": 1,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-02-reels",
+    "ig_reel": {
+      "views": 45,
+      "reach": 38,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-03-reels",
+    "ig_reel": {
+      "views": 4,
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-03-versiculo",
+    "ig_feed": {
+      "views": 15,
+      "reach": 11,
+      "saved": 0,
+      "shares": 1,
+      "likes": 1,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 5,
+      "reach": 3,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-04-mito",
+    "ig_feed": {
+      "views": 7,
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 7,
+      "reach": 5,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-04-reels",
+    "ig_reel": {
+      "views": 4,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-05-frase",
+    "ig_feed": {
+      "views": 21,
+      "reach": 15,
+      "saved": 0,
+      "shares": 1,
+      "likes": 1,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 15,
+      "reach": 12,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-05-reels",
+    "ig_reel": {
+      "views": 6,
+      "reach": 6,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-06-manual",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 0,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-06-reels",
+    "ig_reel": {
+      "views": 5,
+      "reach": 2,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 2
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-07-cena",
+    "ig_feed": {
+      "views": 1,
+      "reach": 1,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 23,
+      "reach": 16,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    }
+  },
+  {
+    "post": "2026-11-07-reels",
+    "ig_reel": {
+      "views": 27,
+      "reach": 21,
+      "saved": 0,
+      "shares": 1,
+      "likes": 1,
+      "comments": 0
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
+    },
+    "tiktok": {
+      "privacidade": "SELF_ONLY"
+    }
+  },
+  {
+    "post": "2026-11-08-pergunta",
+    "ig_feed": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "ig_reel": {
+      "views": 0,
+      "reach": 0,
+      "saved": 0,
+      "shares": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "fb_feed": {
+      "erro": "pages_read_user_content"
+    },
+    "fb_reel": {
+      "reacoes": 0,
+      "comentarios": 0,
+      "compartilhamentos": 0
     }
   }
 ]
