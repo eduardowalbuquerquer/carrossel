@@ -252,7 +252,16 @@
   {
    "dia": 14,
    "v1": {
-    "roteiro": 21
+    "roteiro": 21,
+    "pasta": "r21-tour-planilha",
+    "publicado_em": "2026-11-08T12:00-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DffB0FPjbsc/",
+     "yt": "https://youtube.com/shorts/ByazUy1aOMk",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7705815932110949653",
+     "pin": "https://www.pinterest.com/pin/264727284344424685",
+     "fb": "https://facebook.com/1446527975200486_122106253185533531"
+    }
    },
    "v2": {
     "roteiro": "melhor gancho da semana com outro número"
