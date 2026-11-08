@@ -264,7 +264,13 @@
     }
    },
    "v2": {
-    "roteiro": "melhor gancho da semana com outro número"
+    "roteiro": "melhor gancho da semana com outro número",
+    "remix_de": "r03-casal-5mil",
+    "pasta": "r03c-casal-assinaturas",
+    "publicado_em": "2026-11-08T19:15-03:00",
+    "links": {
+     "tt": "rascunho no app (Buffer recusou: Video could not be read from its URL)"
+    }
    },
    "v3": {
     "remix_de": "r12-pare-minimo",
