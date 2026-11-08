@@ -1,0 +1,56 @@
+{
+ "id": "r15b-quanto-deve-cartao",
+ "roteiro": 15,
+ "pilar": "divida-desmontada",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 2.940",
+   "value_label": "Só o cartão parcelado",
+   "tone": "red",
+   "title": "Parcela de R$&nbsp;210 no cartão esconde R$&nbsp;2.940. <em>E não é a única.</em>",
+   "sub": "Some tudo que falta pagar 👇",
+   "say": "Parcela de duzentos e dez no cartão esconde dois mil novecentos e quarenta. E não é a única."
+  },
+  {
+   "type": "steps",
+   "title": "Parcela × parcelas que faltam",
+   "items": [
+    "Cartão parcelado:<br><b>R$&nbsp;210 × 14 = R$&nbsp;2.940</b>",
+    "Empréstimo:<br><b>R$&nbsp;260 × 10 = R$&nbsp;2.600</b>",
+    "Crediário do celular:<br><b>R$&nbsp;120 × 7 = R$&nbsp;840</b>"
+   ],
+   "say": "Cartão parcelado: duzentos e dez, faltam catorze. Empréstimo: duzentos e sessenta, faltam dez. Celular: cento e vinte, faltam sete."
+  },
+  {
+   "type": "number",
+   "label": "Falta pagar no total",
+   "value": "R$ 6.380",
+   "tone": "red",
+   "text": "Por mês parecia só R$ 590. Sem esse número, não dá para planejar a saída.",
+   "say": "Somando, faltam seis mil trezentos e oitenta reais. Sem esse número, não dá para planejar a saída."
+  },
+  {
+   "type": "steps",
+   "title": "Faça a sua em 5 minutos",
+   "items": [
+    "Anote <b>cada dívida</b> numa linha",
+    "Multiplique a parcela pelas <b>parcelas que faltam</b>",
+    "Some tudo e confira as dívidas com bancos no <b>Registrato</b>, do Banco Central (grátis)"
+   ],
+   "say": "Faça a sua: anote cada dívida numa linha, multiplique a parcela pelas que faltam, some tudo. E confira as dívidas com bancos no Registrato, do Banco Central, de graça."
+  },
+  {
+   "type": "cta",
+   "title": "Dívida que tem número <em>tem fim.</em>",
+   "say": "Dívida que tem número tem fim."
+  }
+ ],
+ "captions": {
+  "tt": "Parcela de R$ 210 no cartão esconde R$ 2.940, e somando tudo faltam R$ 6.380 (cenário de exemplo) 👇 Dívida que tem número tem fim. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira"
+ },
+ "remix_de": "r15-quanto-deve",
+ "redes": [
+  "tt"
+ ]
+}
