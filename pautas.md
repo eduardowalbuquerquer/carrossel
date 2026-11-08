@@ -21,7 +21,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-01 · Dois Dedos de Teologia · Arrependimento em uma palavra: posts de imagem com frase curtíssima e imperativa tiveram o maior engajamento da semana (formato para a Frase de Ferro) · https://www.instagram.com/p/DfDzgkONUmS/ · 2026-11-05 (frase)
 - 2026-11-01 · Luiz Sayão · Crer x confiar: fé que descansa mesmo sem ter todas as respostas · https://www.instagram.com/reel/DfHUDDVPJEv/ · 2026-11-01 (reels)
 - 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 
-- 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 
+- 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 2026-11-08 (reels)
 - 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
