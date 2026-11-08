@@ -1,0 +1,53 @@
+{
+ "id": "r21-tour-planilha",
+ "roteiro": 21,
+ "pilar": "produto",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "Por dentro da planilha",
+   "title": "A planilha que mostra o <em>mês exato</em> em que você sai das dívidas.",
+   "sub": "Olha por dentro 👇",
+   "say": "Essa planilha mostra o mês exato em que você sai das dívidas. Olha por dentro."
+  },
+  {
+   "type": "steps",
+   "title": "Aba por aba",
+   "items": [
+    "<b>Meu Mês:</b> o que entra, o que sai e o gasto que mais pesa",
+    "<b>Minhas Dívidas:</b> até 10 dívidas, na ordem certa de pagar",
+    "<b>Painel:</b> a sua data de liberdade"
+   ],
+   "say": "Meu Mês: o que entra, o que sai e o gasto que mais pesa. Minhas Dívidas: até dez, na ordem certa de pagar. E o Painel: a sua data de liberdade."
+  },
+  {
+   "type": "number",
+   "label": "Exemplo: 3 dívidas, R$ 8.000",
+   "value": "19 meses",
+   "tone": "green",
+   "text": "Renda de R$&nbsp;2.650, mínimos em dia e R$&nbsp;104 a mais por mês na dívida certa.",
+   "say": "Exemplo: três dívidas somando oito mil reais. Mínimos em dia e cento e quatro reais a mais por mês na dívida certa: livre em dezenove meses."
+  },
+  {
+   "type": "steps",
+   "title": "Você escolhe o método (1 clique)",
+   "items": [
+    "<b>Bola de Neve:</b> menor dívida primeiro",
+    "<b>Avalanche:</b> juros mais altos primeiro",
+    "A planilha <b>recalcula as datas</b> na hora"
+   ],
+   "say": "Menor dívida primeiro ou juros mais altos? Troca com um clique e as datas recalculam na hora."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver a <em>sua</em> data?",
+   "say": "Quer descobrir a sua data?"
+  }
+ ],
+ "captions": {
+  "ig": "A planilha que mostra o mês exato em que você sai das dívidas 👇\n\nMeu Mês: o que entra, o que sai e o gasto que mais pesa.\nMinhas Dívidas: até 10 dívidas, na ordem certa de pagar.\nPainel: a sua data de liberdade.\n\nExemplo: renda de R$ 2.650 e 3 dívidas somando R$ 8.000. Pagando os mínimos e colocando R$ 104 a mais por mês na dívida certa, livre em 19 meses.\nBola de Neve ou Avalanche? Troca com um clique e as datas recalculam.\n\nQuer começar? Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 A completa está no link do perfil.\nE manda para quem tem mais de uma dívida e não sabe qual pagar primeiro 👀\n\n(Exemplo ilustrativo calculado pela planilha.)\n\n#organizacaofinanceira #financaspessoais #dividas #planilha #educacaofinanceira",
+  "tt": "A planilha que mostra o mês exato em que você sai das dívidas 📅 Exemplo: R$ 8.000 em dívidas, livre em 19 meses 👇 Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #financaspessoais #organizacaofinanceira #dividas #planilha #dinheiro",
+  "yt_title": "A planilha que mostra quando você sai das dívidas #shorts",
+  "yt_desc": "Tour rápido pela Planilha Salário Organizado: Meu Mês, Minhas Dívidas (até 10, Bola de Neve ou Avalanche) e o Painel com a sua data de liberdade. Exemplo ilustrativo calculado pela planilha: renda de R$ 2.650, 3 dívidas somando R$ 8.000, mínimos em dia e R$ 104 a mais por mês: livre em 19 meses.\n\nA mini-planilha grátis e a completa estão no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #dividas"
+ }
+}
