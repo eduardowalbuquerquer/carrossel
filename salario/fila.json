@@ -301,6 +301,15 @@
     "nota": "fila do dia 14 esgotada: remix já renderizado (só o gancho novo) em /mnt/project-files",
     "publicado_em": "2026-11-09T16:22-03:00",
     "tt_link": "https://tiktok.com/@salrio.organizado/video/7706251647780916487"
+   },
+   "v2": {
+    "remix_de": "r01-salario-2300",
+    "pasta": "r01b-salario-delivery",
+    "nota": "fila esgotada: remix novo (só o gancho, número no 1º quadro). Enviado como rascunho (sem push no main nesta sessão).",
+    "publicado_em": "2026-11-09T19:15-03:00",
+    "links": {
+     "tt": "rascunho no app (Eduardo publica)"
+    }
    }
   }
  ]
