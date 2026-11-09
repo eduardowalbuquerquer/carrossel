@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-09",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Calebe: o homem que não se aposentou da fé",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "ARQUÉTIPOS BÍBLICOS", "title": "Aos 85 anos, ele não pediu descanso. <em style=\"color:#C8892C\">Pediu um monte</em>.", "body": "Calebe: o homem que perseverou em seguir a Deus.", "hint": "Você tem um pouco de Calebe? Veja os sinais →"},
+    {"layout": "text", "theme": "dark", "tag": "O PADRÃO", "title": "Doze espias viram a mesma terra. Dez só viram gigantes.", "body": "Dez voltaram espalhando medo. Calebe e Josué confiaram que Deus cumpriria a promessa (Números 13 e 14)."},
+    {"layout": "list", "theme": "light", "tag": "SINAIS DE CALEBE HOJE", "title": "Você reconhece algum?", "items": [
+      {"num": "01", "title": "Fala contra a corrente", "desc": "Mesmo quando a maioria escolhe o medo."},
+      {"num": "02", "title": "Segue por inteiro", "desc": "Não obedece pela metade nem só quando é fácil."},
+      {"num": "03", "title": "Espera sem azedar", "desc": "Anos de deserto por culpa dos outros, e ele não endureceu."},
+      {"num": "04", "title": "Não se aposenta da fé", "desc": "Idade não é desculpa para parar de lutar."}
+    ]},
+    {"layout": "text", "theme": "dark", "tag": "A CORAGEM", "title": "Enquanto o povo tremia, ele <em style=\"color:#E3B566\">mandou calar</em>:", "quote": {"text": "Então, Calebe fez calar o povo perante Moisés e disse: Eia! Subamos e possuamos a terra, porque, certamente, prevaleceremos contra ela.", "ref": "Números 13:30 · ARA"}, "body": "A coragem dele não vinha do tamanho do exército. Vinha da palavra de Deus."},
+    {"layout": "text", "theme": "light", "tag": "A RAIZ", "title": "Deus mesmo explicou a diferença de Calebe:", "quote": {"text": "Porém o meu servo Calebe, visto que nele houve outro espírito, e perseverou em seguir-me…", "ref": "Números 14:24 · ARA"}, "body": "Não era força. Era um coração que não desistiu de seguir."},
+    {"layout": "text", "theme": "dark", "tag": "O CAMINHO", "title": "A fé de verdade <em style=\"color:#E3B566\">termina a corrida</em>.", "quote": {"text": "…corramos, com perseverança, a carreira que nos está proposta…", "ref": "Hebreus 12:1 · ARA"}, "body": "Em Cristo, a força para continuar não vem de você. Peça hoje o seu monte e siga até o fim."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual sinal de Calebe falta em você? Comente o número."}
+  ],
+  "caption": "Aos 85 anos, ele não pediu descanso. Pediu um monte.\n\nCalebe enfrentou a maioria com medo (Nm 13:30) e Deus disse dele: \"perseverou em seguir-me\" (Nm 14:24).\n\nQual dos 4 sinais falta em você? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #perseveranca #forjadaalma #biblia #calebe",
+  "caption_facebook": "Doze homens espiaram a terra que Deus tinha prometido. Dez voltaram falando só dos gigantes, e o povo inteiro se encheu de medo. Calebe fez o contrário: mandou o povo calar e disse \"Subamos e possuamos a terra, porque, certamente, prevaleceremos contra ela\" (Números 13:30).\n\nA maioria venceu a discussão, e Calebe passou décadas no deserto por causa da incredulidade dos outros. Mesmo assim, não azedou. Deus disse dele: \"nele houve outro espírito, e perseverou em seguir-me\" (Números 14:24).\n\nAnos depois, aos 85, ele não pediu aposentadoria. Pediu: \"dá-me este monte\" (Josué 14:12).\n\nQual desses sinais de Calebe você precisa pedir a Deus hoje? Conta aqui.\n\n#homemcristao #forjadaalma #calebe",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Aos 85 anos, ele não pediu descanso. <em>Pediu um monte</em>."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "Dez viram gigantes. Ele viu <em>a promessa</em>."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Aos 85 anos, ele não pediu descanso. Pediu um monte. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Aos 85 anos, ele não pediu descanso. Pediu um monte. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
