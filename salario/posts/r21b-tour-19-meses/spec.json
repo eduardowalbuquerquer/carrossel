@@ -1,0 +1,56 @@
+{
+ "id": "r21b-tour-19-meses",
+ "roteiro": 21,
+ "pilar": "produto",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "19 meses",
+   "value_label": "Para quitar R$ 8.000",
+   "tone": "green",
+   "title": "R$&nbsp;8.000 em 3 dívidas, livre em <em>19 meses.</em>",
+   "sub": "Com só R$ 104 a mais por mês 👇",
+   "say": "Oito mil reais em três dívidas. Livre em dezenove meses. Olha como."
+  },
+  {
+   "type": "steps",
+   "title": "Aba por aba",
+   "items": [
+    "<b>Meu Mês:</b> o que entra, o que sai e o gasto que mais pesa",
+    "<b>Minhas Dívidas:</b> até 10 dívidas, na ordem certa de pagar",
+    "<b>Painel:</b> a sua data de liberdade"
+   ],
+   "say": "Meu Mês: o que entra, o que sai e o gasto que mais pesa. Minhas Dívidas: até dez, na ordem certa de pagar. E o Painel: a sua data de liberdade."
+  },
+  {
+   "type": "number",
+   "label": "Exemplo: 3 dívidas, R$ 8.000",
+   "value": "19 meses",
+   "tone": "green",
+   "text": "Renda de R$&nbsp;2.650, mínimos em dia e R$&nbsp;104 a mais por mês na dívida certa.",
+   "say": "Exemplo: três dívidas somando oito mil reais. Mínimos em dia e cento e quatro reais a mais por mês na dívida certa: livre em dezenove meses."
+  },
+  {
+   "type": "steps",
+   "title": "Você escolhe o método (1 clique)",
+   "items": [
+    "<b>Bola de Neve:</b> menor dívida primeiro",
+    "<b>Avalanche:</b> juros mais altos primeiro",
+    "A planilha <b>recalcula as datas</b> na hora"
+   ],
+   "say": "Menor dívida primeiro ou juros mais altos? Troca com um clique e as datas recalculam na hora."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver a <em>sua</em> data?",
+   "say": "Quer descobrir a sua data?"
+  }
+ ],
+ "captions": {
+  "tt": "R$ 8.000 em 3 dívidas, livre em 19 meses com R$ 104 a mais por mês na dívida certa (exemplo calculado pela planilha) 👇 A planilha mostra o mês exato em que você sai das dívidas. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #planilha #dinheiro"
+ },
+ "remix_de": "r21-tour-planilha",
+ "redes": [
+  "tt"
+ ]
+}
