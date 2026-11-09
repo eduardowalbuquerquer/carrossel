@@ -800,5 +800,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122118984171506150",
       "fb_reel": "https://www.facebook.com/reel/1452352652890995"
     }
+  },
+  {
+    "data": "2026-11-09",
+    "serie": "reels",
+    "titulo": "Quanto é o suficiente para você?",
+    "tema": "contentamento / corrida por mais",
+    "versiculos": [
+      "Hebreus 13:5"
+    ],
+    "foto": "pixabay:9413772",
+    "formato": "Reels da Noite 6 cenas com foto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DfiV__FD_BR/",
+      "fb_reel": "https://www.facebook.com/reel/1633799221563545",
+      "tiktok": "privado (SELF_ONLY, sandbox)"
+    }
   }
 ]
