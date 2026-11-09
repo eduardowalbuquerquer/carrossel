@@ -779,5 +779,26 @@
     "reel_link": "https://www.instagram.com/reel/DffxH5wGRAd/",
     "fb_reel_link": "https://www.facebook.com/reel/1150163901024174",
     "tiktok": "SELF_ONLY"
+  },
+  {
+    "data": "2026-11-09",
+    "serie": "arquetipo",
+    "titulo": "Calebe: o homem que não se aposentou da fé",
+    "tema": "perseverança na fé, coragem contra a maioria",
+    "personagem": "Calebe",
+    "versiculos": [
+      "Nm 13:30",
+      "Nm 14:24",
+      "Js 14:12",
+      "Hb 12:1"
+    ],
+    "foto": "pixabay:10201702",
+    "formato": "carrossel 7 slides + teaser com foto",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/DfhRbUvm-zN/",
+      "ig_reel": "https://www.instagram.com/reel/DfhRh2vEzGG/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122118984171506150",
+      "fb_reel": "https://www.facebook.com/reel/1452352652890995"
+    }
   }
 ]
