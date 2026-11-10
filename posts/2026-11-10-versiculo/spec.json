@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "series": "versiculo",
+  "series_name": "Versículo Forjado",
+  "title": "Não vos conformeis com este século",
+  "slides": [
+    {
+      "layout": "verse",
+      "theme": "dark",
+      "image": "img/foto.jpg",
+      "focus": "center 40%",
+      "tag": "VERSÍCULO FORJADO",
+      "text": "E não vos conformeis com este século, mas transformai-vos pela renovação da vossa mente, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.",
+      "ref": "Romanos 12:2 · ARA",
+      "body": "O mundo te molda pelo que você consome. Deus te transforma pelo que você deixa a Palavra fazer."
+    }
+  ],
+  "caption": "O mundo te molda pelo que você assiste, ouve e consome todo dia. Sem perceber, você pensa igual a todo mundo.\n\nDeus chama para outra coisa: ser transformado pela renovação da mente.\n\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#versiculododia #homemdedeus #homemcristao #masculinidadebiblica #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Ninguém acorda decidido a pensar igual ao mundo. Acontece aos poucos: o vídeo que você assiste antes de dormir, a conversa que você repete no trabalho, o padrão que todo mundo segue e ninguém questiona.\n\nPaulo escreveu: \"E não vos conformeis com este século, mas transformai-vos pela renovação da vossa mente, para que experimenteis qual seja a boa, agradável e perfeita vontade de Deus.\" (Romanos 12:2)\n\nA mente é renovada pelo que entra nela. O que tem moldado a sua mente nesta semana? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VERSÍCULO FORJADO", "text": "Você pensa por conta própria ou <em>igual a todo mundo</em>?"},
+      {"kicker": "A BÍBLIA RESPONDE", "text": "Tem uma forma de <em>sair do molde</em>."},
+      {"kicker": "QUAL?", "text": "O versículo está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Você pensa por conta própria ou igual a todo mundo? O versículo de hoje está no perfil 👆\n\n#versiculododia #homemdedeus #forjadaalma #homemcristao",
+    "caption_facebook": "Você pensa por conta própria ou igual a todo mundo? O versículo de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
