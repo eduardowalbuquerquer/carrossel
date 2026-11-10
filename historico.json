@@ -833,5 +833,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122119366779506150",
       "fb_reel": "https://www.facebook.com/reel/1718699033110630"
     }
+  },
+  {
+    "data": "2026-11-10",
+    "serie": "reels",
+    "titulo": "O \"amanhã eu começo\" já te custou quanto?",
+    "tema": "procrastinação / disciplina no pequeno",
+    "versiculos": [
+      "Provérbios 6:6"
+    ],
+    "foto": null,
+    "formato": "Reels da Noite 6 cenas só texto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/Dfk6rVpCqad/",
+      "fb_reel": "https://www.facebook.com/reel/2559966931146607",
+      "tiktok": "privado (SELF_ONLY, sandbox)"
+    }
   }
 ]
