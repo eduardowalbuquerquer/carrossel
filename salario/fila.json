@@ -301,6 +301,15 @@
     "nota": "fila do dia 14 esgotada: remix já renderizado (só o gancho novo) em /mnt/project-files",
     "publicado_em": "2026-11-09T16:22-03:00",
     "tt_link": "https://tiktok.com/@salrio.organizado/video/7706251647780916487"
+   },
+   "v2": {
+    "remix_de": "r01-salario-2300",
+    "pasta": "r01b-salario-delivery",
+    "nota": "fila esgotada: remix novo (só o gancho). Enviado como rascunho; registro trazido do branch claude/project-thread-x75qza.",
+    "publicado_em": "2026-11-09T19:15-03:00",
+    "links": {
+     "tt": "rascunho no app (Eduardo publica)"
+    }
    }
   },
   {
@@ -314,6 +323,16 @@
     "publicado_em": "2026-11-10T12:20-03:00",
     "ig_link": "https://www.instagram.com/reel/DfkL1vWFOZI/",
     "fb_link": "https://facebook.com/1446527975200486_122107955979533531"
+   },
+   "v2": {
+    "remix_de": "r18-endividadas-82",
+    "pasta": "r18b-endividadas-plano",
+    "nota": "fila esgotada: remix novo (só o gancho, 82% no 1º quadro).",
+    "publicado_em": "2026-11-10T19:40-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7706674917143596289",
+     "pin": "https://www.pinterest.com/pin/264727284344508617"
+    }
    }
   }
  ]

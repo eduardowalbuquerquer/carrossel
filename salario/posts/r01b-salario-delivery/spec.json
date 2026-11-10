@@ -1,0 +1,80 @@
+{
+ "id": "r01b-salario-delivery",
+ "roteiro": 1,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Ganha R$ 2.300 e falta todo mês",
+   "value": "R$ 250",
+   "tone": "red",
+   "title": "E o culpado <em>não é o aluguel</em>.",
+   "say": "Ganha R$ 2.300 e faltam R$ 250 todo mês. E o culpado não é o aluguel."
+  },
+  {
+   "type": "list",
+   "cap": "Tudo que entra e tudo que sai:",
+   "cap_hot": "Achei o furo.",
+   "renda": 2300,
+   "items": [
+    [
+     "Aluguel",
+     800
+    ],
+    [
+     "Mercado",
+     600
+    ],
+    [
+     "Contas da casa",
+     250
+    ],
+    [
+     "Transporte",
+     220
+    ],
+    [
+     "Cartão",
+     300
+    ],
+    [
+     "Delivery",
+     380
+    ]
+   ],
+   "hot": "Delivery",
+   "step": 0.85,
+   "say": "Aluguel, mercado, contas, transporte, cartão e delivery. Somando tudo, a conta não fecha."
+  },
+  {
+   "type": "number",
+   "label": "Falta todo mês",
+   "value": "R$ 250",
+   "tone": "red",
+   "text": "Gasta R$&nbsp;2.550 com um salário de R$&nbsp;2.300. A diferença vira dívida no cartão.",
+   "say": "Faltam R$ 250 todo mês. E essa diferença vira dívida no cartão, com juros."
+  },
+  {
+   "type": "compare",
+   "label": "O furo é o delivery",
+   "value": "R$ 380",
+   "text": "Cortando só a metade…",
+   "from": "−250",
+   "to": "−60",
+   "after": "o rombo cai de R$&nbsp;250 para R$&nbsp;60.",
+   "say": "O furo é o delivery: R$ 380. Cortando só a metade, o rombo cai de 250 para 60 reais. Sem passar fome."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar o <em>seu</em> furo?",
+   "say": "Quer achar o seu furo em 2 minutos?"
+  }
+ ],
+ "captions": {
+  "tt": "Ganha R$ 2.300 e falta R$ 250 todo mês? O culpado não é o aluguel 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #organizacaofinanceira #salario #dinheiro #dividas"
+ },
+ "remix_de": "r01-salario-2300",
+ "redes": [
+  "tt"
+ ]
+}
