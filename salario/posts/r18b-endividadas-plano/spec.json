@@ -1,0 +1,46 @@
+{
+ "id": "r18b-endividadas-plano",
+ "roteiro": 18,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Famílias brasileiras com dívidas",
+   "value": "82%",
+   "tone": "red",
+   "title": "Se você é uma delas, <em>comece por aqui</em>.",
+   "say": "82 por cento das famílias têm dívidas. Se você é uma delas, comece por aqui."
+  },
+  {
+   "type": "number",
+   "label": "Famílias com dívidas",
+   "value": "82%",
+   "tone": "red",
+   "text": "o maior nível da série da pesquisa.",
+   "source": "Peic/CNC, jul/2026",
+   "say": "A pesquisa da CNC de julho de 2026 mostrou oitenta e dois por cento das famílias com dívidas. O maior nível da série."
+  },
+  {
+   "type": "steps",
+   "title": "Mas precisa de um plano",
+   "items": [
+    "Anote <b>tudo</b> o que você deve",
+    "Ataque primeiro o juro mais <b>caro</b>",
+    "Separe um valor fixo todo mês"
+   ],
+   "say": "Mas não estar sozinho não resolve. O que resolve é um plano: anote tudo o que você deve, ataque primeiro o juro mais caro e separe um valor fixo todo mês."
+  },
+  {
+   "type": "cta",
+   "title": "Comece vendo para onde vai o <em>seu</em> salário",
+   "say": "Comece vendo para onde vai o seu salário."
+  }
+ ],
+ "captions": {
+  "tt": "82% das famílias brasileiras estão endividadas (Peic/CNC, jul/2026) 😳 Se você é uma delas, comece por aqui: anote tudo o que deve, ataque o juro mais caro e separe um valor fixo por mês. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #educacaofinanceira #dinheiro"
+ },
+ "remix_de": "r18-endividadas-82",
+ "redes": [
+  "tt"
+ ]
+}
