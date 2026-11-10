@@ -6,5 +6,6 @@
   "yt_id": "EfjHFxhmhp4",
   "yt_link": "https://youtube.com/shorts/EfjHFxhmhp4",
   "pin_id": "6af32fdd42d372a81f60fde8",
-  "pin_link": "https://www.pinterest.com/pin/264727284344498776"
+  "pin_link": "https://www.pinterest.com/pin/264727284344498776",
+  "fb_erro": "Buffer recusou o post do Facebook (InvalidInputError): Invalid post: Video could not be read from its URL."
 }
