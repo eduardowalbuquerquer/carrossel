@@ -20,7 +20,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-01 · Hernandes Dias Lopes · O desânimo é contagioso: o pai desanimado contamina a casa; reanimar-se no Senhor (usar após 60 dias de Davi, ou com outro texto) · https://www.instagram.com/p/DfIm0djiV9s/ · 2026-11-02 (reels, com Sl 42:5)
 - 2026-11-01 · Dois Dedos de Teologia · Arrependimento em uma palavra: posts de imagem com frase curtíssima e imperativa tiveram o maior engajamento da semana (formato para a Frase de Ferro) · https://www.instagram.com/p/DfDzgkONUmS/ · 2026-11-05 (frase)
 - 2026-11-01 · Luiz Sayão · Crer x confiar: fé que descansa mesmo sem ter todas as respostas · https://www.instagram.com/reel/DfHUDDVPJEv/ · 2026-11-01 (reels)
-- 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 
+- 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 2026-11-11 (mito)
 - 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 2026-11-08 (reels)
 - 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
 ## Aprendizados da semana (2026-10-18)
