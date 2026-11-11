@@ -1,0 +1,67 @@
+{
+ "id": "r20b-gastos-405",
+ "roteiro": 20,
+ "pilar": "erros-comuns",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 405",
+   "value_label": "Somem do salário todo mês",
+   "tone": "red",
+   "title": "E você nem percebe. <em>O 3º gasto é o pior.</em>",
+   "say": "Quatrocentos e cinco reais somem do seu salário todo mês. E o terceiro gasto é o pior."
+  },
+  {
+   "type": "steps",
+   "title": "Os 3 vazamentos",
+   "items": [
+    "<b>Assinaturas:</b> 3 streamings + 1 app = <b>R$ 105</b>",
+    "<b>Taxa de entrega:</b> 10 pedidos × R$ 8 = <b>R$ 80</b>",
+    "<b>Parcelinhas:</b> 4 de R$ 55 = <b>R$ 220</b>"
+   ],
+   "say": "Um: assinaturas. Três streamings e um aplicativo, cento e cinco reais. Dois: taxa de entrega. Dez pedidos de oito reais, oitenta reais. Três: as parcelinhas. Quatro de cinquenta e cinco, duzentos e vinte reais."
+  },
+  {
+   "type": "number",
+   "label": "Por mês, sem perceber",
+   "value": "R$ 405",
+   "tone": "red",
+   "text": "Num salário de R$&nbsp;2.500, é 16% da renda.",
+   "say": "Somando, quatrocentos e cinco reais por mês. Num salário de dois mil e quinhentos, é dezesseis por cento da renda."
+  },
+  {
+   "type": "compare",
+   "label": "Em 12 meses",
+   "value": "R$ 4.860",
+   "text": "Cortando só assinaturas e entregas…",
+   "from": "R$ 405",
+   "to": "R$ 220",
+   "after": "voltam R$ 185 por mês para o seu bolso.",
+   "say": "Em um ano, quatro mil oitocentos e sessenta reais. Cortando só assinaturas e entregas, cento e oitenta e cinco reais voltam para o seu bolso todo mês."
+  },
+  {
+   "type": "steps",
+   "title": "A virada",
+   "items": [
+    "Abra a fatura e <b>cancele</b> a assinatura que não usou no mês.",
+    "Coloque um <b>teto</b> no delivery.",
+    "Antes de parcelar, <b>some as parcelas</b> que já tem."
+   ],
+   "say": "Abra a fatura e cancele a assinatura que você não usou no mês. Coloque um teto no delivery. E, antes de parcelar, some as parcelas que você já tem."
+  },
+  {
+   "type": "cta",
+   "title": "Quer achar os <em>seus</em> vazamentos?",
+   "say": "Quer achar os seus vazamentos?"
+  }
+ ],
+ "captions": {
+  "tt": "R$ 405 somem do seu salário todo mês e você nem percebe 😳 Assinaturas (R$ 105), taxa de entrega (R$ 80) e parcelinhas (R$ 220). O 3º é o pior 👇 (cenário de exemplo) Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #organizacaofinanceira #gastos #dinheiro #salario",
+  "pin_title": "Planilha de gastos: R$ 405 que somem do salário todo mês",
+  "pin": "Assinaturas (R$ 105), taxa de entrega (R$ 80) e parcelinhas (R$ 220): R$ 405 por mês, 16% de um salário de R$ 2.500 e R$ 4.860 em um ano. Cortando só assinaturas e entregas, voltam R$ 185 por mês. Cenário de exemplo."
+ },
+ "remix_de": "r20-gastos-invisiveis",
+ "redes": [
+  "tt"
+ ]
+}
