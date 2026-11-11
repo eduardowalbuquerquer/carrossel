@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-11",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "\"Não é fofoca, só estou comentando\"",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MITO X VERDADE", "title": "\"Não é fofoca. <em style=\"color:#C8892C\">Só estou comentando</em>.\"", "body": "O pecado que a gente pratica sem sentir culpa.", "hint": "4 mentiras sobre fofoca →"},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 01", "title": "\"Só estou comentando.\"",
+      "left": {"label": "MITO", "text": "Falar da vida dos outros é só conversa."},
+      "right": {"label": "VERDADE", "text": "\"O homem perverso espalha contendas, e o difamador separa os maiores amigos.\" Provérbios 16:28"},
+      "body": "Comentário que fere pelas costas tem outro nome."},
+    {"layout": "compare", "theme": "light", "tag": "MENTIRA 02", "title": "\"Mas é verdade.\"",
+      "left": {"label": "MITO", "text": "Se é verdade, posso contar."},
+      "right": {"label": "VERDADE", "text": "\"O mexeriqueiro descobre o segredo, mas o fiel de espírito o encobre.\" Provérbios 11:13"},
+      "body": "Ser verdade não te dá o direito de espalhar."},
+    {"layout": "compare", "theme": "dark", "tag": "MENTIRA 03", "title": "\"Homem não fofoca. Só troca ideia.\"",
+      "left": {"label": "MITO", "text": "Na roda dos caras, falar dos outros é normal."},
+      "right": {"label": "VERDADE", "text": "\"Se alguém supõe ser religioso, deixando de refrear a língua… a sua religião é vã.\" Tiago 1:26"},
+      "body": "Fé que não segura a língua não segura nada."},
+    {"layout": "big", "theme": "light", "big": "4", "tag": "A MAIS PERIGOSA", "title": "\"Não faz mal a ninguém.\"",
+      "quote": {"text": "Sem lenha, o fogo se apaga; e, não havendo maldizente, cessa a contenda.", "ref": "Provérbios 26:20 · ARA"},
+      "body": "Toda briga que dura tem alguém jogando lenha. Não seja esse homem. Se tem algo a resolver, fale com a pessoa, não sobre ela."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual dessas desculpas você já usou? Comente o número."}
+  ],
+  "caption": "\"Não é fofoca, só estou comentando.\"\n\n1. \"Só estou comentando.\"\n2. \"Mas é verdade.\"\n3. \"Homem não fofoca. Só troca ideia.\"\n4. \"Não faz mal a ninguém.\"\n\n\"Sem lenha, o fogo se apaga; e, não havendo maldizente, cessa a contenda.\" (Pv 26:20)\n\nQual você já usou? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #lingua #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Fofoca é aquele pecado que quase ninguém confessa. A gente chama de \"só comentando\", \"troca de ideia\", \"desabafo\". Mas a Bíblia não alivia: \"O homem perverso espalha contendas, e o difamador separa os maiores amigos.\" (Provérbios 16:28)\n\nE nem adianta dizer que é verdade. \"O mexeriqueiro descobre o segredo, mas o fiel de espírito o encobre.\" (Provérbios 11:13). Homem fiel guarda, não espalha.\n\nA boa notícia é que dá para apagar o incêndio: \"Sem lenha, o fogo se apaga; e, não havendo maldizente, cessa a contenda.\" (Provérbios 26:20). Se tem algo a resolver, fale com a pessoa, não sobre ela.\n\nQual dessas desculpas você mais escuta por aí? Conta aqui.\n\n#homemcristao #forjadaalma #lingua",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VOCÊ JÁ OUVIU ISSO", "text": "\"Não é fofoca. <em>Só estou comentando</em>.\""},
+      {"kicker": "OU ISSO", "text": "\"Mas é verdade, <em>posso contar</em>.\""},
+      {"kicker": "4 MENTIRAS SOBRE FOFOCA", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "\"Não é fofoca, só estou comentando.\" Será? As 4 mentiras estão no post do perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "\"Não é fofoca, só estou comentando.\" Será? As 4 mentiras estão no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
