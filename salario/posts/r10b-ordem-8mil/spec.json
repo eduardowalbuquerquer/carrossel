@@ -1,0 +1,55 @@
+{
+ "id": "r10b-ordem-8mil",
+ "roteiro": 10,
+ "pilar": "dividas",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "3 dívidas somando R$ 8.000: comece por esta",
+   "value": "R$ 600",
+   "tone": "red",
+   "title": "Deve R$ 8 mil em 3 dívidas? <em>Comece pela de R$ 600.</em>",
+   "say": "Deve oito mil reais em três dívidas? Comece pela de seiscentos."
+  },
+  {
+   "type": "steps",
+   "title": "3 dívidas, uma ordem",
+   "items": [
+    "Cartão A: <b>R$ 600</b> ← começa aqui",
+    "Cartão B: R$ 2.100",
+    "Empréstimo: R$ 5.300"
+   ],
+   "say": "Três dívidas: 600, 2.100 e 5.300 reais. Paga o mínimo em todas, e todo o resto vai pra menor."
+  },
+  {
+   "type": "steps",
+   "title": "Método bola de neve",
+   "items": [
+    "Mínimo em <b>todas</b> as dívidas",
+    "Todo o resto na <b>menor</b>",
+    "Quitou? O valor dela vai pra próxima"
+   ],
+   "say": "É o método bola de neve. Quitou a menor, o valor que ia pra ela soma na próxima. A bola vai crescendo."
+  },
+  {
+   "type": "number",
+   "label": "Por que funciona",
+   "value": "1ª vitória",
+   "tone": "green",
+   "text": "logo nos primeiros meses. E quem vê progresso não desiste.",
+   "say": "Você tem uma vitória logo no começo. E quem vê progresso, não desiste."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver a <em>sua</em> ordem?",
+   "say": "Quer montar a sua ordem?"
+  }
+ ],
+ "captions": {
+  "tt": "Deve R$ 8 mil em 3 dívidas? Comece pela de R$ 600 👇 Método bola de neve: mínimo em todas, o resto na menor. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #dividas"
+ },
+ "redes": [
+  "tt"
+ ],
+ "remix_de": "r10-ordem-cartoes"
+}
