@@ -1,0 +1,58 @@
+{
+ "id": "r17b-limite-dobra",
+ "roteiro": 17,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Até onde R$ 1.000 no cartão pode chegar",
+   "value": "R$ 2.000",
+   "tone": "red",
+   "title": "R$ 1.000 no cartão pode <em>virar R$ 2.000</em>. E é lei.",
+   "say": "Mil reais no cartão podem virar dois mil. E isso é lei."
+  },
+  {
+   "type": "number",
+   "label": "Teto de juros e encargos",
+   "value": "100%",
+   "tone": "green",
+   "text": "do valor original da dívida, no rotativo e no parcelamento da fatura.",
+   "source": "Lei 14.690/2023, desde jan/2024",
+   "say": "Desde janeiro de 2024, juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100 por cento do valor original."
+  },
+  {
+   "type": "compare",
+   "label": "Na prática",
+   "value": "R$ 1.000",
+   "text": "de fatura não paga…",
+   "from": "1.000",
+   "to": "2.000",
+   "after": "no máximo, por lei. Não vira 5 ou 10 mil.",
+   "say": "Ou seja: uma dívida de mil reais pode chegar, no máximo, a dois mil."
+  },
+  {
+   "type": "steps",
+   "title": "Mas atenção",
+   "items": [
+    "Dobrar ainda é <b>muito</b> caro",
+    "Vale para dívidas do rotativo e da fatura parcelada",
+    "Melhor: saber quanto deve e ter um plano"
+   ],
+   "say": "Mas dobrar ainda é muito caro. O melhor é saber exatamente quanto você deve e ter um plano."
+  },
+  {
+   "type": "cta",
+   "title": "Quer começar pelo <em>seu</em> número?",
+   "say": "Quer começar pelo seu número?"
+  }
+ ],
+ "captions": {
+  "ig": "R$ 1.000 no cartão pode virar R$ 2.000. E isso é lei 😳\n\nDesde jan/2024 (Lei 14.690/2023), juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100% do valor original. Ou seja: R$ 1.000 pode chegar, no máximo, a R$ 2.000. Tem teto, mas dobrar ainda é muito caro.\n\nO melhor caminho:\n• Saber exatamente quanto você deve\n• Ter um plano para quitar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem paga só o mínimo 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #cartaodecredito",
+  "tt": "R$ 1.000 no cartão pode virar R$ 2.000. E é lei (Lei 14.690/2023) 😳 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #dividas",
+  "yt_title": "R$ 1.000 no cartão pode virar R$ 2.000 (é lei) #shorts",
+  "yt_desc": "Desde janeiro de 2024, juros e encargos do rotativo e do parcelamento da fatura não passam de 100% da dívida original (Lei 14.690/2023). R$ 1.000 pode virar no máximo R$ 2.000. Ainda é caro: o melhor é saber quanto deve e ter um plano.\n\nA mini-planilha grátis está aqui: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas",
+  "pin_title": "Juros do cartão têm limite por lei: R$ 1.000 vira no máximo R$ 2.000 (planilha grátis)",
+  "pin": "Desde jan/2024 (Lei 14.690/2023), juros e encargos do rotativo e do parcelamento da fatura não passam de 100% do valor original. R$ 1.000 pode chegar a R$ 2.000. Saiba quanto você deve e tenha um plano."
+ },
+ "remix_de": "r17-limite-lei"
+}
