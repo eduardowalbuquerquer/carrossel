@@ -281,7 +281,8 @@
     }
    },
    "v4": {
-    "remix_de": "v1 do mesmo dia"
+    "remix_de": "v1 do mesmo dia",
+    "pulado": "r21 já remixado como r21b (v3 do dia 15)"
    }
   },
   {
@@ -332,6 +333,15 @@
     "links": {
      "tt": "https://tiktok.com/@salrio.organizado/video/7706674917143596289",
      "pin": "https://www.pinterest.com/pin/264727284344508617"
+    }
+   },
+   "v4": {
+    "remix_de": "r16b-rotativo-fatura",
+    "pasta": "r16c-rotativo-resto",
+    "nota": "v1 do dia (r16b) já estava no TikTok; v4 com gancho novo (o resto da fatura a 442%).",
+    "publicado_em": "2026-11-10T21:33-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7706704355226897682"
     }
    }
   }
