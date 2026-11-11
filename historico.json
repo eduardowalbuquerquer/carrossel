@@ -869,5 +869,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122120016123506150",
       "fb_reel": "https://www.facebook.com/reel/1507543244597565"
     }
+  },
+  {
+    "data": "2026-11-11",
+    "serie": "reels",
+    "titulo": "Homem forte também pede ajuda",
+    "tema": "pedir ajuda / carregar fardos juntos",
+    "versiculos": [
+      "Gálatas 6:2"
+    ],
+    "foto": null,
+    "formato": "Reels da Noite 6 cenas só texto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DfnfhtugTwm/",
+      "fb_reel": "https://www.facebook.com/reel/1946250469873855",
+      "tiktok": "privado (SELF_ONLY, sandbox)"
+    }
   }
 ]
