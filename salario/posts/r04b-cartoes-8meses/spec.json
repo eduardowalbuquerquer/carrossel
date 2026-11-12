@@ -1,0 +1,85 @@
+{
+ "id": "r04b-cartoes-8meses",
+ "roteiro": 4,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Salário de R$ 3.200 e 2 cartões estourados",
+   "value": "8 meses",
+   "tone": "green",
+   "title": "Ganha <em>R$ 3.200</em> e tem 2 cartões estourados? Dá para sair em 8 meses.",
+   "say": "Dois cartões estourados ganhando três mil e duzentos? Livre em oito meses."
+  },
+  {
+   "type": "list",
+   "cap": "Primeiro, o mês sem os cartões:",
+   "cap_hot": "Sobram R$ 800 para as dívidas.",
+   "renda": 3200,
+   "items": [
+    [
+     "Aluguel",
+     950
+    ],
+    [
+     "Mercado",
+     700
+    ],
+    [
+     "Contas da casa",
+     300
+    ],
+    [
+     "Transporte",
+     250
+    ],
+    [
+     "Outros",
+     200
+    ]
+   ],
+   "step": 0.85,
+   "say": "Aluguel, mercado, contas, transporte e outros: dois mil e quatrocentos. Sobram oitocentos reais para os cartões."
+  },
+  {
+   "type": "steps",
+   "title": "As 2 dívidas",
+   "items": [
+    "Cartão A: <b>R$ 1.500</b> a 8% ao mês",
+    "Cartão B: <b>R$ 2.500</b> a 12% ao mês",
+    "Os dois <b>guardados</b>: nada de compra nova"
+   ],
+   "say": "Cartão A: mil e quinhentos, a oito por cento ao mês. Cartão B: dois mil e quinhentos, a doze por cento. E os dois guardados: nada de compra nova."
+  },
+  {
+   "type": "steps",
+   "title": "O plano dos R$ 800",
+   "items": [
+    "<b>R$ 100</b> em cada cartão",
+    "Os outros <b>R$ 600</b> no juro mais alto, o B",
+    "Quitou o B? Tudo vai para o A"
+   ],
+   "say": "Cem reais em cada cartão. Os outros seiscentos vão para o juro mais alto, o cartão B. Quitou o B, tudo vai para o A."
+  },
+  {
+   "type": "number",
+   "label": "Livre dos dois cartões em",
+   "value": "8 meses",
+   "tone": "green",
+   "text": "Começando em dezembro, o último pagamento cai em julho de 2027.",
+   "say": "Resultado: livre dos dois cartões em oito meses. Começando em dezembro, o último pagamento cai em julho de dois mil e vinte e sete."
+  },
+  {
+   "type": "cta",
+   "title": "Quer a data da <em>sua</em> quitação?",
+   "say": "Quer descobrir a data da sua quitação?"
+  }
+ ],
+ "captions": {
+  "tt": "Ganha R$ 3.200 e tem 2 cartões estourados? Dá para ficar livre em 8 meses 👇 A ordem certa: R$ 100 em cada e o resto no juro mais alto. (Cenário de exemplo, conta mês a mês.) Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #organizacaofinanceira #cartaodecredito #dividas #salario"
+ },
+ "remix_de": "r04-3200-dois-cartoes",
+ "redes": [
+  "tt"
+ ]
+}
