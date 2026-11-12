@@ -1,0 +1,56 @@
+{
+ "id": "r17c-limite-teto",
+ "roteiro": 17,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "Teto de juros do cartão, por lei",
+   "value": "100%",
+   "tone": "red",
+   "title": "Juro do cartão tem <em>teto</em>. E pouca gente sabe.",
+   "say": "Juro do cartão tem teto de cem por cento. Pouca gente sabe."
+  },
+  {
+   "type": "number",
+   "label": "Teto de juros e encargos",
+   "value": "100%",
+   "tone": "green",
+   "text": "do valor original da dívida, no rotativo e no parcelamento da fatura.",
+   "source": "Lei 14.690/2023, desde jan/2024",
+   "say": "Desde janeiro de 2024, juros e encargos do rotativo e do parcelamento da fatura não podem passar de 100 por cento do valor original."
+  },
+  {
+   "type": "compare",
+   "label": "Na prática",
+   "value": "R$ 1.000",
+   "text": "de fatura não paga…",
+   "from": "1.000",
+   "to": "2.000",
+   "after": "no máximo, por lei. Não vira 5 ou 10 mil.",
+   "say": "Ou seja: uma dívida de mil reais pode chegar, no máximo, a dois mil."
+  },
+  {
+   "type": "steps",
+   "title": "Mas atenção",
+   "items": [
+    "Dobrar ainda é <b>muito</b> caro",
+    "Vale para dívidas do rotativo e da fatura parcelada",
+    "Melhor: saber quanto deve e ter um plano"
+   ],
+   "say": "Mas dobrar ainda é muito caro. O melhor é saber exatamente quanto você deve e ter um plano."
+  },
+  {
+   "type": "cta",
+   "title": "Quer começar pelo <em>seu</em> número?",
+   "say": "Quer começar pelo seu número?"
+  }
+ ],
+ "captions": {
+  "tt": "Juro do cartão tem teto de 100% (Lei 14.690/2023) e pouca gente sabe 😳 R$ 1.000 vira no máximo R$ 2.000. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #educacaofinanceira #dinheiro #dividas"
+ },
+ "remix_de": "r17b-limite-dobra",
+ "redes": [
+  "tt"
+ ]
+}
