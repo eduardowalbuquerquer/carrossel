@@ -885,5 +885,22 @@
       "fb_reel": "https://www.facebook.com/reel/1946250469873855",
       "tiktok": "privado (SELF_ONLY, sandbox)"
     }
+  },
+  {
+    "data": "2026-11-12",
+    "serie": "frase",
+    "titulo": "Ouvir não te sustenta na tempestade. Praticar, sim.",
+    "tema": "praticar a Palavra / casa sobre a rocha",
+    "versiculos": [
+      "Mateus 7:24"
+    ],
+    "foto": "pixabay:7539264",
+    "formato": "arte única com foto + teaser com foto (via jsDelivr)",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/Dfo__SqG-DO/",
+      "ig_reel": "https://www.instagram.com/reel/DfpADNJGCD4/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122120432937506150",
+      "fb_reel": "https://www.facebook.com/reel/2357801898385686"
+    }
   }
 ]
