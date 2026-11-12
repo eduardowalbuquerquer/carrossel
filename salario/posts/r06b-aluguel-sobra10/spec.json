@@ -1,0 +1,93 @@
+{
+ "id": "r06b-aluguel-sobra10",
+ "roteiro": 6,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "value_label": "O que sobra de R$ 1.800 com R$ 900 de aluguel",
+   "value": "R$ 10",
+   "tone": "red",
+   "title": "Ganha R$ 1.800 e paga R$ 900 de aluguel? <em>Sobram R$ 10.</em>",
+   "say": "Ganha mil e oitocentos e paga novecentos de aluguel? Sobram dez reais. Mas tem saída."
+  },
+  {
+   "type": "list",
+   "cap": "Uma pessoa, morando sozinha:",
+   "cap_hot": "O aluguel leva metade da renda.",
+   "renda": 1800,
+   "renda_label": "Salário líquido",
+   "items": [
+    [
+     "Aluguel",
+     900
+    ],
+    [
+     "Mercado",
+     450
+    ],
+    [
+     "Luz, água e gás",
+     150
+    ],
+    [
+     "Transporte",
+     160
+    ],
+    [
+     "Celular e internet",
+     80
+    ],
+    [
+     "Farmácia",
+     50
+    ]
+   ],
+   "hot": "Aluguel",
+   "step": 0.85,
+   "say": "Aluguel, mercado, luz, água e gás, transporte, celular e farmácia. Vamos ver o que sobra."
+  },
+  {
+   "type": "number",
+   "label": "Sobra no mês",
+   "value": "R$ 10",
+   "tone": "red",
+   "text": "Gastos de R$&nbsp;1.790 com R$&nbsp;1.800 de salário. Não cabe nenhum imprevisto.",
+   "say": "Sobram dez reais. Não cabe nenhum imprevisto."
+  },
+  {
+   "type": "compare",
+   "label": "Moradia na renda",
+   "value": "50%",
+   "text": "Se a casa caísse para 40%…",
+   "from": "R$ 900",
+   "to": "R$ 720",
+   "after": "sobrariam R$ 190 por mês.",
+   "say": "A casa leva metade da renda. Se caísse para quarenta por cento, setecentos e vinte reais, sobrariam cento e noventa por mês."
+  },
+  {
+   "type": "steps",
+   "title": "A virada",
+   "items": [
+    "Casa acima de <b>30% a 40%</b>: o resto precisa ser <b>milimetrado</b>.",
+    "Teto para cada gasto, <b>anotado</b>.",
+    "Revise o mercado <b>toda semana</b>."
+   ],
+   "say": "Quando a casa passa de trinta a quarenta por cento, o resto precisa ser milimetrado. Teto para cada gasto, e o mercado revisado toda semana."
+  },
+  {
+   "type": "cta",
+   "title": "Quanto a casa leva do <em>seu</em> salário?",
+   "say": "Quer saber quanto a casa leva do seu salário?"
+  }
+ ],
+ "captions": {
+  "ig": "Ganha R$ 1.800 e paga R$ 900 de aluguel? Sobram R$ 10 😳\n\nAluguel, mercado, contas, transporte, celular e farmácia: R$ 1.790. Sobram R$ 10, sem espaço para nenhum imprevisto.\nSe a moradia caísse para 40% da renda (R$ 720), sobrariam R$ 190 por mês.\n\nQuando a casa passa de 30% a 40% do salário, o resto precisa ser milimetrado:\n• Teto para cada gasto, anotado\n• Mercado revisado toda semana\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem paga aluguel caro 👀\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #aluguel #educacaofinanceira #salario",
+  "tt": "Ganha R$ 1.800 e paga R$ 900 de aluguel? Sobram R$ 10 😳 Mas tem saída. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #aluguel #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "R$ 1.800 de salário e R$ 900 de aluguel: sobram R$ 10 #shorts",
+  "yt_desc": "Conta de exemplo: salário de R$ 1.800 com aluguel de R$ 900 (50% da renda). Somando mercado, contas, transporte, celular e farmácia, sobram R$ 10. Com a moradia em 40% (R$ 720), sobrariam R$ 190 por mês.\n\nA mini-planilha grátis está aqui: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #aluguel",
+  "pin_title": "Planilha de gastos: salário de R$ 1.800 com R$ 900 de aluguel, quanto sobra?",
+  "pin": "Conta de exemplo: R$ 1.800 de salário, R$ 900 de aluguel, mercado, contas, transporte, celular e farmácia. Sobram R$ 10. Com a casa em 40% da renda, sobrariam R$ 190. Faça a sua conta com a mini-planilha grátis."
+ },
+ "remix_de": "r06-aluguel-metade"
+}
