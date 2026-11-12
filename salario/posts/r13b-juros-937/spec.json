@@ -1,0 +1,66 @@
+{
+ "id": "r13b-juros-937",
+ "roteiro": 13,
+ "pilar": "divida-desmontada",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 937",
+   "value_label": "De juros a menos",
+   "tone": "green",
+   "title": "Só com <em>R$ 100 a mais</em> por mês na dívida.",
+   "sub": "Fiz a conta mês a mês 👇",
+   "say": "Novecentos e trinta e sete reais de juros a menos. Só com cem reais a mais por mês."
+  },
+  {
+   "type": "steps",
+   "title": "A dívida do exemplo",
+   "items": [
+    "<b>R$ 5.000</b> parcelados",
+    "Juros de <b>5% ao mês</b>",
+    "Sem compra nova no cartão"
+   ],
+   "say": "A dívida do exemplo: cinco mil reais, com juros de cinco por cento ao mês, e sem compra nova no cartão."
+  },
+  {
+   "type": "number",
+   "label": "Pagando R$ 400 por mês",
+   "value": "21 meses",
+   "tone": "red",
+   "text": "Começando em dezembro, só termina em agosto de 2028.",
+   "say": "Pagando quatrocentos por mês, são vinte e um meses. Começando em dezembro, só termina em agosto de dois mil e vinte e oito."
+  },
+  {
+   "type": "compare",
+   "label": "Com R$ 100 a mais",
+   "value": "R$ 500/mês",
+   "text": "A mesma dívida cai de",
+   "from": "21",
+   "to": "15 meses",
+   "after": "Termina em fevereiro de 2028: <b>6 meses a menos</b>.",
+   "say": "Com cem reais a mais, quinhentos por mês, a mesma dívida cai para quinze meses. Termina em fevereiro de dois mil e vinte e oito. Seis meses a menos."
+  },
+  {
+   "type": "number",
+   "label": "E de juros você deixa de pagar",
+   "value": "R$ 937",
+   "tone": "green",
+   "text": "Os juros caem de R$ 3.042 para R$ 2.105. Só com R$ 100.",
+   "say": "E você deixa de pagar novecentos e trinta e sete reais de juros. Só com cem reais a mais."
+  },
+  {
+   "type": "cta",
+   "title": "Onde achar os <em>seus</em> R$ 100?",
+   "say": "Quer descobrir onde estão os seus cem reais?"
+  }
+ ],
+ "captions": {
+  "tt": "R$ 937 de juros a menos só pagando R$ 100 a mais por mês 😳 Dívida de R$ 5.000 a 5% ao mês: com R$ 400 são 21 meses, com R$ 500 são 15. Seis meses a menos 👇 (cenário de exemplo, conta mês a mês) Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #organizacaofinanceira #dividas #educacaofinanceira #salario",
+  "pin_title": "Planilha de dívidas: R$ 937 de juros a menos com R$ 100 por mês",
+  "pin": "Dívida de R$ 5.000 a 5% ao mês. Pagando R$ 400: 21 meses e R$ 3.042 de juros. Pagando R$ 500: 15 meses e R$ 2.105 de juros. São 6 meses e R$ 937 a menos. Cenário de exemplo, conta mês a mês."
+ },
+ "remix_de": "r13-100-a-mais",
+ "redes": [
+  "tt"
+ ]
+}

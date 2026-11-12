@@ -412,6 +412,16 @@
     "links": {
      "tt": "https://tiktok.com/@salrio.organizado/video/7707361858155547912"
     }
+   },
+   "v2": {
+    "remix_de": "r13-100-a-mais",
+    "pasta": "r13b-juros-937",
+    "nota": "Fila esgotada: remix novo do r13 com gancho R$ 937 de juros a menos. Enviado como RASCUNHO no TikTok (o classificador da sessão bloqueou o push HEAD:main do publish.py, então Buffer e Pinterest ficaram de fora).",
+    "publicado_em": "2026-11-12T19:30-03:00",
+    "tt_status": "SEND_TO_USER_INBOX",
+    "links": {
+     "tt": null
+    }
    }
   }
  ]
