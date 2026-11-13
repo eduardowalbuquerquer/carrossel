@@ -1,0 +1,80 @@
+{
+ "id": "r07b-comprinhas-1120",
+ "roteiro": 7,
+ "pilar": "salarios-reais",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 1.120",
+   "value_label": "Comprinhas e apps num salário de R$ 4.000",
+   "tone": "red",
+   "title": "Ganha R$ 4.000? <em>R$ 1.120</em> podem sumir sem você perceber.",
+   "say": "Ganha quatro mil? Mil cento e vinte somem sem você perceber."
+  },
+  {
+   "type": "list",
+   "cap": "Anotei tudo do mês:",
+   "cap_hot": "Isso eu nem lembrava.",
+   "renda": 4000,
+   "items": [
+    [
+     "Aluguel",
+     1100
+    ],
+    [
+     "Mercado",
+     750
+    ],
+    [
+     "Contas da casa",
+     320
+    ],
+    [
+     "Transporte",
+     350
+    ],
+    [
+     "Parcelas",
+     360
+    ],
+    [
+     "Comprinhas e apps",
+     1120
+    ]
+   ],
+   "hot": "Comprinhas e apps",
+   "step": 0.85,
+   "say": "Aluguel, mercado, contas, transporte, parcelas. E comprinhas e apps que eu nem lembrava."
+  },
+  {
+   "type": "number",
+   "label": "Gastos que eu nem lembrava",
+   "value": "28%",
+   "tone": "red",
+   "text": "do salário: R$&nbsp;1.120 em lanchinho, app e compra por impulso.",
+   "say": "28 por cento do salário. 1.120 reais em coisa que eu nem lembro de ter comprado."
+  },
+  {
+   "type": "compare",
+   "label": "Se cortar só metade",
+   "value": "R$ 560",
+   "text": "todo mês de volta no bolso…",
+   "from": "0",
+   "to": "+560",
+   "after": "para quitar dívida ou guardar.",
+   "say": "Cortando só metade, são 560 reais por mês de volta no bolso."
+  },
+  {
+   "type": "cta",
+   "title": "Quer descobrir os <em>seus</em> 28%?",
+   "say": "Quer descobrir os seus?"
+  }
+ ],
+ "captions": {
+  "tt": "Ganha R$ 4.000? R$ 1.120 (28% do salário) podem sumir em comprinhas e apps sem você perceber 😳 Cortando metade, R$ 560 voltam por mês 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #financaspessoais #organizacaofinanceira #dinheiro #dividas #educacaofinanceira"
+ },
+ "remix_de": "r07-descobri-5min",
+ "redes": [
+  "tt"
+ ]
+}
