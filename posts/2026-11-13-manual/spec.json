@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-13",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Como pedir perdão sem usar \"mas\"",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MANUAL DO HOMEM", "title": "Como pedir perdão <em style=\"color:#C8892C\">sem usar \"mas\"</em>.", "body": "Para a esposa, os filhos, o irmão ou o colega. Um roteiro em 5 passos.", "hint": "Salve e use hoje →"},
+    {"layout": "text", "theme": "dark", "tag": "A RAZÃO", "title": "Para Jesus, reconciliação vem antes até da oferta.",
+      "quote": {"text": "…deixa perante o altar a tua oferta, vai primeiro reconciliar-te com teu irmão; e, então, voltando, faze a tua oferta.", "ref": "Mateus 5:24 · ARA"},
+      "body": "Não espere o outro dar o primeiro passo. Vá primeiro."},
+    {"layout": "list", "theme": "light", "tag": "O ROTEIRO · PARTE 1", "title": "O que dizer", "items": [
+      {"num": "01", "title": "Nomeie o erro", "desc": "\"Eu fui grosso com você ontem.\" Específico, sem rodeio."},
+      {"num": "02", "title": "Corte o \"mas\"", "desc": "\"Errei, mas você também...\" anula tudo o que veio antes."},
+      {"num": "03", "title": "Reconheça a dor", "desc": "\"Sei que isso te machucou.\" Mostre que você entendeu."}
+    ]},
+    {"layout": "list", "theme": "dark", "tag": "O ROTEIRO · PARTE 2", "title": "O que fazer", "items": [
+      {"num": "04", "title": "Peça, não exija", "desc": "\"Você me perdoa?\" O perdão é dele dar, não seu cobrar."},
+      {"num": "05", "title": "Mude a atitude", "desc": "Diga o que vai fazer diferente. E faça."}
+    ]},
+    {"layout": "text", "theme": "light", "tag": "A PROMESSA", "title": "Confessar não te diminui. <em style=\"color:#C8892C\">Te liberta</em>.",
+      "quote": {"text": "O que encobre as suas transgressões jamais prosperará; mas o que as confessa e deixa alcançará misericórdia.", "ref": "Provérbios 28:13 · ARA"},
+      "body": "Orgulho guarda a briga. Humildade guarda a família."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual passo é o mais difícil para você? Comente o número."}
+  ],
+  "caption": "\"Desculpa, mas...\" não é pedido de perdão.\n\n1. Nomeie o erro\n2. Corte o \"mas\"\n3. Reconheça a dor\n4. Peça, não exija\n5. Mude a atitude\n\n\"O que encobre as suas transgressões jamais prosperará; mas o que as confessa e deixa alcançará misericórdia.\" (Pv 28:13)\n\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #perdao #forjadaalma #biblia #casamentocristao",
+  "caption_facebook": "Muito homem pede perdão assim: \"Desculpa, mas você também...\". E aí a conversa vira outra briga. O \"mas\" apaga tudo o que veio antes.\n\nJesus colocou a reconciliação acima até da oferta no altar: \"deixa perante o altar a tua oferta, vai primeiro reconciliar-te com teu irmão; e, então, voltando, faze a tua oferta\" (Mateus 5:24).\n\nUm roteiro simples: nomeie o erro, corte o \"mas\", reconheça a dor que você causou, peça perdão em vez de exigir, e mude a atitude. \"O que encobre as suas transgressões jamais prosperará; mas o que as confessa e deixa alcançará misericórdia.\" (Provérbios 28:13)\n\nPara quem você precisa pedir perdão este fim de semana? Não precisa dizer o nome, só pense e vá.\n\n#homemcristao #forjadaalma #perdao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "MANUAL DO HOMEM", "text": "\"Desculpa, <em>mas</em> você também...\""},
+      {"kicker": "ISSO NÃO É PERDÃO", "text": "O \"mas\" <em>apaga</em> tudo o que veio antes."},
+      {"kicker": "O ROTEIRO EM 5 PASSOS", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "\"Desculpa, mas...\" não é perdão. O roteiro em 5 passos está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "\"Desculpa, mas...\" não é perdão. O roteiro em 5 passos está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
