@@ -1,0 +1,74 @@
+{
+ "id": "r11b-avalanche-120",
+ "roteiro": 11,
+ "pilar": "dividas",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 120",
+   "value_label": "de juros a menos, com a mesma dívida",
+   "tone": "red",
+   "title": "Mesma dívida, dois métodos: um paga <em>R$ 120</em> a menos de juros.",
+   "say": "Mesma dívida, dois métodos. Um paga cento e vinte reais a menos de juros."
+  },
+  {
+   "type": "steps",
+   "title": "As mesmas 3 dívidas",
+   "items": [
+    "Cartão A: <b>R$ 600</b> a 6% ao mês",
+    "Cartão B: <b>R$ 2.100</b> a 9% ao mês",
+    "Empréstimo: <b>R$ 5.300</b> a 3% ao mês"
+   ],
+   "say": "Seiscentos reais a seis por cento ao mês. Dois mil e cem a nove por cento. E cinco mil e trezentos a três por cento. Oitocentos reais por mês para pagar tudo."
+  },
+  {
+   "type": "steps",
+   "title": "Os dois métodos",
+   "items": [
+    "<b>Bola de neve:</b> o resto vai para a <b>menor</b> dívida",
+    "<b>Avalanche:</b> o resto vai para o <b>juro mais alto</b>"
+   ],
+   "say": "Nos dois, paga o mínimo em todas. Na bola de neve, o resto vai para a menor. Na avalanche, para o juro mais alto."
+  },
+  {
+   "type": "compare",
+   "label": "Juros pagos no total",
+   "value": "R$ 120",
+   "text": "a menos na avalanche:",
+   "from": "R$ 2.524",
+   "to": "R$ 2.404",
+   "after": "E os dois quitam tudo no mês 14.",
+   "say": "A avalanche pagou cento e vinte reais a menos de juros. E os dois quitam tudo no mesmo mês, o décimo quarto."
+  },
+  {
+   "type": "number",
+   "label": "Primeira dívida quitada",
+   "value": "Mês 2",
+   "tone": "green",
+   "text": "na bola de neve. Na avalanche, só no mês 6.",
+   "say": "Mas a bola de neve quita a primeira dívida já no segundo mês. A avalanche, só no sexto."
+  },
+  {
+   "type": "steps",
+   "title": "A virada",
+   "items": [
+    "Avalanche <b>economiza juros</b>.",
+    "Bola de neve dá <b>vitória rápida</b>.",
+    "Escolha o que você <b>consegue manter</b>."
+   ],
+   "say": "Um economiza juros, o outro dá vitória rápida. Escolha o que você consegue manter."
+  },
+  {
+   "type": "cta",
+   "title": "Quer comparar a <em>sua</em> dívida?",
+   "say": "Quer fazer essa conta com a sua dívida?"
+  }
+ ],
+ "captions": {
+  "tt": "Mesma dívida, dois métodos: a avalanche paga R$ 120 a menos de juros, mas a bola de neve quita a 1ª dívida no mês 2 😳 Qual você aguenta manter? 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #educacaofinanceira #organizacaofinanceira #dinheiro"
+ },
+ "remix_de": "r11-neve-avalanche",
+ "redes": [
+  "tt"
+ ]
+}
