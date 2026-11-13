@@ -1,0 +1,58 @@
+{
+ "id": "r19b-poupanca-5-reais",
+ "roteiro": 19,
+ "pilar": "choque",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 5",
+   "value_label": "o que R$ 1.000 rendem na poupança em 1 mês (+ TR)",
+   "tone": "red",
+   "title": "R$ 1.000 guardados rendem R$ 5. <em>No cartão, custam R$ 153.</em>",
+   "sub": "Olha a conta de 1 mês 👇",
+   "say": "Guardar mil reais rende cinco. A dívida no cartão cobra cento e cinquenta e três."
+  },
+  {
+   "type": "number",
+   "label": "Rotativo do cartão",
+   "value": "15,29% ao mês",
+   "tone": "red",
+   "text": "Média de set/2026 (451,7% ao ano). Em R$ 1.000, cerca de R$ 153 de juro em 1 mês.",
+   "source": "Banco Central, set/2026 (preliminar)",
+   "say": "No rotativo, o juro médio foi de quinze vírgula três por cento ao mês, segundo o Banco Central."
+  },
+  {
+   "type": "number",
+   "label": "Poupança",
+   "value": "0,5% ao mês + TR",
+   "tone": "green",
+   "text": "Em R$ 1.000, cerca de R$ 5 mais a TR no mesmo mês.",
+   "source": "Lei 12.703/2012 (com Selic acima de 8,5%)",
+   "say": "Já a poupança rende meio por cento ao mês, mais a TR. Em mil reais, uns cinco reais, mais a TR."
+  },
+  {
+   "type": "steps",
+   "title": "O que fazer",
+   "items": [
+    "Guarde só uma <b>reserva pequena</b> para emergência",
+    "O resto vai para <b>pagar a fatura</b> e sair do rotativo",
+    "Sem dívida cara, aí sim volte a <b>guardar</b>"
+   ],
+   "say": "Guarde só uma reserva pequena. O resto vai para sair do rotativo. Depois, volte a guardar."
+  },
+  {
+   "type": "cta",
+   "title": "Quer ver quanto a <em>sua</em> dívida custa?",
+   "say": "Quer ver quanto a sua dívida custa por mês?"
+  }
+ ],
+ "captions": {
+  "ig": "R$ 1.000 guardados rendem uns R$ 5. No rotativo do cartão, custam R$ 153 😳\n\nA conta de 1 mês:\n• Rotativo do cartão: 15,29% ao mês (Banco Central, set/2026, dado preliminar) = cerca de R$ 153 de juro em R$ 1.000\n• Poupança: 0,5% ao mês + TR (Lei 12.703/2012) = uns R$ 5 + TR\n\nO que fazer:\n• Guarde só uma reserva pequena para emergência\n• O resto vai para pagar a fatura e sair do rotativo\n• Sem dívida cara, aí sim volte a guardar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem guarda dinheiro com fatura atrasada 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #cartaodecredito",
+  "tt": "R$ 1.000 guardados rendem uns R$ 5. No rotativo do cartão, custam R$ 153 em 1 mês (15,29% a.m., Banco Central, set/2026, preliminar) 😳 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #cartaodecredito #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "R$ 1.000 rende R$ 5, mas no cartão custa R$ 153 #shorts",
+  "yt_desc": "Na poupança, R$ 1.000 rendem uns R$ 5 + TR por mês (Lei 12.703/2012). No rotativo do cartão, o juro médio foi de 15,29% ao mês (Banco Central, set/2026, preliminar): cerca de R$ 153 em 1 mês. Guarde só uma reserva pequena e use o resto para sair do rotativo.\n\nA mini-planilha grátis está aqui: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #educacaofinanceira #dividas",
+  "pin_title": "Poupança x cartão: R$ 1.000 rendem R$ 5 e custam R$ 153 por mês (planilha grátis)",
+  "pin": "Na poupança, R$ 1.000 rendem uns R$ 5 + TR por mês (Lei 12.703/2012). No rotativo do cartão, custam cerca de R$ 153 (15,29% ao mês, Banco Central, set/2026, preliminar). Guarde só uma reserva pequena e use o resto para sair do rotativo."
+ },
+ "remix_de": "r19-guardar-com-divida"
+}
