@@ -1,0 +1,64 @@
+{
+  "date": "2026-11-14",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Josias: o rei que achou a Palavra perdida",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 55%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "A Palavra de Deus estava perdida <em style=\"color:#E3B566\">dentro do templo</em>.",
+      "body": "Josias: o rei que voltou a ouvir."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CENÁRIO",
+      "title": "Uma reforma no templo. Um livro esquecido.",
+      "body": "No 18º ano do reinado de Josias, o sumo sacerdote Hilquias achou o Livro da Lei no meio da obra (2 Reis 22:3,8). A Palavra estava ali o tempo todo. Ninguém lia."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A REAÇÃO",
+      "title": "Ele não guardou o livro na estante.",
+      "quote": {
+        "text": "Tendo o rei ouvido as palavras do Livro da Lei, rasgou as suas vestes.",
+        "ref": "2 Reis 22:11 · ARA"
+      },
+      "body": "Josias deixou a Palavra quebrar o seu orgulho antes de mudar o reino."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "A Bíblia não precisa de pó. Precisa de <em style=\"color:#E3B566\">um homem que obedeça</em>.",
+      "quote": {
+        "text": "…o teu coração se enterneceu, e te humilhaste perante o SENHOR…",
+        "ref": "2 Reis 22:19 · ARA"
+      },
+      "body": "Ele ouviu, se humilhou e agiu: tirou os ídolos do reino (2 Reis 23). Hoje, leia um capítulo antes de abrir o celular."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Sua Bíblia está aberta ou empoeirada? Envie para um irmão."
+    }
+  ],
+  "caption": "A Palavra de Deus estava perdida dentro do templo. Quando Josias a ouviu, \"rasgou as suas vestes\" (2Rs 22:11).\n\nA Bíblia não precisa de pó. Precisa de um homem que obedeça. Leia um capítulo hoje antes de abrir o celular.\n\nEnvie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#josias #homensdabiblia #homemdedeus #homemcristao #forjadaalma #biblia #palavradedeus",
+  "caption_facebook": "Imagine reformar uma igreja e achar, no meio do entulho, a Bíblia que ninguém lia mais. Foi o que aconteceu no 18º ano do reinado de Josias: o sumo sacerdote Hilquias achou o Livro da Lei dentro do templo (2 Reis 22:8).\n\nA reação do rei diz tudo: \"Tendo o rei ouvido as palavras do Livro da Lei, rasgou as suas vestes\" (2 Reis 22:11). Ele não colocou o livro numa estante bonita. Deixou a Palavra quebrar o orgulho dele, e depois tirou os ídolos do reino inteiro (2 Reis 23).\n\nE Deus respondeu: \"…o teu coração se enterneceu, e te humilhaste perante o SENHOR…\" (2 Reis 22:19).\n\nMuitos de nós temos uma Bíblia em casa, às vezes mais de uma. A pergunta é se ela está aberta ou empoeirada. Que tal ler um capítulo hoje, antes de abrir o celular?\n\nMarque um irmão para ler junto com você esta semana.\n\n#josias #homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "A Palavra estava perdida <em>dentro do templo</em>."},
+      {"kicker": "QUANDO O REI OUVIU", "text": "Ele <em>rasgou as suas vestes</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "A Palavra de Deus estava perdida dentro do templo. Quando o rei ouviu, rasgou as vestes. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "A Palavra de Deus estava perdida dentro do templo. Quando o rei ouviu, rasgou as vestes. Quem era ele? A história está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
