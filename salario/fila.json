@@ -1,498 +1,503 @@
 {
- "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas. 14/11/2026: Eduardo aprovou o formato v2 (render_video_v2.py, até 30 s, voz pt-BR travada). A partir do dia 20: só v1 (12h) e v2 (19h), vídeos novos ou campeões refeitos no formato v2; v3/v4 (remix) suspensos.",
- "itens": [
-  {
-   "dia": 4,
-   "v1": {
-    "roteiro": 1,
-    "pasta": "r01-salario-2300",
-    "publicado_em": "2026-10-29T12:00-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfFRyALDbua/",
-     "yt": "https://youtube.com/shorts/tM_XFVYqGws",
-     "tt": "rascunho no app (Sandbox)"
+  "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas. 14/11/2026: Eduardo aprovou o formato v2 (render_video_v2.py, até 30 s, voz pt-BR travada). A partir do dia 20: só v1 (12h) e v2 (19h), vídeos novos ou campeões refeitos no formato v2; v3/v4 (remix) suspensos.",
+  "itens": [
+    {
+      "dia": 4,
+      "v1": {
+        "roteiro": 1,
+        "pasta": "r01-salario-2300",
+        "publicado_em": "2026-10-29T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfFRyALDbua/",
+          "yt": "https://youtube.com/shorts/tM_XFVYqGws",
+          "tt": "rascunho no app (Sandbox)"
+        }
+      },
+      "v2": {
+        "roteiro": 16,
+        "pasta": "r16-rotativo-442",
+        "publicado_em": "2026-10-29T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
+      }
+    },
+    {
+      "dia": 5,
+      "v1": {
+        "roteiro": 10,
+        "pasta": "r10-ordem-cartoes",
+        "publicado_em": "2026-10-30T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfH2m7Ale1U/",
+          "yt": "https://youtube.com/shorts/P9YvQN0mnm4",
+          "tt": "rascunho no app (Sandbox)"
+        }
+      },
+      "v2": {
+        "roteiro": 5,
+        "pasta": "r05-antes-de-gastar",
+        "publicado_em": "2026-10-30T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
+      }
+    },
+    {
+      "dia": 6,
+      "v1": {
+        "roteiro": 3,
+        "pasta": "r03-casal-5mil",
+        "publicado_em": "2026-10-31T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfKZgnWkTT1/",
+          "yt": "https://youtube.com/shorts/OHBH14RQ0Ts",
+          "tt": "rascunho no app (Sandbox)"
+        }
+      },
+      "v2": {
+        "roteiro": 17,
+        "pasta": "r17-limite-lei",
+        "publicado_em": "2026-10-31T19:00-03:00",
+        "links": {
+          "tt": "rascunho no app (Sandbox)"
+        }
+      }
+    },
+    {
+      "dia": 7,
+      "v1": {
+        "roteiro": 12,
+        "pasta": "r12-pare-minimo",
+        "publicado_em": "2026-11-01T11:44-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfM-TrSAule/",
+          "yt": "https://youtube.com/shorts/YxHP9xGr7Sk",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703213834013625621 (Buffer)"
+        }
+      },
+      "v2": {
+        "roteiro": 7,
+        "pasta": "r07-descobri-5min",
+        "publicado_em": "2026-11-01T19:10-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703328998599757077 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 8,
+      "v1": {
+        "roteiro": 2,
+        "pasta": "r02-salario-minimo",
+        "publicado_em": "2026-11-02T13:18-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfPtxmjj-wm/",
+          "yt": "https://youtube.com/shorts/2OSiYjglv2Q",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703609027304901909 (Buffer)"
+        }
+      },
+      "v2": {
+        "roteiro": 18,
+        "pasta": "r18-endividadas-82",
+        "publicado_em": "2026-11-02T19:20-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703702303609556245 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 9,
+      "v1": {
+        "roteiro": 11,
+        "pasta": "r11-neve-avalanche",
+        "publicado_em": "2026-11-03T12:10-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfSKotEj9jF/",
+          "yt": "https://youtube.com/shorts/3ZioTnYwhqY",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7703962339833416978 (Buffer)"
+        }
+      },
+      "v2": {
+        "roteiro": 6,
+        "pasta": "r06-aluguel-metade",
+        "publicado_em": "2026-11-03T19:13-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7704073977626414354 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 10,
+      "v1": {
+        "roteiro": 9,
+        "pasta": "r09-me-manda-salario",
+        "publicado_em": "2026-11-04T12:25-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfUtmxbDdCA/",
+          "yt": "https://youtube.com/shorts/UhZ7laLTuO8",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7704329303634513204 (Buffer)"
+        }
+      },
+      "v2": {
+        "roteiro": 20,
+        "pasta": "r20-gastos-invisiveis",
+        "publicado_em": "2026-11-04T19:15-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7704444101378280712 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 11,
+      "v1": {
+        "roteiro": 4,
+        "pasta": "r04-3200-dois-cartoes",
+        "publicado_em": "2026-11-05T11:58-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfXSsfzgHlP/",
+          "yt": "https://youtube.com/shorts/SPz4-l_kDrk",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7704701011214028039 (Buffer)"
+        }
+      },
+      "v2": {
+        "roteiro": 13,
+        "pasta": "r13-100-a-mais",
+        "publicado_em": "2026-11-05T19:22-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7704815811223129365 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 12,
+      "v1": {
+        "roteiro": 14,
+        "pasta": "r14-nome-sujo",
+        "publicado_em": "2026-11-06T13:35-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfaC2FoFINX/",
+          "yt": "https://youtube.com/shorts/ODugifu-JIk",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705097563678051604 (Buffer)",
+          "fb": "https://facebook.com/1446527975200486_122104331169533531",
+          "pin": "https://www.pinterest.com/pin/264727284344358509"
+        }
+      },
+      "v2": {
+        "roteiro": 19,
+        "pasta": "r19-guardar-com-divida",
+        "publicado_em": "2026-11-06T19:25-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705186398235577618 (Buffer)",
+          "pin": "https://www.pinterest.com/pin/264727284344366409"
+        }
+      },
+      "v3": {
+        "remix_de": "r03-casal-5mil",
+        "pasta": "r03b-casal-furo",
+        "publicado_em": "2026-11-06T18:20-03:00",
+        "links": {
+          "tt": "rascunho no app (Buffer falhou: Video could not be read from its URL); Eduardo publica"
+        }
+      },
+      "v4": {
+        "remix_de": "v1 do mesmo dia",
+        "pasta": "r14b-nome-sujo-cartao",
+        "publicado_em": "2026-11-06T21:27-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705219656969178420 (Buffer)"
+        }
+      }
+    },
+    {
+      "dia": 13,
+      "v1": {
+        "roteiro": 15,
+        "pasta": "r15-quanto-deve",
+        "publicado_em": "2026-11-07T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfccPyjgdGU/",
+          "yt": "https://youtube.com/shorts/Np3RDAoTMY4",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705443052516560136",
+          "pin": "https://www.pinterest.com/pin/264727284344388437",
+          "fb": "https://facebook.com/1446527975200486_122105281125533531"
+        }
+      },
+      "v2": {
+        "roteiro": 8,
+        "pasta": "r08-freelancer",
+        "publicado_em": "2026-11-07T19:26-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705559136368413959",
+          "pin": "https://www.pinterest.com/pin/264727284344400612"
+        }
+      },
+      "v3": {
+        "remix_de": "r16-rotativo-442",
+        "pasta": "r16b-rotativo-fatura",
+        "publicado_em": "2026-11-07T16:00-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705506227098307860"
+        }
+      },
+      "v4": {
+        "remix_de": "v1 do mesmo dia",
+        "pasta": "r15b-quanto-deve-cartao",
+        "publicado_em": "2026-11-07T21:30-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705591028610288948"
+        }
+      }
+    },
+    {
+      "dia": 14,
+      "v1": {
+        "roteiro": 21,
+        "pasta": "r21-tour-planilha",
+        "publicado_em": "2026-11-08T12:00-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DffB0FPjbsc/",
+          "yt": "https://youtube.com/shorts/ByazUy1aOMk",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705815932110949653",
+          "pin": "https://www.pinterest.com/pin/264727284344424685",
+          "fb": "https://facebook.com/1446527975200486_122106253185533531"
+        }
+      },
+      "v2": {
+        "roteiro": "melhor gancho da semana com outro número",
+        "remix_de": "r03-casal-5mil",
+        "pasta": "r03c-casal-assinaturas",
+        "publicado_em": "2026-11-08T19:15-03:00",
+        "links": {
+          "tt": "rascunho no app (Buffer recusou: Video could not be read from its URL)"
+        }
+      },
+      "v3": {
+        "remix_de": "r12-pare-minimo",
+        "pasta": "r12b-minimo-dobra",
+        "publicado_em": "2026-11-08T16:00-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7705876691993890054"
+        }
+      },
+      "v4": {
+        "remix_de": "v1 do mesmo dia",
+        "pulado": "r21 já remixado como r21b (v3 do dia 15)"
+      }
+    },
+    {
+      "dia": 15,
+      "v1": {
+        "pasta": "r03c-casal-assinaturas",
+        "nota": "Fila acabou no dia 14: r03c (remix do campeão casal 5 mil) só tinha saído no TikTok; v1 publica em IG, YT, Pinterest e Facebook.",
+        "publicado_em": "2026-11-09T12:05-03:00",
+        "ig_link": "https://www.instagram.com/reel/DfhkwTUnFdF/",
+        "yt_link": "https://youtube.com/shorts/2udcxjpirOg",
+        "pin_link": "https://www.pinterest.com/pin/264727284344458126",
+        "fb_link": "https://facebook.com/1446527975200486_122107212801533531"
+      },
+      "v3": {
+        "remix_de": "r21-tour-planilha",
+        "pasta": "r21b-tour-19-meses",
+        "nota": "fila do dia 14 esgotada: remix já renderizado (só o gancho novo) em /mnt/project-files",
+        "publicado_em": "2026-11-09T16:22-03:00",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7706251647780916487"
+      },
+      "v2": {
+        "remix_de": "r01-salario-2300",
+        "pasta": "r01b-salario-delivery",
+        "nota": "fila esgotada: remix novo (só o gancho). Enviado como rascunho; registro trazido do branch claude/project-thread-x75qza.",
+        "publicado_em": "2026-11-09T19:15-03:00",
+        "links": {
+          "tt": "rascunho no app (Eduardo publica)"
+        }
+      },
+      "v4": {
+        "pulado": "dia passou sem v4 (rotinas seguiram o dia corrente)"
+      }
+    },
+    {
+      "dia": 16,
+      "v1": {
+        "pasta": "r16b-rotativo-fatura",
+        "remix_de": "r16-rotativo-442",
+        "nota": "Fila acabou no dia 14: r16b (remix do rotativo 442%, campeão no TikTok) nunca tinha saído no Instagram/YouTube; v1 publica em IG, YT, Pinterest e Facebook, sem TikTok (já está lá). 1ª tentativa de IG/FB falhou (GitHub Pages ainda sem o vídeo, 404); novo push e nova tentativa deram certo.",
+        "yt_link": "https://youtube.com/shorts/EfjHFxhmhp4",
+        "pin_link": "https://www.pinterest.com/pin/264727284344498776",
+        "publicado_em": "2026-11-10T12:20-03:00",
+        "ig_link": "https://www.instagram.com/reel/DfkL1vWFOZI/",
+        "fb_link": "https://facebook.com/1446527975200486_122107955979533531"
+      },
+      "v2": {
+        "remix_de": "r18-endividadas-82",
+        "pasta": "r18b-endividadas-plano",
+        "nota": "fila esgotada: remix novo (só o gancho, 82% no 1º quadro).",
+        "publicado_em": "2026-11-10T19:40-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7706674917143596289",
+          "pin": "https://www.pinterest.com/pin/264727284344508617"
+        }
+      },
+      "v4": {
+        "remix_de": "r16b-rotativo-fatura",
+        "pasta": "r16c-rotativo-resto",
+        "nota": "v1 do dia (r16b) já estava no TikTok; v4 com gancho novo (o resto da fatura a 442%).",
+        "publicado_em": "2026-11-10T21:33-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7706704355226897682"
+        }
+      }
+    },
+    {
+      "dia": 17,
+      "v1": {
+        "remix_de": "r17-limite-lei",
+        "pasta": "r17b-limite-dobra",
+        "nota": "Fila esgotada: remix novo do r17 (só no TikTok antes, gancho antigo) com gancho R$ 2.000 no 1º quadro; v1 em todas as redes.",
+        "publicado_em": "2026-11-11T12:10-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Dfmu8lzlH5Z/",
+          "yt": "https://youtube.com/shorts/S_Pn5BMqwgM",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7706926277256842516",
+          "pin": "https://www.pinterest.com/pin/264727284344522022",
+          "fb": "https://facebook.com/1446527975200486_122108474625533531"
+        }
+      },
+      "v3": {
+        "remix_de": "r10-ordem-cartoes",
+        "pasta": "r10b-ordem-8mil",
+        "nota": "remix novo: só o gancho trocado (R$ 600 de R$ 8 mil em 3 dívidas)",
+        "publicado_em": "2026-11-11T16:20-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7706991617433029895"
+        }
+      },
+      "v2": {
+        "remix_de": "r20-gastos-invisiveis",
+        "pasta": "r20b-gastos-405",
+        "nota": "fila esgotada: remix novo do r20 (só o gancho, R$ 405 no 1º quadro).",
+        "publicado_em": "2026-11-11T19:20-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707041081971576071",
+          "pin": "https://www.pinterest.com/pin/264727284344529671"
+        }
+      },
+      "v4": {
+        "remix_de": "r17b-limite-dobra",
+        "pasta": "r17c-limite-teto",
+        "nota": "v4 do dia 17: v1 (r17b) com gancho novo (teto de 100% dos juros do cartão).",
+        "publicado_em": "2026-11-11T21:30-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707075069259926804"
+        }
+      }
+    },
+    {
+      "dia": 18,
+      "v1": {
+        "remix_de": "r06-aluguel-metade",
+        "pasta": "r06b-aluguel-sobra10",
+        "nota": "Fila esgotada: remix novo do r06 (antes só no TikTok) com gancho R$ 10 no 1º quadro; v1 em todas as redes.",
+        "publicado_em": "2026-11-12T12:20-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfpUDa-gOJ9/",
+          "yt": "https://youtube.com/shorts/K98okId0M9E",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707298048434588980",
+          "pin": "https://www.pinterest.com/pin/264727284344541136",
+          "fb": "https://facebook.com/1446527975200486_122108966187533531"
+        }
+      },
+      "v3": {
+        "remix_de": "r04-3200-dois-cartoes",
+        "pasta": "r04b-cartoes-8meses",
+        "nota": "remix novo: só o gancho trocado (8 meses no 1º quadro, salário R$ 3.200 e 2 cartões). Vídeo com ~56 s (o r04 original já era longo).",
+        "publicado_em": "2026-11-12T16:05-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707361858155547912"
+        }
+      },
+      "v4": {
+        "remix_de": "r06b-aluguel-sobra10",
+        "pasta": "r06c-aluguel-sobra190",
+        "nota": "Gancho novo 'sobrar R$ 190 em vez de R$ 10' (casa em 40% da renda); resto igual ao v1.",
+        "publicado_em": "2026-11-12T21:30-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707446377990638856"
+        }
+      }
+    },
+    {
+      "dia": 19,
+      "v1": {
+        "remix_de": "r19-guardar-com-divida",
+        "pasta": "r19b-poupanca-5-reais",
+        "nota": "Fila esgotada: remix novo do r19 (antes só no TikTok) com gancho R$ 5 no 1º quadro; v1 em todas as redes.",
+        "publicado_em": "2026-11-13T12:15-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Dfr5PeAnEtw/",
+          "yt": "https://youtube.com/shorts/6R3LQAichvc",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707670113213910293",
+          "pin": "https://www.pinterest.com/pin/264727284344557551",
+          "fb": "https://facebook.com/1446527975200486_122109384543533531"
+        }
+      },
+      "v3": {
+        "remix_de": "r07-descobri-5min",
+        "pasta": "r07b-comprinhas-1120",
+        "nota": "remix novo: só o gancho trocado (R$ 1.120 de R$ 4.000 em comprinhas e apps).",
+        "publicado_em": "2026-11-13T16:00-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707732619898785044"
+        }
+      },
+      "v2": {
+        "remix_de": "r11-neve-avalanche",
+        "pasta": "r11b-avalanche-120",
+        "nota": "remix novo: só o gancho trocado (R$ 120 de juros a menos com a mesma dívida). Vídeo com ~56 s (o r11 original já era longo).",
+        "publicado_em": "2026-11-13T19:19-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707783861110885650",
+          "pin": "https://www.pinterest.com/pin/264727284344563324"
+        }
+      },
+      "v4": {
+        "remix_de": "r19b-poupanca-5-reais",
+        "pasta": "r19c-rotativo-15porcento",
+        "nota": "v4 do dia 19: v1 (r19b) com gancho novo (15,29% ao mês do rotativo, Banco Central set/2026).",
+        "publicado_em": "2026-11-13T21:30-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7707817549014027538"
+        }
+      }
+    },
+    {
+      "dia": 20,
+      "formato": "v2",
+      "v1": {
+        "pasta": "r15v2-quanto-deve",
+        "refeito_de": "r15-quanto-deve",
+        "nota": "1º vídeo do formato v2 (motor render_video_v2.py, até 30 s). Tema campeão do YouTube (346 views).",
+        "renderizado": "v2",
+        "publicado_em": "2026-11-14T11:46-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Dfucsb4o6jx/",
+          "yt": "https://youtube.com/shorts/3fptz9eWy2I",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708038058691529991",
+          "pin": "https://www.pinterest.com/pin/264727284344571880",
+          "fb": "https://facebook.com/1446527975200486_122109751899533531"
+        }
+      },
+      "v2": {
+        "pasta": "r18v2-endividadas-82",
+        "refeito_de": "r18-endividadas-82",
+        "nota": "formato v2; campeão de retenção no TikTok (13,3 s).",
+        "renderizado": "v2",
+        "publicado_em": "2026-11-14T19:09-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708152558254034197",
+          "pin": "https://www.pinterest.com/pin/264727284344577243"
+        }
+      }
     }
-   },
-   "v2": {
-    "roteiro": 16,
-    "pasta": "r16-rotativo-442",
-    "publicado_em": "2026-10-29T19:00-03:00",
-    "links": {
-     "tt": "rascunho no app (Sandbox)"
-    }
-   }
-  },
-  {
-   "dia": 5,
-   "v1": {
-    "roteiro": 10,
-    "pasta": "r10-ordem-cartoes",
-    "publicado_em": "2026-10-30T12:00-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfH2m7Ale1U/",
-     "yt": "https://youtube.com/shorts/P9YvQN0mnm4",
-     "tt": "rascunho no app (Sandbox)"
-    }
-   },
-   "v2": {
-    "roteiro": 5,
-    "pasta": "r05-antes-de-gastar",
-    "publicado_em": "2026-10-30T19:00-03:00",
-    "links": {
-     "tt": "rascunho no app (Sandbox)"
-    }
-   }
-  },
-  {
-   "dia": 6,
-   "v1": {
-    "roteiro": 3,
-    "pasta": "r03-casal-5mil",
-    "publicado_em": "2026-10-31T12:00-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfKZgnWkTT1/",
-     "yt": "https://youtube.com/shorts/OHBH14RQ0Ts",
-     "tt": "rascunho no app (Sandbox)"
-    }
-   },
-   "v2": {
-    "roteiro": 17,
-    "pasta": "r17-limite-lei",
-    "publicado_em": "2026-10-31T19:00-03:00",
-    "links": {
-     "tt": "rascunho no app (Sandbox)"
-    }
-   }
-  },
-  {
-   "dia": 7,
-   "v1": {
-    "roteiro": 12,
-    "pasta": "r12-pare-minimo",
-    "publicado_em": "2026-11-01T11:44-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfM-TrSAule/",
-     "yt": "https://youtube.com/shorts/YxHP9xGr7Sk",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7703213834013625621 (Buffer)"
-    }
-   },
-   "v2": {
-    "roteiro": 7,
-    "pasta": "r07-descobri-5min",
-    "publicado_em": "2026-11-01T19:10-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7703328998599757077 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 8,
-   "v1": {
-    "roteiro": 2,
-    "pasta": "r02-salario-minimo",
-    "publicado_em": "2026-11-02T13:18-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfPtxmjj-wm/",
-     "yt": "https://youtube.com/shorts/2OSiYjglv2Q",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7703609027304901909 (Buffer)"
-    }
-   },
-   "v2": {
-    "roteiro": 18,
-    "pasta": "r18-endividadas-82",
-    "publicado_em": "2026-11-02T19:20-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7703702303609556245 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 9,
-   "v1": {
-    "roteiro": 11,
-    "pasta": "r11-neve-avalanche",
-    "publicado_em": "2026-11-03T12:10-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfSKotEj9jF/",
-     "yt": "https://youtube.com/shorts/3ZioTnYwhqY",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7703962339833416978 (Buffer)"
-    }
-   },
-   "v2": {
-    "roteiro": 6,
-    "pasta": "r06-aluguel-metade",
-    "publicado_em": "2026-11-03T19:13-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7704073977626414354 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 10,
-   "v1": {
-    "roteiro": 9,
-    "pasta": "r09-me-manda-salario",
-    "publicado_em": "2026-11-04T12:25-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfUtmxbDdCA/",
-     "yt": "https://youtube.com/shorts/UhZ7laLTuO8",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7704329303634513204 (Buffer)"
-    }
-   },
-   "v2": {
-    "roteiro": 20,
-    "pasta": "r20-gastos-invisiveis",
-    "publicado_em": "2026-11-04T19:15-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7704444101378280712 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 11,
-   "v1": {
-    "roteiro": 4,
-    "pasta": "r04-3200-dois-cartoes",
-    "publicado_em": "2026-11-05T11:58-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfXSsfzgHlP/",
-     "yt": "https://youtube.com/shorts/SPz4-l_kDrk",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7704701011214028039 (Buffer)"
-    }
-   },
-   "v2": {
-    "roteiro": 13,
-    "pasta": "r13-100-a-mais",
-    "publicado_em": "2026-11-05T19:22-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7704815811223129365 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 12,
-   "v1": {
-    "roteiro": 14,
-    "pasta": "r14-nome-sujo",
-    "publicado_em": "2026-11-06T13:35-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfaC2FoFINX/",
-     "yt": "https://youtube.com/shorts/ODugifu-JIk",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705097563678051604 (Buffer)",
-     "fb": "https://facebook.com/1446527975200486_122104331169533531",
-     "pin": "https://www.pinterest.com/pin/264727284344358509"
-    }
-   },
-   "v2": {
-    "roteiro": 19,
-    "pasta": "r19-guardar-com-divida",
-    "publicado_em": "2026-11-06T19:25-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705186398235577618 (Buffer)",
-     "pin": "https://www.pinterest.com/pin/264727284344366409"
-    }
-   },
-   "v3": {
-    "remix_de": "r03-casal-5mil",
-    "pasta": "r03b-casal-furo",
-    "publicado_em": "2026-11-06T18:20-03:00",
-    "links": {
-     "tt": "rascunho no app (Buffer falhou: Video could not be read from its URL); Eduardo publica"
-    }
-   },
-   "v4": {
-    "remix_de": "v1 do mesmo dia",
-    "pasta": "r14b-nome-sujo-cartao",
-    "publicado_em": "2026-11-06T21:27-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705219656969178420 (Buffer)"
-    }
-   }
-  },
-  {
-   "dia": 13,
-   "v1": {
-    "roteiro": 15,
-    "pasta": "r15-quanto-deve",
-    "publicado_em": "2026-11-07T12:00-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfccPyjgdGU/",
-     "yt": "https://youtube.com/shorts/Np3RDAoTMY4",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705443052516560136",
-     "pin": "https://www.pinterest.com/pin/264727284344388437",
-     "fb": "https://facebook.com/1446527975200486_122105281125533531"
-    }
-   },
-   "v2": {
-    "roteiro": 8,
-    "pasta": "r08-freelancer",
-    "publicado_em": "2026-11-07T19:26-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705559136368413959",
-     "pin": "https://www.pinterest.com/pin/264727284344400612"
-    }
-   },
-   "v3": {
-    "remix_de": "r16-rotativo-442",
-    "pasta": "r16b-rotativo-fatura",
-    "publicado_em": "2026-11-07T16:00-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705506227098307860"
-    }
-   },
-   "v4": {
-    "remix_de": "v1 do mesmo dia",
-    "pasta": "r15b-quanto-deve-cartao",
-    "publicado_em": "2026-11-07T21:30-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705591028610288948"
-    }
-   }
-  },
-  {
-   "dia": 14,
-   "v1": {
-    "roteiro": 21,
-    "pasta": "r21-tour-planilha",
-    "publicado_em": "2026-11-08T12:00-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DffB0FPjbsc/",
-     "yt": "https://youtube.com/shorts/ByazUy1aOMk",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705815932110949653",
-     "pin": "https://www.pinterest.com/pin/264727284344424685",
-     "fb": "https://facebook.com/1446527975200486_122106253185533531"
-    }
-   },
-   "v2": {
-    "roteiro": "melhor gancho da semana com outro número",
-    "remix_de": "r03-casal-5mil",
-    "pasta": "r03c-casal-assinaturas",
-    "publicado_em": "2026-11-08T19:15-03:00",
-    "links": {
-     "tt": "rascunho no app (Buffer recusou: Video could not be read from its URL)"
-    }
-   },
-   "v3": {
-    "remix_de": "r12-pare-minimo",
-    "pasta": "r12b-minimo-dobra",
-    "publicado_em": "2026-11-08T16:00-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7705876691993890054"
-    }
-   },
-   "v4": {
-    "remix_de": "v1 do mesmo dia",
-    "pulado": "r21 já remixado como r21b (v3 do dia 15)"
-   }
-  },
-  {
-   "dia": 15,
-   "v1": {
-    "pasta": "r03c-casal-assinaturas",
-    "nota": "Fila acabou no dia 14: r03c (remix do campeão casal 5 mil) só tinha saído no TikTok; v1 publica em IG, YT, Pinterest e Facebook.",
-    "publicado_em": "2026-11-09T12:05-03:00",
-    "ig_link": "https://www.instagram.com/reel/DfhkwTUnFdF/",
-    "yt_link": "https://youtube.com/shorts/2udcxjpirOg",
-    "pin_link": "https://www.pinterest.com/pin/264727284344458126",
-    "fb_link": "https://facebook.com/1446527975200486_122107212801533531"
-   },
-   "v3": {
-    "remix_de": "r21-tour-planilha",
-    "pasta": "r21b-tour-19-meses",
-    "nota": "fila do dia 14 esgotada: remix já renderizado (só o gancho novo) em /mnt/project-files",
-    "publicado_em": "2026-11-09T16:22-03:00",
-    "tt_link": "https://tiktok.com/@salrio.organizado/video/7706251647780916487"
-   },
-   "v2": {
-    "remix_de": "r01-salario-2300",
-    "pasta": "r01b-salario-delivery",
-    "nota": "fila esgotada: remix novo (só o gancho). Enviado como rascunho; registro trazido do branch claude/project-thread-x75qza.",
-    "publicado_em": "2026-11-09T19:15-03:00",
-    "links": {
-     "tt": "rascunho no app (Eduardo publica)"
-    }
-   },
-   "v4": {
-    "pulado": "dia passou sem v4 (rotinas seguiram o dia corrente)"
-   }
-  },
-  {
-   "dia": 16,
-   "v1": {
-    "pasta": "r16b-rotativo-fatura",
-    "remix_de": "r16-rotativo-442",
-    "nota": "Fila acabou no dia 14: r16b (remix do rotativo 442%, campeão no TikTok) nunca tinha saído no Instagram/YouTube; v1 publica em IG, YT, Pinterest e Facebook, sem TikTok (já está lá). 1ª tentativa de IG/FB falhou (GitHub Pages ainda sem o vídeo, 404); novo push e nova tentativa deram certo.",
-    "yt_link": "https://youtube.com/shorts/EfjHFxhmhp4",
-    "pin_link": "https://www.pinterest.com/pin/264727284344498776",
-    "publicado_em": "2026-11-10T12:20-03:00",
-    "ig_link": "https://www.instagram.com/reel/DfkL1vWFOZI/",
-    "fb_link": "https://facebook.com/1446527975200486_122107955979533531"
-   },
-   "v2": {
-    "remix_de": "r18-endividadas-82",
-    "pasta": "r18b-endividadas-plano",
-    "nota": "fila esgotada: remix novo (só o gancho, 82% no 1º quadro).",
-    "publicado_em": "2026-11-10T19:40-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7706674917143596289",
-     "pin": "https://www.pinterest.com/pin/264727284344508617"
-    }
-   },
-   "v4": {
-    "remix_de": "r16b-rotativo-fatura",
-    "pasta": "r16c-rotativo-resto",
-    "nota": "v1 do dia (r16b) já estava no TikTok; v4 com gancho novo (o resto da fatura a 442%).",
-    "publicado_em": "2026-11-10T21:33-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7706704355226897682"
-    }
-   }
-  },
-  {
-   "dia": 17,
-   "v1": {
-    "remix_de": "r17-limite-lei",
-    "pasta": "r17b-limite-dobra",
-    "nota": "Fila esgotada: remix novo do r17 (só no TikTok antes, gancho antigo) com gancho R$ 2.000 no 1º quadro; v1 em todas as redes.",
-    "publicado_em": "2026-11-11T12:10-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/Dfmu8lzlH5Z/",
-     "yt": "https://youtube.com/shorts/S_Pn5BMqwgM",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7706926277256842516",
-     "pin": "https://www.pinterest.com/pin/264727284344522022",
-     "fb": "https://facebook.com/1446527975200486_122108474625533531"
-    }
-   },
-   "v3": {
-    "remix_de": "r10-ordem-cartoes",
-    "pasta": "r10b-ordem-8mil",
-    "nota": "remix novo: só o gancho trocado (R$ 600 de R$ 8 mil em 3 dívidas)",
-    "publicado_em": "2026-11-11T16:20-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7706991617433029895"
-    }
-   },
-   "v2": {
-    "remix_de": "r20-gastos-invisiveis",
-    "pasta": "r20b-gastos-405",
-    "nota": "fila esgotada: remix novo do r20 (só o gancho, R$ 405 no 1º quadro).",
-    "publicado_em": "2026-11-11T19:20-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707041081971576071",
-     "pin": "https://www.pinterest.com/pin/264727284344529671"
-    }
-   },
-   "v4": {
-    "remix_de": "r17b-limite-dobra",
-    "pasta": "r17c-limite-teto",
-    "nota": "v4 do dia 17: v1 (r17b) com gancho novo (teto de 100% dos juros do cartão).",
-    "publicado_em": "2026-11-11T21:30-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707075069259926804"
-    }
-   }
-  },
-  {
-   "dia": 18,
-   "v1": {
-    "remix_de": "r06-aluguel-metade",
-    "pasta": "r06b-aluguel-sobra10",
-    "nota": "Fila esgotada: remix novo do r06 (antes só no TikTok) com gancho R$ 10 no 1º quadro; v1 em todas as redes.",
-    "publicado_em": "2026-11-12T12:20-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/DfpUDa-gOJ9/",
-     "yt": "https://youtube.com/shorts/K98okId0M9E",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707298048434588980",
-     "pin": "https://www.pinterest.com/pin/264727284344541136",
-     "fb": "https://facebook.com/1446527975200486_122108966187533531"
-    }
-   },
-   "v3": {
-    "remix_de": "r04-3200-dois-cartoes",
-    "pasta": "r04b-cartoes-8meses",
-    "nota": "remix novo: só o gancho trocado (8 meses no 1º quadro, salário R$ 3.200 e 2 cartões). Vídeo com ~56 s (o r04 original já era longo).",
-    "publicado_em": "2026-11-12T16:05-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707361858155547912"
-    }
-   },
-   "v4": {
-    "remix_de": "r06b-aluguel-sobra10",
-    "pasta": "r06c-aluguel-sobra190",
-    "nota": "Gancho novo 'sobrar R$ 190 em vez de R$ 10' (casa em 40% da renda); resto igual ao v1.",
-    "publicado_em": "2026-11-12T21:30-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707446377990638856"
-    }
-   }
-  },
-  {
-   "dia": 19,
-   "v1": {
-    "remix_de": "r19-guardar-com-divida",
-    "pasta": "r19b-poupanca-5-reais",
-    "nota": "Fila esgotada: remix novo do r19 (antes só no TikTok) com gancho R$ 5 no 1º quadro; v1 em todas as redes.",
-    "publicado_em": "2026-11-13T12:15-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/Dfr5PeAnEtw/",
-     "yt": "https://youtube.com/shorts/6R3LQAichvc",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707670113213910293",
-     "pin": "https://www.pinterest.com/pin/264727284344557551",
-     "fb": "https://facebook.com/1446527975200486_122109384543533531"
-    }
-   },
-   "v3": {
-    "remix_de": "r07-descobri-5min",
-    "pasta": "r07b-comprinhas-1120",
-    "nota": "remix novo: só o gancho trocado (R$ 1.120 de R$ 4.000 em comprinhas e apps).",
-    "publicado_em": "2026-11-13T16:00-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707732619898785044"
-    }
-   },
-   "v2": {
-    "remix_de": "r11-neve-avalanche",
-    "pasta": "r11b-avalanche-120",
-    "nota": "remix novo: só o gancho trocado (R$ 120 de juros a menos com a mesma dívida). Vídeo com ~56 s (o r11 original já era longo).",
-    "publicado_em": "2026-11-13T19:19-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707783861110885650",
-     "pin": "https://www.pinterest.com/pin/264727284344563324"
-    }
-   },
-   "v4": {
-    "remix_de": "r19b-poupanca-5-reais",
-    "pasta": "r19c-rotativo-15porcento",
-    "nota": "v4 do dia 19: v1 (r19b) com gancho novo (15,29% ao mês do rotativo, Banco Central set/2026).",
-    "publicado_em": "2026-11-13T21:30-03:00",
-    "links": {
-     "tt": "https://tiktok.com/@salrio.organizado/video/7707817549014027538"
-    }
-   }
-  },
-  {
-   "dia": 20,
-   "formato": "v2",
-   "v1": {
-    "pasta": "r15v2-quanto-deve",
-    "refeito_de": "r15-quanto-deve",
-    "nota": "1º vídeo do formato v2 (motor render_video_v2.py, até 30 s). Tema campeão do YouTube (346 views).",
-    "renderizado": "v2",
-    "publicado_em": "2026-11-14T11:46-03:00",
-    "links": {
-     "ig": "https://www.instagram.com/reel/Dfucsb4o6jx/",
-     "yt": "https://youtube.com/shorts/3fptz9eWy2I",
-     "tt": "https://tiktok.com/@salrio.organizado/video/7708038058691529991",
-     "pin": "https://www.pinterest.com/pin/264727284344571880",
-     "fb": "https://facebook.com/1446527975200486_122109751899533531"
-    }
-   },
-   "v2": {
-    "pasta": "r18v2-endividadas-82",
-    "refeito_de": "r18-endividadas-82",
-    "nota": "formato v2; campeão de retenção no TikTok (13,3 s).",
-    "renderizado": "v2"
-   }
-  }
- ]
+  ]
 }
