@@ -952,5 +952,24 @@
       "fb_reel": "https://www.facebook.com/reel/1452914266808399",
       "tiktok": "privado (SELF_ONLY, sandbox)"
     }
+  },
+  {
+    "data": "2026-11-14",
+    "serie": "cena",
+    "titulo": "Josias: o rei que achou a Palavra perdida",
+    "tema": "Bíblia esquecida, humildade diante da Palavra, obediência",
+    "versiculos": [
+      "2 Reis 22:8",
+      "2 Reis 22:11",
+      "2 Reis 22:19"
+    ],
+    "foto": "pixabay:2692556",
+    "formato": "5 slides + teaser",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/DfuJZiIINMd/",
+      "ig_reel": "https://www.instagram.com/reel/DfuJanGmRGJ/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122121179985506150",
+      "fb_reel": "https://www.facebook.com/reel/1525306049473395"
+    }
   }
 ]
