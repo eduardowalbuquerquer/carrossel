@@ -971,5 +971,22 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122121179985506150",
       "fb_reel": "https://www.facebook.com/reel/1525306049473395"
     }
+  },
+  {
+    "data": "2026-11-14",
+    "serie": "reels",
+    "titulo": "Sábado à noite, sozinho com o celular",
+    "tema": "pureza, celular à noite, prestação de contas",
+    "versiculos": [
+      "Jó 31:1",
+      "2 Timóteo 2:22"
+    ],
+    "foto": "pixabay:8057248",
+    "formato": "Reels 6 cenas com foto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DfvOAE7APtR/",
+      "fb_reel": "https://www.facebook.com/reel/2249047552627299",
+      "tiktok": "privado (sandbox)"
+    }
   }
 ]
