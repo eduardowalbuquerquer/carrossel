@@ -477,7 +477,15 @@
     "pasta": "r15v2-quanto-deve",
     "refeito_de": "r15-quanto-deve",
     "nota": "1º vídeo do formato v2 (motor render_video_v2.py, até 30 s). Tema campeão do YouTube (346 views).",
-    "renderizado": "v2"
+    "renderizado": "v2",
+    "publicado_em": "2026-11-14T11:46-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/Dfucsb4o6jx/",
+     "yt": "https://youtube.com/shorts/3fptz9eWy2I",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7708038058691529991",
+     "pin": "https://www.pinterest.com/pin/264727284344571880",
+     "fb": "https://facebook.com/1446527975200486_122109751899533531"
+    }
    },
    "v2": {
     "pasta": "r18v2-endividadas-82",
