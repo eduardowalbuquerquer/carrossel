@@ -311,6 +311,9 @@
     "links": {
      "tt": "rascunho no app (Eduardo publica)"
     }
+   },
+   "v4": {
+    "pulado": "dia passou sem v4 (rotinas seguiram o dia corrente)"
    }
   },
   {
@@ -455,6 +458,15 @@
     "links": {
      "tt": "https://tiktok.com/@salrio.organizado/video/7707783861110885650",
      "pin": "https://www.pinterest.com/pin/264727284344563324"
+    }
+   },
+   "v4": {
+    "remix_de": "r19b-poupanca-5-reais",
+    "pasta": "r19c-rotativo-15porcento",
+    "nota": "v4 do dia 19: v1 (r19b) com gancho novo (15,29% ao mês do rotativo, Banco Central set/2026).",
+    "publicado_em": "2026-11-13T21:30-03:00",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7707817549014027538"
     }
    }
   }
