@@ -262,7 +262,7 @@ def build_timeline(spec, variant, tmp):
             audios.append((t + lead, wav))
         else:
             spoken = len(say) / 16.5
-        dur = max(s.get("secs", 0), lead + spoken + 0.28)
+        dur = max(s.get("secs", 0), lead + spoken + 0.2)
         words, bounds = align(wav, spoken, say, show)
         sc = {"start": round(t, 3), "dur": round(dur, 3),
               "pages": [dict(p, a=round(p["a"] + lead, 3), b=round(min(p["b"] + lead, dur), 3),
@@ -283,7 +283,7 @@ def build_timeline(spec, variant, tmp):
             sc["strike"] = 0.45
         scenes.append(sc)
         t += dur
-    return {"scenes": scenes, "total": round(t + 0.5, 3)}, audios
+    return {"scenes": scenes, "total": round(t + 0.3, 3)}, audios
 
 
 # ---------- efeitos sonoros próprios ----------
