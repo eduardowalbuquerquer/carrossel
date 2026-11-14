@@ -27,7 +27,7 @@ def _google(text, out):
     if not key:
         return False
     voice = os.environ.get("SO_GOOGLE_VOICE", "pt-BR-Chirp3-HD-Charon")
-    body = {"input": {"text": text}, "voice": {"languageCode": "pt-BR", "name": voice},
+    body = {"input": {"text": text}, "voice": {"languageCode": LANG, "name": voice},
             "audioConfig": {"audioEncoding": "LINEAR16", "sampleRateHertz": 44100}}
     req = urllib.request.Request(f"https://texttospeech.googleapis.com/v1/text:synthesize?key={key}",
                                  data=json.dumps(body).encode(), headers={"Content-Type": "application/json"})
@@ -36,6 +36,7 @@ def _google(text, out):
     return True
 
 
+LANG = "pt-BR"  # nunca mudar sem pedido explícito do Eduardo
 FALLBACK = "gemini-3.8-flash-lite-tts,gemini-3.1-flash-tts-preview"
 STYLE = ("Português do Brasil, sotaque neutro. Narrador de vídeo curto de finanças: confiante, próximo e animado, "
          "ritmo ágil, ênfase nos números.")
@@ -45,11 +46,13 @@ def _gemini(text, out):
     key = _clean(os.environ.get("SO_GEMINI_KEY"))
     if not key:
         return False
-    item = {"type": "text", "text": text, "speech_metadata": {"style": os.environ.get("SO_GEMINI_STYLE", STYLE)}}
+    # Idioma TRAVADO em português do Brasil (14/11/2026: uma fala saiu com sotaque de Portugal).
+    # O campo de estilo (speech_metadata) é recusado pela API (400); o que vale é "language" no speech_config.
+    item = {"type": "text", "text": text}
     body = {"model": os.environ.get("SO_GEMINI_MODEL", "gemini-3.8-flash-tts"),
             "input": [{"type": "user_input", "content": [item]}],
             "response_format": {"type": "audio"},
-            "generation_config": {"speech_config": [{"voice": os.environ.get("SO_GEMINI_VOICE", "Charon")}]}}
+            "generation_config": {"speech_config": [{"voice": os.environ.get("SO_GEMINI_VOICE", "Charon"), "language": LANG}]}}
 
     # Pico de demanda (503/429) é comum e passageiro: espera e tenta de novo; se persistir, cai para os modelos reserva.
     models = [body["model"]] + [m for m in os.environ.get("SO_GEMINI_FALLBACK", FALLBACK).split(",") if m and m != body["model"]]
@@ -69,13 +72,7 @@ def _gemini(text, out):
                         raise
                     last = e
         raise last
-    try:
-        r = call()
-    except urllib.error.HTTPError as e:
-        if e.code != 400:
-            raise
-        item.pop("speech_metadata")  # se o campo de estilo for recusado, narra sem ele
-        r = call()
+    r = call()  # sem plano B sem idioma: se "language" for recusado, falha em vez de arriscar outro sotaque
     audio = [c for st in r.get("steps", []) if st.get("type") == "model_output" for c in st.get("content", []) if c.get("type") == "audio"]
     raw = out.with_suffix(".src.wav")
     data = base64.b64decode(audio[-1]["data"])
@@ -111,7 +108,7 @@ def speak(text):
     if mode == "off" or not text.strip():
         return None
     CACHE.mkdir(parents=True, exist_ok=True)
-    out = CACHE / (hashlib.sha1(f"{mode}|{os.environ.get('SO_GEMINI_VOICE','')}|{os.environ.get('SO_GOOGLE_VOICE','')}|{os.environ.get('SO_ELEVEN_VOICE','')}|{text}".encode()).hexdigest() + ".wav")
+    out = CACHE / (hashlib.sha1(f"{LANG}|{mode}|{os.environ.get('SO_GEMINI_VOICE','')}|{os.environ.get('SO_GOOGLE_VOICE','')}|{os.environ.get('SO_ELEVEN_VOICE','')}|{text}".encode()).hexdigest() + ".wav")
     if out.exists():
         return out
     ok = {"elevenlabs": _eleven, "google": _google}.get(mode, _gemini)(text, out)

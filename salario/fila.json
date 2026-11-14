@@ -1,5 +1,5 @@
 {
- "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas.",
+ "_sobre": "Ordem dos vídeos, igual ao cronograma de /mnt/project-files/canais/plano-lancamento-canais.md (dias 4 a 14). A rotina pega o primeiro item sem 'publicado_em'. v1 = 12h (Instagram + YouTube + TikTok); v2 = 19h a 21h (só TikTok). 05/11/2026: dias 12 a 14 reordenados para priorizar dívida e cartão (melhor desempenho na 1ª semana). 06/11/2026: aceleração (ver ROTINA.md): v3 = 16h (só TikTok, remix de um vídeo campeão); v4 = 21h30 (só TikTok, o v1 do dia com outro gancho). Remix pronto ainda não usado: r03c-casal-assinaturas. 14/11/2026: Eduardo aprovou o formato v2 (render_video_v2.py, até 30 s, voz pt-BR travada). A partir do dia 20: só v1 (12h) e v2 (19h), vídeos novos ou campeões refeitos no formato v2; v3/v4 (remix) suspensos.",
  "itens": [
   {
    "dia": 4,
@@ -468,6 +468,22 @@
     "links": {
      "tt": "https://tiktok.com/@salrio.organizado/video/7707817549014027538"
     }
+   }
+  },
+  {
+   "dia": 20,
+   "formato": "v2",
+   "v1": {
+    "pasta": "r15v2-quanto-deve",
+    "refeito_de": "r15-quanto-deve",
+    "nota": "1º vídeo do formato v2 (motor render_video_v2.py, até 30 s). Tema campeão do YouTube (346 views).",
+    "renderizado": "v2"
+   },
+   "v2": {
+    "pasta": "r18v2-endividadas-82",
+    "refeito_de": "r18-endividadas-82",
+    "nota": "formato v2; campeão de retenção no TikTok (13,3 s).",
+    "renderizado": "v2"
    }
   }
  ]

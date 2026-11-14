@@ -1,0 +1,61 @@
+{
+ "id": "r15v2-quanto-deve",
+ "roteiro": 15,
+ "pilar": "divida-desmontada",
+ "formato": "v2",
+ "refeito_de": "r15-quanto-deve",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 6.380",
+   "value_label": "o que você deve de verdade",
+   "tone": "red",
+   "title": "Parece R$ 590 por mês. <em>Não é.</em>",
+   "say": "Parece que você deve quinhentos e noventa por mês. Deve seis mil trezentos e oitenta.",
+   "show": "Parece que você deve R$ 590 por mês. Deve R$ 6.380."
+  },
+  {
+   "type": "steps",
+   "title": "Parcela × o que falta",
+   "items": [
+    "Cartão: <b>R$ 210 × 14</b>",
+    "Empréstimo: <b>R$ 260 × 10</b>",
+    "Celular: <b>R$ 120 × 7</b>"
+   ],
+   "say": "Cartão duzentos e dez vezes catorze. Empréstimo duzentos e sessenta vezes dez. Celular cento e vinte vezes sete.",
+   "show": "Cartão R$ 210 vezes 14. Empréstimo R$ 260 vezes 10. Celular R$ 120 vezes 7."
+  },
+  {
+   "type": "number",
+   "label": "Falta pagar",
+   "value": "R$ 6.380",
+   "tone": "red",
+   "text": "Por mês parecia só <b>R$ 590</b>. Cenário de exemplo.",
+   "say": "Somando tudo, faltam seis mil trezentos e oitenta.",
+   "show": "Somando tudo, faltam R$ 6.380."
+  },
+  {
+   "type": "steps",
+   "title": "Faça a sua",
+   "items": [
+    "Anote <b>cada dívida</b>",
+    "Parcela × <b>parcelas que faltam</b>",
+    "Confira no <b>Registrato</b> (Banco Central, grátis)"
+   ],
+   "say": "Anote cada dívida. Multiplique pelas que faltam. Confira no Registrato."
+  },
+  {
+   "type": "cta",
+   "title": "Dívida com número <em>tem fim</em>.",
+   "say": "Dívida com número tem fim."
+  }
+ ],
+ "captions": {
+  "ig": "Você não sabe quanto deve? Esse é o problema 👇\n\nNo exemplo, as parcelas somam R$ 590 por mês. Parece pouco. Mas olha quanto falta pagar:\n• Cartão parcelado: R$ 210 × 14 = R$ 2.940\n• Empréstimo: R$ 260 × 10 = R$ 2.600\n• Crediário do celular: R$ 120 × 7 = R$ 840\nTotal: R$ 6.380.\n\nFaça a sua em 5 minutos: anote cada dívida numa linha, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis).\n\nDívida que tem número tem fim. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive dizendo \"nem sei quanto devo\" 👀\n\n(Cenário de exemplo.)\n\n#dividas #organizacaofinanceira #financaspessoais #educacaofinanceira #controlefinanceiro",
+  "tt": "Parece R$ 590 por mês, mas faltam R$ 6.380 (cenário de exemplo) 👇 Dívida que tem número tem fim. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "yt_title": "Você não sabe quanto deve? Esse é o problema #shorts",
+  "yt_desc": "Parcelas de R$ 590 por mês escondem R$ 6.380 a pagar (cenário de exemplo: cartão R$ 210 × 14 + empréstimo R$ 260 × 10 + celular R$ 120 × 7). Anote cada dívida, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis).\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #organizacaofinanceira",
+  "pin_title": "Quanto eu devo? Como somar todas as dívidas (planilha grátis)",
+  "pin": "Parcelas de R$ 590 por mês podem esconder R$ 6.380 a pagar. Anote cada dívida numa linha, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis). Dívida que tem número tem fim."
+ }
+}

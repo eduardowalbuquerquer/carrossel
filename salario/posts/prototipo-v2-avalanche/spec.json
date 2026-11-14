@@ -1,0 +1,63 @@
+{
+ "id": "prototipo-v2-avalanche",
+ "remix_de": "r11b-avalanche-120",
+ "redes": [
+  "tt"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 120",
+   "value_label": "de juros a menos",
+   "tone": "red",
+   "title": "Mesma dívida. <em>Dois métodos.</em>",
+   "say": "Mesma dívida, dois métodos. Um paga cento e vinte reais a menos de juros.",
+   "show": "Mesma dívida, dois métodos. Um paga R$ 120 a menos de juros."
+  },
+  {
+   "type": "steps",
+   "title": "3 dívidas, <em>R$ 800</em> por mês",
+   "items": [
+    "Cartão A: <b>R$ 600</b> a 6%",
+    "Cartão B: <b>R$ 2.100</b> a 9%",
+    "Empréstimo: <b>R$ 5.300</b> a 3%"
+   ],
+   "say": "Três dívidas: seiscentos, dois mil e cem, cinco mil e trezentos.",
+   "show": "3 dívidas: R$ 600, R$ 2.100, R$ 5.300."
+  },
+  {
+   "type": "steps",
+   "title": "Para onde vai o dinheiro extra?",
+   "items": [
+    "<b>Bola de neve:</b> a menor dívida",
+    "<b>Avalanche:</b> o juro mais alto"
+   ],
+   "say": "Bola de neve ataca a menor dívida. Avalanche, o juro mais alto."
+  },
+  {
+   "type": "compare",
+   "label": "Juros pagos no total",
+   "value": "R$ 120",
+   "text": "a menos na avalanche",
+   "from": "R$ 2.524",
+   "to": "R$ 2.404",
+   "after": "E as duas quitam tudo no mês 14.",
+   "say": "Avalanche: cento e vinte reais a menos de juros. E as duas terminam no mês catorze.",
+   "show": "Avalanche: R$ 120 a menos de juros. E as duas terminam no mês 14."
+  },
+  {
+   "type": "number",
+   "label": "1ª dívida quitada",
+   "value": "Mês 2",
+   "tone": "green",
+   "text": "na bola de neve. Na avalanche, só no <b>mês 6</b>.",
+   "say": "Mas a bola de neve quita a primeira já no segundo mês.",
+   "show": "Mas a bola de neve quita a primeira já no mês 2."
+  },
+  {
+   "type": "cta",
+   "title": "Qual você consegue <em>manter</em>?",
+   "say": "Qual você consegue manter?"
+  }
+ ]
+}

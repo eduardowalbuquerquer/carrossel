@@ -1,0 +1,52 @@
+{
+ "id": "r18v2-endividadas-82",
+ "roteiro": 18,
+ "pilar": "choque",
+ "formato": "v2",
+ "refeito_de": "r18-endividadas-82",
+ "redes": [
+  "tt",
+  "pin"
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "82%",
+   "value_label": "das famílias com dívidas",
+   "tone": "red",
+   "title": "Se você deve, <em>não está sozinho.</em>",
+   "say": "Oitenta e dois por cento das famílias têm dívidas. Se você é uma delas, não está sozinho.",
+   "show": "82% das famílias têm dívidas. Se você é uma delas, não está sozinho."
+  },
+  {
+   "type": "number",
+   "label": "Famílias com dívidas",
+   "value": "82%",
+   "tone": "red",
+   "text": "o maior nível da série da pesquisa.",
+   "source": "Peic/CNC, jul/2026",
+   "say": "É o maior nível da pesquisa da CNC. Mas estar junto não resolve."
+  },
+  {
+   "type": "steps",
+   "title": "O que resolve: <em>um plano</em>",
+   "items": [
+    "Anote <b>tudo</b> o que você deve",
+    "Ataque primeiro o juro mais <b>caro</b>",
+    "Separe um <b>valor fixo</b> todo mês"
+   ],
+   "say": "O que resolve é um plano. Anote tudo o que deve. Ataque primeiro o juro mais caro. Separe um valor fixo todo mês."
+  },
+  {
+   "type": "cta",
+   "title": "Comece vendo para onde vai o <em>seu</em> salário.",
+   "say": "Comece vendo para onde vai o seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "8 em cada 10 famílias brasileiras estão endividadas (Peic/CNC, jul/2026: 82%) 😳\n\nVocê não está sozinho. Mas isso não resolve: o que resolve é um plano.\n1. Anote tudo o que você deve\n2. Ataque primeiro o juro mais caro\n3. Separe um valor fixo todo mês\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem precisa ouvir isso 👀\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #dividas #dinheiro",
+  "tt": "8 em cada 10 famílias estão endividadas (Peic/CNC, jul/2026) 😳 Você não está sozinho, mas precisa de um plano. Comenta PLANILHA no nosso Instagram @salario.organizado que eu te mando a grátis. #dividas #financaspessoais #educacaofinanceira #dinheiro #organizacaofinanceira",
+  "yt_title": "8 em cada 10 famílias estão endividadas: e agora? #shorts",
+  "yt_desc": "82% das famílias brasileiras têm dívidas (Peic/CNC, julho/2026), o maior nível da série. Você não está sozinho, mas precisa de um plano.\n\nMini-planilha grátis no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #educacaofinanceira"
+ }
+}
