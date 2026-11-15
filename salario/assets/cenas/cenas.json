@@ -1,1 +1,125 @@
-{"_sobre":"Índice da biblioteca. arquivo: tema(s) e emoção. Preenchido ao importar do Drive.","cenas":[]}
+{
+ "_sobre": "Índice da biblioteca. Escolha a cena pelo tema do roteiro; gancho pede emoção forte (choque, ansiedade, tensão); CTA pede alívio/conquista. Não repetir a mesma cena em 2 vídeos seguidos.",
+ "cenas": [
+  {
+   "arquivo": "cenas/cena-01-fatura-choque.jpg",
+   "temas": "fatura, cartão, susto, quanto deve",
+   "emocao": "choque",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-02-mercado-caixa.jpg",
+   "temas": "mercado, custo de vida, gastos",
+   "emocao": "preocupação",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-03-casal-boletos.jpg",
+   "temas": "casal, boletos, dívidas, contas do mês",
+   "emocao": "angústia",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-04-alivio-planilha.jpg",
+   "temas": "planilha, organização, solução, CTA",
+   "emocao": "alívio",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-05-onibus-cansada.jpg",
+   "temas": "trabalho, salário, rotina, fim do dia",
+   "emocao": "cansaço",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-06-insonia.jpg",
+   "temas": "dívida, preocupação, madrugada",
+   "emocao": "ansiedade",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-07-cartao-recusado.jpg",
+   "temas": "cartão, limite, compra recusada",
+   "emocao": "constrangimento",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-08-salario-caiu.jpg",
+   "temas": "salário, dia do pagamento, conquista",
+   "emocao": "alegria",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-09-mae-conta-luz.jpg",
+   "temas": "conta de luz, família, contas fixas",
+   "emocao": "preocupação",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-10-pix-maos.jpg",
+   "temas": "pix, pagamento, gasto pequeno (sem rosto)",
+   "emocao": "neutro",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-11-aposentado-caderno.jpg",
+   "temas": "aposentado, anotar gastos, caderno",
+   "emocao": "foco",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-12-carteira-vazia.jpg",
+   "temas": "fim do mês, sem dinheiro (sem rosto)",
+   "emocao": "falta",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-13-pote-economia.jpg",
+   "temas": "guardar dinheiro, reserva, poupar (sem rosto)",
+   "emocao": "esperança",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-14-casal-discussao.jpg",
+   "temas": "casal, briga por dinheiro",
+   "emocao": "tensão",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-15-feira-precos.jpg",
+   "temas": "preço, feira, inflação, economia no dia a dia",
+   "emocao": "atenção",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-16-jovem-organizando.jpg",
+   "temas": "organização, primeiro emprego, metas",
+   "emocao": "foco",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-17-vitrine-tentacao.jpg",
+   "temas": "compra por impulso, consumo, shopping",
+   "emocao": "tentação",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-18-envelope-cobranca.jpg",
+   "temas": "cobrança, carta, nome sujo (sem rosto)",
+   "emocao": "ameaça",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-19-riscando-lista.jpg",
+   "temas": "dívida quitada, lista, progresso",
+   "emocao": "conquista",
+   "ia": true
+  },
+  {
+   "arquivo": "cenas/cena-20-familia-mesa.jpg",
+   "temas": "família, tranquilidade, resultado",
+   "emocao": "alívio",
+   "ia": true
+  }
+ ]
+}
