@@ -246,9 +246,11 @@ def publish_fb(post_dir, spec):
     passam pelo 'compartilhar no Facebook' da Central de Contas, então publicamos direto na Página."""
     ch = buffer_channel("facebook")
     link = f"{MINI}?utm_source=facebook&utm_medium=reel&utm_content={spec.get('id', post_dir.name)}"
-    urls = host(post_dir, ["video_ig.mp4"])
+    # Facebook não tem a Zorcha: usa o vídeo do TikTok (endereço do site na tela), nunca o do Instagram ("comenta PLANILHA").
+    vid = "video_tt.mp4" if (post_dir / "video_tt.mp4").exists() else "video_ig.mp4"
+    urls = host(post_dir, [vid])
     i = {"channelId": ch, "text": fb_caption(spec, link), "mode": "shareNow", "schedulingType": "automatic",
-         "source": "salario-organizado", "assets": [{"video": {"url": urls["video_ig.mp4"]}}],
+         "source": "salario-organizado", "assets": [{"video": {"url": urls[vid]}}],
          "metadata": {"facebook": {"type": os.environ.get("SO_FB_TIPO", "reel"), "firstComment": f"Planilha grátis aqui 👉 {link}"}}}
     r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
     if r["__typename"] != "PostActionSuccess":  # 1º comentário pode não existir no plano grátis: tenta sem

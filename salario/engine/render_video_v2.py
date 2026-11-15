@@ -23,7 +23,7 @@ from render_video import CHROMIUM, FPS, H, W, capture, fit, pick_music, synth_be
 from tts import duration, speak
 
 SPEED = 1.15
-CTA_SAY = {"tt": "Comenta PLANILHA. O link da grátis está na tela.", "ig": "Comenta PLANILHA que eu te mando a grátis no direct.", "yt": "A planilha grátis está no link do perfil."}
+CTA_SAY = {"tt": "Tira print desta tela. O endereço da planilha grátis está aqui.", "ig": "Comenta PLANILHA que eu te mando a grátis no direct.", "yt": "A planilha grátis está no link do perfil."}
 SR = 44100
 
 
@@ -199,7 +199,7 @@ ol{{list-style:none;margin-top:44px;display:flex;flex-direction:column;gap:24px}
 .st b{{color:{B.YELLOW}}} .lst .st{{justify-content:space-between}} .lst .st b{{font-family:'JetBrains Mono',monospace}}
 .st i{{flex:none;width:78px;height:78px;border-radius:50%;background:{B.YELLOW};color:{B.INK};font-style:normal;font-family:'JetBrains Mono',monospace;font-weight:800;font-size:40px;display:grid;place-items:center}}
 .kw{{display:inline-block;align-self:flex-start;background:{B.YELLOW};color:{B.INK};font-family:'JetBrains Mono',monospace;font-weight:800;font-size:120px;padding:18px 44px;border-radius:30px;margin:40px 0 16px;box-shadow:0 20px 60px rgba(0,0,0,.3)}}
-.cta .txt b{{color:#fff}} .down{{font-size:120px;font-weight:800;margin-top:10px;color:{B.YELLOW}}}
+.cta .txt b{{color:#fff}} .cta .txt b.url{{display:inline-block;margin-top:14px;background:#fff;color:#0b5d46;padding:10px 18px;border-radius:14px;font-size:.92em;word-break:break-all}} .down{{font-size:120px;font-weight:800;margin-top:10px;color:{B.YELLOW}}}
 .top{{position:absolute;left:84px;right:84px;top:70px;z-index:6;display:flex;align-items:center;gap:20px;font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:38px}}
 .logo{{width:62px;height:62px;border-radius:16px;display:grid;place-items:center;background:rgba(255,255,255,.14)}} .logo svg{{width:38px;height:38px}}
 .prog{{position:absolute;left:0;right:0;top:0;height:12px;z-index:6;background:rgba(255,255,255,.12)}} .prog i{{display:block;height:100%;width:0;background:{B.YELLOW}}}

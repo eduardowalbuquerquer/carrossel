@@ -19,8 +19,10 @@ LOGO_SVG = ('<svg viewBox="0 0 18 18"><g fill="{fg}"><rect x="2" y="1" width="14
 CTA = {
     "ig": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> que eu te mando a grátis no direct.",
            "say": "Comenta planilha aqui embaixo que eu te mando a minha grátis no direct."},
-    "tt": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> aqui. A grátis está em <b>salarioorganizado.netlify.app/mini</b>",
-           "say": "Comenta planilha aqui embaixo. E o link da planilha grátis está escrito aqui na tela."},
+    # TikTok: sem resposta automática (conta pessoal) e sem link clicável (só com 1.000 seguidores).
+    # CTA verdadeira = endereço grande na tela + "tira print". Nunca pedir "comenta PLANILHA" no TikTok.
+    "tt": {"kw": "TIRA PRINT", "line": "Planilha grátis: digite no navegador<br><b class=\"url\">salarioorganizado.netlify.app/mini</b>",
+           "say": "Tira print desta tela. O endereço da planilha grátis está aqui."},
     "yt": {"kw": "LINK NO PERFIL", "line": "A planilha grátis está no <b>link do perfil</b>.",
            "say": "A planilha grátis está no link do perfil. Se inscreve para o próximo."},
 }
