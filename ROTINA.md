@@ -75,7 +75,9 @@ Segunda publicação diária: um **Reels completo**, com conteúdo próprio (nã
 5. `python3 publish.py ../posts/<pasta>`: sem slides, ele publica só o Reels (Instagram e Facebook).
 6. Registre no `historico.json` (série `reels`), faça commit e push, e responda na thread com os links.
 
-## TikTok (desde 2026-10-16)
+## TikTok (desde 2026-10-16; Buffer desde 2026-11-15)
+- **Caminho principal: Buffer.** Se existir `FA_BUFFER_KEY` (conta Buffer grátis do Forja, separada da do Salário), publish.py manda o reel.mp4 (URL do GitHub Pages) ao Buffer, que publica PÚBLICO e na hora (engine/tiktok_buffer.py). Precisa de `api.buffer.com` liberado no ambiente. Conferir canais: `python3 engine/tiktok_buffer.py --check`.
+- Sem `FA_BUFFER_KEY`, cai no caminho antigo abaixo (API direta, só "Somente eu").
 - publish.py publica o reel.mp4 no TikTok depois do IG e do FB (engine/tiktok_publish.py, envio do arquivo). `--no-tiktok` pula.
 - Tokens: /mnt/project-files/forja-da-alma/automacao/.segredos/tiktok_tokens.json (renova sozinho; refresh vale 1 ano). Chaves do app Sandbox em TIKTOK_CLIENT_KEY/SECRET.
 - Até a auditoria do app: só posta SELF_ONLY e a conta precisa estar PRIVADA. Erro do TikTok não derruba IG/FB: fica em resultado.json (tiktok_erro) e deve ser relatado na resposta.
