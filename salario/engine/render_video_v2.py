@@ -482,8 +482,8 @@ def make_pin(spec, folder):
     import re
     from playwright.sync_api import sync_playwright
     hook = spec["scenes"][0]
-    bgsrc = next((x.get("bg") for x in spec["scenes"] if x.get("bg")), None)
-    bgsrc = bgsrc if isinstance(bgsrc, str) or bgsrc is None else bgsrc["src"]
+    srcs = [(x["bg"] if isinstance(x["bg"], str) else x["bg"]["src"]) for x in spec["scenes"] if x.get("bg")]
+    bgsrc = next((b for b in srcs if not b.lower().endswith((".mp4", ".mov", ".webm"))), None)  # pin usa foto, nunca clipe
     bgp = next((c for c in ((folder / bgsrc), (ASSETS / bgsrc)) if c.exists()), None) if bgsrc else None
     pin = spec.get("pin_card", {})
     kicker = pin.get("kicker") or (spec.get("captions", {}).get("pin_title", "").split(":")[0] or "Organização financeira")
