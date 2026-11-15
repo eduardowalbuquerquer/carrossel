@@ -273,7 +273,8 @@ def publish_pin(post_dir, spec):
     title = (cap.get("pin_title") or cap.get("yt_title") or "").replace("#shorts", "").strip()[:100]
     text = cap.get("pin") or cap.get("ig", "").split("Comenta PLANILHA")[0].strip()
     link = f"https://{SITE}/?utm_source=pinterest&utm_medium=pin&utm_content={spec.get('id', post_dir.name)}"
-    urls = host(post_dir, ["capa.jpg"])
+    img = "pin.jpg" if (post_dir / "pin.jpg").exists() else "capa.jpg"  # pin.jpg: arte 2:3 própria do Pinterest (v3)
+    urls = host(post_dir, [img])
     suffix = "\n\nPlanilha grátis: " + link
     # O Buffer conta até 500 caracteres em UTF-16 (emoji vale 2): corta só o texto e nunca o link.
     room = 480 - len(suffix.encode("utf-16-le")) // 2
@@ -282,7 +283,7 @@ def publish_pin(post_dir, spec):
     i = {"channelId": ch, "text": text.rstrip() + suffix, "mode": "shareNow",
          "schedulingType": "automatic", "source": "salario-organizado",
          # Pin de IMAGEM (capa): em pin de vídeo o Buffer não repassa o link de destino (teste de 06/11/2026).
-         "assets": [{"image": {"url": urls["capa.jpg"]}}],
+         "assets": [{"image": {"url": urls[img]}}],
          "metadata": {"pinterest": {"boardServiceId": pinterest_board(ch), "title": title, "url": link}}}
     r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
     if r["__typename"] != "PostActionSuccess":

@@ -13,13 +13,13 @@ Mesmo spec.json do motor v1 (render_video.py), com estas mudanças:
 
 Uso: python3 render_video_v2.py ../posts/<pasta>/spec.json [--so tt] [--saida video_v2]
 """
-import html, json, re, subprocess, sys, tempfile, wave
+import html, json, os, re, subprocess, sys, tempfile, wave
 from pathlib import Path
 
 import numpy as np
 
 import brand as B
-from render_video import FPS, H, W, capture, fit, pick_music, synth_bed
+from render_video import CHROMIUM, FPS, H, W, capture, fit, pick_music, synth_bed
 from tts import duration, speak
 
 SPEED = 1.15
@@ -114,11 +114,21 @@ def countable(v):
 
 # ---------- cenas ----------
 def scene_html(s, k, cta):
+    h = _scene_html(s, k, cta)
+    if s.get("bg") and s["type"] != "hook":
+        h = h.replace('<section class="scene', '<section class="scene hasbg', 1)
+    return h
+
+
+def _scene_html(s, k, cta):
     t = s["type"]
     if t == "hook":
         val = (f'<div class="hlbl">{s.get("value_label","")}</div><div class="hv {s.get("tone","red")}"{fit(s["value"], 250)}>{s["value"]}</div>'
                if s.get("value") else "")
-        return f'<section class="scene hook" data-k="{k}"><div class="in">{val}<h1>{s["title"]}</h1></div></section>'
+        n = s.get("notif")
+        notif = (f'<div class="notif"><div class="nh"><span class="nic">R$</span><span>{html.escape(n.get("app","Fatura do cartão"))}</span>'
+                 f'<span class="nw">{html.escape(n.get("when","agora"))}</span></div><b>{n.get("title","")}</b><p>{n.get("msg","")}</p></div>') if n else ""
+        return f'<section class="scene hook{" hasbg" if s.get("bg") else ""}" data-k="{k}">{notif}<div class="in">{val}<h1>{s["title"]}</h1></div></section>'
     if t in ("number", "fact"):
         src = f'<div class="src">Fonte: {s["source"]}</div>' if s.get("source") else ""
         return f'''<section class="scene" data-k="{k}"><div class="in"><div class="lbl {s.get("tone","red")}">{s.get("label","")}</div>
@@ -154,6 +164,16 @@ body{{background:{BGD};font-family:'Source Sans 3',sans-serif;color:#fff;positio
 #grid{{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.045) 2px,transparent 2px);
   background-size:120px 120px;opacity:.9}}
 #flash{{position:absolute;inset:0;background:#ff5a4a;opacity:0;z-index:4;pointer-events:none}}
+#bgimg{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;z-index:1;transform-origin:50% 35%}}
+#ailbl{{position:absolute;right:40px;top:150px;z-index:5;opacity:0;font:600 26px 'Source Sans 3',sans-serif;color:#fff;background:rgba(0,0,0,.45);padding:6px 14px;border-radius:10px}}
+#shade{{position:absolute;inset:0;z-index:1;opacity:0;background:linear-gradient(180deg,rgba(0,0,0,.6) 0%,rgba(0,0,0,.1) 30%,rgba(0,0,0,.25) 55%,rgba(0,0,0,.85) 100%)}}
+.scene.hasbg{{justify-content:flex-end}} .hasbg h1,.hasbg h2,.hasbg .txt{{text-shadow:0 6px 24px rgba(0,0,0,.8)}}
+.hasbg .st{{background:rgba(10,20,17,.72);backdrop-filter:blur(6px)}}
+.notif{{position:absolute;left:44px;right:44px;top:-120px;background:rgba(246,246,246,.95);color:#111;border-radius:44px;padding:30px 36px;box-shadow:0 30px 80px rgba(0,0,0,.45);z-index:3}}
+.notif .nh{{display:flex;align-items:center;gap:16px;font-size:30px;font-weight:700;color:#555;text-transform:uppercase;letter-spacing:.06em}}
+.notif .nic{{width:56px;height:56px;border-radius:14px;background:{B.RED};color:#fff;display:grid;place-items:center;font-family:'JetBrains Mono',monospace;font-size:24px;letter-spacing:0}}
+.notif .nw{{margin-left:auto;text-transform:none;letter-spacing:0;font-weight:600}}
+.notif b{{display:block;font-size:46px;margin-top:14px}} .notif p{{font-size:42px;margin-top:6px;line-height:1.2}} .notif p b{{display:inline;font-size:inherit;color:{B.RED}}}
 .scene{{position:absolute;left:0;right:0;top:250px;height:900px;padding:0 84px;display:flex;flex-direction:column;justify-content:center;opacity:0;z-index:2}}
 .scene .in{{transform-origin:50% 50%}}
 .cta-bg{{position:absolute;inset:0;background:{B.GREEN};opacity:0;z-index:1}}
@@ -188,7 +208,7 @@ ol{{list-style:none;margin-top:44px;display:flex;flex-direction:column;gap:24px}
   -webkit-text-stroke:14px #000;paint-order:stroke fill;text-shadow:0 10px 30px rgba(0,0,0,.6)}}
 .subt span{{display:inline-block;margin:0 .12em}} .subt span.on{{color:{B.YELLOW}}}
 </style></head><body>
-<div id="bg"></div><div id="grid"></div><div class="cta-bg" id="ctabg"></div><div id="flash"></div>
+<div id="bg"></div><div id="grid"></div><img id="bgimg" alt=""><div id="shade"></div><div id="ailbl">Imagem gerada por IA</div><div class="cta-bg" id="ctabg"></div><div id="flash"></div>
 <div class="prog"><i id="pg"></i></div>
 <div class="top"><span class="logo">{logo}</span><span>@{B.HANDLE}</span></div>
 {scenes}
@@ -201,10 +221,24 @@ const fmt=(n,d)=>n.toLocaleString('pt-BR',{{minimumFractionDigits:d,maximumFract
 window.TOTAL=TL.total;
 document.querySelectorAll('.scene').forEach((el,k)=>{{const c=TL.scenes[k].count;el.querySelectorAll('.cnt').forEach(x=>{{x.dataset.full=x.innerHTML;}});}});
 let lastPage=-1;
-window.render=t=>{{
+let bgSrc='';
+window.render=async t=>{{
   const secs=[...document.querySelectorAll('.scene')];
   let cur=0; TL.scenes.forEach((s,k)=>{{if(t>=s.start)cur=k}});
   const s=TL.scenes[cur], el=secs[cur], lt=t-s.start;
+  // fundo com foto ou vídeo (pessoas reais / IA)
+  const bi=document.getElementById('bgimg'), sh=document.getElementById('shade');
+  let wait=null;
+  if(s.bg){{
+    const src=s.bg.kind==='vid'?s.bg.src.replace('%05d',String(Math.min(s.bg.n,Math.floor(lt*30)+1)).padStart(5,'0')):s.bg.src;
+    if(src!==bgSrc){{bgSrc=src;bi.src=src;wait=bi.decode().catch(()=>{{}});}}
+    bi.style.opacity=1; sh.style.opacity=1; document.getElementById('ailbl').style.opacity=s.bg.ia===false?0:1;
+    bi.style.transform=s.bg.kind==='img'?`scale(${{1.04+0.10*lt/s.dur}}) translateY(${{-20*lt/s.dur}}px)`:'scale(1.02)';
+  }} else {{bi.style.opacity=0; sh.style.opacity=0; document.getElementById('ailbl').style.opacity=0;}}
+  // notificação do celular no gancho
+  el.querySelectorAll('.notif').forEach(x=>{{const p=back(lt/0.4);const sk=lt>0.4&&lt<0.9?Math.sin(lt*120)*10*(0.9-lt)*2:0;
+    const out=cl((lt-1.8)/0.35); x.style.opacity=1-out;
+    x.style.transform=`translate(${{sk}}px,${{-320+(320+300)*p-420*out*out}}px)`;}});
   secs.forEach((e,k)=>{{e.style.opacity=k===cur?1:0;}});
   // entrada com "soco" + zoom lento contínuo
   const inn=el.querySelector('.in');
@@ -239,14 +273,65 @@ window.render=t=>{{
     sub.innerHTML=pg.w.map(w=>`<span class="${{lt>=w[1]&&lt<w[2]+0.05?'on':''}}">${{w[0]}}</span>`).join(' ');
     const p=back((lt-pg.a)/0.16); sub.style.transform=`scale(${{0.8+0.2*p}})`;
   }}
+  if(wait) await wait;
 }};
 render(0);
 </script></body></html>"""
 
 
 # ---------- linha do tempo ----------
+def _cut(src, a, b, out):
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-af", f"atrim={a}:{b},asetpts=PTS-STARTPTS",
+                    "-ar", str(SR), "-ac", "1", str(out)], check=True)
+    return out
+
+
+def speak_all(says, tmp):
+    """1 pedido de voz para o vídeo inteiro (cota grátis ~10 pedidos/dia por modelo) e corte por cena nas pausas reais.
+    Devolve uma lista de WAV (ou None) na ordem das cenas; se o corte não fechar, devolve None e o motor volta a 1 pedido por cena."""
+    idx = [i for i, x in enumerate(says) if x]
+    if len(idx) < 2:
+        return None
+    full = " ".join(says[i].strip().rstrip(".!?…") + ("?" if says[i].strip().endswith("?") else ".") for i in idx)
+    wav = speak(full)
+    if not wav:
+        return None
+    total = duration(wav)
+    r = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-32dB:d=0.18", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r.stderr)]
+    en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r.stderr)]
+    gaps = [(a, b) for a, b in zip(st, en) if 0.05 < a < total - 0.05]
+    w = [sum(syl(x) for x in says[i].split()) for i in idx]
+    cuts, acc, last = [], 0, 0.0
+    for x in w[:-1]:
+        acc += x
+        guess = total * acc / sum(w)
+        cand = [g for g in gaps if (g[0] + g[1]) / 2 > last + 0.4]
+        if not cand:
+            return None
+        g = min(cand, key=lambda g: abs((g[0] + g[1]) / 2 - guess) - 0.3 * (g[1] - g[0]))
+        if abs((g[0] + g[1]) / 2 - guess) > 1.6:
+            return None
+        cuts.append(g); last = (g[0] + g[1]) / 2
+    out, prev = [None] * len(says), 0.0
+    for j, i in enumerate(idx):
+        a = prev
+        b = cuts[j][0] + 0.05 if j < len(cuts) else total
+        out[i] = _cut(wav, max(0, a), b, tmp / f"cena{i}.wav")
+        prev = cuts[j][1] - 0.05 if j < len(cuts) else total
+    return out
+
+
 def build_timeline(spec, variant, tmp):
     scenes, audios, t = [], [], 0.0
+    says = []
+    for s in spec["scenes"]:
+        x = s.get("say", "")
+        if s["type"] == "cta":
+            x = (x + " " + CTA_SAY.get(variant, B.CTA[variant]["say"])).strip()
+        says.append(x)
+    pre = speak_all(says, tmp) if os.environ.get("SO_TTS_POR_CENA") != "1" else None
     for k, s in enumerate(spec["scenes"]):
         say = s.get("say", "")
         show = s.get("show", say)
@@ -254,7 +339,7 @@ def build_timeline(spec, variant, tmp):
             extra = CTA_SAY.get(variant, B.CTA[variant]["say"])
             say = (say + " " + extra).strip()
             show = (show + " " + extra).strip() if s.get("show") else say
-        wav = speak(say) if say else None
+        wav = (pre[k] if pre else speak(say)) if say else None
         lead = 0.0 if k == 0 else 0.12
         if wav:
             wav = faster(wav, tmp / f"v{k}.wav")
@@ -368,6 +453,73 @@ def build_audio(out, tl, audios, seed, tmp):
                     "-map", "[out]", "-ac", "2", "-ar", str(SR), "-c:a", "aac", "-b:a", "192k", str(out)], check=True)
 
 
+ASSETS = Path(__file__).resolve().parent.parent / "assets"
+
+
+def resolve_bg(spec, tl, folder, tmp):
+    """Fundo de cena: foto (Ken Burns) ou vídeo (quadros extraídos). src relativo a salario/assets/ ou à pasta do post."""
+    for k, (s, sc) in enumerate(zip(spec["scenes"], tl["scenes"])):
+        bg = s.get("bg")
+        if not bg:
+            continue
+        src = bg if isinstance(bg, str) else bg["src"]
+        p = next((c for c in (folder / src, ASSETS / src) if c.exists()), None)
+        if not p:
+            print(f"aviso: fundo {src} não encontrado, cena {k} fica sem foto"); continue
+        if p.suffix.lower() in (".mp4", ".mov", ".webm"):
+            d = tmp / f"bg{k}"; d.mkdir()
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(p), "-t", str(sc["dur"] + 0.2), "-vf",
+                            f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}", "-q:v", "3",
+                            str(d / "%05d.jpg")], check=True)
+            sc["bg"] = {"kind": "vid", "src": (d / "%05d.jpg").as_uri().replace("%2505d", "%05d"), "n": len(list(d.iterdir()))}
+        else:
+            sc["bg"] = {"kind": "img", "src": p.as_uri()}
+        sc["bg"]["ia"] = (bg.get("ia", True) if isinstance(bg, dict) else True)  # selo "Imagem gerada por IA" (exigência TikTok/Meta)
+
+
+def make_pin(spec, folder):
+    """Pin do Pinterest (2:3, 1000x1500): foto da cena, título de busca grande, valor e chamada. Gera pin.jpg."""
+    import re
+    from playwright.sync_api import sync_playwright
+    hook = spec["scenes"][0]
+    bgsrc = next((x.get("bg") for x in spec["scenes"] if x.get("bg")), None)
+    bgsrc = bgsrc if isinstance(bgsrc, str) or bgsrc is None else bgsrc["src"]
+    bgp = next((c for c in ((folder / bgsrc), (ASSETS / bgsrc)) if c.exists()), None) if bgsrc else None
+    pin = spec.get("pin_card", {})
+    kicker = pin.get("kicker") or (spec.get("captions", {}).get("pin_title", "").split(":")[0] or "Organização financeira")
+    title = pin.get("title") or hook.get("title", "")
+    value = pin.get("value", hook.get("value", ""))
+    label = pin.get("label", hook.get("value_label", ""))
+    cta = pin.get("cta", "Descubra o seu número →")  # laço aberto: a resposta está no site
+    photo = f'<img class="ph" src="{bgp.as_uri()}">' if bgp else ""
+    page = f'''<!doctype html><meta charset="utf-8">{B.FONTS_LINK}<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{width:1000px;height:1500px;overflow:hidden;position:relative;background:#0c1f1a;color:#fff;font-family:'Source Sans 3',sans-serif}}
+.ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}}
+.sh{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,.15) 42%,rgba(8,20,16,.92) 66%,rgba(8,20,16,.97) 100%)}}
+.top{{position:absolute;left:56px;right:56px;top:48px;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:30px}}
+.ai{{font-size:22px;font-weight:600;background:rgba(0,0,0,.45);padding:5px 12px;border-radius:8px}}
+.box{{position:absolute;left:56px;right:56px;bottom:230px}}
+.k{{display:inline-block;background:{B.YELLOW};color:#14231f;font-weight:800;font-size:30px;padding:8px 18px;border-radius:10px;text-transform:uppercase;letter-spacing:.04em}}
+.v{{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:150px;line-height:1;color:#ff6b5b;margin-top:22px;letter-spacing:-.03em}}
+.l{{font-family:'JetBrains Mono',monospace;font-size:28px;color:#cfe3db;text-transform:uppercase;letter-spacing:.08em;margin-top:8px}}
+h1{{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:80px;line-height:1.02;margin-top:26px;letter-spacing:-.015em}}
+h1 em{{font-style:normal;color:{B.YELLOW}}}
+.cta{{position:absolute;left:0;right:0;bottom:0;height:170px;background:{B.GREEN};display:flex;flex-direction:column;justify-content:center;padding:0 56px}}
+.cta b{{font-family:'Bricolage Grotesque',sans-serif;font-size:50px}} .cta span{{font-size:30px;opacity:.9}}
+</style>{photo}<div class="sh"></div>
+<div class="top"><span>Salário Organizado</span>{'<span class="ai">Imagem gerada por IA</span>' if bgp else ''}</div>
+<div class="box"><span class="k">{html.escape(kicker)}</span>{f'<div class="v">{value}</div><div class="l">{html.escape(label)}</div>' if value else ''}<h1>{title}</h1></div>
+<div class="cta"><b>{html.escape(cta)}</b><span>Planilha grátis · {B.SITE}</span></div>'''
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "pin.html"; f.write_text(page)
+        with sync_playwright() as pw:
+            br = pw.chromium.launch(**({"executable_path": str(CHROMIUM)} if CHROMIUM.is_file() else {})); pg = br.new_page(viewport={"width": 1000, "height": 1500})
+            pg.goto(f.as_uri()); pg.wait_for_timeout(600)
+            pg.screenshot(path=str(folder / "pin.jpg"), type="jpeg", quality=88); br.close()
+    print("pin.jpg (Pinterest 1000x1500)")
+
+
 def render(spec_path, variants, name="video"):
     spec_path = Path(spec_path).resolve()
     spec, folder = json.loads(spec_path.read_text()), spec_path.parent
@@ -375,6 +527,7 @@ def render(spec_path, variants, name="video"):
         with tempfile.TemporaryDirectory() as td:
             tmp = Path(td)
             tl, audios = build_timeline(spec, v, tmp)
+            resolve_bg(spec, tl, folder, tmp)
             page = tmp / "v.html"; page.write_text(build_html(spec, tl, B.CTA[v]))
             fr = tmp / "f"; fr.mkdir()
             capture(page, fr, tl["total"])
@@ -387,6 +540,7 @@ def render(spec_path, variants, name="video"):
                 shutil_copy = __import__("shutil").copy
                 shutil_copy(fr / f"{min(45, len(list(fr.iterdir())) - 1):05d}.jpg", folder / "capa.jpg")
             print(f"{out.name}: {tl['total']:.1f}s, narração {'sim' if audios else 'não'}")
+    make_pin(spec, folder)
 
 
 if __name__ == "__main__":

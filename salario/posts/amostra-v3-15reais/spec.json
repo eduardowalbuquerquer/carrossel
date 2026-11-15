@@ -1,0 +1,58 @@
+{
+ "id": "amostra-v3-15reais",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-02-mercado-caixa.jpg",
+   "notif": {
+    "app": "Compra aprovada",
+    "title": "Lanchonete",
+    "msg": "Valor: <b>R$ 15,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 450",
+   "value_label": "por mês, sem perceber",
+   "tone": "red",
+   "title": "Não é o mercado. <em>São os R$ 15.</em>",
+   "say": "Não é o mercado que acaba com o salário. São os quinze reais por dia.",
+   "show": "Não é o mercado que acaba com o salário. São os R$ 15 por dia."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "label": "R$ 15 × 30 dias",
+   "value": "R$ 450",
+   "tone": "red",
+   "text": "Em 1 ano: <b>R$ 5.400</b>. Cenário de exemplo.",
+   "say": "Quinze por dia são quatrocentos e cinquenta por mês. Cinco mil e quatrocentos no ano.",
+   "show": "R$ 15 por dia são R$ 450 por mês. R$ 5.400 no ano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Faça o teste",
+   "items": [
+    "Anote <b>tudo</b> por 7 dias",
+    "Some <b>os pequenos</b>",
+    "Multiplique <b>por 4</b>"
+   ],
+   "say": "Anote tudo por sete dias. Some os gastos pequenos. Multiplique por quatro.",
+   "show": "Anote tudo por 7 dias. Some os gastos pequenos. Multiplique por 4."
+  },
+  {
+   "type": "cta",
+   "title": "O que você vê, <em>você controla</em>.",
+   "say": "O que você vê, você controla."
+  }
+ ],
+ "captions": {
+  "tt": "R$ 15 por dia viram R$ 5.400 no ano (cenário de exemplo) 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "pin_title": "Como economizar dinheiro: o gasto invisível de R$ 450 por mês",
+  "pin": "Não é a conta grande que acaba com o salário. Faça o teste de 7 dias e descubra o seu gasto invisível com a planilha de gastos grátis."
+ },
+ "pin_card": {
+  "title": "O gasto que some com <em>R$ 450 por mês</em>",
+  "cta": "Descubra qual é o seu →"
+ }
+}

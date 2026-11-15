@@ -1,0 +1,43 @@
+{
+ "id": "amostra-v3-casal",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "value": "15 min",
+   "value_label": "por semana",
+   "tone": "red",
+   "title": "Brigam por dinheiro? <em>Façam isto.</em>",
+   "say": "Casal que briga por dinheiro precisa de quinze minutos por semana.",
+   "show": "Casal que briga por dinheiro precisa de 15 minutos por semana."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "title": "A conversa",
+   "items": [
+    "Abram <b>todas as contas</b> juntos",
+    "Combinem <b>um teto</b> de gastos",
+    "Revisem <b>toda semana</b>"
+   ],
+   "say": "Abram todas as contas juntos. Combinem um teto de gastos. Revisem toda semana."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Número na mesa <em>acaba com a briga</em>.",
+   "say": "Número na mesa acaba com a briga."
+  }
+ ],
+ "captions": {
+  "tt": "Casal que briga por dinheiro: 15 minutos por semana 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "pin_title": "Organização financeira para casal: a conversa de 15 minutos que acaba com a briga",
+  "pin": "Casal que briga por dinheiro precisa de número na mesa, não de mais discussão. Veja os 3 passos e use a planilha grátis de orçamento para casal."
+ },
+ "pin_card": {
+  "title": "Brigam por dinheiro? <em>Façam isto 15 min por semana.</em>",
+  "value": "",
+  "cta": "Veja o passo a passo →"
+ }
+}

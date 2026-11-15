@@ -1,0 +1,57 @@
+{
+ "id": "amostra-v3-parcela",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Parcela 1 de 14",
+    "msg": "Valor: <b>R$ 210,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 2.940",
+   "value_label": "o que falta de verdade",
+   "tone": "red",
+   "title": "Parcela pequena. <em>Dívida grande.</em>",
+   "say": "Duzentos e dez por mês parece pouco. Mas faltam dois mil novecentos e quarenta.",
+   "show": "R$ 210 por mês parece pouco. Mas faltam R$ 2.940."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "label": "Com empréstimo e celular",
+   "value": "R$ 6.380",
+   "tone": "red",
+   "text": "Parecia só <b>R$ 590</b> por mês. Cenário de exemplo.",
+   "say": "Junta o empréstimo e o celular. Seis mil trezentos e oitenta.",
+   "show": "Junta o empréstimo e o celular. R$ 6.380."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Faça a sua",
+   "items": [
+    "Anote <b>cada dívida</b>",
+    "Parcela × <b>parcelas que faltam</b>",
+    "Confira no <b>Registrato</b> (grátis)"
+   ],
+   "say": "Anote cada dívida. Multiplique pelas que faltam. Confira no Registrato."
+  },
+  {
+   "type": "cta",
+   "title": "Dívida com número <em>tem fim</em>.",
+   "say": "Dívida com número tem fim."
+  }
+ ],
+ "captions": {
+  "tt": "R$ 210 por mês parece pouco. Faltam R$ 2.940 (cenário de exemplo) 👇 Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "pin_title": "Planilha de dívidas: por que R$ 210 por mês viram R$ 2.940?",
+  "pin": "A parcela parece pequena, mas o que importa é quanto falta pagar. Veja a conta de um cenário de exemplo e descubra o seu número em 5 minutos com a planilha grátis de dívidas."
+ },
+ "pin_card": {
+  "title": "Por que R$ 210 por mês <em>viram R$ 2.940?</em>",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
