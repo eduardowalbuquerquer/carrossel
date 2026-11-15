@@ -23,6 +23,10 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 2026-11-11 (mito)
 - 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 2026-11-08 (reels)
 - 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
+- 2026-11-15 · Dois Dedos de Teologia · Coração inquieto: buscar nas pessoas e nas coisas o que só Deus dá (Agostinho) · https://www.instagram.com/p/DfvUS8wDYtg/ · 2026-11-15 (pergunta)
+- 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/augustusnicodemus/ · 
+- 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 
+
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
 2. Facebook: zero interações nos Reels da Página até agora; o feed não é medível sem pages_read_user_content. A Página precisa de seguidores iniciais (convidar contatos) antes de qualquer ajuste de formato.
@@ -43,3 +47,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 2. Teaser das 9h com foto confirmou vantagem: cena 07/11 (23 views), frase 05/11 (15), mito 04/11 (7), versículo 03/11 (5). Só texto: arquétipo 02/11 (1). Passa a ser padrão: todo teaser das 9h com foto de fundo, inclusive arquétipo e pergunta.
 3. O feed do IG subiu: arquétipo 02/11 (31 views, 1 salvamento, 1 envio), frase curta 05/11 (21 views, 1 envio), versículo 03/11 (15). Antes ficava entre 0 e 4. Frase curta e imperativa segue boa aposta. Referências: 16 de 91 posts foram de política (fora do escopo); fora disso, engajaram fofoca, memória da fidelidade de Deus e "para onde vai a alma".
 
+## Aprendizados da semana (2026-11-15)
+1. Reels da Noite confirma o padrão por dia: noites fortes (seg 09/11: 34 views, 2 envios, 1 curtida; sáb 14/11: 5 views em menos de 1 dia; dom 08/11: 101 views, recorde) x noites fracas de terça a sexta (2, 1, 0 e 0 views). Mantém: tema forte e foto no sáb/dom/seg; só texto de ter a sex.
+2. Feed: o versículo de 10/11 (Rm 12:2, foto) teve 35 views e 1 envio, o melhor feed da semana. Os demais ficaram entre 1 e 3. Teasers das 9h com foto ficaram entre 1 e 6. Versículo curto com foto segue sendo o formato de feed mais forte.
+3. Referências: a semana foi dominada por atualidades e política (ENEM, SUS, licitações), fora do escopo. Fora disso, o que mais engajou foi vulnerabilidade de líder (Augustus, "pior sermão") e o coração inquieto de Agostinho (usado na Pergunta de hoje). Facebook segue sem interações; feed do FB ainda não mensurável sem pages_read_user_content.

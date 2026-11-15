@@ -498,6 +498,24 @@
           "pin": "https://www.pinterest.com/pin/264727284344577243"
         }
       }
+    },
+    {
+      "dia": 21,
+      "formato": "v2",
+      "v1": {
+        "pasta": "r12v2-pare-minimo",
+        "refeito_de": "r12-pare-minimo",
+        "nota": "Fila sem item: campeão refeito no formato v2 (gancho R$ 130 de juro por pagar o mínimo; rotativo 15,29% ao mês, Banco Central set/2026). 26,8 s.",
+        "renderizado": "v2",
+        "publicado_em": "2026-11-15T11:54-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfxCXr1AtcR/",
+          "yt": "https://youtube.com/shorts/v98sJsX_pBQ",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708411238098783506",
+          "pin": "https://www.pinterest.com/pin/264727284344586858",
+          "fb": "https://facebook.com/1446527975200486_122110156497533531"
+        }
+      }
     }
   ]
 }
