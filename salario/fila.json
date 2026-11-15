@@ -519,7 +519,12 @@
       "v3": {
         "pasta": "amostra-v3-15reais",
         "nota": "1º vídeo v3 (amostra aprovada pelo Eduardo em 15/11).",
-        "renderizado": "v3"
+        "renderizado": "v3",
+        "publicado_em": "2026-11-15T15:56-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708473177470553345",
+          "pin": "https://www.pinterest.com/pin/264727284344590173"
+        }
       },
       "v4": {
         "pasta": "amostra-v3-casal",
