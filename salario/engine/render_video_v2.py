@@ -19,7 +19,7 @@ from pathlib import Path
 import numpy as np
 
 import brand as B
-from render_video import FPS, H, W, capture, fit, pick_music, synth_bed
+from render_video import CHROMIUM, FPS, H, W, capture, fit, pick_music, synth_bed
 from tts import duration, speak
 
 SPEED = 1.15
@@ -477,6 +477,49 @@ def resolve_bg(spec, tl, folder, tmp):
         sc["bg"]["ia"] = (bg.get("ia", True) if isinstance(bg, dict) else True)  # selo "Imagem gerada por IA" (exigência TikTok/Meta)
 
 
+def make_pin(spec, folder):
+    """Pin do Pinterest (2:3, 1000x1500): foto da cena, título de busca grande, valor e chamada. Gera pin.jpg."""
+    import re
+    from playwright.sync_api import sync_playwright
+    hook = spec["scenes"][0]
+    bgsrc = next((x.get("bg") for x in spec["scenes"] if x.get("bg")), None)
+    bgsrc = bgsrc if isinstance(bgsrc, str) or bgsrc is None else bgsrc["src"]
+    bgp = next((c for c in ((folder / bgsrc), (ASSETS / bgsrc)) if c.exists()), None) if bgsrc else None
+    pin = spec.get("pin_card", {})
+    kicker = pin.get("kicker") or (spec.get("captions", {}).get("pin_title", "").split(":")[0] or "Organização financeira")
+    title = pin.get("title") or hook.get("title", "")
+    value = pin.get("value", hook.get("value", ""))
+    label = pin.get("label", hook.get("value_label", ""))
+    cta = pin.get("cta", "Descubra o seu número →")  # laço aberto: a resposta está no site
+    photo = f'<img class="ph" src="{bgp.as_uri()}">' if bgp else ""
+    page = f'''<!doctype html><meta charset="utf-8">{B.FONTS_LINK}<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{width:1000px;height:1500px;overflow:hidden;position:relative;background:#0c1f1a;color:#fff;font-family:'Source Sans 3',sans-serif}}
+.ph{{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 30%}}
+.sh{{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,.15) 42%,rgba(8,20,16,.92) 66%,rgba(8,20,16,.97) 100%)}}
+.top{{position:absolute;left:56px;right:56px;top:48px;display:flex;justify-content:space-between;align-items:center;font-weight:700;font-size:30px}}
+.ai{{font-size:22px;font-weight:600;background:rgba(0,0,0,.45);padding:5px 12px;border-radius:8px}}
+.box{{position:absolute;left:56px;right:56px;bottom:230px}}
+.k{{display:inline-block;background:{B.YELLOW};color:#14231f;font-weight:800;font-size:30px;padding:8px 18px;border-radius:10px;text-transform:uppercase;letter-spacing:.04em}}
+.v{{font-family:'JetBrains Mono',monospace;font-weight:800;font-size:150px;line-height:1;color:#ff6b5b;margin-top:22px;letter-spacing:-.03em}}
+.l{{font-family:'JetBrains Mono',monospace;font-size:28px;color:#cfe3db;text-transform:uppercase;letter-spacing:.08em;margin-top:8px}}
+h1{{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:80px;line-height:1.02;margin-top:26px;letter-spacing:-.015em}}
+h1 em{{font-style:normal;color:{B.YELLOW}}}
+.cta{{position:absolute;left:0;right:0;bottom:0;height:170px;background:{B.GREEN};display:flex;flex-direction:column;justify-content:center;padding:0 56px}}
+.cta b{{font-family:'Bricolage Grotesque',sans-serif;font-size:50px}} .cta span{{font-size:30px;opacity:.9}}
+</style>{photo}<div class="sh"></div>
+<div class="top"><span>Salário Organizado</span>{'<span class="ai">Imagem gerada por IA</span>' if bgp else ''}</div>
+<div class="box"><span class="k">{html.escape(kicker)}</span>{f'<div class="v">{value}</div><div class="l">{html.escape(label)}</div>' if value else ''}<h1>{title}</h1></div>
+<div class="cta"><b>{html.escape(cta)}</b><span>Planilha grátis · {B.SITE}</span></div>'''
+    with tempfile.TemporaryDirectory() as td:
+        f = Path(td) / "pin.html"; f.write_text(page)
+        with sync_playwright() as pw:
+            br = pw.chromium.launch(**({"executable_path": str(CHROMIUM)} if CHROMIUM.is_file() else {})); pg = br.new_page(viewport={"width": 1000, "height": 1500})
+            pg.goto(f.as_uri()); pg.wait_for_timeout(600)
+            pg.screenshot(path=str(folder / "pin.jpg"), type="jpeg", quality=88); br.close()
+    print("pin.jpg (Pinterest 1000x1500)")
+
+
 def render(spec_path, variants, name="video"):
     spec_path = Path(spec_path).resolve()
     spec, folder = json.loads(spec_path.read_text()), spec_path.parent
@@ -497,6 +540,7 @@ def render(spec_path, variants, name="video"):
                 shutil_copy = __import__("shutil").copy
                 shutil_copy(fr / f"{min(45, len(list(fr.iterdir())) - 1):05d}.jpg", folder / "capa.jpg")
             print(f"{out.name}: {tl['total']:.1f}s, narração {'sim' if audios else 'não'}")
+    make_pin(spec, folder)
 
 
 if __name__ == "__main__":
