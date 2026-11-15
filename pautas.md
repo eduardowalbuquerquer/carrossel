@@ -22,8 +22,9 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-01 · Luiz Sayão · Crer x confiar: fé que descansa mesmo sem ter todas as respostas · https://www.instagram.com/reel/DfHUDDVPJEv/ · 2026-11-01 (reels)
 - 2026-11-08 · Dois Dedos de Teologia · Fofoca: o pecado que a gente pratica sem sentir culpa e chama de "só comentando" (bom para Mito x Verdade) · https://www.instagram.com/p/DfVDOsdDVhP/ · 2026-11-11 (mito)
 - 2026-11-08 · Dois Dedos de Teologia · Memória da fidelidade de Deus: no sofrimento, recordar o que Deus já fez (Sl 103:2) · https://www.instagram.com/p/DfaTA3Nkaz0/ · 2026-11-08 (reels)
-- 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · - 2026-11-15 · Dois Dedos de Teologia · Coração inquieto: buscar nas pessoas e nas coisas o que só Deus dá (Agostinho) · https://www.instagram.com/p/DfvUS8wDYtg/ · 2026-11-15 (pergunta)
-- 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/p/ (reel da semana, perfil augustusnicodemus) · 
+- 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
+- 2026-11-15 · Dois Dedos de Teologia · Coração inquieto: buscar nas pessoas e nas coisas o que só Deus dá (Agostinho) · https://www.instagram.com/p/DfvUS8wDYtg/ · 2026-11-15 (pergunta)
+- 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/augustusnicodemus/ · 
 - 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 
 
 ## Aprendizados da semana (2026-10-18)
