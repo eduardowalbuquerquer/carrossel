@@ -237,7 +237,8 @@ window.render=async t=>{{
   }} else {{bi.style.opacity=0; sh.style.opacity=0; document.getElementById('ailbl').style.opacity=0;}}
   // notificação do celular no gancho
   el.querySelectorAll('.notif').forEach(x=>{{const p=back(lt/0.4);const sk=lt>0.4&&lt<0.9?Math.sin(lt*120)*10*(0.9-lt)*2:0;
-    x.style.transform=`translate(${{sk}}px,${{-320+(320+300)*p}}px)`;}});
+    const out=cl((lt-1.8)/0.35); x.style.opacity=1-out;
+    x.style.transform=`translate(${{sk}}px,${{-320+(320+300)*p-420*out*out}}px)`;}});
   secs.forEach((e,k)=>{{e.style.opacity=k===cur?1:0;}});
   // entrada com "soco" + zoom lento contínuo
   const inn=el.querySelector('.in');
