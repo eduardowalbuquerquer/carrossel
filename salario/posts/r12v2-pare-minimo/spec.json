@@ -1,0 +1,62 @@
+{
+ "id": "r12v2-pare-minimo",
+ "roteiro": 12,
+ "pilar": "dividas",
+ "formato": "v2",
+ "refeito_de": "r12-pare-minimo",
+ "scenes": [
+  {
+   "type": "hook",
+   "value": "R$ 130",
+   "value_label": "de juro em 1 mês por pagar só o mínimo",
+   "tone": "red",
+   "title": "Pagou o mínimo? <em>Olha a conta.</em>",
+   "say": "Pagou só o mínimo de uma fatura de mil reais? Vai pagar cento e trinta de juro.",
+   "show": "Pagou só o mínimo de uma fatura de R$ 1.000? Vai pagar R$ 130 de juro."
+  },
+  {
+   "type": "steps",
+   "title": "A conta",
+   "items": [
+    "Fatura: <b>R$ 1.000</b>",
+    "Pagou o mínimo: <b>R$ 150</b>",
+    "Foi pro rotativo: <b>R$ 850</b>"
+   ],
+   "say": "A conta é simples. Fatura de mil. Pagou cento e cinquenta. Oitocentos e cinquenta foram pro rotativo.",
+   "show": "A conta é simples. Fatura de R$ 1.000. Pagou R$ 150. R$ 850 foram pro rotativo."
+  },
+  {
+   "type": "number",
+   "label": "Juro médio do rotativo",
+   "value": "15,29% ao mês",
+   "tone": "red",
+   "text": "Em 30 dias, <b>R$ 850</b> viram <b>R$ 980</b>. Cenário de exemplo.",
+   "source": "Banco Central, set/2026",
+   "say": "Com o juro médio de quinze vírgula três por cento ao mês, viram novecentos e oitenta.",
+   "show": "Com o juro médio de 15,3% ao mês, viram R$ 980."
+  },
+  {
+   "type": "steps",
+   "title": "Faça isso no lugar",
+   "items": [
+    "Pague o <b>total</b> se der",
+    "<b>Parcele a fatura</b> em vez do mínimo",
+    "Corte <b>um gasto</b> pra cobrir"
+   ],
+   "say": "Faça isso no lugar. Pague o total se der. Parcele a fatura em vez do mínimo. Corte um gasto pra cobrir."
+  },
+  {
+   "type": "cta",
+   "title": "Mínimo <em>não é</em> pagamento.",
+   "say": "Mínimo não é pagamento."
+  }
+ ],
+ "captions": {
+  "ig": "Pagou só o mínimo do cartão? Olha a conta 👇\n\nNo exemplo, a fatura é R$ 1.000 e você paga o mínimo de R$ 150. Os R$ 850 que faltaram vão para o rotativo, com juro médio de 15,29% ao mês (Banco Central, set/2026). Em 30 dias, viram uns R$ 980: R$ 130 só de juro.\n\nNo lugar:\n• Pague o total, se der\n• Não deu? Parcelar a fatura costuma sair mais barato que o mínimo\n• Corte um gasto para cobrir a diferença\n\nMínimo não é pagamento. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive pagando o mínimo 👀\n\n(Cenário de exemplo, sem IOF.)\n\n#cartaodecredito #dividas #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "Pagou só o mínimo de uma fatura de R$ 1.000? Os R$ 850 que faltaram viram uns R$ 980 em 30 dias no rotativo (15,29% ao mês, Banco Central set/2026; cenário de exemplo) 😳 Mínimo não é pagamento. Comenta PLANILHA! Planilha grátis: salarioorganizado.netlify.app/mini #cartaodecredito #dividas #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Pagou só o mínimo do cartão? Olha a conta #shorts",
+  "yt_desc": "Fatura de R$ 1.000, mínimo de R$ 150: os R$ 850 que faltaram vão para o rotativo, com juro médio de 15,29% ao mês (Banco Central, set/2026). Em 30 dias viram uns R$ 980 (cenário de exemplo, sem IOF). Pague o total; se não der, parcelar a fatura costuma sair mais barato que o mínimo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #cartaodecredito #dividas",
+  "pin_title": "Pagar o mínimo do cartão: quanto custa de juro (planilha grátis)",
+  "pin": "Fatura de R$ 1.000, mínimo de R$ 150: os R$ 850 que faltaram vão para o rotativo, com juro médio de 15,29% ao mês (Banco Central, set/2026). Em 30 dias viram uns R$ 980. Pague o total; se não der, parcelar a fatura costuma sair mais barato que o mínimo."
+ }
+}
