@@ -13,7 +13,7 @@ Mesmo spec.json do motor v1 (render_video.py), com estas mudanças:
 
 Uso: python3 render_video_v2.py ../posts/<pasta>/spec.json [--so tt] [--saida video_v2]
 """
-import html, json, re, subprocess, sys, tempfile, wave
+import html, json, os, re, subprocess, sys, tempfile, wave
 from pathlib import Path
 
 import numpy as np
@@ -245,8 +245,58 @@ render(0);
 
 
 # ---------- linha do tempo ----------
+def _cut(src, a, b, out):
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-af", f"atrim={a}:{b},asetpts=PTS-STARTPTS",
+                    "-ar", str(SR), "-ac", "1", str(out)], check=True)
+    return out
+
+
+def speak_all(says, tmp):
+    """1 pedido de voz para o vídeo inteiro (cota grátis ~10 pedidos/dia por modelo) e corte por cena nas pausas reais.
+    Devolve uma lista de WAV (ou None) na ordem das cenas; se o corte não fechar, devolve None e o motor volta a 1 pedido por cena."""
+    idx = [i for i, x in enumerate(says) if x]
+    if len(idx) < 2:
+        return None
+    full = " ".join(says[i].strip().rstrip(".!?…") + ("?" if says[i].strip().endswith("?") else ".") for i in idx)
+    wav = speak(full)
+    if not wav:
+        return None
+    total = duration(wav)
+    r = subprocess.run(["ffmpeg", "-i", str(wav), "-af", "silencedetect=noise=-32dB:d=0.18", "-f", "null", "-"],
+                       capture_output=True, text=True)
+    st = [float(x) for x in re.findall(r"silence_start: ([\d.]+)", r.stderr)]
+    en = [float(x) for x in re.findall(r"silence_end: ([\d.]+)", r.stderr)]
+    gaps = [(a, b) for a, b in zip(st, en) if 0.05 < a < total - 0.05]
+    w = [sum(syl(x) for x in says[i].split()) for i in idx]
+    cuts, acc, last = [], 0, 0.0
+    for x in w[:-1]:
+        acc += x
+        guess = total * acc / sum(w)
+        cand = [g for g in gaps if (g[0] + g[1]) / 2 > last + 0.4]
+        if not cand:
+            return None
+        g = min(cand, key=lambda g: abs((g[0] + g[1]) / 2 - guess) - 0.3 * (g[1] - g[0]))
+        if abs((g[0] + g[1]) / 2 - guess) > 1.6:
+            return None
+        cuts.append(g); last = (g[0] + g[1]) / 2
+    out, prev = [None] * len(says), 0.0
+    for j, i in enumerate(idx):
+        a = prev
+        b = cuts[j][0] + 0.05 if j < len(cuts) else total
+        out[i] = _cut(wav, max(0, a), b, tmp / f"cena{i}.wav")
+        prev = cuts[j][1] - 0.05 if j < len(cuts) else total
+    return out
+
+
 def build_timeline(spec, variant, tmp):
     scenes, audios, t = [], [], 0.0
+    says = []
+    for s in spec["scenes"]:
+        x = s.get("say", "")
+        if s["type"] == "cta":
+            x = (x + " " + CTA_SAY.get(variant, B.CTA[variant]["say"])).strip()
+        says.append(x)
+    pre = speak_all(says, tmp) if os.environ.get("SO_TTS_POR_CENA") != "1" else None
     for k, s in enumerate(spec["scenes"]):
         say = s.get("say", "")
         show = s.get("show", say)
@@ -254,7 +304,7 @@ def build_timeline(spec, variant, tmp):
             extra = CTA_SAY.get(variant, B.CTA[variant]["say"])
             say = (say + " " + extra).strip()
             show = (show + " " + extra).strip() if s.get("show") else say
-        wav = speak(say) if say else None
+        wav = (pre[k] if pre else speak(say)) if say else None
         lead = 0.0 if k == 0 else 0.12
         if wav:
             wav = faster(wav, tmp / f"v{k}.wav")
