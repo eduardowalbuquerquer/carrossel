@@ -20,9 +20,9 @@ CTA = {
     "ig": {"kw": "PLANILHA", "line": "Comenta <b>PLANILHA</b> que eu te mando a grátis no direct.",
            "say": "Comenta planilha aqui embaixo que eu te mando a minha grátis no direct."},
     # TikTok: sem resposta automática (conta pessoal) e sem link clicável (só com 1.000 seguidores).
-    # CTA verdadeira = endereço grande na tela + "tira print". Nunca pedir "comenta PLANILHA" no TikTok.
-    "tt": {"kw": "TIRA PRINT", "line": "Planilha grátis: digite no navegador<br><b class=\"url\">salarioorganizado.netlify.app/mini</b>",
-           "say": "Tira print desta tela. O endereço da planilha grátis está aqui."},
+    # CTA (Eduardo, 15/11): 1º seguir (meta 1.000 seguidores libera link na bio), 2º "tira print" do endereço na tela. Nunca "comenta PLANILHA".
+    "tt": {"kw": "SEGUE AQUI", "line": "E tira print: planilha grátis em<br><b class=\"url\">salarioorganizado.netlify.app/mini</b>",
+           "say": "Segue o perfil para ver o próximo. E tira print: o endereço da planilha grátis está aqui."},
     "yt": {"kw": "LINK NO PERFIL", "line": "A planilha grátis está no <b>link do perfil</b>.",
            "say": "A planilha grátis está no link do perfil. Se inscreve para o próximo."},
 }

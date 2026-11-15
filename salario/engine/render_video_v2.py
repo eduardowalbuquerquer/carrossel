@@ -23,7 +23,7 @@ from render_video import CHROMIUM, FPS, H, W, capture, fit, pick_music, synth_be
 from tts import duration, speak
 
 SPEED = 1.15
-CTA_SAY = {"tt": "Tira print desta tela. O endereço da planilha grátis está aqui.", "ig": "Comenta PLANILHA que eu te mando a grátis no direct.", "yt": "A planilha grátis está no link do perfil."}
+CTA_SAY = {"tt": "Segue o perfil pro próximo. E tira print: o endereço da planilha grátis está aqui.", "ig": "Comenta PLANILHA que eu te mando a grátis no direct.", "yt": "A planilha grátis está no link do perfil."}
 SR = 44100
 
 
