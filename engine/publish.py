@@ -198,7 +198,18 @@ def main(argv):
     # TikTok: só Reels que se sustentam sozinhos (o teaser da manhã aponta para um post que lá não existe).
     # Falha no TikTok não derruba IG/FB já publicados.
     tiktok_ok = spec.get("reel", {}).get("tiktok", not slides)
-    if (os.environ.get("TIKTOK_CLIENT_KEY") and "--no-tiktok" not in argv and (post_dir / "reel.mp4").exists()
+    if (os.environ.get("FA_BUFFER_KEY") and "--no-tiktok" not in argv and "reel.mp4" in urls
+            and tiktok_ok and not result.get("tiktok_publish_id")):
+        # Caminho principal: Buffer publica PÚBLICO (a API direta do TikTok só posta "Somente eu").
+        import tiktok_buffer
+        try:
+            result["tiktok_publish_id"], result["tiktok_privacy"], result["tiktok_link"] = \
+                tiktok_buffer.publish_reel(spec, urls["reel.mp4"])
+        except SystemExit as e:
+            result["tiktok_erro"] = str(e)
+            print(f"AVISO TikTok (Buffer): {e}")
+        result_path.write_text(json.dumps(result, indent=2))
+    elif (os.environ.get("TIKTOK_CLIENT_KEY") and "--no-tiktok" not in argv and (post_dir / "reel.mp4").exists()
             and tiktok_ok and not result.get("tiktok_publish_id")):
         import tiktok_publish
         if tiktok_publish.TOKENS.exists():
