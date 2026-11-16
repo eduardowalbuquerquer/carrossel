@@ -1,4 +1,5 @@
 """Publica um vídeo pronto do Salário Organizado: Instagram Reels, YouTube Shorts e TikTok (rascunho na caixa de entrada).
+Também publica o carrossel em quadrinhos (spec "tipo": "carrossel"): carrossel no Instagram e fotos no TikTok pelo Buffer.
 
 Uso:
   python3 publish.py ../posts/<pasta>                 # publica onde ainda não saiu (idempotente via resultado.json)
@@ -96,7 +97,38 @@ def host(post_dir, files):
     return urls
 
 
+def ig_wait(c, what="o vídeo"):
+    t0 = time.time()
+    while True:
+        st = ig("GET", c, fields="status_code,status")
+        if st.get("status_code") == "FINISHED":
+            return
+        if st.get("status_code") in ("ERROR", "EXPIRED") or time.time() - t0 > 900:
+            raise SystemExit(f"Instagram não processou {what}: {st}")
+        time.sleep(5)
+
+
+def publish_ig_carrossel(post_dir, spec):
+    """Carrossel de imagens (até 10 JPG) no feed. Docs: content-publishing, 'Carousel posts'."""
+    files = spec["arquivos"]["ig"]
+    if not 2 <= len(files) <= 10:
+        raise SystemExit(f"Carrossel do Instagram precisa de 2 a 10 imagens (tem {len(files)})")
+    urls = host(post_dir, files)
+    uid = env("SO_IG_USER_ID")
+    kids = []
+    for f in files:
+        cid = ig("POST", f"{uid}/media", image_url=urls[f], is_carousel_item="true")["id"]
+        ig_wait(cid, f"a imagem {f}")
+        kids.append(cid)
+    c = ig("POST", f"{uid}/media", media_type="CAROUSEL", children=",".join(kids), caption=spec["captions"]["ig"])["id"]
+    ig_wait(c, "o carrossel")
+    mid = ig("POST", f"{uid}/media_publish", creation_id=c)["id"]
+    return mid, ig("GET", mid, fields="permalink").get("permalink")
+
+
 def publish_ig(post_dir, spec):
+    if spec.get("tipo") == "carrossel":
+        return publish_ig_carrossel(post_dir, spec)
     urls = host(post_dir, ["video_ig.mp4", "capa.jpg"])
     uid = env("SO_IG_USER_ID")
     c = ig("POST", f"{uid}/media", media_type="REELS", video_url=urls["video_ig.mp4"], cover_url=urls["capa.jpg"],
@@ -204,11 +236,18 @@ BUFFER_CREATE = """mutation($i: CreatePostInput!) { createPost(input: $i) {
 
 def publish_tt_buffer(post_dir, spec, draft=False):
     """Manda o vídeo ao Buffer, que publica no TikTok na hora (modo automático, conta pessoal)."""
-    urls = host(post_dir, ["video_tt.mp4"])
+    if spec.get("tipo") == "carrossel":  # carrossel de fotos no TikTok (imagens geradas por IA: rótulo ligado)
+        files = spec["arquivos"]["tt"]
+        urls = host(post_dir, files)
+        assets = [{"image": {"url": urls[f]}} for f in files]
+        ia = True
+    else:
+        urls = host(post_dir, ["video_tt.mp4"])
+        assets = [{"video": {"url": urls["video_tt.mp4"], "metadata": {"thumbnailOffset": 600}}}]
+        ia = os.environ.get("SO_TT_IA", "0") == "1"
     i = {"channelId": buffer_tiktok_channel(), "text": spec["captions"]["tt"][:2200], "mode": "shareNow",
          "schedulingType": "automatic", "needsApproval": False, "source": "salario-organizado",
-         "assets": [{"video": {"url": urls["video_tt.mp4"], "metadata": {"thumbnailOffset": 600}}}],
-         "metadata": {"tiktok": {"isAiGenerated": os.environ.get("SO_TT_IA", "0") == "1"}}}
+         "assets": assets, "metadata": {"tiktok": {"isAiGenerated": ia}}}
     if draft:
         i["saveToDraft"] = True
     r = buffer(BUFFER_CREATE, {"i": i})["createPost"]
@@ -298,6 +337,8 @@ def publish_tt(post_dir, spec):
         try:
             return publish_tt_buffer(post_dir, spec)
         except SystemExit as e:  # plano B: rascunho na caixa de entrada do app
+            if spec.get("tipo") == "carrossel":
+                raise  # o rascunho do app só aceita vídeo
             print(f"AVISO tt: Buffer falhou, enviando como rascunho. {e}")
     video = post_dir / "video_tt.mp4"
     size = video.stat().st_size

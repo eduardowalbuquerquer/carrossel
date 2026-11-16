@@ -8,6 +8,10 @@ Todo dia, sem intervenção humana, **4 vídeos novos no formato v3** (aprovado 
 - **v4 às 21h30** (TikTok + Pinterest)
 Remix (trocar só o gancho) acabou: os 4 são vídeos novos. **Os textos das tarefas agendadas são antigos** (falam em remix, "v1 do mesmo dia com outro gancho", `--so tt` ou rascunho): onde divergirem, **vale esta ROTINA** (vídeo novo v3, publicar `--so tt,pin`; o v4 não depende do v1 ter saído). Cota de voz: o motor faz **1 pedido de voz por vídeo e por rede** (v1 = 3 pedidos, cada um dos outros = 1). Total ~6 por dia, abaixo do limite de ~10 por modelo.
 
+## Carrossel em quadrinhos (desde 16/11/2026, 1 por dia às 17h40)
+Tarefa agendada própria ("carrossel da tarde"), com o conector Magnific. Siga `quadrinhos.md` e a fila `fila_carrossel.json`.
+Publica com `python3 publish.py ../posts/<pasta> --so ig,tt` (carrossel no Instagram, fotos no TikTok pelo Buffer). Não mexe nos 4 vídeos.
+
 ## Formato v3 (obrigatório desde 15/11/2026; tudo do v2 abaixo continua valendo)
 - **Pessoas na tela:** toda cena (menos `cta`, opcional) leva `"bg": "cenas/<arquivo>.jpg"` da biblioteca `../assets/cenas/` (20 imagens geradas no Gemini pelo Eduardo). Escolha pelo `cenas.json` (temas e emoção): gancho com emoção forte (choque, ansiedade, tensão, constrangimento); passos com foco/organização; fim com alívio/conquista. **Não use a mesma imagem no gancho de 2 vídeos seguidos** (veja os 3 últimos specs publicados). O motor põe sozinho o selo "Imagem gerada por IA".
 - **Gancho de notificação** (use em pelo menos 2 dos 4 vídeos do dia): `"notif": {"app": "Cartão de crédito", "title": "Parcela 1 de 14", "msg": "Valor: <b>R$ 210,00</b>", "when": "agora"}` na cena `hook`. Nunca nome de banco real. O valor da notificação tem que bater com a conta do vídeo.

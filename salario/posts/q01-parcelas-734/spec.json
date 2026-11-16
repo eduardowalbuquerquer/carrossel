@@ -1,0 +1,210 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "tema": "quanto você deve de verdade: parcelas pequenas somadas",
+ "conta": "Renda R$ 3.800. Parcelas (restantes): presente 120 (2), tênis 79 (3), geladeira 289 (7), celular 149 (9), curso 97 (9) = 734/mês (19,3%), faltavam 4.714. Volta 199 no mês 3, 488 no 7, 734 no 9.",
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 70,
+     "w": 540,
+     "t": 62,
+     "txt": "<b>R$&nbsp;734</b> de parcela todo mês?!"
+    },
+    {
+     "x": 560,
+     "y": 230,
+     "w": 490,
+     "t": 14,
+     "txt": "Mas a gente nem comprou nada caro..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 66,
+     "y": 40,
+     "w": 450,
+     "h": 250,
+     "t": 45,
+     "txt": "<span style='font-size:36px;color:#0f7a5c'>3 meses antes...</span><br>Cabe no mês, amor!"
+    },
+    {
+     "x": 575,
+     "y": 105,
+     "w": 445,
+     "h": 300,
+     "t": 3,
+     "txt": "Celular novo em 12x de <b>R$&nbsp;149</b>!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 70,
+     "w": 520,
+     "t": 48,
+     "txt": "Geladeira nova em 10x de <b>R$&nbsp;289</b>."
+    },
+    {
+     "x": 580,
+     "y": 170,
+     "w": 440,
+     "t": 30,
+     "txt": "Cabe também!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 580,
+     "t": 40,
+     "txt": "Curso em 12x de <b>R$&nbsp;97</b>. Presente da mãe em 5x de <b>R$&nbsp;120</b>."
+    },
+    {
+     "x": 630,
+     "y": 330,
+     "w": 420,
+     "t": 20,
+     "txt": "Tênis em 6x de <b>R$&nbsp;79</b>. É tudo pouquinho!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "cap": "Hoje...",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 520,
+     "t": 45,
+     "txt": "Cada uma cabia. Juntas: <b>R$&nbsp;734</b> por mês."
+    },
+    {
+     "x": 570,
+     "y": 250,
+     "w": 470,
+     "t": 5,
+     "txt": "É 19% dos nossos R$&nbsp;3.800!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 580,
+     "t": 40,
+     "txt": "Vamos pôr todas numa planilha, com o mês em que cada uma acaba."
+    },
+    {
+     "x": 610,
+     "y": 300,
+     "w": 430,
+     "t": 35,
+     "txt": "E nenhuma parcela nova até zerar."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 620,
+     "t": 22,
+     "txt": "Em 3 meses, <i>R$&nbsp;199</i> voltam pro bolso. Em 7 meses, <i>R$&nbsp;488</i>."
+    },
+    {
+     "x": 620,
+     "y": 330,
+     "w": 420,
+     "t": 55,
+     "txt": "Pela 1ª vez a gente vê o fim!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "cap": "9 meses depois...",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 520,
+     "t": 52,
+     "txt": "Zero parcelas! <i>R$&nbsp;734</i> livres todo mês."
+    },
+    {
+     "x": 580,
+     "y": 150,
+     "w": 460,
+     "t": 25,
+     "txt": "Agora a gente escolhe pra onde vai."
+    }
+   ]
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>Parcela pequena <em>não é</em> gasto pequeno.</h1><p>A conta da Bia e do Rafa, no dia em que somaram tudo:</p><table><tr><th>Parcela</th><th class='n'>Por mês</th><th class='n'>Acaba em</th></tr><tr><td>Presente</td><td class='n'>R$ 120</td><td class='n'>2 meses</td></tr><tr><td>Tênis</td><td class='n'>R$ 79</td><td class='n'>3 meses</td></tr><tr><td>Geladeira</td><td class='n'>R$ 289</td><td class='n'>7 meses</td></tr><tr><td>Celular</td><td class='n'>R$ 149</td><td class='n'>9 meses</td></tr><tr><td>Curso</td><td class='n'>R$ 97</td><td class='n'>9 meses</td></tr><tr class='tot'><td>Total</td><td class='n'>R$ 734</td><td class='n'>faltavam R$ 4.714</td></tr></table><p>Antes de dizer “cabe”, some todas as parcelas que já existem.</p>"
+  }
+ ],
+ "cta_titulo": "Quer fazer essa conta com as suas parcelas?",
+ "captions": {
+  "ig": "Ninguém aqui comprou nada caro. E mesmo assim são R$ 734 por mês. 😳\n\nCelular, geladeira, tênis, curso, presente... cada parcela \"cabia no mês\". Juntas, levam quase 1 em cada 5 reais do salário.\n\nO que mudou o jogo da Bia e do Rafa não foi ganhar mais: foi somar tudo numa planilha e ver o mês em que cada parcela acaba.\n\nQuanto você acha que paga de parcela hoje, somando tudo? Conta aqui embaixo 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#parcelas #organizacaofinanceira #financaspessoais #dividas #planilhafinanceira",
+  "tt": "Ninguém comprou nada caro... e são R$ 734 por mês 😳 Comenta quanto você acha que paga de parcela hoje.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
