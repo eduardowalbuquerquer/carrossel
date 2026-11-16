@@ -546,6 +546,23 @@
           "pin": "https://www.pinterest.com/pin/264727284344594535"
         }
       }
+    },
+    {
+      "dia": 22,
+      "formato": "v3",
+      "v1": {
+        "pasta": "v3-limite-salario",
+        "nota": "Fila sem item: pauta nova v3 (limite do cartão R$ 3.000 x salário R$ 2.300, fatura R$ 700 maior; gancho notificação 'Compra recusada'). 21,8 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-16T12:20-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/DfznPE0CfAf/",
+          "yt": "https://youtube.com/shorts/L0eEsEAnYDM",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708782404726508820",
+          "pin": "https://www.pinterest.com/pin/264727284344601737",
+          "fb": "https://facebook.com/1446527975200486_122110579869533531"
+        }
+      }
     }
   ]
 }
