@@ -1,0 +1,61 @@
+{
+ "id": "v3-assinaturas-1435",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Assinatura renovada",
+    "msg": "Valor: <b>R$ 39,90</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.435",
+   "value_label": "por ano em 4 assinaturas",
+   "tone": "red",
+   "title": "O gasto que <em>se renova sozinho</em>.",
+   "say": "Quatro assinaturas esquecidas custam mil quatrocentos e trinta e cinco reais por ano.",
+   "show": "4 assinaturas esquecidas custam R$ 1.435 por ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Por mês",
+   "value": "R$ 119,60",
+   "tone": "red",
+   "text": "R$ 39,90 + R$ 29,90 + R$ 24,90 + R$ 24,90. <b>Cenário de exemplo.</b>",
+   "say": "Somando as quatro, dá cento e dezenove e sessenta por mês. Vezes doze, mil quatrocentos e trinta e cinco.",
+   "show": "Somando as 4, dá R$ 119,60 por mês. Vezes 12, R$ 1.435."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça hoje",
+   "items": [
+    "Abra a <b>fatura do cartão</b>",
+    "Marque <b>cada assinatura</b>",
+    "Cancele a que <b>não usou no mês</b>"
+   ],
+   "say": "Faça hoje. Abra a fatura do cartão. Marque cada assinatura. Cancele a que não usou no mês."
+  },
+  {
+   "type": "cta",
+   "title": "Corte o que <em>você não usa</em>.",
+   "say": "Corte o que você não usa."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 39,90 parece pouco. Quatro assinaturas assim custam R$ 1.435 por ano 👇\n\nNo exemplo: R$ 39,90 + R$ 29,90 + R$ 24,90 + R$ 24,90 = R$ 119,60 por mês. Vezes 12, R$ 1.435. E muita gente nem lembra que assinou.\n\nFaça hoje:\n1. Abra a fatura do cartão\n2. Marque cada assinatura\n3. Cancele a que não usou no mês\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem assina tudo e não usa nada 👀\n\n(Cenário de exemplo.)\n\n#assinaturas #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "4 assinaturas de R$ 39,90, R$ 29,90 e R$ 24,90 viram R$ 1.435 por ano (cenário de exemplo) 👇 Comenta quantas assinaturas você paga 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #assinaturas #financaspessoais #organizacaofinanceira #economizar #educacaofinanceira",
+  "yt_title": "Assinaturas esquecidas: R$ 1.435 por ano #shorts",
+  "yt_desc": "Quatro assinaturas (R$ 39,90 + R$ 29,90 + R$ 24,90 + R$ 24,90) somam R$ 119,60 por mês e R$ 1.435 por ano (cenário de exemplo). Abra a fatura do cartão, marque cada assinatura e cancele a que não usou no mês.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #economizar #organizacaofinanceira",
+  "pin_title": "Como economizar dinheiro: quanto as assinaturas esquecidas custam por ano?",
+  "pin": "Quatro assinaturas de streaming e apps parecem baratas, mas somam R$ 119,60 por mês e R$ 1.435 por ano num cenário de exemplo. Descubra no site quanto as suas assinaturas custam de verdade e onde cortar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto suas assinaturas <em>custam por ano?</em>", "value": "R$ 1.435", "label": "num cenário de exemplo",
+  "cta": "Descubra qual é o seu →"
+ }
+}
