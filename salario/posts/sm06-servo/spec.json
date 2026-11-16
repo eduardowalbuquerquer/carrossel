@@ -1,0 +1,71 @@
+{
+ "id": "sm06-servo",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Fatura em atraso",
+    "msg": "Juros: <b>R$ 152,90</b>",
+    "when": "agora"
+   },
+   "value": "15,29%",
+   "value_label": "ao mês no rotativo (Banco Central)",
+   "tone": "warm",
+   "title": "A Bíblia chama isso <em>de servidão</em>",
+   "say": "Quem deve no cartão trabalha para o banco. A Bíblia já avisava."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-18-envelope-cobranca.jpg",
+   "label": "Provérbios avisa",
+   "value": "Servo",
+   "tone": "warm",
+   "text": "“O que toma emprestado é servo do que empresta.”",
+   "source": "Provérbios 22:7",
+   "say": "Quem toma emprestado é servo de quem empresta."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "label": "R$ 1.000 no rotativo, 1 mês",
+   "value": "R$ 152,90",
+   "tone": "red",
+   "text": "Juro médio do rotativo: 15,29% ao mês. <b>Cenário de exemplo.</b>",
+   "say": "Mil reais no rotativo. Cento e cinquenta e dois e noventa de juro em um mês.",
+   "show": "R$ 1.000 no rotativo. R$ 152,90 de juro em um mês.",
+   "source": "Banco Central, juro médio do rotativo, set/2026"
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Saia da servidão",
+   "items": [
+    "Pague o <b>total</b> da fatura",
+    "Troque rotativo por <b>parcelamento</b>",
+    "Deixe o cartão <b>em casa</b> este mês"
+   ],
+   "say": "Saia da servidão. Pague o total da fatura. Troque rotativo por parcelamento. Deixe o cartão em casa este mês."
+  },
+  {
+   "type": "cta",
+   "title": "Trabalhe para você, <em>não para o juro</em>.",
+   "say": "Trabalhe para você, não para o juro."
+  }
+ ],
+ "captions": {
+  "tt": "“O que toma emprestado é servo do que empresta” (Provérbios 22:7). R$ 1.000 no rotativo viram R$ 152,90 de juro em 1 mês (15,29% a.m., Banco Central; cenário de exemplo) 👇 Comenta se você já caiu no rotativo 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Cartão de crédito: o que a Bíblia diz sobre quem vive no rotativo",
+  "pin": "Provérbios 22:7 diz que quem toma emprestado é servo de quem empresta. No rotativo do cartão, a 15,29% ao mês (Banco Central), R$ 1.000 geram R$ 152,90 de juro em um mês, num cenário de exemplo. Descubra no site como sair do rotativo, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto o rotativo <em>tira de você?</em>",
+  "value": "R$ 152,90",
+  "label": "de juro em 1 mês sobre R$ 1.000",
+  "cta": "Faça a sua conta →"
+ }
+}

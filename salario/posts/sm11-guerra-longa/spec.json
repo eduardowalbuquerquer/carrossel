@@ -1,0 +1,72 @@
+{
+ "id": "sm11-guerra-longa",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-18-envelope-cobranca.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Rotativo",
+    "msg": "Saldo: <b>R$ 2.000,00</b>",
+    "when": "agora"
+   },
+   "value": "2.500 anos",
+   "value_label": "Sun Tzu, A Arte da Guerra",
+   "tone": "warm",
+   "title": "A guerra que você <em>não pode alongar</em>",
+   "say": "Há dois mil e quinhentos anos, um general avisou sobre guerras longas.",
+   "show": "Há 2.500 anos, um general avisou sobre guerras longas."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-14-casal-discussao.jpg",
+   "label": "Sun Tzu escreveu",
+   "value": "Guerra longa",
+   "tone": "warm",
+   "text": "“Não há registro de um país que tenha se beneficiado de uma guerra prolongada.”",
+   "source": "Sun Tzu, A Arte da Guerra, cap. 2 (séc. V a.C.), tradução livre",
+   "say": "Nenhum país ganhou com uma guerra prolongada."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "label": "1º mês de R$ 2.000 no rotativo",
+   "value": "R$ 305,80",
+   "tone": "red",
+   "text": "Juro médio do rotativo: 15,29% ao mês. <b>Cenário de exemplo.</b>",
+   "say": "Dois mil no rotativo. Trezentos e cinco e oitenta de juro no primeiro mês.",
+   "show": "R$ 2.000 no rotativo. R$ 305,80 de juro no primeiro mês.",
+   "source": "Banco Central, juro médio do rotativo, set/2026"
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Encurte a guerra",
+   "items": [
+    "Ataque o <b>juro mais alto</b> primeiro",
+    "<b>Não alongue</b> a dívida",
+    "Negocie <b>à vista</b> se puder"
+   ],
+   "say": "Encurte a guerra. Ataque o juro mais alto primeiro. Não alongue a dívida. Negocie à vista se puder."
+  },
+  {
+   "type": "cta",
+   "title": "Encurte a guerra <em>contra a dívida</em>.",
+   "say": "Encurte a guerra contra a dívida."
+  }
+ ],
+ "captions": {
+  "tt": "Sun Tzu escreveu há 2.500 anos: nenhum país ganhou com guerra prolongada (A Arte da Guerra, cap. 2). R$ 2.000 no rotativo custam R$ 305,80 de juro no 1º mês (15,29% a.m., Banco Central; cenário de exemplo) 👇 Comenta há quanto tempo dura a sua guerra 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Como sair das dívidas: a lição de Sun Tzu sobre guerra prolongada",
+  "pin": "Sun Tzu escreveu em A Arte da Guerra que nenhum país se beneficiou de uma guerra prolongada. Com dívida é igual: R$ 2.000 no rotativo a 15,29% ao mês custam R$ 305,80 de juro só no primeiro mês, num cenário de exemplo. Descubra no site como encurtar a sua, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O que Sun Tzu diria <em>do seu rotativo?</em>",
+  "value": "R$ 305,80",
+  "label": "de juro no 1º mês sobre R$ 2.000",
+  "cta": "Veja a estratégia →"
+ }
+}

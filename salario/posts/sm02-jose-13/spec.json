@@ -1,0 +1,71 @@
+{
+ "id": "sm02-jose-13",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-08-salario-caiu.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "13º salário (1ª parcela)",
+    "msg": "Valor: <b>R$ 1.150,00</b>",
+    "when": "agora"
+   },
+   "value": "7 anos",
+   "value_label": "Gênesis 41, José do Egito",
+   "tone": "warm",
+   "title": "O plano de José <em>para o seu 13º</em>",
+   "say": "José do Egito salvou um país com uma regra. Serve pro seu décimo terceiro.",
+   "show": "José do Egito salvou um país com uma regra. Serve pro seu 13º."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "José mandou guardar",
+   "value": "A quinta parte",
+   "tone": "warm",
+   "text": "Em resumo: guardar <b>1 de cada 5</b> nos 7 anos de fartura, para atravessar os 7 de fome.",
+   "source": "Gênesis 41:34-36",
+   "say": "Guardar um de cada cinco na fartura, para atravessar a fome."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "label": "Seu 13º é a fartura",
+   "value": "R$ 230",
+   "tone": "red",
+   "text": "1/5 da 1ª parcela de R$ 1.150 (13º de R$ 2.300). <b>Cenário de exemplo.</b>",
+   "say": "Um quinto de mil cento e cinquenta. Duzentos e trinta reais guardados.",
+   "show": "1/5 de R$ 1.150. R$ 230 guardados."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça como José",
+   "items": [
+    "Separe <b>1/5</b> no dia que cair",
+    "Use o resto para <b>pagar dívida</b>",
+    "Presente só com <b>o que sobrar</b>"
+   ],
+   "say": "Faça como José. Separe um quinto no dia que cair. Use o resto para pagar dívida. Presente só com o que sobrar."
+  },
+  {
+   "type": "cta",
+   "title": "Guarde na fartura. <em>Atravesse a fome.</em>",
+   "say": "Guarde na fartura e atravesse a fome."
+  }
+ ],
+ "captions": {
+  "tt": "José do Egito guardou 1 de cada 5 na fartura (Gênesis 41). No 13º de R$ 2.300, a 1ª parcela de R$ 1.150 vira R$ 230 guardados (cenário de exemplo) 👇 Comenta quanto do seu 13º você vai guardar 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "13º salário: o plano de José do Egito para guardar 1/5",
+  "pin": "José do Egito guardou a quinta parte da colheita nos anos de fartura (Gênesis 41). Aplicado ao 13º salário, 1/5 da primeira parcela de R$ 1.150 são R$ 230 guardados, num cenário de exemplo. Descubra no site quanto do seu 13º guardar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto do seu 13º <em>José guardaria?</em>",
+  "value": "R$ 230",
+  "label": "de R$ 1.150, num cenário de exemplo",
+  "cta": "Faça a sua conta →"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "sm07-ovelhas",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Fatura fechada",
+    "msg": "Valor: <b>R$ 1.800,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 4.800",
+   "value_label": "o que muita gente deve sem saber",
+   "tone": "warm",
+   "title": "A Bíblia manda <em>contar as ovelhas</em>",
+   "say": "Você sabe quanto deve? A Bíblia manda contar as ovelhas."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Provérbios ensina",
+   "value": "Conheça suas ovelhas",
+   "tone": "warm",
+   "text": "Em resumo: conheça bem o estado do seu rebanho, porque a riqueza não dura para sempre.",
+   "source": "Provérbios 27:23-24",
+   "say": "Conheça o estado do seu rebanho. A riqueza não dura para sempre."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "label": "Somando tudo",
+   "value": "R$ 4.800",
+   "tone": "red",
+   "text": "Cartão R$ 1.800 + empréstimo R$ 2.400 + crediário R$ 600. <b>Cenário de exemplo.</b>",
+   "say": "Cartão, empréstimo e crediário. Quatro mil e oitocentos reais.",
+   "show": "Cartão, empréstimo e crediário. R$ 4.800."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Conte suas ovelhas",
+   "items": [
+    "Liste <b>cada dívida</b>",
+    "Anote <b>o juro</b> de cada uma",
+    "Some <b>tudo</b> numa folha"
+   ],
+   "say": "Conte suas ovelhas. Liste cada dívida. Anote o juro de cada uma. Some tudo numa folha."
+  },
+  {
+   "type": "cta",
+   "title": "Saiba quanto você deve <em>de verdade</em>.",
+   "say": "Saiba quanto você deve de verdade."
+  }
+ ],
+ "captions": {
+  "tt": "A Bíblia manda conhecer o estado das suas ovelhas (Provérbios 27:23). Cartão, empréstimo e crediário somam R$ 4.800 (cenário de exemplo) 👇 Comenta se você sabe quanto deve 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Planilha de dívidas: o conselho de Provérbios 27 para saber quanto você deve",
+  "pin": "Provérbios 27 manda conhecer o estado do seu rebanho, porque a riqueza não dura para sempre. Num cenário de exemplo, cartão, empréstimo e crediário somam R$ 4.800. Descubra no site quanto você deve de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto você deve <em>de verdade?</em>",
+  "value": "R$ 4.800",
+  "label": "num cenário de exemplo",
+  "cta": "Some as suas dívidas →"
+ }
+}

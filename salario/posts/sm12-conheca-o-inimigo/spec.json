@@ -1,0 +1,70 @@
+{
+ "id": "sm12-conheca-o-inimigo",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Débito automático",
+    "msg": "Parcelas: <b>R$ 690,00</b>",
+    "when": "agora"
+   },
+   "value": "30%",
+   "value_label": "do salário em parcelas",
+   "tone": "warm",
+   "title": "Conheça o inimigo <em>e a si mesmo</em>",
+   "say": "Sun Tzu vencia batalhas com uma regra. Serve para as suas dívidas."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Sun Tzu ensinou",
+   "value": "Cem batalhas",
+   "tone": "warm",
+   "text": "Em resumo: conheça o inimigo e conheça a si mesmo, e não terá medo de cem batalhas.",
+   "source": "Sun Tzu, A Arte da Guerra, cap. 3 (séc. V a.C.)",
+   "say": "Conheça o inimigo e a si mesmo. Não tema cem batalhas."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "label": "O tamanho do inimigo",
+   "value": "30%",
+   "tone": "red",
+   "text": "R$ 690 de parcelas num salário de R$ 2.300. <b>Cenário de exemplo.</b>",
+   "say": "Seiscentos e noventa de parcelas em dois mil e trezentos. Trinta por cento do salário.",
+   "show": "R$ 690 de parcelas em R$ 2.300. 30% do salário."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Antes da batalha",
+   "items": [
+    "Liste <b>o inimigo</b>: cada dívida",
+    "Liste <b>suas forças</b>: renda e sobra",
+    "Monte <b>o plano</b> de ataque"
+   ],
+   "say": "Antes da batalha. Liste o inimigo, cada dívida. Liste suas forças, renda e sobra. Monte o plano de ataque."
+  },
+  {
+   "type": "cta",
+   "title": "Conheça seus números <em>antes de lutar</em>.",
+   "say": "Conheça seus números antes de lutar."
+  }
+ ],
+ "captions": {
+  "tt": "Sun Tzu: conheça o inimigo e a si mesmo e não tema cem batalhas (A Arte da Guerra, cap. 3). R$ 690 de parcelas em R$ 2.300 = 30% do salário (cenário de exemplo) 👇 Comenta quanto do seu salário vai em parcelas 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Controle de dívidas: a regra de Sun Tzu de conhecer o inimigo",
+  "pin": "Sun Tzu ensinou que quem conhece o inimigo e a si mesmo não teme cem batalhas. Com dívidas, R$ 690 de parcelas num salário de R$ 2.300 são 30% da renda, num cenário de exemplo. Descubra no site o tamanho do seu inimigo, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto do seu salário <em>é do inimigo?</em>",
+  "value": "30%",
+  "label": "em parcelas, num cenário de exemplo",
+  "cta": "Descubra o seu →"
+ }
+}

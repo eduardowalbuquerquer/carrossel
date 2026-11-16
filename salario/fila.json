@@ -583,6 +583,135 @@
           "pin": "https://www.pinterest.com/pin/264727284344604813"
         }
       }
+    },
+    {
+      "dia": 23,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm01-saco-furado",
+        "nota": "Série Sabedoria milenar (1/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 17/11. Publicar --so tt,pin. Amostra já renderizada (22,7 s).",
+        "renderizado": "v3"
+      }
+    },
+    {
+      "dia": 24,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm02-jose-13",
+        "nota": "Série Sabedoria milenar (2/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 18/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 25,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm15-quem-e-rico",
+        "nota": "Série Sabedoria milenar (3/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 19/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 26,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm07-ovelhas",
+        "nota": "Série Sabedoria milenar (4/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 20/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 27,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm06-servo",
+        "nota": "Série Sabedoria milenar (5/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 21/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 28,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm08-torre",
+        "nota": "Série Sabedoria milenar (6/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 22/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 29,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm09-pouco-a-pouco",
+        "nota": "Série Sabedoria milenar (7/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 23/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 30,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm10-fundo-barril",
+        "nota": "Série Sabedoria milenar (8/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 24/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 31,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm05-abaixo-do-que-tem",
+        "nota": "Série Sabedoria milenar (9/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 25/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 32,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm04-tres-tercos",
+        "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 33,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm11-guerra-longa",
+        "nota": "Série Sabedoria milenar (11/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 27/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 34,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm12-conheca-o-inimigo",
+        "nota": "Série Sabedoria milenar (12/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 28/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 35,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm13-fiador",
+        "nota": "Série Sabedoria milenar (13/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 29/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 36,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm14-azeite",
+        "nota": "Série Sabedoria milenar (14/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 30/11. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 37,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm16-dinheiro-facil",
+        "nota": "Série Sabedoria milenar (15/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 01/12. Publicar --so tt,pin."
+      }
+    },
+    {
+      "dia": 38,
+      "formato": "v3",
+      "v3": {
+        "pasta": "sm03-formiga",
+        "nota": "Série Sabedoria milenar (16/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 02/12. Publicar --so tt,pin."
+      }
     }
   ]
 }

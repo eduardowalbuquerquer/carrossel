@@ -1,0 +1,70 @@
+{
+ "id": "sm03-formiga",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-02-mercado-caixa.jpg",
+   "notif": {
+    "app": "Escola",
+    "title": "Lista de material",
+    "msg": "Total: <b>R$ 400,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 700",
+   "value_label": "as contas de janeiro",
+   "tone": "warm",
+   "title": "Faça como <em>a formiga</em>",
+   "say": "Janeiro chega com contas. A Bíblia manda olhar a formiga."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-15-feira-precos.jpg",
+   "label": "Provérbios manda",
+   "value": "Vá à formiga",
+   "tone": "warm",
+   "text": "Em resumo: olhe a formiga. No verão ela prepara o seu pão e na colheita junta o seu alimento.",
+   "source": "Provérbios 6:6-8",
+   "say": "A formiga prepara no verão o pão do inverno."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "label": "Janeiro em 4 semanas",
+   "value": "R$ 175",
+   "tone": "red",
+   "text": "Material escolar R$ 400 + IPTU R$ 300 = R$ 700 ÷ 4 semanas de dezembro. <b>Cenário de exemplo.</b>",
+   "say": "Setecentos de contas de janeiro. Cento e setenta e cinco por semana em dezembro.",
+   "show": "R$ 700 de contas de janeiro. R$ 175 por semana em dezembro."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-20-familia-mesa.jpg",
+   "title": "Prepare janeiro",
+   "items": [
+    "Liste as <b>contas de janeiro</b>",
+    "Divida <b>por semana</b>",
+    "Separe <b>já</b>"
+   ],
+   "say": "Prepare janeiro. Liste as contas de janeiro. Divida por semana. Separe já."
+  },
+  {
+   "type": "cta",
+   "title": "Janeiro chega. <em>Esteja pronto.</em>",
+   "say": "Janeiro chega. Esteja pronto."
+  }
+ ],
+ "captions": {
+  "tt": "Provérbios 6 manda olhar a formiga, que prepara no verão o pão do inverno. Material escolar + IPTU = R$ 700 em janeiro, ou R$ 175 por semana em dezembro (cenário de exemplo) 👇 Comenta qual conta de janeiro mais pesa 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Contas de janeiro: o plano da formiga de Provérbios 6",
+  "pin": "Provérbios 6 manda observar a formiga, que prepara no verão o alimento do inverno. Material escolar e IPTU somam R$ 700 em janeiro, ou R$ 175 por semana separados em dezembro, num cenário de exemplo. Descubra no site como preparar o seu janeiro, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto separar por semana <em>para janeiro?</em>",
+  "value": "R$ 175",
+  "label": "num cenário de exemplo",
+  "cta": "Monte o seu plano →"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "sm09-pouco-a-pouco",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Pix enviado",
+    "msg": "Valor: <b>R$ 5,00</b>",
+    "when": "agora"
+   },
+   "value": "2.700 anos",
+   "value_label": "Hesíodo, poeta grego",
+   "tone": "warm",
+   "title": "O segredo dos <em>R$ 5 por dia</em>",
+   "say": "Há dois mil e setecentos anos, um poeta grego ensinou isso.",
+   "show": "Há 2.700 anos, um poeta grego ensinou isso."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Hesíodo escreveu",
+   "value": "Pouco a pouco",
+   "tone": "warm",
+   "text": "“Se juntares pouco ao pouco, e fizeres isso muitas vezes, logo o pouco ficará grande.”",
+   "source": "Hesíodo, Os Trabalhos e os Dias, versos 361-362 (c. 700 a.C.), tradução livre",
+   "say": "Junte pouco ao pouco, muitas vezes. Logo o pouco fica grande."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "label": "Só R$ 5 por dia",
+   "value": "R$ 1.800",
+   "tone": "red",
+   "text": "R$ 5 x 30 dias = R$ 150 por mês. x 12 meses = R$ 1.800, sem rendimento.",
+   "say": "Cinco reais por dia. Cento e cinquenta por mês. Mil e oitocentos no ano.",
+   "show": "R$ 5 por dia. R$ 150 por mês. R$ 1.800 no ano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Pouco a pouco",
+   "items": [
+    "Escolha um <b>valor pequeno</b>",
+    "Separe <b>todo dia</b>",
+    "Guarde <b>longe do cartão</b>"
+   ],
+   "say": "Pouco a pouco. Escolha um valor pequeno. Separe todo dia. Guarde longe do cartão."
+  },
+  {
+   "type": "cta",
+   "title": "O pouco, todo dia, <em>fica grande</em>.",
+   "say": "O pouco, todo dia, fica grande."
+  }
+ ],
+ "captions": {
+  "tt": "Há 2.700 anos Hesíodo escreveu: junte pouco ao pouco, muitas vezes, e o pouco fica grande. R$ 5 por dia = R$ 1.800 no ano 👇 Comenta quanto você consegue separar por dia 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Como economizar dinheiro: a regra de 2.700 anos dos R$ 5 por dia",
+  "pin": "O poeta grego Hesíodo ensinou há 2.700 anos que o pouco juntado muitas vezes fica grande. R$ 5 por dia viram R$ 150 por mês e R$ 1.800 em um ano, sem contar rendimento. Descubra no site como montar a sua meta, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto viram <em>R$ 5 por dia?</em>",
+  "value": "R$ 1.800",
+  "label": "em 1 ano, sem rendimento",
+  "cta": "Faça a sua meta →"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "id": "sm16-dinheiro-facil",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Pix recebido",
+    "msg": "Valor: <b>R$ 50,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 600",
+   "value_label": "por mês em apostas",
+   "tone": "warm",
+   "title": "O dinheiro fácil <em>que vai embora</em>",
+   "say": "Ganhou cinquenta na aposta? Provérbios explica por que ele some."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "label": "Provérbios avisa",
+   "value": "Ganho fácil",
+   "tone": "warm",
+   "text": "Em resumo: o dinheiro que vem fácil diminui; quem junta com trabalho vê crescer.",
+   "source": "Provérbios 13:11",
+   "say": "O dinheiro fácil diminui. O que é juntado com trabalho cresce."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "R$ 20 por dia em aposta",
+   "value": "R$ 600",
+   "tone": "red",
+   "text": "R$ 20 x 30 dias. <b>Cenário de exemplo.</b>",
+   "say": "Vinte reais por dia em aposta. Seiscentos no mês.",
+   "show": "R$ 20 por dia em aposta. R$ 600 no mês."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Troque a aposta",
+   "items": [
+    "Anote <b>o que entra e sai</b>",
+    "Coloque <b>limite zero</b>",
+    "Mande os R$ 20 <b>para a meta</b>"
+   ],
+   "say": "Troque a aposta. Anote o que entra e sai. Coloque limite zero. Mande os vinte reais para a meta."
+  },
+  {
+   "type": "cta",
+   "title": "Dinheiro juntado <em>fica</em>.",
+   "say": "Dinheiro juntado fica."
+  }
+ ],
+ "captions": {
+  "tt": "Provérbios 13:11: o dinheiro fácil diminui, o juntado com trabalho cresce. R$ 20 por dia em aposta = R$ 600 no mês (cenário de exemplo) 👇 Comenta o que você faria com R$ 600 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Apostas e dinheiro fácil: o que Provérbios 13:11 ensina",
+  "pin": "Provérbios 13:11 ensina que o dinheiro que vem fácil diminui e o que é juntado com trabalho cresce. R$ 20 por dia em aposta somam R$ 600 no mês, num cenário de exemplo. Descubra no site quanto a aposta leva do seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto a aposta <em>leva por mês?</em>",
+  "value": "R$ 600",
+  "label": "com R$ 20 por dia",
+  "cta": "Faça a sua conta →"
+ }
+}

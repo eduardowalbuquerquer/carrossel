@@ -1,0 +1,70 @@
+{
+ "id": "sm14-azeite",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "notif": {
+    "app": "Conta de luz",
+    "title": "Vencimento hoje",
+    "msg": "Valor: <b>R$ 280,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.000",
+   "value_label": "a primeira reserva",
+   "tone": "warm",
+   "title": "O azeite <em>na casa do sábio</em>",
+   "say": "Imprevisto chegou e não tem reserva? Provérbios fala disso."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-20-familia-mesa.jpg",
+   "label": "Provérbios compara",
+   "value": "Azeite guardado",
+   "tone": "warm",
+   "text": "Em resumo: na casa do sábio há tesouro e azeite guardados; o insensato gasta tudo.",
+   "source": "Provérbios 21:20",
+   "say": "Na casa do sábio há azeite guardado. O insensato gasta tudo."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Reserva de 3 meses",
+   "value": "R$ 5.550",
+   "tone": "red",
+   "text": "Contas fixas de R$ 1.850 x 3 meses. Primeira meta: R$ 1.000. <b>Cenário de exemplo.</b>",
+   "say": "Três meses de contas fixas dão cinco mil quinhentos e cinquenta. Comece por mil.",
+   "show": "3 meses de contas fixas dão R$ 5.550. Comece por R$ 1.000."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Guarde o seu azeite",
+   "items": [
+    "Meta pequena: <b>R$ 1.000</b>",
+    "Conta <b>separada</b>",
+    "Só para <b>emergência</b>"
+   ],
+   "say": "Guarde o seu azeite. Meta pequena de mil reais. Conta separada. Só para emergência."
+  },
+  {
+   "type": "cta",
+   "title": "Tenha azeite <em>antes da noite</em>.",
+   "say": "Tenha azeite antes da noite."
+  }
+ ],
+ "captions": {
+  "tt": "Provérbios 21:20: na casa do sábio há azeite guardado, o insensato gasta tudo. 3 meses de contas fixas de R$ 1.850 = R$ 5.550; comece por R$ 1.000 (cenário de exemplo) 👇 Comenta quanto você tem guardado hoje 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Reserva de emergência: o conselho de Provérbios 21:20",
+  "pin": "Provérbios 21:20 diz que na casa do sábio há tesouro e azeite guardados, enquanto o insensato gasta tudo. Uma reserva de 3 meses de contas fixas de R$ 1.850 dá R$ 5.550, e a primeira meta pode ser R$ 1.000, num cenário de exemplo. Descubra no site quanto é a sua reserva, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto é a sua <em>reserva de emergência?</em>",
+  "value": "R$ 5.550",
+  "label": "3 meses de contas, num cenário de exemplo",
+  "cta": "Calcule a sua →"
+ }
+}

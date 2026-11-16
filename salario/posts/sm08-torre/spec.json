@@ -1,0 +1,70 @@
+{
+ "id": "sm08-torre",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Parcela 1 de 14",
+    "msg": "Valor: <b>R$ 210,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 2.940",
+   "value_label": "o preço real da compra",
+   "tone": "warm",
+   "title": "Jesus mandou <em>fazer essa conta</em>",
+   "say": "Antes de parcelar, faça a conta que Jesus ensinou."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-15-feira-precos.jpg",
+   "label": "Jesus ensinou",
+   "value": "A torre",
+   "tone": "warm",
+   "text": "Em resumo: quem vai construir uma torre senta primeiro e calcula as despesas, para ver se consegue terminar.",
+   "source": "Lucas 14:28-30",
+   "say": "Quem vai construir uma torre senta primeiro e calcula as despesas."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "A parcela que parece pequena",
+   "value": "R$ 2.940",
+   "tone": "red",
+   "text": "R$ 210 x 14 parcelas. <b>Cenário de exemplo.</b>",
+   "say": "Duzentos e dez vezes catorze. Dois mil novecentos e quarenta reais.",
+   "show": "R$ 210 x 14. R$ 2.940."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Antes de parcelar",
+   "items": [
+    "Some o <b>total</b>",
+    "Veja se cabe <b>na sobra</b>",
+    "Só então <b>decida</b>"
+   ],
+   "say": "Antes de parcelar. Some o total. Veja se cabe na sobra. Só então decida."
+  },
+  {
+   "type": "cta",
+   "title": "Calcule a torre <em>antes de construir</em>.",
+   "say": "Calcule a torre antes de construir."
+  }
+ ],
+ "captions": {
+  "tt": "Jesus mandou calcular a torre antes de construir (Lucas 14:28). Parcela de R$ 210 em 14 vezes = R$ 2.940 (cenário de exemplo) 👇 Comenta a parcela que mais pesa hoje 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Compra parcelada: a conta da torre que Jesus mandou fazer",
+  "pin": "Em Lucas 14, quem vai construir uma torre senta primeiro e calcula as despesas. Uma parcela de R$ 210 em 14 vezes custa R$ 2.940, num cenário de exemplo. Descubra no site se a sua compra cabe no mês antes de parcelar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto custa <em>a parcela de R$ 210?</em>",
+  "value": "R$ 2.940",
+  "label": "em 14 vezes",
+  "cta": "Veja a conta →"
+ }
+}

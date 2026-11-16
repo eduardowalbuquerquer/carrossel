@@ -1,0 +1,71 @@
+{
+ "id": "sm04-tres-tercos",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Saldo disponível",
+    "msg": "Valor: <b>R$ 300,00</b>",
+    "when": "agora"
+   },
+   "value": "3 partes",
+   "value_label": "Talmude, Bava Metzia 42a",
+   "tone": "warm",
+   "title": "A regra judaica <em>dos 3 terços</em>",
+   "say": "Há mil e quinhentos anos, um rabino dividia o dinheiro em três.",
+   "show": "Há 1.500 anos, um rabino dividia o dinheiro em três."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Rabi Yitzhak ensinou",
+   "value": "Um terço à mão",
+   "tone": "warm",
+   "text": "Em resumo: divida o dinheiro em 3. Um terço em terra, um terço em negócio e <b>um terço à mão</b>.",
+   "source": "Talmude Babilônico, Bava Metzia 42a",
+   "say": "Um terço em terra. Um terço em negócio. Um terço à mão."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "label": "Os 3 terços da sobra",
+   "value": "R$ 100",
+   "tone": "red",
+   "text": "R$ 300 de sobra: R$ 100 de reserva à mão + R$ 100 contra a dívida + R$ 100 para a meta. <b>Cenário de exemplo.</b>",
+   "say": "Sobraram trezentos. Cem para cada parte.",
+   "show": "Sobraram R$ 300. R$ 100 para cada parte."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Divida em 3",
+   "items": [
+    "Uma parte <b>à mão</b>, para emergência",
+    "Uma parte <b>contra a dívida</b>",
+    "Uma parte <b>para a meta</b>"
+   ],
+   "say": "Divida em três. Uma parte à mão, para emergência. Uma parte contra a dívida. Uma parte para a meta."
+  },
+  {
+   "type": "cta",
+   "title": "Nunca tudo <em>num lugar só</em>.",
+   "say": "Nunca tudo num lugar só."
+  }
+ ],
+ "captions": {
+  "tt": "Há 1.500 anos o Talmude ensinou a dividir o dinheiro em 3, com um terço sempre à mão (Bava Metzia 42a). R$ 300 de sobra viram 3 partes de R$ 100 (cenário de exemplo) 👇 Comenta como você dividiria 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Como dividir o salário: a regra dos 3 terços do Talmude",
+  "pin": "O Talmude (Bava Metzia 42a) ensina a dividir o dinheiro em três partes, com uma sempre à mão. Hoje, R$ 300 de sobra podem virar R$ 100 de reserva, R$ 100 contra a dívida e R$ 100 para a meta, num cenário de exemplo. Descubra no site como montar a sua divisão, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Como dividir <em>o que sobra?</em>",
+  "value": "R$ 300",
+  "label": "em 3 partes de R$ 100",
+  "cta": "Monte a sua divisão →"
+ }
+}

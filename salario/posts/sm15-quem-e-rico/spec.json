@@ -1,0 +1,71 @@
+{
+ "id": "sm15-quem-e-rico",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Loja online",
+    "title": "Oferta relâmpago",
+    "msg": "Só hoje: <b>-70%</b>",
+    "when": "agora"
+   },
+   "value": "1.800 anos",
+   "value_label": "Pirkei Avot 4:1, sábios judeus",
+   "tone": "warm",
+   "title": "Quem é rico <em>de verdade?</em>",
+   "say": "Há mil e oitocentos anos, um sábio respondeu quem é rico.",
+   "show": "Há 1.800 anos, um sábio respondeu quem é rico."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Ben Zoma respondeu",
+   "value": "Quem se alegra",
+   "tone": "warm",
+   "text": "“Quem é rico? Aquele que se alegra com a sua porção.”",
+   "source": "Pirkei Avot 4:1 (Mishná, c. 200 d.C.)",
+   "say": "Rico é quem se alegra com a sua porção."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-02-mercado-caixa.jpg",
+   "label": "3 ofertas fora da lista",
+   "value": "R$ 437",
+   "tone": "red",
+   "text": "R$ 89 + R$ 149 + R$ 199. <b>Cenário de exemplo.</b>",
+   "say": "Três ofertas que nem estavam na lista. Quatrocentos e trinta e sete reais.",
+   "show": "Três ofertas que nem estavam na lista. R$ 437."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Na Black Friday",
+   "items": [
+    "Faça a <b>lista antes</b>",
+    "Espere <b>24 horas</b>",
+    "Compre só com <b>o que sobra</b>"
+   ],
+   "say": "Na Black Friday. Faça a lista antes. Espere vinte e quatro horas. Compre só com o que sobra."
+  },
+  {
+   "type": "cta",
+   "title": "Desconto bom é <em>o que você não gasta</em>.",
+   "say": "Desconto bom é o que você não gasta."
+  }
+ ],
+ "captions": {
+  "tt": "Há 1.800 anos um sábio respondeu: rico é quem se alegra com a sua porção (Pirkei Avot 4:1). Na Black Friday, 3 ofertas fora da lista somam R$ 437 (cenário de exemplo) 👇 Comenta o que está na sua lista 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Black Friday: o que um sábio de 1.800 anos diria das ofertas",
+  "pin": "Há 1.800 anos, o sábio Ben Zoma ensinou que rico é quem se alegra com a sua porção. Na Black Friday, três ofertas fora da lista somam R$ 437 num cenário de exemplo. Descubra no site como comprar só o que cabe no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quem é rico <em>de verdade?</em>",
+  "value": "R$ 437",
+  "label": "em ofertas fora da lista",
+  "cta": "Veja a resposta →"
+ }
+}

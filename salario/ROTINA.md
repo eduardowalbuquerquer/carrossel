@@ -8,6 +8,12 @@ Todo dia, sem intervenção humana, **4 vídeos novos no formato v3** (aprovado 
 - **v4 às 21h30** (TikTok + Pinterest)
 Remix (trocar só o gancho) acabou: os 4 são vídeos novos. **Os textos das tarefas agendadas são antigos** (falam em remix, "v1 do mesmo dia com outro gancho", `--so tt` ou rascunho): onde divergirem, **vale esta ROTINA** (vídeo novo v3, publicar `--so tt,pin`; o v4 não depende do v1 ter saído). Cota de voz: o motor faz **1 pedido de voz por vídeo e por rede** (v1 = 3 pedidos, cada um dos outros = 1). Total ~6 por dia, abaixo do limite de ~10 por modelo.
 
+## Série "Sabedoria milenar" (slot v3 das 16h, de 17/11 a 02/12/2026)
+Aprovada pelo Eduardo em 16/11/2026 ("Aprovo, 1 por dia às 16h"). Os dias 23 a 38 de `fila.json` já têm o **v3** apontando para `posts/smNN-*/spec.json` (16 roteiros prontos; lista e fontes no doc https://claude.ai/artifact/MLmAXGRDF48NBySzFN33pF). Nesses dias, a rotina das 16h só renderiza (`--so tt`) e publica (`--so tt,pin`).
+- **Não altere a citação, a referência (`source`) nem o "Em resumo"** da cena `fact`: foram conferidas na fonte. Só encurte outras falas se passar de 22 s.
+- Os outros slots (v1, v2, v4) desses dias seguem a regra de fila vazia: grave o item novo **dentro do mesmo dia** (`dia` 23 = 17/11, 24 = 18/11 ... 38 = 02/12), sem criar outro item com o mesmo número.
+- Fora da série, não use citação antiga nova sem fonte conferida (veja a lista de frases falsas no doc).
+
 ## Carrossel em quadrinhos (desde 16/11/2026, 1 por dia às 17h40)
 Tarefa agendada própria ("carrossel da tarde"), com o conector Magnific. Siga `quadrinhos.md` e a fila `fila_carrossel.json`.
 Publica com `python3 publish.py ../posts/<pasta> --so ig,tt` (carrossel no Instagram, fotos no TikTok pelo Buffer). Não mexe nos 4 vídeos.

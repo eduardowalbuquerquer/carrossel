@@ -1,0 +1,70 @@
+{
+ "id": "sm13-fiador",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-14-casal-discussao.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra aprovada",
+    "msg": "12x de <b>R$ 100,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.200",
+   "value_label": "no seu nome, não no dele",
+   "tone": "warm",
+   "title": "Emprestou o cartão? <em>A Bíblia avisa</em>",
+   "say": "Emprestou o cartão para alguém? A Bíblia tem um aviso."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-18-envelope-cobranca.jpg",
+   "label": "Provérbios aconselha",
+   "value": "Livra-te",
+   "tone": "warm",
+   "text": "Em resumo: se ficaste por fiador do teu amigo, vai depressa e <b>livra-te</b> disso.",
+   "source": "Provérbios 6:1-5",
+   "say": "Se ficou de fiador do amigo, vá depressa e se livre disso."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "label": "A conta é sua",
+   "value": "R$ 1.200",
+   "tone": "red",
+   "text": "12 parcelas de R$ 100 na sua fatura, pague ele ou não. <b>Cenário de exemplo.</b>",
+   "say": "Doze parcelas de cem reais. Na sua fatura, pague ele ou não.",
+   "show": "12 parcelas de R$ 100. Na sua fatura, pague ele ou não."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Ajude sem se afundar",
+   "items": [
+    "Não <b>empreste o cartão</b>",
+    "Não seja <b>fiador</b>",
+    "Ajude só com <b>o que pode perder</b>"
+   ],
+   "say": "Ajude sem se afundar. Não empreste o cartão. Não seja fiador. Ajude só com o que pode perder."
+  },
+  {
+   "type": "cta",
+   "title": "Seu nome vale <em>mais que um favor</em>.",
+   "say": "Seu nome vale mais que um favor."
+  }
+ ],
+ "captions": {
+  "tt": "Provérbios 6 manda se livrar depressa da fiança. Cartão emprestado: R$ 1.200 em 12x de R$ 100 na SUA fatura (cenário de exemplo) 👇 Comenta se já te pediram o cartão emprestado 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #dinheiro",
+  "pin_title": "Nome sujo por emprestar o cartão: o aviso de Provérbios 6",
+  "pin": "Provérbios 6 aconselha quem ficou de fiador a se livrar disso depressa. Emprestar o cartão funciona igual: R$ 1.200 em 12 parcelas de R$ 100 caem na sua fatura, pague o outro ou não, num cenário de exemplo. Descubra no site como ajudar sem se afundar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Emprestar o cartão <em>custa quanto?</em>",
+  "value": "R$ 1.200",
+  "label": "em 12x no seu nome",
+  "cta": "Veja o aviso →"
+ }
+}
