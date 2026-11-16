@@ -1005,5 +1005,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122121556983506150",
       "fb_reel": "https://www.facebook.com/reel/1660581645470380"
     }
+  },
+  {
+    "data": "2026-11-15",
+    "serie": "reels",
+    "titulo": "Deus não precisa da sua performance",
+    "tema": "graça na fraqueza, cansaço de domingo à noite",
+    "versiculos": [
+      "2 Coríntios 12:9"
+    ],
+    "foto": "pixabay:4207514",
+    "formato": "Reels 6 cenas com foto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DfyH0yGiXGA/",
+      "fb_reel": "https://www.facebook.com/reel/1164829536118259",
+      "tiktok": "falhou (Buffer: erro sem mensagem)"
+    }
   }
 ]
