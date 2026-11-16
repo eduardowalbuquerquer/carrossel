@@ -1021,5 +1021,24 @@
       "fb_reel": "https://www.facebook.com/reel/1164829536118259",
       "tiktok": "falhou (Buffer: erro sem mensagem)"
     }
+  },
+  {
+    "data": "2026-11-16",
+    "serie": "arquetipo",
+    "titulo": "Jônatas: o amigo que fortalece",
+    "tema": "amizade entre homens, lealdade, fortalecer a fé do irmão",
+    "versiculos": [
+      "1 Samuel 18:1",
+      "1 Samuel 23:16",
+      "Provérbios 18:24"
+    ],
+    "foto": "pixabay:1850646",
+    "formato": "7 slides + teaser com foto",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/DfzS-WXFDn7/",
+      "ig_reel": "https://www.instagram.com/reel/DfzTAMiDp-e/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122121913125506150",
+      "fb_reel": "https://www.facebook.com/reel/1622531932423076"
+    }
   }
 ]
