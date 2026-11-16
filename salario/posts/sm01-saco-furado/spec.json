@@ -1,0 +1,74 @@
+{
+ "id": "sm01-saco-furado",
+ "formato": "v3",
+ "serie": "sabedoria-milenar",
+ "pilar": "sabedoria-milenar",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-08-salario-caiu.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Salário recebido",
+    "msg": "Valor: <b>R$ 2.300,00</b>",
+    "when": "agora"
+   },
+   "value": "2.500 anos",
+   "value_label": "Bíblia, livro de Ageu",
+   "tone": "warm",
+   "title": "A Bíblia já falava <em>do seu salário</em>",
+   "say": "Há dois mil e quinhentos anos, a Bíblia já falava do seu salário.",
+   "show": "Há 2.500 anos, a Bíblia já falava do seu salário."
+  },
+  {
+   "type": "fact",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "O profeta Ageu escreveu",
+   "value": "Saco furado",
+   "tone": "warm",
+   "text": "“O que recebe salário, recebe-o para o meter num <b>saco furado</b>.”",
+   "source": "Ageu 1:6, Almeida Atualizada (cerca de 520 a.C.)",
+   "say": "Quem recebe salário, recebe para meter num saco furado."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Os furos de um mês comum",
+   "value": "R$ 450",
+   "tone": "red",
+   "text": "Assinaturas R$ 120 + delivery R$ 180 + tarifas e juros R$ 150. <b>Cenário de exemplo.</b>",
+   "say": "Assinatura, delivery e juros. Quatrocentos e cinquenta reais pelo furo.",
+   "show": "Assinatura, delivery e juros. R$ 450 pelo furo."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Tape os furos",
+   "items": [
+    "Anote <b>cada gasto</b> por 30 dias",
+    "Corte o que você <b>nem usa</b>",
+    "Guarde <b>no dia do salário</b>"
+   ],
+   "say": "Tape os furos. Anote cada gasto por trinta dias. Corte o que você nem usa. Guarde no dia do salário."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os seus furos <em>antes do próximo salário</em>.",
+   "say": "Ache os seus furos antes do próximo salário."
+  }
+ ],
+ "captions": {
+  "ig": "Há 2.500 anos a Bíblia já descrevia o salário que some 👇\n\n“O que recebe salário, recebe-o para o meter num saco furado.” (Ageu 1:6)\n\nNum mês comum, assinatura, delivery, tarifas e juros levam R$ 450 pelo furo (cenário de exemplo).\n\nTape os furos:\n1. Anote cada gasto por 30 dias\n2. Corte o que você nem usa\n3. Guarde no dia do salário\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem sente que o salário evapora 👀\n\n#sabedoriamilenar #financaspessoais #organizacaofinanceira #educacaofinanceira #salario",
+  "tt": "Há 2.500 anos a Bíblia já falava do salário no saco furado (Ageu 1:6) 👇 Comenta qual é o maior furo do seu mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #sabedoriamilenar #financaspessoais #organizacaofinanceira #salario #educacaofinanceira",
+  "yt_title": "O salário no saco furado (Ageu 1:6) #shorts",
+  "yt_desc": "“O que recebe salário, recebe-o para o meter num saco furado.” Ageu 1:6, escrito por volta de 520 a.C. Num mês comum, assinatura, delivery, tarifas e juros levam R$ 450 pelo furo (cenário de exemplo). Anote cada gasto por 30 dias, corte o que você nem usa e guarde no dia do salário.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#sabedoriamilenar #financaspessoais #organizacaofinanceira",
+  "pin_title": "Organização financeira: o salário no saco furado de Ageu 1:6",
+  "pin": "Há 2.500 anos o profeta Ageu já descrevia o salário que some antes do fim do mês. Veja um cenário de exemplo com R$ 450 escapando em assinaturas, delivery e juros, e descubra no site onde estão os furos do seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O que a Bíblia diz sobre <em>o salário que some?</em>",
+  "value": "R$ 450",
+  "label": "pelo furo, num cenário de exemplo",
+  "cta": "Ache os seus furos →"
+ }
+}
