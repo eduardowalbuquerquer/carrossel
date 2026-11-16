@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-16",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Jônatas: o amigo que fortalece",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "ARQUÉTIPOS BÍBLICOS", "title": "Ele era herdeiro do trono. E <em style=\"color:#C8892C\">ajudou outro a reinar</em>.", "body": "Jônatas: o amigo que fortalece.", "hint": "Você é esse amigo para alguém? Veja os sinais →"},
+    {"layout": "text", "theme": "dark", "tag": "O PADRÃO", "title": "O filho do rei fez aliança com o pastor.", "body": "Saul queria matar Davi. Jônatas, filho de Saul, escolheu ficar ao lado do amigo, mesmo sabendo que Davi reinaria no lugar dele (1 Samuel 18 a 23)."},
+    {"layout": "list", "theme": "light", "tag": "SINAIS DE JÔNATAS HOJE", "title": "Você reconhece algum?", "items": [
+      {"num": "01", "title": "Celebra a vitória do outro", "desc": "Sem inveja, mesmo quando o outro passa à frente."},
+      {"num": "02", "title": "Aparece na crise", "desc": "Vai até o amigo no deserto, não só na festa."},
+      {"num": "03", "title": "Aponta para Deus", "desc": "Não resolve tudo. Lembra quem resolve."},
+      {"num": "04", "title": "Abre mão do próprio trono", "desc": "Prefere a vontade de Deus ao próprio lugar."}
+    ]},
+    {"layout": "text", "theme": "dark", "tag": "A ALIANÇA", "title": "Não foi interesse. Foi <em style=\"color:#E3B566\">alma ligada</em>:", "quote": {"text": "…a alma de Jônatas se ligou com a de Davi; e Jônatas o amou como à sua própria alma.", "ref": "1 Samuel 18:1 · ARA"}, "body": "Amizade entre homens não é fraqueza. É aliança."},
+    {"layout": "text", "theme": "light", "tag": "A RAIZ", "title": "Quando Davi fugia pelo deserto, Jônatas foi até ele:", "quote": {"text": "…e lhe fortaleceu a confiança em Deus.", "ref": "1 Samuel 23:16 · ARA"}, "body": "Ele não deu só conselho. Deu direção: de volta para Deus."},
+    {"layout": "text", "theme": "dark", "tag": "O CAMINHO", "title": "Todo homem precisa de um Jônatas. E <em style=\"color:#E3B566\">precisa ser um</em>.", "quote": {"text": "…há amigo mais chegado do que um irmão.", "ref": "Provérbios 18:24 · ARA"}, "body": "Cristo é esse amigo perfeito. Hoje, mande uma mensagem a um irmão que está no deserto e fortaleça a fé dele."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual sinal de Jônatas falta em você? Comente o número."}
+  ],
+  "caption": "Ele era herdeiro do trono. E ajudou outro a reinar.\n\nJônatas foi até Davi no deserto \"e lhe fortaleceu a confiança em Deus\" (1Sm 23:16).\n\nQual dos 4 sinais falta em você? Comente o número 👇\nEnvie para um irmão que é seu Jônatas.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #amizade #forjadaalma #biblia #jonatas",
+  "caption_facebook": "Jônatas era o filho do rei. Pelo caminho natural, o trono seria dele. Mas quando viu que Deus tinha escolhido Davi, ele não competiu. Fez aliança: \"a alma de Jônatas se ligou com a de Davi; e Jônatas o amou como à sua própria alma\" (1 Samuel 18:1).\n\nAnos depois, com Saul caçando Davi pelo deserto, Jônatas foi até o amigo \"e lhe fortaleceu a confiança em Deus\" (1 Samuel 23:16). Não levou só companhia. Levou direção.\n\nTodo homem precisa de um Jônatas, e precisa ser um. Tem algum irmão no deserto hoje? Mande uma mensagem para ele agora.\n\n#homemcristao #forjadaalma #amizade",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Era herdeiro do trono. E <em>ajudou outro a reinar</em>."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "Foi até o amigo no deserto e <em>fortaleceu a fé dele</em>."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Era herdeiro do trono e ajudou outro a reinar. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Era herdeiro do trono e ajudou outro a reinar. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
