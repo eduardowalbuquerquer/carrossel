@@ -1040,5 +1040,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122121913125506150",
       "fb_reel": "https://www.facebook.com/reel/1622531932423076"
     }
+  },
+  {
+    "data": "2026-11-16",
+    "serie": "reels",
+    "titulo": "Antes de abrir a porta de casa",
+    "tema": "ira em casa, chegar do trabalho em paz",
+    "versiculos": [
+      "Provérbios 15:1"
+    ],
+    "foto": "pixabay:499986",
+    "formato": "Reels 6 cenas com foto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/Df0XowoAYV1/",
+      "fb_reel": "https://www.facebook.com/reel/1818084646062759",
+      "tiktok": "https://tiktok.com/@forjadaalma8/video/7708891588168043828"
+    }
   }
 ]
