@@ -28,7 +28,7 @@ Nunca sexualizar; roupa comum; corpo comum. Outros personagens (vendedor, filho,
 - `spec.json` no formato de `posts/q01-parcelas-734/spec.json` (`tipo: carrossel`, `redes: ["ig","tt"]`, `slides`, `cta_titulo`, `captions.ig`, `captions.tt`, `conta`).
 - Balões: o topo (y 40 a ~330) é a área livre. Esquerda `x 30, w ~520`; direita `x ~570, w ~470`; o 2º balão um pouco mais baixo (y +100 a +200) para não encostar no 1º. `t` (0-100) = onde fica a ponta, apontando para a cabeça de quem fala. Use `h` (altura mínima) para cobrir algo no fundo.
 - `python3 render_carrossel.py ../posts/<pasta>` → `c01.jpg`…`c10.jpg` + `c10-tt.jpg`. **Abra uma prévia e confira**: balão cobrindo rosto, ponta apontando para a pessoa errada, texto cortado, conta da tabela. Ajuste e renderize de novo.
-- Publicar: `python3 publish.py ../posts/<pasta> --so ig,tt` (Instagram carrossel; TikTok fotos pelo Buffer com rótulo de IA ligado). Idempotente (`resultado.json`).
+- Publicar: `python3 publish.py ../posts/<pasta> --so ig,tt` (Instagram carrossel; TikTok fotos pelo Buffer. O TikTok não aceita o rótulo de IA da API em post de fotos, por isso o selo fica em cada quadro). Idempotente (`resultado.json`).
 
 ## Legendas
 - `ig`: 1ª linha = gancho com o número; 2-3 parágrafos curtos; termina com uma pergunta + "💬 Comenta PLANILHA que eu te mando a planilha grátis no direct." + 5 hashtags.

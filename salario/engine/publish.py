@@ -236,11 +236,11 @@ BUFFER_CREATE = """mutation($i: CreatePostInput!) { createPost(input: $i) {
 
 def publish_tt_buffer(post_dir, spec, draft=False):
     """Manda o vídeo ao Buffer, que publica no TikTok na hora (modo automático, conta pessoal)."""
-    if spec.get("tipo") == "carrossel":  # carrossel de fotos no TikTok (imagens geradas por IA: rótulo ligado)
+    if spec.get("tipo") == "carrossel":  # carrossel de fotos no TikTok
         files = spec["arquivos"]["tt"]
         urls = host(post_dir, files)
         assets = [{"image": {"url": urls[f]}} for f in files]
-        ia = True
+        ia = False  # o TikTok não aceita o rótulo de IA em post de fotos (erro do Buffer, 16/11/2026); o selo "Imagem gerada por IA" vai em cada quadro
     else:
         urls = host(post_dir, ["video_tt.mp4"])
         assets = [{"video": {"url": urls["video_tt.mp4"], "metadata": {"thumbnailOffset": 600}}}]
