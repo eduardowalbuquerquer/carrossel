@@ -1,0 +1,61 @@
+{
+ "id": "v3-limite-salario",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra recusada",
+    "msg": "Limite disponível: <b>R$ 0,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 3.000",
+   "value_label": "de limite pra quem ganha R$ 2.300",
+   "tone": "red",
+   "title": "Limite não é <em>salário</em>.",
+   "say": "Três mil de limite. Dois mil e trezentos de salário. A conta não fecha.",
+   "show": "R$ 3.000 de limite. R$ 2.300 de salário. A conta não fecha."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Fatura do mês",
+   "value": "R$ 3.000",
+   "tone": "red",
+   "text": "<b>R$ 700</b> a mais que o salário inteiro. Cenário de exemplo.",
+   "say": "Usou tudo? A fatura vem de três mil. Setecentos a mais que o salário inteiro.",
+   "show": "Usou tudo? A fatura vem de R$ 3.000. R$ 700 a mais que o salário inteiro."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Anote <b>cada compra</b> no cartão",
+    "Some antes de <b>passar de novo</b>",
+    "Use só o que cabe na <b>sobra do mês</b>"
+   ],
+   "say": "Faça assim. Anote cada compra no cartão. Some antes de passar de novo. Use só o que cabe na sobra do mês."
+  },
+  {
+   "type": "cta",
+   "title": "Seu limite é o seu <em>salário</em>.",
+   "say": "Seu limite é o seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "Limite de R$ 3.000 pra quem ganha R$ 2.300? A conta não fecha 👇\n\nNo exemplo, a pessoa usa o limite todo e a fatura chega em R$ 3.000: R$ 700 a mais que o salário inteiro. O que não dá pra pagar vira rotativo, o juro mais caro do cartão.\n\nFaça assim:\n1. Anote cada compra no cartão\n2. Some antes de passar de novo\n3. Use só o que cabe na sobra do mês\n\nSeu limite de verdade é o seu salário. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem acha que limite é dinheiro 👀\n\n(Cenário de exemplo.)\n\n#cartaodecredito #organizacaofinanceira #financaspessoais #educacaofinanceira #dividas",
+  "tt": "Limite de R$ 3.000 pra quem ganha R$ 2.300: a fatura vem R$ 700 maior que o salário (cenário de exemplo) 👇 Comenta quanto é o seu limite 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #cartaodecredito #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "yt_title": "Limite do cartão não é salário #shorts",
+  "yt_desc": "Limite de R$ 3.000 pra quem ganha R$ 2.300: se usar tudo, a fatura vem R$ 700 maior que o salário inteiro (cenário de exemplo). Anote cada compra no cartão, some antes de passar de novo e use só o que cabe na sobra do mês.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #cartaodecredito #organizacaofinanceira",
+  "pin_title": "Limite do cartão de crédito: por que R$ 3.000 de limite viram dívida?",
+  "pin": "Quem ganha R$ 2.300 e usa R$ 3.000 de limite recebe uma fatura maior que o salário inteiro. Veja a conta de um cenário de exemplo e descubra quanto do seu cartão cabe de verdade no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que R$ 3.000 de limite <em>viram dívida?</em>",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
