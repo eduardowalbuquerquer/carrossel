@@ -526,6 +526,16 @@
           "pin": "https://www.pinterest.com/pin/264727284344590173"
         }
       },
+      "v2": {
+        "pasta": "amostra-v3-parcela",
+        "nota": "Fila sem v2: amostra v3 aprovada pelo Eduardo em 15/11 (parcela R$ 210 x 14 = R$ 2.940), re-renderizada com a CTA nova do TikTok. 18,9 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-15T21:55-03:00",
+        "links": {
+          "tt": "https://tiktok.com/@salrio.organizado/video/7708566469856234772",
+          "pin": "https://www.pinterest.com/pin/264727284344594507"
+        }
+      },
       "v4": {
         "pasta": "amostra-v3-casal",
         "nota": "amostra v3 aprovada pelo Eduardo em 15/11.",
