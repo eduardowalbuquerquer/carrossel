@@ -1,0 +1,60 @@
+{
+ "id": "v3-salario-18-dia",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Salário recebido",
+    "msg": "Valor: <b>R$ 2.300,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 18",
+   "value_label": "por dia até o próximo salário",
+   "tone": "red",
+   "title": "O salário caiu. <em>Quanto sobra?</em>",
+   "say": "Caíram dois mil e trezentos. Sobram dezoito reais por dia.",
+   "show": "Caíram R$ 2.300. Sobram R$ 18 por dia."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Sobra depois das contas fixas",
+   "value": "R$ 450",
+   "tone": "red",
+   "text": "Aluguel R$ 900 + luz e água R$ 180 + internet R$ 120 + fatura R$ 650. R$ 450 ÷ 25 dias. <b>Cenário de exemplo.</b>",
+   "say": "As contas fixas levam mil oitocentos e cinquenta. Sobram quatrocentos e cinquenta. Dezoito por dia.",
+   "show": "As contas fixas levam R$ 1.850. Sobram R$ 450. R$ 18 por dia."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Tire as <b>contas fixas</b> no dia do salário",
+    "Divida a sobra <b>pelos dias</b>",
+    "Anote <b>cada gasto</b>"
+   ],
+   "say": "Faça assim. Tire as contas fixas no dia do salário. Divida a sobra pelos dias. Anote cada gasto."
+  },
+  {
+   "type": "cta",
+   "title": "Saiba seu número <em>antes de gastar</em>.",
+   "say": "Saiba o seu número antes de gastar."
+  }
+ ],
+ "captions": {
+  "tt": "Caiu o salário de R$ 2.300: depois das contas fixas sobram R$ 18 por dia (cenário de exemplo) 👇 Comenta quanto sobra por dia pra você 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #salario #financaspessoais #organizacaofinanceira #orcamento #educacaofinanceira",
+  "pin_title": "Orçamento mensal: quanto sobra do salário por dia depois das contas fixas?",
+  "pin": "Um salário de R$ 2.300 parece muito no dia do pagamento, mas depois de aluguel, contas e fatura sobram R$ 450, ou R$ 18 por dia, num cenário de exemplo. Descubra no site quanto sobra do seu salário por dia, com a planilha de orçamento grátis."
+ },
+ "pin_card": {
+  "title": "Quanto sobra do seu salário <em>por dia?</em>",
+  "value": "R$ 18",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra o seu número →"
+ }
+}
