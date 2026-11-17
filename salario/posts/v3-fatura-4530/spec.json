@@ -1,0 +1,64 @@
+{
+ "id": "v3-fatura-4530",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "refeito_de": "r15-quanto-deve",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Fatura fechada",
+    "msg": "Valor: <b>R$ 680,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 4.530",
+   "value_label": "é o que você deve de verdade",
+   "tone": "red",
+   "title": "A fatura diz R$ 680. <em>Não é só isso.</em>",
+   "say": "A fatura veio seiscentos e oitenta. Mas você deve quatro mil quinhentos e trinta.",
+   "show": "A fatura veio R$ 680. Mas você deve R$ 4.530."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Parcelas que ainda faltam",
+   "value": "R$ 3.850",
+   "tone": "red",
+   "text": "Celular 8 x R$ 150 = R$ 1.200 + geladeira 10 x R$ 220 = R$ 2.200 + curso 5 x R$ 90 = R$ 450. Com a fatura de R$ 680: R$ 4.530. <b>Cenário de exemplo.</b>",
+   "say": "Faltam oito parcelas do celular, dez da geladeira e cinco do curso. São mais três mil oitocentos e cinquenta.",
+   "show": "Faltam 8 parcelas do celular, 10 da geladeira e 5 do curso. São mais R$ 3.850."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Liste <b>cada parcela</b> que falta",
+    "Multiplique pelo <b>valor</b>",
+    "Some tudo com a <b>fatura</b>"
+   ],
+   "say": "Faça assim. Liste cada parcela que falta. Multiplique pelo valor. Some tudo com a fatura."
+  },
+  {
+   "type": "cta",
+   "title": "Saiba quanto você deve <em>de verdade</em>.",
+   "say": "Descubra quanto você deve de verdade."
+  }
+ ],
+ "captions": {
+  "ig": "A fatura veio R$ 680. Mas você deve R$ 4.530 👇\n\nNo exemplo, faltam 8 parcelas do celular (R$ 1.200), 10 da geladeira (R$ 2.200) e 5 do curso (R$ 450). São mais R$ 3.850 que não aparecem no valor da fatura.\n\nFaça assim:\n1. Liste cada parcela que falta\n2. Multiplique pelo valor\n3. Some tudo com a fatura\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#dividas #cartaodecredito #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "A fatura veio R$ 680, mas no exemplo a pessoa deve R$ 4.530: faltam R$ 3.850 em parcelas (cenário de exemplo) 👇 Comenta quanto você acha que deve de verdade 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #dividas #cartaodecredito #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Fatura de R$ 680? Você deve R$ 4.530 #shorts",
+  "yt_desc": "A fatura mostra só o mês. No exemplo, ela veio R$ 680, mas ainda faltam 8 parcelas do celular (R$ 1.200), 10 da geladeira (R$ 2.200) e 5 do curso (R$ 450): R$ 4.530 no total (cenário de exemplo). Liste cada parcela que falta, multiplique pelo valor e some com a fatura.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #organizacaofinanceira",
+  "pin_title": "Planilha de dívidas: quanto você deve de verdade além da fatura do cartão",
+  "pin": "A fatura do cartão mostra só o valor do mês, não as parcelas que ainda faltam. Num cenário de exemplo, uma fatura de R$ 680 esconde R$ 4.530 de dívida. Descubra no site quanto você deve de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que uma fatura de R$ 680 <em>esconde R$ 4.530?</em>",
+  "value": "R$ 4.530",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
