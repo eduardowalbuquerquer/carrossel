@@ -25,7 +25,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-08 · Augustus Nicodemus · Para onde vai a alma depois da morte: o que a Bíblia ensina e o que não ensina (tema doutrinário, tratar com cuidado) · https://www.instagram.com/p/DfPnhqPGyJq/ · 
 - 2026-11-15 · Dois Dedos de Teologia · Coração inquieto: buscar nas pessoas e nas coisas o que só Deus dá (Agostinho) · https://www.instagram.com/p/DfvUS8wDYtg/ · 2026-11-15 (pergunta)
 - 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/augustusnicodemus/ · 
-- 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 
+- 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 2026-11-17 (reels)
 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).

@@ -1073,5 +1073,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122122265763506150",
       "fb_reel": "https://www.facebook.com/reel/986367847393379"
     }
+  },
+  {
+    "data": "2026-11-17",
+    "serie": "reels",
+    "titulo": "Quem te apresentou a Bíblia?",
+    "tema": "convidar um amigo para ler a Bíblia",
+    "versiculos": [
+      "Salmo 119:105"
+    ],
+    "foto": null,
+    "formato": "Reels 6 cenas só texto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/Df28VSAIGzA/",
+      "fb_reel": "https://www.facebook.com/reel/3752960451510033",
+      "tiktok": "https://tiktok.com/@forjadaalma8/video/7709262342177033524"
+    }
   }
 ]
