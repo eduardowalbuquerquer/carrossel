@@ -1,0 +1,63 @@
+{
+ "id": "r08v3-freelancer-mes-ruim",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "refeito_de": "r08-freelancer",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "notif": {
+    "app": "Pix",
+    "title": "Pix recebido",
+    "msg": "Valor: <b>R$ 1.800,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.400",
+   "value_label": "faltando no mês fraco",
+   "tone": "red",
+   "title": "Renda que muda? <em>Cuidado.</em>",
+   "say": "Na média você ganha três mil e duzentos. Mas esse mês entrou mil e oitocentos. Faltaram mil e quatrocentos.",
+   "show": "Na média você ganha R$ 3.200. Mas esse mês entrou R$ 1.800. Faltaram R$ 1.400."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "label": "Seu salário de verdade",
+   "value": "R$ 2.100",
+   "tone": "green",
+   "text": "Média dos 3 piores meses: <b>R$ 1.800, R$ 2.100 e R$ 2.400</b>. Cenário de exemplo.",
+   "say": "A regra é a média dos três piores meses. Mil e oitocentos, dois mil e cem e dois mil e quatrocentos. Seu salário é dois mil e cem.",
+   "show": "A regra é a média dos 3 piores meses. R$ 1.800, R$ 2.100 e R$ 2.400. Seu salário é R$ 2.100."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Viva com <b>R$ 2.100</b> por mês",
+    "O que passar disso vai <b>pra reserva</b>",
+    "No mês fraco, <b>a reserva completa</b>"
+   ],
+   "say": "Faça assim. Viva com dois mil e cem por mês. O que passar disso vai pra reserva. No mês fraco a reserva completa.",
+   "show": "Faça assim. Viva com R$ 2.100 por mês. O que passar disso vai pra reserva. No mês fraco a reserva completa."
+  },
+  {
+   "type": "cta",
+   "title": "Planeje pelo mês <em>ruim</em>.",
+   "say": "Planeje pelo mês ruim."
+  }
+ ],
+ "captions": {
+  "ig": "Renda que muda todo mês? Então não planeje pela média 👇\n\nNo exemplo, a pessoa ganha R$ 3.200 na média e gasta como se fosse sempre assim. Aí chega um mês de R$ 1.800 e faltam R$ 1.400.\n\nA regra: seu salário de verdade é a média dos 3 piores meses. R$ 1.800 + R$ 2.100 + R$ 2.400 = R$ 6.300 ÷ 3 = R$ 2.100.\n\nFaça assim:\n1. Viva com R$ 2.100 por mês\n2. O que passar disso vai pra reserva\n3. No mês fraco, a reserva completa\n\nPlaneje pelo mês ruim, comemore o mês bom. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para aquele amigo autônomo ou freelancer 👀\n\n(Cenário de exemplo.)\n\n#freelancer #autonomo #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "Renda que muda todo mês? Na média R$ 3.200, mas no mês de R$ 1.800 faltam R$ 1.400 (cenário de exemplo) 👇 Seu salário de verdade é a média dos 3 piores meses. Comenta quanto variou a sua renda 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #freelancer #autonomo #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Renda que muda todo mês? Faça essa conta #shorts",
+  "yt_desc": "Quem tem renda variável e planeja pela média se aperta no mês fraco: na média R$ 3.200, mas num mês de R$ 1.800 faltam R$ 1.400 (cenário de exemplo). A regra: seu salário de verdade é a média dos 3 piores meses (R$ 1.800, R$ 2.100 e R$ 2.400 = R$ 2.100). Viva com esse valor, mande o que passar para a reserva e use a reserva no mês fraco.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #freelancer #organizacaofinanceira",
+  "pin_title": "Renda variável: como organizar o dinheiro quando a renda muda todo mês",
+  "pin": "Freelancer, autônomo ou quem ganha comissão: planejar pela média deixa faltar dinheiro no mês fraco. Veja a regra dos 3 piores meses num cenário de exemplo e descubra qual é o seu salário de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Qual é o seu salário <em>quando a renda muda?</em>",
+  "cta": "Descubra qual é o seu →"
+ }
+}
