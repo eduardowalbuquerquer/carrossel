@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-17",
+  "series": "reels",
+  "series_name": "Reels da Noite",
+  "title": "Quem te apresentou a Bíblia?",
+  "slides": [],
+  "reel": {
+    "scene_seconds": 3.0,
+    "last_seconds": 4.2,
+    "cover_scene": 0,
+    "frames": [
+      {"kicker": "REELS DA NOITE", "text": "Alguém um dia te disse: <em>lê a Bíblia</em>."},
+      {"kicker": "A VERDADE", "text": "Talvez aquela frase simples tenha <em>mudado a sua vida</em>."},
+      {"kicker": "SALMO 119:105 · ARA", "text": "“Lâmpada para os meus pés é a tua palavra e, <em>luz para os meus caminhos</em>.”"},
+      {"kicker": "REPARE", "text": "Você não precisa pregar um sermão. Precisa <em>fazer um convite</em>."},
+      {"kicker": "ESTA SEMANA", "text": "Chame um amigo para ler <em>um capítulo por dia</em> com você."},
+      {"kicker": "LEMBRE", "text": "A luz que você recebeu <em>não é só sua</em>.", "cta": "Siga @forjadaalma.oficial"}
+    ],
+    "caption": "Alguém um dia te disse: lê a Bíblia. E talvez isso tenha mudado a sua vida.\n\n\"Lâmpada para os meus pés é a tua palavra e, luz para os meus caminhos\" (Sl 119:105).\n\nEsta semana: chame um amigo para ler um capítulo por dia com você.\n\nEnvie para esse amigo.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #homemcristao #biblia #palavradedeus #forjadaalma #fecrista",
+    "caption_facebook": "Pense em quem te apresentou a Bíblia. Talvez um pai, um avô, um colega de trabalho que um dia disse, sem cerimônia: \"lê a Bíblia\". Uma frase simples que mudou o rumo de uma vida.\n\nO salmista escreveu: \"Lâmpada para os meus pés é a tua palavra e, luz para os meus caminhos\" (Salmo 119:105).\n\nVocê não precisa pregar um sermão para ninguém. Precisa fazer um convite. Esta semana, chame um amigo para ler um capítulo por dia com você.\n\nQuem foi a pessoa que te apresentou a Palavra? Marque ou conte aqui.\n\n#homemcristao #forjadaalma",
+    "caption_tiktok": "Como começar a ler a Bíblia com um amigo: Salmo 119:105 #biblia #homemcristao #palavradedeus #forjadaalma"
+  }
+}
