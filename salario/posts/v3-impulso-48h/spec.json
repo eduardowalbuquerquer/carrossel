@@ -1,0 +1,62 @@
+{
+ "id": "v3-impulso-48h",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra aprovada",
+    "msg": "Valor: <b>R$ 89,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 356",
+   "value_label": "por mês em compras por impulso",
+   "tone": "red",
+   "title": "A compra que <em>você nem planejou</em>.",
+   "say": "Uma compra de oitenta e nove reais por semana some com trezentos e cinquenta e seis por mês.",
+   "show": "Uma compra de R$ 89 por semana some com R$ 356 por mês."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Por mês",
+   "value": "R$ 356",
+   "tone": "red",
+   "text": "R$ 89 x 4 semanas. <b>Cenário de exemplo.</b>",
+   "say": "Oitenta e nove vezes quatro semanas. Trezentos e cinquenta e seis reais que não estavam no plano.",
+   "show": "R$ 89 vezes 4 semanas. R$ 356 que não estavam no plano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Regra das 48 horas",
+   "items": [
+    "Deixe <b>no carrinho</b>",
+    "Espere <b>48 horas</b>",
+    "Ainda quer e <b>cabe no mês</b>? Compre"
+   ],
+   "say": "Use a regra das quarenta e oito horas. Deixe no carrinho. Espere quarenta e oito horas. Se ainda quer e cabe no mês, compre.",
+   "show": "Use a regra das 48 horas. Deixe no carrinho. Espere 48 horas. Se ainda quer e cabe no mês, compre."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Esperar <em>também economiza</em>.",
+   "say": "Esperar também economiza."
+  }
+ ],
+ "captions": {
+  "tt": "Uma compra de R$ 89 por semana some com R$ 356 por mês (cenário de exemplo) 👇 Regra das 48 horas: deixa no carrinho, espera, e só compra se ainda quiser e couber no mês. Comenta qual foi sua última compra por impulso 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #comprasporimpulso #financaspessoais #organizacaofinanceira #economizar #educacaofinanceira",
+  "pin_title": "Como parar de gastar por impulso: a regra das 48 horas",
+  "pin": "Uma compra de R$ 89 por semana parece pouco, mas soma R$ 356 por mês num cenário de exemplo. Veja como a regra das 48 horas ajuda a cortar compras por impulso e descubra no site quanto sobra no seu mês com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Para onde vão <em>R$ 356 por mês</em> sem você perceber?",
+  "value": "R$ 356",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra qual é o seu →"
+ }
+}
