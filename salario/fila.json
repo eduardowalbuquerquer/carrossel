@@ -597,6 +597,20 @@
     {
       "dia": 23,
       "formato": "v3",
+      "v1": {
+        "pasta": "r08v3-freelancer-mes-ruim",
+        "refeito_de": "r08-freelancer",
+        "nota": "Fila sem item: r08 (freelancer) refeito no v3 (renda variável: média R$ 3.200, mês de R$ 1.800 = faltam R$ 1.400; regra dos 3 piores meses = R$ 2.100; gancho notificação 'Pix recebido R$ 1.800'). IG 25,2 s, TT 22,7 s, YT 22,9 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-17T11:53-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Df2MH2JkpBv/",
+          "yt": "https://youtube.com/shorts/BVwJRj4KDNw",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7709153651981389077",
+          "pin": "https://www.pinterest.com/pin/264727284344614528",
+          "fb": "https://facebook.com/1446527975200486_122111021361533531"
+        }
+      },
       "v3": {
         "pasta": "sm01-saco-furado",
         "nota": "Série Sabedoria milenar (1/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 17/11. Publicar --so tt,pin. Amostra já renderizada (22,7 s).",
