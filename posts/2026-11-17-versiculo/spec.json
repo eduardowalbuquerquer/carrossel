@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-17",
+  "series": "versiculo",
+  "series_name": "Versículo Forjado",
+  "title": "Entrega o teu caminho ao SENHOR",
+  "slides": [
+    {
+      "layout": "verse",
+      "theme": "dark",
+      "image": "img/foto.jpg",
+      "focus": "center 45%",
+      "tag": "VERSÍCULO FORJADO",
+      "text": "Entrega o teu caminho ao SENHOR, confia nele, e o mais ele fará.",
+      "ref": "Salmo 37:5 · ARA",
+      "body": "Você não foi feito para controlar tudo. Foi feito para confiar em quem controla."
+    }
+  ],
+  "caption": "Você tenta controlar tudo: o emprego, as contas, o futuro dos filhos. E deita à noite sem paz.\n\nA ordem é outra: entregar o caminho e confiar. O resto é com Ele.\n\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#versiculododia #homemdedeus #homemcristao #masculinidadebiblica #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Muito homem carrega a semana nas costas como se tudo dependesse dele: o emprego, as contas, o futuro dos filhos. Planeja, calcula, se preocupa. E deita à noite sem paz.\n\nDavi escreveu: \"Entrega o teu caminho ao SENHOR, confia nele, e o mais ele fará.\" (Salmo 37:5)\n\nEntregar não é ficar parado. É fazer a sua parte e soltar o controle do que só Deus pode fazer. O que você precisa entregar a Deus nesta terça? Conta aqui.\n\n#homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VERSÍCULO FORJADO", "text": "Você tenta <em>controlar tudo</em> e deita sem paz?"},
+      {"kicker": "A BÍBLIA RESPONDE", "text": "Tem uma parte que <em>não é sua</em>."},
+      {"kicker": "QUAL?", "text": "O versículo está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Você tenta controlar tudo e deita sem paz? O versículo de hoje está no perfil 👆\n\n#versiculododia #homemdedeus #forjadaalma #homemcristao",
+    "caption_facebook": "Você tenta controlar tudo e deita sem paz? O versículo de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
