@@ -650,7 +650,13 @@
       "formato": "v3",
       "v3": {
         "pasta": "sm02-jose-13",
-        "nota": "Série Sabedoria milenar (2/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 18/11. Publicar --so tt,pin."
+        "nota": "Série Sabedoria milenar (2/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 18/11. Publicar --so tt,pin. TT 23,4 s, YT 22,0 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-18T16:02-03:00",
+        "redes": "tt,yt,pin",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7709588760173792564",
+        "yt_link": "https://youtube.com/shorts/GeF45UgbhhI",
+        "pin_link": "https://www.pinterest.com/pin/264727284344670221"
       },
       "v1": {
         "pasta": "v3-cheque-especial-793",
