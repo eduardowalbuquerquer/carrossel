@@ -1,0 +1,63 @@
+{
+ "id": "v3-lanche-3168",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Pix enviado",
+    "msg": "Lanchonete: <b>R$ 12,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 3.168",
+   "value_label": "por ano em \"só um lanchinho\"",
+   "tone": "red",
+   "title": "Era só um <em>lanchinho</em>.",
+   "say": "Era só um lanchinho de doze reais. No fim do ano, deu três mil cento e sessenta e oito.",
+   "show": "Era só um lanchinho de R$ 12. No fim do ano, deu R$ 3.168."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Lanche nos dias de trabalho",
+   "value": "R$ 264",
+   "tone": "red",
+   "text": "R$ 12 x 22 dias úteis = R$ 264 por mês. Em 12 meses: R$ 3.168. <b>Cenário de exemplo.</b>",
+   "say": "Doze reais por dia, vinte e dois dias de trabalho. Duzentos e sessenta e quatro no mês. Três mil cento e sessenta e oito no ano.",
+   "show": "R$ 12 por dia, 22 dias de trabalho. R$ 264 no mês. R$ 3.168 no ano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Anote os lanches <b>por uma semana</b>",
+    "Defina um <b>valor por semana</b>",
+    "Leve de casa <b>dois dias</b>"
+   ],
+   "say": "Faça assim. Anote os lanches por uma semana. Defina um valor por semana. Leve de casa dois dias."
+  },
+  {
+   "type": "cta",
+   "title": "Veja quanto somam <em>os seus pequenos gastos</em>.",
+   "say": "Veja quanto somam os seus pequenos gastos."
+  }
+ ],
+ "captions": {
+  "ig": "Era só um lanchinho de R$ 12. No fim do ano, deu R$ 3.168 👇\n\nNo exemplo: R$ 12 por dia em 22 dias de trabalho = R$ 264 por mês. Em 12 meses, R$ 3.168.\n\nFaça assim:\n1. Anote os lanches por uma semana\n2. Defina um valor por semana\n3. Leve de casa dois dias\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#economizar #organizacaofinanceira #financaspessoais #educacaofinanceira #gastos",
+  "tt": "Era só um lanchinho de R$ 12... e no exemplo deu R$ 3.168 no ano (R$ 12 x 22 dias de trabalho = R$ 264 por mês, cenário de exemplo) 🥪 Comenta quanto você gasta de lanche por dia 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #economizar #financaspessoais #organizacaofinanceira #dinheiro #gastos",
+  "yt_title": "Lanche de R$ 12 por dia = R$ 3.168 por ano #shorts",
+  "yt_desc": "No exemplo, um lanche de R$ 12 nos 22 dias de trabalho do mês vira R$ 264 por mês e R$ 3.168 em 12 meses (cenário de exemplo). Anote os lanches por uma semana, defina um valor por semana e leve de casa dois dias.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #economizar #organizacaofinanceira",
+  "pin_title": "Como economizar dinheiro: o lanche de R$ 12 que vira R$ 3.168 por ano",
+  "pin": "Os pequenos gastos do dia a dia somam mais do que parece. Num cenário de exemplo, um lanche de R$ 12 nos dias de trabalho vira R$ 264 por mês e R$ 3.168 no ano. Descubra no site quanto os seus pequenos gastos custam de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que um lanche de R$ 12 <em>vira R$ 3.168?</em>",
+  "value": "R$ 3.168",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
