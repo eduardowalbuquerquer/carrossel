@@ -651,6 +651,19 @@
       "v3": {
         "pasta": "sm02-jose-13",
         "nota": "Série Sabedoria milenar (2/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 18/11. Publicar --so tt,pin."
+      },
+      "v1": {
+        "pasta": "v3-cheque-especial-793",
+        "nota": "Fila sem item: pauta nova v3 (cheque especial R$ 500 a 8% a.m., teto da Resolução CMN 4.765/2019 conferido no BCB, 6 meses = R$ 793, fora IOF, cenário de exemplo; gancho notificação 'Você está usando o limite -R$ 500,00'). IG 22,9 s, TT 25,9 s, YT 23,9 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-18T12:15-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Df4w-qyAvH7/",
+          "yt": "https://youtube.com/shorts/vRoh7VhUgQQ",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7709524907612278037",
+          "pin": "https://www.pinterest.com/pin/264727284344659015",
+          "fb": "https://facebook.com/1446527975200486_122111420025533531"
+        }
       }
     },
     {
