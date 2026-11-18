@@ -1,0 +1,63 @@
+{
+ "id": "v3-mercado-480",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-02-mercado-caixa.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Compra no débito",
+    "msg": "Mercado: <b>R$ 40,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 480",
+   "value_label": "por mês em \"só umas coisinhas\"",
+   "tone": "red",
+   "title": "Foi só no mercado <em>rapidinho</em>.",
+   "say": "Foi só umas coisinhas no mercado. No fim do mês, deu quatrocentos e oitenta.",
+   "show": "Foi só umas coisinhas no mercado. No fim do mês, deu R$ 480."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-15-feira-precos.jpg",
+   "label": "Idas extras ao mercado",
+   "value": "R$ 480",
+   "tone": "red",
+   "text": "3 idas por semana x R$ 40 = R$ 120 por semana. Em 4 semanas: R$ 480. <b>Cenário de exemplo.</b>",
+   "say": "Três idas por semana, quarenta reais cada. Cento e vinte por semana. Quatrocentos e oitenta no mês.",
+   "show": "3 idas por semana, R$ 40 cada. R$ 120 por semana. R$ 480 no mês."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Faça a <b>lista</b> da semana",
+    "Vá ao mercado <b>uma vez</b>",
+    "Anote <b>quanto gastou</b>"
+   ],
+   "say": "Faça assim. Faça a lista da semana. Vá ao mercado uma vez. Anote quanto gastou."
+  },
+  {
+   "type": "cta",
+   "title": "Veja para onde vai <em>o seu mercado</em>.",
+   "say": "Veja para onde vai o seu dinheiro do mercado."
+  }
+ ],
+ "captions": {
+  "ig": "Foi só umas coisinhas no mercado. No fim do mês, deu R$ 480 👇\n\nNo exemplo: 3 idas extras por semana, R$ 40 cada. São R$ 120 por semana e R$ 480 em 4 semanas, fora a compra do mês.\n\nFaça assim:\n1. Faça a lista da semana\n2. Vá ao mercado uma vez\n3. Anote quanto gastou\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#mercado #economizar #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "Foi só umas coisinhas no mercado... e no exemplo deu R$ 480 no mês (3 idas por semana x R$ 40, cenário de exemplo) 🛒 Comenta quantas vezes por semana você vai ao mercado 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #mercado #economizar #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "\"Só umas coisinhas\" no mercado = R$ 480 por mês #shorts",
+  "yt_desc": "No exemplo, 3 idas extras ao mercado por semana, de R$ 40 cada, viram R$ 120 por semana e R$ 480 em 4 semanas (cenário de exemplo). Faça a lista da semana, vá ao mercado uma vez e anote quanto gastou.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #mercado #organizacaofinanceira",
+  "pin_title": "Como economizar no mercado: o gasto de R$ 40 que vira R$ 480 por mês",
+  "pin": "As idas rápidas ao mercado somam mais do que parece. Num cenário de exemplo, 3 idas extras por semana de R$ 40 viram R$ 480 no mês, fora a compra grande. Descubra no site quanto o seu mercado custa de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que R$ 40 no mercado <em>viram R$ 480?</em>",
+  "value": "R$ 480",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
