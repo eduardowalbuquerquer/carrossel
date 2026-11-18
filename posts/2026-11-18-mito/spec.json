@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-18",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "4 mentiras sobre a vontade de Deus",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MITO X VERDADE",
+      "title": "\"Se fosse <em style=\"color:#C8892C\">vontade de Deus</em>, seria fácil.\"",
+      "body": "Muito homem fica parado esperando um caminho sem pedra.",
+      "hint": "4 mentiras sobre a vontade de Deus →"
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 01",
+      "title": "\"Se é de Deus, vai ser fácil.\"",
+      "left": {
+        "label": "MITO",
+        "text": "Porta difícil é sinal de que Deus não quer."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo.\" João 16:33"
+      },
+      "body": "Dificuldade não é prova de que você errou o caminho."
+    },
+    {
+      "layout": "compare",
+      "theme": "light",
+      "tag": "MENTIRA 02",
+      "title": "\"Preciso de um sinal antes de agir.\"",
+      "left": {
+        "label": "MITO",
+        "text": "Sem um sinal claro, fico parado."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Se, porém, algum de vós necessita de sabedoria, peça-a a Deus… e ser-lhe-á concedida.\" Tiago 1:5"
+      },
+      "body": "Deus promete sabedoria a quem pede, não placa na estrada."
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 03",
+      "title": "\"A vontade de Deus é um mistério.\"",
+      "left": {
+        "label": "MITO",
+        "text": "Ninguém sabe o que Deus quer de mim."
+      },
+      "right": {
+        "label": "VERDADE",
+        "text": "\"Pois esta é a vontade de Deus: a vossa santificação…\" 1 Tessalonicenses 4:3"
+      },
+      "body": "Boa parte da vontade de Deus já está escrita. Comece por ela."
+    },
+    {
+      "layout": "big",
+      "theme": "light",
+      "big": "4",
+      "tag": "A MAIS PERIGOSA",
+      "title": "\"Quero muito. Então é de Deus.\"",
+      "quote": {
+        "text": "Enganoso é o coração, mais do que todas as coisas, e desesperadamente corrupto; quem o conhecerá?",
+        "ref": "Jeremias 17:9 · ARA"
+      },
+      "body": "Desejo forte não é voz de Deus. Leve o que você quer à Palavra, à oração e a irmãos maduros antes de chamar de vontade divina."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual dessas você já acreditou? Comente o número."
+    }
+  ],
+  "caption": "4 mentiras sobre a vontade de Deus:\n\n1. \"Se é de Deus, vai ser fácil.\"\n2. \"Preciso de um sinal antes de agir.\"\n3. \"A vontade de Deus é um mistério.\"\n4. \"Quero muito. Então é de Deus.\"\n\nQual você já acreditou? Comente o número 👇\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #vontadededeus #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Quantas vezes você ficou parado esperando Deus \"abrir uma porta fácil\"? Jesus nunca prometeu caminho sem pedra: \"No mundo, passais por aflições; mas tende bom ânimo; eu venci o mundo.\" (João 16:33)\n\nE a vontade de Deus não é um enigma escondido. Boa parte dela já está escrita: \"Pois esta é a vontade de Deus: a vossa santificação…\" (1 Tessalonicenses 4:3). Para o resto, a promessa é sabedoria a quem pede (Tiago 1:5).\n\nO perigo maior é chamar de \"vontade de Deus\" aquilo que o nosso coração quer muito. \"Enganoso é o coração, mais do que todas as coisas, e desesperadamente corrupto; quem o conhecerá?\" (Jeremias 17:9). Antes de decidir, leve seu desejo à Palavra, à oração e a irmãos maduros.\n\nQual dessas mentiras você já ouviu, ou já acreditou? Conta aqui.\n\n#homemcristao #forjadaalma #vontadededeus",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {
+        "kicker": "VOCÊ JÁ OUVIU ISSO",
+        "text": "\"Se fosse de Deus, <em>seria fácil</em>.\""
+      },
+      {
+        "kicker": "OU ISSO",
+        "text": "\"Estou esperando <em>um sinal</em>.\""
+      },
+      {
+        "kicker": "4 MENTIRAS COMUNS",
+        "text": "A resposta está no post de hoje.",
+        "cta": "Toque no perfil →"
+      }
+    ],
+    "caption": "\"Se fosse de Deus, seria fácil.\" Será? As 4 mentiras estão no post do perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "\"Se fosse de Deus, seria fácil.\" Será? As 4 mentiras estão no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
