@@ -1,0 +1,64 @@
+{
+ "id": "v3-cheque-especial-793",
+ "formato": "v3",
+ "pilar": "perigo-com-numero",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Conta corrente",
+    "title": "Você está usando o limite",
+    "msg": "Saldo: <b>-R$ 500,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 793",
+   "value_label": "é o que R$ 500 viram em 6 meses",
+   "tone": "red",
+   "title": "O limite da conta <em>não é seu dinheiro</em>.",
+   "say": "Quinhentos reais no cheque especial viram setecentos e noventa e três em seis meses.",
+   "show": "R$ 500 no cheque especial viram R$ 793 em 6 meses."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Juro do cheque especial",
+   "value": "8% ao mês",
+   "tone": "red",
+   "text": "R$ 500 a 8% ao mês, sem pagar nada por 6 meses = <b>R$ 793</b> (R$ 293 só de juros), fora o IOF. Cenário de exemplo.",
+   "source": "Teto: Resolução CMN 4.765/2019, Banco Central",
+   "say": "O juro pode chegar a oito por cento ao mês. É o teto do Banco Central. Em seis meses, são duzentos e noventa e três reais só de juros.",
+   "show": "O juro pode chegar a 8% ao mês. É o teto do Banco Central. Em 6 meses, são R$ 293 só de juros."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Saia do negativo",
+   "items": [
+    "Cubra o negativo <b>quando o salário cair</b>",
+    "Corte <b>um gasto</b> até zerar",
+    "Anote tudo para <b>não voltar</b>"
+   ],
+   "say": "Faça assim. Cubra o negativo quando o salário cair. Corte um gasto até zerar. Anote tudo para não voltar."
+  },
+  {
+   "type": "cta",
+   "title": "Veja quanto <em>sobra de verdade</em>.",
+   "say": "Veja quanto sobra de verdade antes de usar o limite."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 500 no cheque especial viram R$ 793 em 6 meses 👇\n\nO juro do cheque especial pode chegar a 8% ao mês: é o teto do Banco Central (Resolução CMN 4.765/2019). Sem pagar nada por 6 meses, são R$ 293 só de juros, fora o IOF.\n\nFaça assim:\n1. Cubra o negativo quando o salário cair\n2. Corte um gasto até zerar\n3. Anote tudo para não voltar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#chequeespecial #dividas #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "R$ 500 no cheque especial viram R$ 793 em 6 meses (juro de até 8% ao mês, teto do Banco Central; cenário de exemplo, fora o IOF) 😬 Comenta quantos dias por mês você fica no negativo 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #chequeespecial #dividas #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "R$ 500 no cheque especial viram R$ 793 #shorts",
+  "yt_desc": "O juro do cheque especial pode chegar a 8% ao mês, o teto do Banco Central (Resolução CMN 4.765/2019). No exemplo, R$ 500 sem pagar nada por 6 meses viram R$ 793: R$ 293 só de juros, fora o IOF (cenário de exemplo). Cubra o negativo quando o salário cair, corte um gasto até zerar e anote tudo para não voltar.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #chequeespecial #organizacaofinanceira",
+  "pin_title": "Cheque especial: quanto R$ 500 no limite da conta custam em 6 meses",
+  "pin": "O limite da conta parece dinheiro seu, mas cobra juro de até 8% ao mês, o teto do Banco Central. Num cenário de exemplo, R$ 500 viram R$ 793 em 6 meses. Descubra no site quanto sobra de verdade no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que R$ 500 no limite <em>viram R$ 793?</em>",
+  "value": "R$ 793",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
