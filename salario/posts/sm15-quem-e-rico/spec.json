@@ -6,7 +6,7 @@
  "scenes": [
   {
    "type": "hook",
-   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
    "notif": {
     "app": "Loja online",
     "title": "Oferta relâmpago",
