@@ -1,0 +1,63 @@
+{
+ "id": "v3-blackfriday-1800",
+ "formato": "v3",
+ "pilar": "perigo-com-numero",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra aprovada em 10x",
+    "msg": "Parcela: <b>R$ 60,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.800",
+   "value_label": "presos em 10 meses de parcelas",
+   "tone": "red",
+   "title": "A Black Friday <em>dura 10 meses</em>.",
+   "say": "Três parcelas de sessenta reais prendem seu salário por dez meses.",
+   "show": "3 parcelas de R$ 60 prendem seu salário por 10 meses."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "label": "3 compras em 10x de R$ 60",
+   "value": "R$ 180 por mês",
+   "tone": "red",
+   "text": "3 × R$ 60 = <b>R$ 180 por mês</b>. Em 10 meses, <b>R$ 1.800</b> já comprometidos. Cenário de exemplo.",
+   "say": "Somadas, são cento e oitenta reais por mês. Em dez meses, mil e oitocentos reais gastos antes de chegar.",
+   "show": "Somadas, são R$ 180 por mês. Em 10 meses, R$ 1.800 gastos antes de chegar."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Antes de comprar",
+   "items": [
+    "Some as <b>parcelas que já tem</b>",
+    "Veja se cabe no que <b>sobra do mês</b>",
+    "Compre só o que <b>já estava na lista</b>"
+   ],
+   "say": "Antes de comprar, faça assim. Some as parcelas que você já tem. Veja se cabe no que sobra do mês. Compre só o que já estava na lista."
+  },
+  {
+   "type": "cta",
+   "title": "Some suas parcelas <em>antes de comprar</em>.",
+   "say": "Some suas parcelas antes da Black Friday."
+  }
+ ],
+ "captions": {
+  "ig": "3 parcelas de R$ 60 prendem seu salário por 10 meses 👇\n\nNa Black Friday, cada compra parece pequena. Mas 3 compras em 10x de R$ 60 somam R$ 180 por mês. Em 10 meses, são R$ 1.800 do seu salário já comprometidos antes de chegar.\n\nAntes de comprar, faça assim:\n1. Some as parcelas que você já tem\n2. Veja se cabe no que sobra do mês\n3. Compre só o que já estava na lista\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\nManda pra quem já está de olho nas promoções 😉\n\n(Cenário de exemplo.)\n\n#blackfriday #parcelamento #cartaodecredito #organizacaofinanceira #financaspessoais",
+  "tt": "3 parcelas de R$ 60 prendem seu salário por 10 meses: R$ 180 por mês, R$ 1.800 no total (cenário de exemplo) 😬 Comenta quantas parcelas você já tem hoje 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #blackfriday #parcelamento #cartaodecredito #financaspessoais #dinheiro",
+  "yt_title": "Black Friday: 3 parcelas de R$ 60 prendem R$ 1.800 #shorts",
+  "yt_desc": "Na Black Friday, cada parcela parece pequena. No exemplo, 3 compras em 10x de R$ 60 somam R$ 180 por mês: em 10 meses, R$ 1.800 do salário já comprometidos (cenário de exemplo). Antes de comprar, some as parcelas que você já tem, veja se cabe no que sobra do mês e compre só o que já estava na lista.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #blackfriday #organizacaofinanceira",
+  "pin_title": "Black Friday sem dívida: quanto 3 compras parceladas tiram do seu salário",
+  "pin": "Na Black Friday, cada parcela parece pequena, mas 3 compras em 10x de R$ 60 prendem R$ 180 por mês durante 10 meses. Some suas parcelas antes de comprar. Descubra no site quanto sobra de verdade no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que 3 parcelas de R$ 60 <em>viram R$ 1.800?</em>",
+  "value": "R$ 1.800",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
