@@ -1,0 +1,63 @@
+{
+ "id": "v3-reserva-2520",
+ "formato": "v3",
+ "pilar": "reserva",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Cofrinho",
+    "title": "Valor guardado hoje",
+    "msg": "Depósito: <b>R$ 7,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 2.520",
+   "value_label": "em 1 ano, guardando R$ 7 por dia",
+   "tone": "green",
+   "title": "Conta surpresa? <em>Já tem reserva.</em>",
+   "say": "Uma conta surpresa te pegaria hoje? Sete reais por dia viram dois mil quinhentos e vinte em um ano.",
+   "show": "Uma conta surpresa te pegaria hoje? R$ 7 por dia viram R$ 2.520 em um ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Guardando R$ 7 por dia",
+   "value": "R$ 210",
+   "tone": "green",
+   "text": "R$ 7 x 30 dias = R$ 210 por mês. Em 12 meses: R$ 2.520, sem contar rendimento. <b>Cenário de exemplo.</b>",
+   "say": "Sete reais por dia, trinta dias. Duzentos e dez no mês. Dois mil quinhentos e vinte no ano.",
+   "show": "R$ 7 por dia, 30 dias. R$ 210 no mês. R$ 2.520 no ano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Guarde <b>no dia do salário</b>",
+    "Use uma <b>conta separada</b>",
+    "Só mexa em <b>emergência</b>"
+   ],
+   "say": "Faça assim. Guarde no dia do salário. Use uma conta separada. Só mexa em emergência."
+  },
+  {
+   "type": "cta",
+   "title": "Descubra <em>quanto sobra</em> para guardar.",
+   "say": "Descubra quanto sobra para você guardar."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 7 por dia viram R$ 2.520 em um ano 👇\n\nNo exemplo: R$ 7 x 30 dias = R$ 210 por mês. Em 12 meses, R$ 2.520 (sem contar rendimento).\n\nFaça assim:\n1. Guarde no dia do salário\n2. Use uma conta separada\n3. Só mexa em emergência\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#reservadeemergencia #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "Uma conta surpresa te pegaria hoje? R$ 7 por dia viram R$ 2.520 em um ano (R$ 7 x 30 = R$ 210 por mês, sem contar rendimento, cenário de exemplo) 🐷 Comenta quanto você consegue guardar por dia 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #reservadeemergencia #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "R$ 7 por dia = R$ 2.520 de reserva em 1 ano #shorts",
+  "yt_desc": "No exemplo, guardar R$ 7 por dia dá R$ 210 por mês e R$ 2.520 em 12 meses, sem contar rendimento (cenário de exemplo). Guarde no dia do salário, use uma conta separada e só mexa em emergência.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #reservadeemergencia #organizacaofinanceira",
+  "pin_title": "Reserva de emergência: R$ 7 por dia que viram R$ 2.520 em um ano",
+  "pin": "Montar uma reserva de emergência ganhando pouco é possível com um valor pequeno e fixo. Num cenário de exemplo, R$ 7 por dia viram R$ 210 por mês e R$ 2.520 em um ano. Descubra no site quanto sobra no seu salário para guardar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Como R$ 7 por dia <em>viram R$ 2.520?</em>",
+  "value": "R$ 2.520",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra quanto você pode guardar →"
+ }
+}
