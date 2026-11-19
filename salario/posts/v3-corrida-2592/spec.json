@@ -1,0 +1,63 @@
+{
+ "id": "v3-corrida-2592",
+ "formato": "v3",
+ "pilar": "erro-escondido",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "notif": {
+    "app": "App de transporte",
+    "title": "Corrida finalizada",
+    "msg": "Total: <b>R$ 18,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 2.592",
+   "value_label": "por ano em \"só uma corrida\"",
+   "tone": "red",
+   "title": "Era só <em>hoje</em>.",
+   "say": "Era só uma corrida de dezoito reais. No fim do ano, deu dois mil quinhentos e noventa e dois.",
+   "show": "Era só uma corrida de R$ 18. No fim do ano, deu R$ 2.592."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "3 corridas por semana",
+   "value": "R$ 216",
+   "tone": "red",
+   "text": "R$ 18 x 3 por semana = R$ 54. Em 4 semanas: R$ 216 por mês. Em 12 meses: R$ 2.592. <b>Cenário de exemplo.</b>",
+   "say": "Três corridas por semana. Duzentos e dezesseis no mês. Dois mil quinhentos e noventa e dois no ano.",
+   "show": "3 corridas por semana. R$ 216 no mês. R$ 2.592 no ano."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Anote <b>cada corrida</b> do mês",
+    "Defina um <b>teto por mês</b>",
+    "Antes de chamar, <b>veja o ônibus</b>"
+   ],
+   "say": "Faça assim. Anote cada corrida do mês. Defina um teto por mês. Antes de chamar, veja o ônibus."
+  },
+  {
+   "type": "cta",
+   "title": "Veja quanto somam <em>os seus pequenos gastos</em>.",
+   "say": "Veja quanto somam os seus pequenos gastos."
+  }
+ ],
+ "captions": {
+  "ig": "Era só uma corrida de R$ 18. No fim do ano, deu R$ 2.592 👇\n\nNo exemplo: R$ 18 x 3 corridas por semana = R$ 54. Em 4 semanas, R$ 216 por mês. Em 12 meses, R$ 2.592.\n\nFaça assim:\n1. Anote cada corrida do mês\n2. Defina um teto por mês\n3. Antes de chamar, veja o ônibus\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#economizar #organizacaofinanceira #financaspessoais #educacaofinanceira #gastos",
+  "tt": "Era só uma corrida de R$ 18... e no exemplo deu R$ 2.592 no ano (3 corridas por semana = R$ 216 por mês, cenário de exemplo) 🚗 Comenta quantas corridas você pede por semana 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #economizar #financaspessoais #organizacaofinanceira #dinheiro #gastos",
+  "yt_title": "Corrida de R$ 18, 3x por semana = R$ 2.592/ano #shorts",
+  "yt_desc": "No exemplo, uma corrida de app de R$ 18, 3 vezes por semana, vira R$ 54 por semana, R$ 216 por mês e R$ 2.592 em 12 meses (cenário de exemplo). Anote cada corrida do mês, defina um teto por mês e, antes de chamar, veja o ônibus.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #economizar #organizacaofinanceira",
+  "pin_title": "Como economizar dinheiro: a corrida de R$ 18 que vira R$ 2.592 por ano",
+  "pin": "Corridas de aplicativo parecem pequenas, mas somam rápido. Num cenário de exemplo, 3 corridas de R$ 18 por semana viram R$ 216 por mês e R$ 2.592 no ano. Descubra no site quanto os seus pequenos gastos custam de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que uma corrida de R$ 18 <em>vira R$ 2.592?</em>",
+  "value": "R$ 2.592",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
