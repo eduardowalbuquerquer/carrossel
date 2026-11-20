@@ -1,0 +1,63 @@
+{
+ "id": "v3-natal-presentes-240",
+ "formato": "v3",
+ "pilar": "perigo-com-numero",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra aprovada: presente",
+    "msg": "Valor: <b>R$ 80,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 240",
+   "value_label": "a mais nos presentes de Natal",
+   "tone": "red",
+   "title": "O Natal sem lista <em>custa mais</em>.",
+   "say": "Oito presentes sem lista custam duzentos e quarenta reais a mais.",
+   "show": "8 presentes sem lista custam R$ 240 a mais."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "label": "8 presentes: R$ 50 × R$ 80",
+   "value": "R$ 640",
+   "tone": "red",
+   "text": "Com lista: 8 × R$ 50 = <b>R$ 400</b>. Sem lista: 8 × R$ 80 = <b>R$ 640</b>. Diferença: <b>R$ 240</b>. Cenário de exemplo.",
+   "say": "Com lista, oito presentes de cinquenta reais dão quatrocentos. Sem lista, a média vira oitenta. São seiscentos e quarenta reais.",
+   "show": "Com lista, 8 presentes de R$ 50 dão R$ 400. Sem lista, a média vira R$ 80. São R$ 640."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Antes de sair às compras",
+   "items": [
+    "Escreva <b>o nome de cada pessoa</b>",
+    "Ponha <b>um valor máximo</b> do lado",
+    "Risque quando <b>comprar à vista</b>"
+   ],
+   "say": "Antes de sair às compras, faça assim. Escreva o nome de cada pessoa. Ponha um valor máximo do lado. Risque quando comprar à vista."
+  },
+  {
+   "type": "cta",
+   "title": "Faça a lista <em>antes de comprar</em>.",
+   "say": "Faça a lista antes de comprar o primeiro presente."
+  }
+ ],
+ "captions": {
+  "ig": "8 presentes sem lista custam R$ 240 a mais 👇\n\nNo Natal, cada presente parece pouco. Mas, no exemplo, 8 presentes de R$ 50 dão R$ 400. Sem lista, a média vira R$ 80 e o total vai para R$ 640: R$ 240 a mais saindo do seu salário.\n\nAntes de sair às compras, faça assim:\n1. Escreva o nome de cada pessoa\n2. Ponha um valor máximo do lado\n3. Risque quando comprar à vista\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\nManda pra quem já começou a lista de presentes 🎁\n\n(Cenário de exemplo.)\n\n#natal #presentesdenatal #organizacaofinanceira #financaspessoais #economia",
+  "tt": "8 presentes sem lista custam R$ 240 a mais: R$ 400 viram R$ 640 (cenário de exemplo) 🎁 Comenta quantos presentes você vai comprar este ano 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #natal #presentesdenatal #financaspessoais #dinheiro #economia",
+  "yt_title": "Natal: 8 presentes sem lista custam R$ 240 a mais #shorts",
+  "yt_desc": "No Natal, cada presente parece pouco. No exemplo, 8 presentes de R$ 50 dão R$ 400; sem lista, a média vira R$ 80 e o total vai para R$ 640: R$ 240 a mais (cenário de exemplo). Antes de sair às compras, escreva o nome de cada pessoa, ponha um valor máximo do lado e risque quando comprar à vista.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #natal #organizacaofinanceira",
+  "pin_title": "Presentes de Natal: como gastar menos com uma lista simples",
+  "pin": "Sem lista, 8 presentes de Natal podem custar R$ 640 em vez de R$ 400. Escreva o nome de cada pessoa, ponha um valor máximo e pague à vista. Descubra no site quanto sobra de verdade no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que 8 presentes <em>custam R$ 240 a mais?</em>",
+  "value": "R$ 240",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
