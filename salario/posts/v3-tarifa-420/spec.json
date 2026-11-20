@@ -1,0 +1,64 @@
+{
+ "id": "v3-tarifa-420",
+ "formato": "v3",
+ "pilar": "gastos invisíveis",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-18-envelope-cobranca.jpg",
+   "notif": {
+    "app": "Conta corrente",
+    "title": "Tarifa debitada",
+    "msg": "Pacote de serviços: <b>R$ 35,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 420",
+   "value_label": "por ano só de tarifa do banco",
+   "tone": "red",
+   "title": "Tarifa que <em>você nem vê</em>",
+   "say": "Trinta e cinco reais por mês de tarifa. No ano, são quatrocentos e vinte reais.",
+   "show": "R$ 35 por mês de tarifa. No ano, são R$ 420."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Conta com serviços essenciais",
+   "value": "R$ 0",
+   "tone": "green",
+   "text": "Todo banco tem que oferecer a conta com <b>serviços essenciais sem tarifa</b>. Pacote de R$ 35 x 12 = R$ 420 por ano. Cenário de exemplo.",
+   "source": "Resolução CMN 3.919/2010, Banco Central",
+   "say": "Só que todo banco é obrigado a oferecer uma conta com serviços essenciais de graça. É regra do Banco Central.",
+   "show": "Só que todo banco é obrigado a oferecer uma conta com serviços essenciais de graça. É regra do Banco Central."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Ache a <b>tarifa no extrato</b>",
+    "Veja se <b>usa o pacote</b>",
+    "Peça os <b>serviços essenciais</b>"
+   ],
+   "say": "Faça assim. Ache a tarifa no extrato. Veja se você usa o pacote. Peça os serviços essenciais."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os <em>gastos que somem</em>.",
+   "say": "Ache os gastos que somem do seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 35 por mês de tarifa = R$ 420 por ano 👇\n\nTodo banco é obrigado a oferecer uma conta com serviços essenciais sem tarifa (Resolução CMN 3.919/2010, Banco Central).\n\nFaça assim:\n1. Ache a tarifa no extrato\n2. Veja se você usa o pacote\n3. Peça os serviços essenciais\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#tarifabancaria #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "R$ 35 por mês de tarifa do banco = R$ 420 por ano 🏦 Todo banco é obrigado a oferecer conta com serviços essenciais sem tarifa (Resolução CMN 3.919/2010, Banco Central; cenário de exemplo). Comenta quanto o seu banco cobra por mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #tarifabancaria #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "R$ 420 por ano de tarifa do banco: dá para zerar #shorts",
+  "yt_desc": "No exemplo, um pacote de R$ 35 por mês custa R$ 420 por ano. Todo banco é obrigado a oferecer uma conta com serviços essenciais sem tarifa (Resolução CMN 3.919/2010, Banco Central). Ache a tarifa no extrato, veja se você usa o pacote e peça os serviços essenciais.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #tarifabancaria #organizacaofinanceira",
+  "pin_title": "Tarifa bancária: como parar de pagar R$ 420 por ano ao banco",
+  "pin": "A tarifa do pacote do banco passa despercebida no extrato. Num cenário de exemplo, R$ 35 por mês viram R$ 420 por ano, e todo banco é obrigado a oferecer uma conta com serviços essenciais sem tarifa. Descubra no site quais outros gastos somem do seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "A cobrança que tira <em>R$ 420 por ano</em> de você",
+  "value": "R$ 420",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra se você paga →"
+ }
+}
