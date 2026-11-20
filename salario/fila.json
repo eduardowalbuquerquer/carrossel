@@ -745,6 +745,19 @@
       "v3": {
         "pasta": "sm07-ovelhas",
         "nota": "Série Sabedoria milenar (4/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 20/11. Publicar --so tt,pin."
+      },
+      "v1": {
+        "pasta": "v3-natal-presentes-240",
+        "nota": "Fila sem item: pauta nova v3 (presentes de Natal: 8 x R$ 50 = R$ 400 com lista; sem lista média R$ 80 = R$ 640, R$ 240 a mais, cenário de exemplo; gancho notificação 'Compra aprovada: presente R$ 80,00'). IG 22,5 s, TT 24,1 s, YT 21,9 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-20T12:15-03:00",
+        "links": {
+          "ig": "https://www.instagram.com/reel/Df96m18gU12/",
+          "yt": "https://youtube.com/shorts/NydYBrQQprI",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7710267186849402133",
+          "pin": "https://www.pinterest.com/pin/264727284344767153",
+          "fb": "https://facebook.com/1446527975200486_122112273333533531"
+        }
       }
     },
     {
