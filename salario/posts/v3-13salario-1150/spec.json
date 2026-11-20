@@ -1,0 +1,64 @@
+{
+ "id": "v3-13salario-1150",
+ "formato": "v3",
+ "pilar": "salario",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-08-salario-caiu.jpg",
+   "notif": {
+    "app": "Conta salário",
+    "title": "13º salário: 1ª parcela",
+    "msg": "Crédito: <b>R$ 1.150,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.150",
+   "value_label": "1ª parcela do 13º de quem ganha R$ 2.300",
+   "tone": "green",
+   "title": "O 13º caiu. <em>Para onde vai?</em>",
+   "say": "Mil cento e cinquenta de décimo terceiro. Não deixa sumir até janeiro.",
+   "show": "R$ 1.150 de 13º. Não deixa sumir até janeiro."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "label": "1ª parcela do 13º",
+   "value": "R$ 1.150",
+   "tone": "green",
+   "text": "Carteira assinada: metade do salário, paga <b>até 30 de novembro</b>. Salário de R$ 2.300 = R$ 1.150. Cenário de exemplo.",
+   "source": "Lei 4.749/1965, art. 2º (planalto.gov.br)",
+   "say": "A primeira parcela é metade do salário. Ela cai até trinta de novembro. Quem ganha dois mil e trezentos recebe mil cento e cinquenta.",
+   "show": "A 1ª parcela é metade do salário. Ela cai até 30 de novembro. Quem ganha R$ 2.300 recebe R$ 1.150."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça nesta ordem",
+   "items": [
+    "Quite a dívida de <b>juro mais alto</b>",
+    "Separe as contas de <b>janeiro</b>",
+    "Presente só com <b>o que sobrar</b>"
+   ],
+   "say": "Faça nesta ordem. Quite a dívida de juro mais alto. Separe as contas de janeiro. Presente só com o que sobrar."
+  },
+  {
+   "type": "cta",
+   "title": "Monte o plano do <em>seu 13º</em>.",
+   "say": "Monte o plano do seu décimo terceiro."
+  }
+ ],
+ "captions": {
+  "ig": "O 13º caiu. Para onde ele vai? 👇\n\nCom carteira assinada, a 1ª parcela é metade do salário e cai até 30 de novembro (Lei 4.749/1965, art. 2º). Quem ganha R$ 2.300 recebe R$ 1.150.\n\nFaça nesta ordem:\n1. Quite a dívida de juro mais alto\n2. Separe as contas de janeiro\n3. Presente só com o que sobrar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#decimoterceiro #13salario #organizacaofinanceira #financaspessoais #educacaofinanceira",
+  "tt": "O 13º caiu. Para onde ele vai? Com carteira assinada, a 1ª parcela é metade do salário e cai até 30/11 (Lei 4.749/1965). Ganha R$ 2.300? São R$ 1.150 (cenário de exemplo) 💸 Comenta o que você vai fazer com o seu 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #decimoterceiro #13salario #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "13º de R$ 1.150: faça nesta ordem antes de gastar #shorts",
+  "yt_desc": "Com carteira assinada, a 1ª parcela do 13º é metade do salário e é paga até 30 de novembro (Lei 4.749/1965, art. 2º). Quem ganha R$ 2.300 recebe R$ 1.150 (cenário de exemplo). Ordem: quite a dívida de juro mais alto, separe as contas de janeiro e deixe o presente para o que sobrar.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #decimoterceiro #organizacaofinanceira",
+  "pin_title": "Décimo terceiro salário: em que ordem usar a 1ª parcela",
+  "pin": "A 1ª parcela do 13º salário é metade do salário e cai até 30 de novembro. Num cenário de exemplo, quem ganha R$ 2.300 recebe R$ 1.150. Descubra no site a ordem certa para usar o seu 13º e monte o plano com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Onde o seu 13º <em>deve ir primeiro?</em>",
+  "value": "R$ 1.150",
+  "label": "1ª parcela de quem ganha R$ 2.300",
+  "cta": "Veja a ordem e faça a sua →"
+ }
+}
