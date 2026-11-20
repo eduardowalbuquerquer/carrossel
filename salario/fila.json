@@ -744,7 +744,14 @@
       "formato": "v3",
       "v3": {
         "pasta": "sm07-ovelhas",
-        "nota": "Série Sabedoria milenar (4/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 20/11. Publicar --so tt,pin."
+        "nota": "Série Sabedoria milenar (4/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 20/11. Publicar --so tt,pin.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-20T16:05-03:00",
+        "links": {
+          "yt": "https://youtube.com/shorts/zGeKw18sbu0",
+          "tt": "https://tiktok.com/@salrio.organizado/video/7710330839078358273",
+          "pin": "https://www.pinterest.com/pin/264727284344778920"
+        }
       },
       "v1": {
         "pasta": "v3-natal-presentes-240",
