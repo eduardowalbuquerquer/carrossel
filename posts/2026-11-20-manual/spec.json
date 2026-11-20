@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-20",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Como confrontar um irmão sem perder o irmão",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MANUAL DO HOMEM", "title": "Como confrontar um irmão <em style=\"color:#C8892C\">sem perder o irmão</em>.", "body": "Calar é fácil. Expor é fácil. Corrigir com amor dá trabalho. Um roteiro em 6 passos.", "hint": "Salve e use quando precisar →"},
+    {"layout": "text", "theme": "dark", "tag": "A ORDEM", "title": "Jesus não mandou comentar. Mandou <em style=\"color:#E3B566\">ir até ele</em>.",
+      "quote": {"text": "Se teu irmão pecar contra ti, vai argui-lo entre ti e ele só. Se ele te ouvir, ganhaste a teu irmão.", "ref": "Mateus 18:15 · ARA"},
+      "body": "O objetivo não é vencer a discussão. É ganhar o irmão."},
+    {"layout": "list", "theme": "light", "tag": "O ROTEIRO · PARTE 1", "title": "Antes de falar", "items": [
+      {"num": "01", "title": "Olhe para você primeiro", "desc": "Ore e examine o seu coração. Você quer restaurar ou desabafar?"},
+      {"num": "02", "title": "Fale a sós", "desc": "Nada de indireta no grupo ou recado por terceiros."},
+      {"num": "03", "title": "Não deixe esfriar", "desc": "Quanto mais você espera, mais a mágoa cresce."}
+    ]},
+    {"layout": "list", "theme": "dark", "tag": "O ROTEIRO · PARTE 2", "title": "Na conversa", "items": [
+      {"num": "04", "title": "Pergunte antes de acusar", "desc": "\"Posso te falar uma coisa que me preocupou?\""},
+      {"num": "05", "title": "Seja específico e breve", "desc": "Um fato, não uma lista de defeitos."},
+      {"num": "06", "title": "Ofereça a mão", "desc": "\"Como eu posso te ajudar nisso?\" Confronto sem ajuda vira julgamento."}
+    ]},
+    {"layout": "text", "theme": "light", "tag": "O ESPÍRITO CERTO", "title": "Firme no assunto. <em style=\"color:#C8892C\">Brando no tom</em>.",
+      "quote": {"text": "Irmãos, se alguém for surpreendido nalguma falta, vós, que sois espirituais, corrigi-o com espírito de brandura; e guarda-te para que não sejas também tentado.", "ref": "Gálatas 6:1 · ARA"},
+      "body": "Quem corrige lembrando que também cai, corrige melhor."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual passo é o mais difícil para você? Comente o número."}
+  ],
+  "caption": "Calar é fácil. Expor é fácil. Corrigir com amor dá trabalho.\n\n1. Olhe para você primeiro\n2. Fale a sós\n3. Não deixe esfriar\n4. Pergunte antes de acusar\n5. Seja específico e breve\n6. Ofereça a mão\n\n\"Leais são as feridas feitas pelo que ama\" (Pv 27:6).\n\nSalve e envie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #amizade #forjadaalma #biblia #discipulado",
+  "caption_facebook": "Todo homem já viu um amigo indo pelo caminho errado e ficou calado. Ou pior: comentou com os outros em vez de falar com ele.\n\nJesus foi direto: \"Se teu irmão pecar contra ti, vai argui-lo entre ti e ele só. Se ele te ouvir, ganhaste a teu irmão.\" (Mateus 18:15). O objetivo não é vencer, é ganhar o irmão.\n\nAntes de falar, olhe para o seu coração. Fale a sós, sem demora. Pergunte antes de acusar, seja específico e ofereça ajuda. E faça tudo \"com espírito de brandura\" (Gálatas 6:1), lembrando que você também pode cair.\n\n\"Leais são as feridas feitas pelo que ama, porém os beijos de quem odeia são enganosos.\" (Provérbios 27:6)\n\nVocê já foi corrigido por um amigo de um jeito que te ajudou de verdade? Conta aqui.\n\n#homemcristao #forjadaalma #amizade",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "MANUAL DO HOMEM", "text": "Seu amigo está errando. <em>E você?</em>"},
+      {"kicker": "CALAR OU EXPOR?", "text": "Nenhum dos dois. Existe <em>um terceiro caminho</em>."},
+      {"kicker": "O ROTEIRO EM 6 PASSOS", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Seu amigo está errando. Calar ou expor? Nenhum dos dois. O roteiro em 6 passos está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Seu amigo está errando. Calar ou expor? Nenhum dos dois. O roteiro em 6 passos está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
