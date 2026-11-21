@@ -1,0 +1,65 @@
+{
+ "id": "v3-quanto-deve-6840",
+ "formato": "v3",
+ "pilar": "divida-desmontada",
+ "refeito_de": "r15v2-quanto-deve",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Empréstimo",
+    "title": "Parcela 2 de 20",
+    "msg": "Valor: <b>R$ 230,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 6.840",
+   "value_label": "o que você deve de verdade",
+   "tone": "red",
+   "title": "Parece R$ 480 por mês. <em>Não é.</em>",
+   "say": "Parece que você deve quatrocentos e oitenta por mês. Deve seis mil oitocentos e quarenta.",
+   "show": "Parece que você deve R$ 480 por mês. Deve R$ 6.840."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "label": "Parcela × o que falta",
+   "value": "R$ 6.840",
+   "tone": "red",
+   "text": "Empréstimo <b>R$ 230 × 18</b> = R$ 4.140. Cartão <b>R$ 150 × 12</b> = R$ 1.800. Geladeira <b>R$ 100 × 9</b> = R$ 900. Cenário de exemplo.",
+   "say": "Empréstimo, duzentos e trinta vezes dezoito. Cartão, cento e cinquenta vezes doze. Geladeira, cem vezes nove. Faltam seis mil oitocentos e quarenta.",
+   "show": "Empréstimo, R$ 230 vezes 18. Cartão, R$ 150 vezes 12. Geladeira, R$ 100 vezes 9. Faltam R$ 6.840."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Faça a sua em 5 minutos",
+   "items": [
+    "Anote <b>cada dívida</b>",
+    "Parcela × <b>parcelas que faltam</b>",
+    "Confira no <b>Registrato</b> (Banco Central, grátis)"
+   ],
+   "say": "Faça a sua em cinco minutos. Anote cada dívida. Multiplique pelas parcelas que faltam. Confira no Registrato.",
+   "show": "Faça a sua em 5 minutos. Anote cada dívida. Multiplique pelas parcelas que faltam. Confira no Registrato."
+  },
+  {
+   "type": "cta",
+   "title": "Dívida com número <em>tem fim</em>.",
+   "say": "Dívida com número tem fim."
+  }
+ ],
+ "captions": {
+  "ig": "Parece R$ 480 por mês. Mas você deve R$ 6.840 👇\n\nNo exemplo, as parcelas somam R$ 480 por mês. Parece que cabe. Agora olha quanto falta pagar:\n• Empréstimo: R$ 230 × 18 = R$ 4.140\n• Cartão parcelado: R$ 150 × 12 = R$ 1.800\n• Crediário da geladeira: R$ 100 × 9 = R$ 900\nTotal: R$ 6.840.\n\nFaça a sua em 5 minutos: anote cada dívida numa linha, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis).\n\nDívida com número tem fim. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem vive dizendo \"nem sei quanto devo\" 👀\n\n(Cenário de exemplo.)\n\n#dividas #organizacaofinanceira #financaspessoais #educacaofinanceira #controlefinanceiro",
+  "tt": "Parece R$ 480 por mês, mas faltam R$ 6.840 (cenário de exemplo) 👇 Comenta quanto você acha que deve no total. ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #dividas #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "yt_title": "Parece R$ 480 por mês, mas você deve R$ 6.840 #shorts",
+  "yt_desc": "Parcelas de R$ 480 por mês escondem R$ 6.840 a pagar (cenário de exemplo: empréstimo R$ 230 × 18 + cartão R$ 150 × 12 + geladeira R$ 100 × 9). Anote cada dívida, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis).\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #dividas #organizacaofinanceira",
+  "pin_title": "Planilha de dívidas: quanto você deve de verdade",
+  "pin": "Parcelas de R$ 480 por mês podem esconder R$ 6.840 a pagar. Anote cada dívida numa linha, multiplique a parcela pelas parcelas que faltam e some tudo. Confira as dívidas com bancos no Registrato, do Banco Central (grátis). Descubra no site quanto você deve de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que R$ 480 por mês <em>viram R$ 6.840?</em>",
+  "value": "R$ 6.840",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra quanto você deve →"
+ }
+}
