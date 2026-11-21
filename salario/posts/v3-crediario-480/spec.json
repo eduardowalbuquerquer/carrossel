@@ -1,0 +1,63 @@
+{
+ "id": "v3-crediario-480",
+ "formato": "v3",
+ "pilar": "parcelamento",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Crediário da loja",
+    "title": "Parcela 1 de 12",
+    "msg": "Valor: <b>R$ 140,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 480",
+   "value_label": "a mais por uma TV de R$ 1.200",
+   "tone": "red",
+   "title": "O juro <em>que não aparece</em>",
+   "say": "Uma TV de mil e duzentos reais em doze vezes de cento e quarenta. Você paga quatrocentos e oitenta a mais.",
+   "show": "Uma TV de R$ 1.200 em 12 vezes de R$ 140. Você paga R$ 480 a mais."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Total no crediário",
+   "value": "R$ 1.680",
+   "tone": "red",
+   "text": "12 x R$ 140 = <b>R$ 1.680</b>. À vista: R$ 1.200. Diferença: <b>R$ 480</b>. Cenário de exemplo.",
+   "say": "Doze vezes cento e quarenta dá mil seiscentos e oitenta. À vista, era mil e duzentos.",
+   "show": "12 vezes R$ 140 dá R$ 1.680. À vista, era R$ 1.200."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Antes de parcelar",
+   "items": [
+    "Faça <b>parcela x vezes</b>",
+    "Compare com o <b>preço à vista</b>",
+    "Se der, <b>junte e pague à vista</b>"
+   ],
+   "say": "Antes de parcelar. Faça a parcela vezes o número de vezes. Compare com o preço à vista. Se der, junte e pague à vista."
+  },
+  {
+   "type": "cta",
+   "title": "Saiba o <em>preço de verdade</em>.",
+   "say": "Saiba o preço de verdade de cada compra."
+  }
+ ],
+ "captions": {
+  "ig": "TV de R$ 1.200 em 12x de R$ 140 = R$ 1.680 👇\n\nSão R$ 480 a mais que não aparecem na etiqueta (cenário de exemplo).\n\nAntes de parcelar:\n1. Faça parcela x número de vezes\n2. Compare com o preço à vista\n3. Se der, junte e pague à vista\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n#parcelamento #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "TV de R$ 1.200 em 12x de R$ 140 = R$ 1.680. São R$ 480 a mais 📺 (cenário de exemplo). Antes de parcelar, faça parcela x vezes e compare com o preço à vista. Comenta o que você está pagando parcelado agora 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #parcelamento #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "12x de R$ 140 numa TV de R$ 1.200: R$ 480 a mais #shorts",
+  "yt_desc": "No exemplo, uma TV de R$ 1.200 à vista sai por 12 x R$ 140 = R$ 1.680 no crediário: R$ 480 a mais. Antes de parcelar, multiplique a parcela pelo número de vezes, compare com o preço à vista e, se der, junte e pague à vista.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #parcelamento #organizacaofinanceira",
+  "pin_title": "Compra parcelada: quanto a parcela custa de verdade",
+  "pin": "Parcela pequena esconde o preço final. Num cenário de exemplo, uma TV de R$ 1.200 em 12 vezes de R$ 140 sai por R$ 1.680, R$ 480 a mais. Descubra no site quanto as suas parcelas custam de verdade, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que uma TV de R$ 1.200 <em>sai por R$ 1.680?</em>",
+  "value": "R$ 480",
+  "label": "a mais, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
