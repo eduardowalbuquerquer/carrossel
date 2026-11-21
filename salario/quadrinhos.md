@@ -10,23 +10,45 @@ Modelo: `posts/q01-parcelas-734/` (spec + imagens + slides). Inspiração: carro
 - **Números verdadeiros:** a conta fecha (some no `spec.conta`), datas de quitação calculadas, nunca chutadas. Sem juros/dados de mercado sem fonte oficial. Sem recomendar investimento.
 - **Sem pessoa real, sem marca, sem banco real.** Bia e Rafa são personagens fictícios; não dizer "história real".
 
-## Personagens e estilo (cole SEMPRE este bloco no início de cada prompt de imagem)
+## Personagens e estilo (aprovado pelo Eduardo em 20/11/2026)
+Estilo: gibi infantil brasileiro (cabeça grande, olhos redondos, contorno preto grosso, cores chapadas). Inspiração tipo Turma da Mônica, **sem copiar personagem, traço ou marca**.
+
+**Ficha (model sheet) obrigatória:** `quadrinhos/ficha-bia-rafa.jpg` (no Magnific: criação `UPvkJDrwny`). Todo quadro é gerado com ela como referência. Os dois são SEMPRE iguais:
+
+| | Bia | Rafa |
+|---|---|---|
+| Pele | marrom-escura | morena (marrom média) |
+| Cabelo | 1 coque afro no alto da cabeça, elástico vermelho, brinquinho dourado | curto espetado preto, óculos redondos pretos, barbinha no queixo |
+| Roupa | camiseta amarela, jeans azul-escuro, tênis branco | polo verde, jeans azul, sapato marrom |
+| Altura | baixa | uma cabeça mais alto que a Bia |
+
+Começo de todo prompt (cole sempre):
 ```
-Warm hand-drawn gouache comic illustration, soft textured brush strokes, muted teal and warm orange palette. Two recurring characters: BIA, a Black Brazilian woman around 30 with curly hair tied in a puff, mustard-yellow loose t-shirt and jeans; RAFA, a brown-skinned Brazilian man around 32 with short black hair, short beard and round glasses, green polo shirt and dark trousers. Modest clothing, everyday body types.
+Use the reference image as the exact character design: same Bia and Rafa, same skin tones, same hair, same clothes, same heights (Rafa one head taller), same comic style with thick black outlines and flat colors. New scene, 4:5 comic panel:
 ```
-Depois: `Scene: <ação, lugar, emoção de cada um>. Leave empty space in the upper third for speech balloons. No text, no letters, no words, no logos anywhere.`
-Nunca sexualizar; roupa comum; corpo comum. Outros personagens (vendedor, filho, mãe) podem aparecer, descritos na cena.
+Depois: `<lugar + hora do dia>, <enquadramento>. <ação de cada um>. The upper third of the panel is plain empty wall. No panel border, no speech bubbles, no text, no letters, no logos.`
+Nunca sexualizar; roupa comum; corpo comum. Outros personagens (vendedor, filho, mãe) só se o roteiro pedir, descritos na cena.
+
+## Cenário coerente com o roteiro
+- Antes de gerar, escreva a lista de cenas: quadro → lugar, hora do dia (dia/noite) e quem está. O lugar tem que ser o que o balão conta (compra de celular = loja de celular; conta no fim do mês = casa).
+- **Mesmo lugar em quadros diferentes** (ex.: "Hoje" no sofá nos quadros 1 e 5): passe o 1º quadro desse lugar como 2ª referência (`references: [ficha, quadro]`) e escreva "the same <sofá/cozinha> as the second reference image".
+- Final da história volta para casa (mesma sala/cozinha do começo).
 
 ## Gerar as imagens (Magnific, plano grátis: 20 imagens/dia, R$ 0)
-1. `magnific_start` (confira `freeToday.images` ≥ 8; se faltar, grave `"pulado": "sem cota de imagem"` e pare).
-2. Uma chamada `images_generate` por quadro: `prompt` = bloco acima + cena, `aspectRatio` "4:5", `count` 1, **sem `references`** (o plano grátis recusa). Pode disparar as 8 de uma vez.
-3. `creations_wait` com os 8 identificadores; `creations_get` (`identifiers`) para pegar `url` (tamanho cheio, 896x1120).
-4. Baixe cada uma: `curl -sS -o ../posts/<pasta>/img/pN.png "<url>"` (o host `pikaso.cdnpk.net` está liberado no ambiente).
-5. **Confira cada imagem** (`creations_read`): Bia e Rafa reconhecíveis (cores das roupas, cabelo, óculos), sem texto/letra, sem dedos ou rostos deformados, espaço livre no topo. Se uma falhar, gere de novo só aquela (no máximo 12 imagens por carrossel).
+1. `magnific_start` (confira `freeToday.images` ≥ 10; se faltar, grave `"pulado": "sem cota de imagem"` e pare).
+2. Uma chamada `images_generate` por quadro: `prompt` = início fixo + cena, `aspectRatio` "4:5", `references: [{"type":"image","identifier":"UPvkJDrwny"}]` (+ quadro do mesmo lugar, se houver). O plano grátis aceita até 4 referências do tipo `image`; o tipo `character` é pago.
+3. `creations_wait`; baixe cada `url` com `curl` (sai 1824x2288; o host `pikaso.cdnpk.net` está liberado no ambiente).
+4. **Conferência obrigatória, quadro a quadro** (abra cada imagem; amplie a parte de baixo):
+   - Anatomia: 2 braços, 2 pernas, 5 dedos, um rosto por pessoa; nada sobrando ou faltando (o Rafa de 3 pernas do q01 nunca mais).
+   - Aparência: pele, cabelo, óculos, roupa e altura iguais à ficha.
+   - Cenário: lugar e hora batem com o roteiro e com os outros quadros do mesmo lugar.
+   - Sem balão, letra, moldura ou risco desenhado pela IA. Moldura preta pode ser cortada (corte por dentro e volte para 4:5); balão/letra: refaça.
+   - Cenas seguras: sentados, atrás de mesa ou da cintura pra cima. Nada de ajoelhar, cruzar pernas ou abraço embolado.
+   Quadro reprovado: gere de novo só ele (no máximo 12 imagens por carrossel). Se não passar, grave `"pulado"` com o motivo e avise o Eduardo; nunca publique quadro com defeito.
 
 ## Montar e publicar
 - `spec.json` no formato de `posts/q01-parcelas-734/spec.json` (`tipo: carrossel`, `redes: ["ig","tt"]`, `slides`, `cta_titulo`, `captions.ig`, `captions.tt`, `conta`).
-- Balões: o topo (y 40 a ~330) é a área livre. Esquerda `x 30, w ~520`; direita `x ~570, w ~470`; o 2º balão um pouco mais baixo (y +100 a +200) para não encostar no 1º. `t` (0-100) = onde fica a ponta, apontando para a cabeça de quem fala. Use `h` (altura mínima) para cobrir algo no fundo.
+- Balões: o topo (y 20 a ~330) é a área livre; o contador (n/10) fica no rodapé. Esquerda `x 30, w ~520`; direita `x ~570, w ~470`; o 2º balão um pouco mais baixo (y +100 a +200) para não encostar no 1º. `t` (0-100) = onde fica a ponta, apontando para a cabeça de quem fala. Use `h` (altura mínima) para cobrir algo no fundo.
 - `python3 render_carrossel.py ../posts/<pasta>` → `c01.jpg`…`c10.jpg` + `c10-tt.jpg`. **Abra uma prévia e confira**: balão cobrindo rosto, ponta apontando para a pessoa errada, texto cortado, conta da tabela. Ajuste e renderize de novo.
 - Publicar: `python3 publish.py ../posts/<pasta> --so ig,tt` (Instagram carrossel; TikTok fotos pelo Buffer. O TikTok não aceita o rótulo de IA da API em post de fotos, por isso o selo fica em cada quadro). Idempotente (`resultado.json`).
 

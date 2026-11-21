@@ -40,7 +40,7 @@ body{{width:{W}px;height:{H}px;overflow:hidden;background:#f3ead8}}
 .b b{{color:{B.RED}}} .b i{{font-style:normal;color:{B.GREEN}}}
 .cap{{position:absolute;left:40px;top:40px;background:{B.YELLOW};border:4px solid #1d1d1b;padding:10px 24px;font-family:Kalam,cursive;
      font-weight:700;font-size:40px;transform:rotate(-2deg);box-shadow:5px 6px 0 rgba(0,0,0,.18)}}
-.cnt{{position:absolute;right:34px;top:34px;background:rgba(20,35,31,.78);color:#fff;font:700 30px 'Source Sans 3',sans-serif;padding:8px 18px;border-radius:30px}}
+.cnt{{position:absolute;left:50%;transform:translateX(-50%);bottom:24px;background:rgba(20,35,31,.78);color:#fff;font:700 30px 'Source Sans 3',sans-serif;padding:8px 18px;border-radius:30px}}
 .ia{{position:absolute;left:30px;bottom:28px;background:rgba(20,35,31,.72);color:#fff;font:600 24px 'Source Sans 3',sans-serif;padding:6px 14px;border-radius:8px}}
 .h{{position:absolute;right:30px;bottom:28px;color:#fff;font:700 28px 'Source Sans 3',sans-serif;text-shadow:0 2px 6px rgba(0,0,0,.7)}}
 .card{{padding:110px 80px;display:flex;flex-direction:column;justify-content:center;gap:34px;background:{B.BG}}}
