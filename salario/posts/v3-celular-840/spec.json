@@ -1,0 +1,63 @@
+{
+ "id": "v3-celular-840",
+ "formato": "v3",
+ "pilar": "gastos fixos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Operadora",
+    "title": "Fatura do celular",
+    "msg": "Valor: <b>R$ 120,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 840",
+   "value_label": "por ano a mais no plano do celular",
+   "tone": "red",
+   "title": "Plano que <em>você nem usa</em>",
+   "say": "Cento e vinte reais por mês de celular. Um plano de cinquenta resolve. São oitocentos e quarenta reais por ano.",
+   "show": "R$ 120 por mês de celular. Um plano de R$ 50 resolve. São R$ 840 por ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Diferença por mês",
+   "value": "R$ 70",
+   "tone": "green",
+   "text": "R$ 120 − R$ 50 = <b>R$ 70 por mês</b>. R$ 70 x 12 = <b>R$ 840 por ano</b>. Cenário de exemplo.",
+   "say": "A diferença é de setenta reais por mês. Vezes doze meses, dá oitocentos e quarenta.",
+   "show": "A diferença é de R$ 70 por mês. Vezes 12 meses, dá R$ 840."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Veja <b>quanto de internet</b> você usa",
+    "Compare <b>planos mais baratos</b>",
+    "Ligue e <b>peça para trocar</b>"
+   ],
+   "say": "Faça assim. Veja quanto de internet você usa. Compare planos mais baratos. Ligue e peça para trocar."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os <em>gastos fixos que pesam</em>.",
+   "say": "Ache os gastos fixos que pesam no seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 120 por mês de celular, quando um plano de R$ 50 resolve = R$ 840 por ano 👇\n\nFaça assim:\n1. Veja quanto de internet você usa de verdade\n2. Compare planos mais baratos\n3. Ligue e peça para trocar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#planodecelular #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "R$ 120 por mês de celular, quando um plano de R$ 50 resolve = R$ 840 por ano 📱 Veja quanto de internet você usa, compare e peça para trocar (cenário de exemplo). Comenta quanto você paga de celular por mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #planodecelular #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "R$ 840 por ano a mais no plano do celular #shorts",
+  "yt_desc": "No exemplo, um plano de celular de R$ 120 por mês, quando um de R$ 50 resolve, custa R$ 70 a mais por mês: R$ 840 por ano. Veja quanto de internet você usa, compare planos mais baratos e peça para trocar.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #planodecelular #organizacaofinanceira",
+  "pin_title": "Como economizar no plano de celular: R$ 840 por ano a menos",
+  "pin": "O plano do celular é um gasto fixo que quase ninguém revisa. Num cenário de exemplo, trocar um plano de R$ 120 por um de R$ 50 deixa R$ 840 por ano no seu bolso. Descubra no site quais outros gastos fixos pesam no seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O gasto fixo que custa <em>R$ 840 por ano</em> a mais",
+  "value": "R$ 840",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra se você paga →"
+ }
+}
