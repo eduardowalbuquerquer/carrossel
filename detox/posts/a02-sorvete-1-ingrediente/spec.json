@@ -42,6 +42,9 @@
  },
  "pin_card": {
   "title": "O sorvete que leva <em>só 1 ingrediente</em>",
-  "cta": "Pegue a receita e mais 4 grátis →"
+  "cta": "Pegue a receita e mais 4 grátis →",
+  "kicker": "Receita sem açúcar",
+  "headline": "Sorvete de Banana",
+  "accent": "com 1 ingrediente só"
  }
 }

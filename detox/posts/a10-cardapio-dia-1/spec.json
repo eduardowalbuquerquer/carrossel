@@ -50,6 +50,9 @@
  },
  "pin_card": {
   "title": "O que comer <em>no dia 1 sem açúcar?</em>",
-  "cta": "Veja o cardápio e as receitas →"
+  "cta": "Veja o cardápio e as receitas →",
+  "kicker": "Cardápio sem açúcar",
+  "headline": "Dia 1 sem açúcar",
+  "accent": "comida de verdade"
  }
 }
