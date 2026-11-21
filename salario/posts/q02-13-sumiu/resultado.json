@@ -1,3 +1,5 @@
 {
-  "ig_erro": "Erro HTTP 400 em https://graph.instagram.com/17841426019954958/media_publish: {\"error\":{\"message\":\"Media ID is not available\",\"type\":\"OAuthException\",\"code\":9007,\"error_subcode\":2207027,\"is_transient\":false,\"error_user_title\":\"Cannot Publish\",\"error_user_msg\":\"The media is not ready for publishing, please wait for a moment\",\"fbtrace_id\":\"AN_5dWuyPa7B35LXFMWRr8C\"}}"
+  "tt_id": "6b020387d5eabfb8cc5d500f",
+  "tt_status": "BUFFER_SENT",
+  "tt_link": "https://tiktok.com/@salrio.organizado/video/7710729341675654408"
 }
