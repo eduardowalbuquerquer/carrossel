@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-21",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Pedro: o homem que negou e foi restaurado",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 60%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "Ele negou Jesus perto de uma fogueira. <em style=\"color:#E3B566\">Foi restaurado em outra</em>.",
+      "body": "Pedro: o homem que caiu e voltou."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A PROMESSA",
+      "title": "O mais confiante de todos.",
+      "quote": {
+        "text": "Disse-lhe Pedro: Ainda que todos se escandalizem, eu, jamais!",
+        "ref": "Marcos 14:29 · ARA"
+      },
+      "body": "Horas depois, aquecendo-se num braseiro, negou três vezes que conhecia Jesus (João 18:18)."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A QUEDA",
+      "title": "O galo cantou. E o Senhor olhou para ele.",
+      "quote": {
+        "text": "Então, Pedro, saindo dali, chorou amargamente.",
+        "ref": "Lucas 22:62 · ARA"
+      },
+      "body": "Ele não fingiu que estava tudo bem. Chorou o seu pecado."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "Jesus não descartou Pedro. <em style=\"color:#E3B566\">Deu a ele uma missão</em>.",
+      "quote": {
+        "text": "…Senhor, tu sabes todas as coisas, tu sabes que eu te amo. Jesus lhe disse: Apascenta as minhas ovelhas.",
+        "ref": "João 21:17 · ARA"
+      },
+      "body": "Junto a outro braseiro na praia (João 21:9), três perguntas curaram três negações. Sua queda não é o fim da sua história."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Conhece um irmão que acha que já caiu demais? Envie para ele."
+    }
+  ],
+  "caption": "Pedro negou Jesus três vezes perto de uma fogueira. Dias depois, junto a outro braseiro, Jesus perguntou três vezes: \"tu me amas?\" (Jo 21:17).\n\nSua queda não é o fim da sua história. Volte para Ele.\n\nEnvie para um irmão que acha que já caiu demais.\n\nSiga @forjadaalma.oficial\n\n#pedro #homensdabiblia #homemdedeus #homemcristao #forjadaalma #biblia #restauracao",
+  "caption_facebook": "Pedro era o mais confiante dos discípulos: \"Ainda que todos se escandalizem, eu, jamais!\" (Marcos 14:29). Horas depois, aquecendo-se num braseiro, negou três vezes que conhecia Jesus. Quando o galo cantou, \"Pedro, saindo dali, chorou amargamente\" (Lucas 22:62).\n\nMas a história não terminou ali. Depois da ressurreição, Jesus preparou outro braseiro na praia e perguntou a Pedro três vezes: \"tu me amas?\". E em vez de descartá-lo, deu a ele uma missão: \"Apascenta as minhas ovelhas\" (João 21:17).\n\nTalvez você também tenha prometido muito e caído feio. A queda não é o fim da sua história. Arrependa-se de verdade e volte para Ele.\n\nVocê conhece alguém que precisa ouvir isso hoje? Compartilhe com ele.\n\n#pedro #homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "Ele negou Jesus <em>perto de uma fogueira</em>."},
+      {"kicker": "DIAS DEPOIS", "text": "Foi restaurado <em>junto a outra</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele negou Jesus perto de uma fogueira. Foi restaurado junto a outra. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "Ele negou Jesus perto de uma fogueira. Foi restaurado junto a outra. Quem era ele? A história está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
