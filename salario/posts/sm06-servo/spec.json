@@ -6,7 +6,7 @@
  "scenes": [
   {
    "type": "hook",
-   "bg": "cenas/cena-06-insonia.jpg",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
    "notif": {
     "app": "Cartão de crédito",
     "title": "Fatura em atraso",
