@@ -793,6 +793,20 @@
    "v3": {
     "pasta": "sm06-servo",
     "nota": "Série Sabedoria milenar (5/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 21/11. Publicar --so tt,pin."
+   },
+   "v1": {
+    "pasta": "v3-quanto-deve-6840",
+    "refeito_de": "r15v2-quanto-deve",
+    "nota": "Fila sem item: campeão 'quanto você deve de verdade' refeito v3 com números novos (empréstimo R$ 230 × 18 + cartão R$ 150 × 12 + geladeira R$ 100 × 9 = R$ 6.840; parcelas R$ 480/mês; cenário de exemplo; gancho notificação 'Empréstimo Parcela 2 de 20 R$ 230,00'). IG 23,8 s, TT 25,4 s, YT 24,3 s. IG precisou de 2ª tentativa (mídia não pronta).",
+    "renderizado": "v3",
+    "publicado_em": "2026-11-21T12:20-03:00",
+    "links": {
+     "yt": "https://youtube.com/shorts/Y37pKyzRADY",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7710639257114643719",
+     "pin": "https://www.pinterest.com/pin/264727284344809216",
+     "fb": "https://facebook.com/1446527975200486_122112679461533531",
+     "ig": "https://www.instagram.com/reel/DgAgOnFjrOx/"
+    }
    }
   },
   {
