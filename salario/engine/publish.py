@@ -122,7 +122,14 @@ def publish_ig_carrossel(post_dir, spec):
         kids.append(cid)
     c = ig("POST", f"{uid}/media", media_type="CAROUSEL", children=",".join(kids), caption=spec["captions"]["ig"])["id"]
     ig_wait(c, "o carrossel")
-    mid = ig("POST", f"{uid}/media_publish", creation_id=c)["id"]
+    for tent in range(8):  # "Media ID is not available" (2207027): o carrossel ainda não ficou pronto; espere e tente de novo
+        try:
+            mid = ig("POST", f"{uid}/media_publish", creation_id=c)["id"]
+            break
+        except SystemExit as e:
+            if "2207027" not in str(e) or tent == 7:
+                raise
+            time.sleep(15)
     return mid, ig("GET", mid, fields="permalink").get("permalink")
 
 
