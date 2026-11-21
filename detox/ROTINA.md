@@ -42,7 +42,8 @@ Cota de voz compartilhada com o Salário Organizado: cada vídeo daqui gasta **1
 6. **CTA por rede, só o que acontece de verdade** (o motor já fala e mostra a certa):
    - TikTok: 1º "Segue o perfil", 2º "tira print" de `detoxdeacucar.netlify.app/receitas`. Nunca "comenta RECEITA" nem "link na bio" (conta pessoal sem resposta automática; link clicável só com 1.000 seguidores).
      Legenda `tt` termina com o texto padrão dos specs `a01` a `a14`. Peça um comentário que não promete nada ("Comenta se você faria").
-   - Pinterest: só imagem (`pin.jpg`), que leva ao site. Nunca vídeo.
+   - Pinterest: só imagem (`pin.jpg`), que leva ao site. Nunca vídeo. O pin é um cartão de receita (`engine/pin.py`): foto grande, título forte,
+     destaque manuscrito, lista de ingredientes/passos e "Salve este pin". Preencha `pin_card.kicker`, `headline` (até 22 letras) e `accent`. Se aparecer AVISO, encurte.
    - Facebook: legenda `captions.fb` sem "Comenta RECEITA" (lá não há Zorcha); o publish põe o link das receitas.
    - Instagram (quando liberar): "Comenta RECEITA" (Zorcha manda as 5 receitas no direct).
 

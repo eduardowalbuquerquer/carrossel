@@ -52,6 +52,9 @@
  },
  "pin_card": {
   "title": "O cookie que leva <em>só 4 ingredientes</em>",
-  "cta": "Pegue a receita e mais 4 grátis →"
+  "cta": "Pegue a receita e mais 4 grátis →",
+  "kicker": "Receita sem açúcar",
+  "headline": "Cookies de Banana",
+  "accent": "com aveia, 4 ingredientes"
  }
 }

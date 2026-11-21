@@ -478,7 +478,12 @@ def resolve_bg(spec, tl, folder, tmp):
 
 
 def make_pin(spec, folder):
-    """Pin do Pinterest (2:3, 1000x1500): foto da cena, título de busca grande, valor e chamada. Gera pin.jpg."""
+    """Pin do Pinterest: estilo cartão de receita (pin.py, aprovado em 21/11/2026)."""
+    import pin
+    return pin.make_pin(spec, folder)
+
+
+def _make_pin_antigo(spec, folder):
     import re
     from playwright.sync_api import sync_playwright
     hook = spec["scenes"][0]
