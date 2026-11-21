@@ -1,0 +1,45 @@
+{
+ "id": "a12-festa-sem-exagero",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-16-festa-prato-frutas.jpg",
+   "value": "1 doce",
+   "value_label": "e saboreie",
+   "tone": "warm",
+   "title": "Festa no fim de semana? <em>Faz assim.</em>",
+   "say": "Tem festa no fim de semana? Faz assim e curte sem exagerar."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-15-geladeira-frutas.jpg",
+   "title": "O plano",
+   "items": [
+    "Coma <b>antes de sair</b>",
+    "Comece pelas <b>frutas</b>",
+    "Escolha <b>1 doce</b> e saboreie"
+   ],
+   "say": "Coma antes de sair. Na mesa, comece pelas frutas. Escolha um doce e saboreie com calma.",
+   "show": "Coma antes de sair. Na mesa, comece pelas frutas. Escolha 1 doce e saboreie com calma."
+  },
+  {
+   "type": "cta",
+   "title": "Sem culpa e <em>sem exagero</em>.",
+   "say": "Sem culpa e sem exagero."
+  }
+ ],
+ "captions": {
+  "tt": "Festa no fim de semana? O plano pra curtir sem exagerar 🎉 Comenta se você vai a alguma 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Festa no fim de semana? O plano pra curtir sem exagerar 🎉 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Festa no fim de semana? O plano pra curtir sem exagerar 🎉 Conteúdo educativo.",
+  "yt_title": "Festa sem exagerar no doce: faz assim #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Doce na festa: como curtir sem exagerar",
+  "pin": "Coma antes de sair, comece pelas frutas e escolha 1 doce. Um plano simples e 5 receitas doces sem açúcar grátis."
+ },
+ "pin_card": {
+  "title": "Como curtir a festa <em>sem exagerar no doce</em>",
+  "cta": "Veja o plano e as receitas →"
+ }
+}

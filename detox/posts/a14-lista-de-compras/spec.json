@@ -1,0 +1,56 @@
+{
+ "id": "a14-lista-de-compras",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-05-carrinho-saudavel.jpg",
+   "value": "5 itens",
+   "value_label": "pra fazer doce sem açúcar",
+   "tone": "warm",
+   "title": "5 itens <em>no carrinho</em>.",
+   "say": "Cinco itens no carrinho e você faz doce sem açúcar a semana toda.",
+   "show": "5 itens no carrinho e você faz doce sem açúcar a semana toda."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-caderno-lista-compras.jpg",
+   "title": "A lista",
+   "items": [
+    "<b>Banana</b> madura",
+    "<b>Aveia</b> em flocos",
+    "<b>Cacau</b> 100%"
+   ],
+   "say": "Banana madura. Aveia em flocos. Cacau cem por cento.",
+   "show": "Banana madura. Aveia em flocos. Cacau 100%."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-17-pote-castanhas.jpg",
+   "title": "E mais",
+   "items": [
+    "<b>Canela</b>",
+    "<b>Castanhas</b>"
+   ],
+   "say": "Canela. Castanhas."
+  },
+  {
+   "type": "cta",
+   "title": "Com isso <em>sai sobremesa</em>.",
+   "say": "Com isso sai sorvete, cookie e brigadeiro."
+  }
+ ],
+ "captions": {
+  "tt": "5 itens no carrinho pra fazer doce sem açúcar a semana toda 🛒 Comenta o que mais você colocaria 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "5 itens no carrinho pra fazer doce sem açúcar a semana toda 🛒 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "5 itens no carrinho pra fazer doce sem açúcar a semana toda 🛒 Conteúdo educativo.",
+  "yt_title": "Lista de compras: 5 itens pra doce sem açúcar #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Lista de compras sem açúcar: 5 itens para sobremesas",
+  "pin": "Banana madura, aveia, cacau 100%, canela e castanhas. Com esta lista você faz doces sem açúcar a semana toda. Pegue 5 receitas grátis."
+ },
+ "pin_card": {
+  "title": "Os 5 itens que fazem <em>doce sem açúcar</em>",
+  "cta": "Veja a lista e pegue as receitas →"
+ }
+}

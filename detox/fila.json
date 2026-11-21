@@ -1,0 +1,86 @@
+[
+ {
+  "dia": 1,
+  "data": "2026-11-22",
+  "slot": "manha",
+  "pasta": "posts/a01-refrigerante-10-colheres"
+ },
+ {
+  "dia": 1,
+  "data": "2026-11-22",
+  "slot": "noite",
+  "pasta": "posts/a02-sorvete-1-ingrediente"
+ },
+ {
+  "dia": 2,
+  "data": "2026-11-23",
+  "slot": "manha",
+  "pasta": "posts/a03-vontade-16h"
+ },
+ {
+  "dia": 2,
+  "data": "2026-11-23",
+  "slot": "noite",
+  "pasta": "posts/a05-brigadeiro-tamara"
+ },
+ {
+  "dia": 3,
+  "data": "2026-11-24",
+  "slot": "manha",
+  "pasta": "posts/a04-lupa-rotulo"
+ },
+ {
+  "dia": 3,
+  "data": "2026-11-24",
+  "slot": "noite",
+  "pasta": "posts/a07-mousse-abacate"
+ },
+ {
+  "dia": 4,
+  "data": "2026-11-25",
+  "slot": "manha",
+  "pasta": "posts/a08-sobremesa-almoco"
+ },
+ {
+  "dia": 4,
+  "data": "2026-11-25",
+  "slot": "noite",
+  "pasta": "posts/a09-cookies-banana"
+ },
+ {
+  "dia": 5,
+  "data": "2026-11-26",
+  "slot": "manha",
+  "pasta": "posts/a06-nomes-do-acucar"
+ },
+ {
+  "dia": 5,
+  "data": "2026-11-26",
+  "slot": "noite",
+  "pasta": "posts/a11-maca-assada"
+ },
+ {
+  "dia": 6,
+  "data": "2026-11-27",
+  "slot": "manha",
+  "pasta": "posts/a10-cardapio-dia-1"
+ },
+ {
+  "dia": 6,
+  "data": "2026-11-27",
+  "slot": "noite",
+  "pasta": "posts/a12-festa-sem-exagero"
+ },
+ {
+  "dia": 7,
+  "data": "2026-11-28",
+  "slot": "manha",
+  "pasta": "posts/a13-suco-caixinha"
+ },
+ {
+  "dia": 7,
+  "data": "2026-11-28",
+  "slot": "noite",
+  "pasta": "posts/a14-lista-de-compras"
+ }
+]

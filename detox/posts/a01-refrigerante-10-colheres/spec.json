@@ -1,0 +1,58 @@
+{
+ "id": "a01-refrigerante-10-colheres",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-04-refrigerante-acucar.jpg",
+   "value": "10 colheres",
+   "value_label": "de açúcar em 1 lata",
+   "tone": "red",
+   "title": "Uma lata. <em>10 colheres.</em>",
+   "say": "Uma lata de refrigerante pode ter dez colheres de chá de açúcar.",
+   "show": "Uma lata de refrigerante pode ter 10 colheres de chá de açúcar."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-01-suco-caixa.jpg",
+   "label": "Ideal da OMS por dia",
+   "value": "6 colheres",
+   "tone": "warm",
+   "text": "Uma lata já passa do <b>dia inteiro</b>.",
+   "source": "OMS, 2015",
+   "say": "O ideal da OMS é menos de seis colheres no dia inteiro.",
+   "show": "O ideal da OMS é menos de 6 colheres no dia inteiro."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-13-agua-limao-hortela.jpg",
+   "title": "Como fugir",
+   "items": [
+    "Veja a <b>lupa</b> do rótulo",
+    "Leia <b>açúcares adicionados</b>",
+    "Troque por <b>água com limão</b>"
+   ],
+   "say": "Veja a lupa da embalagem. Leia a linha de açúcares adicionados. Troque por água com limão.",
+   "show": "Veja a lupa da embalagem. Leia a linha de açúcares adicionados. Troque por água com limão."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-05-carrinho-saudavel.jpg",
+   "title": "Menos açúcar, <em>sem passar vontade</em>.",
+   "say": "Menos açúcar, sem passar vontade."
+  }
+ ],
+ "captions": {
+  "tt": "Uma lata de refrigerante pode ter 10 colheres de açúcar (OMS, 2015) 😳 Comenta quantas latas você toma por semana 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Uma lata de refrigerante pode ter 10 colheres de açúcar (OMS, 2015) 😳 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "yt_title": "10 colheres de açúcar numa lata? #shorts",
+  "yt_desc": "Receitas grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Fonte: OMS, 2015. Conteúdo educativo.",
+  "pin_title": "Açúcar no refrigerante: quantas colheres tem uma lata",
+  "pin": "Uma lata de refrigerante pode ter 10 colheres de açúcar, mais que o ideal da OMS para o dia todo. Veja 5 receitas doces sem açúcar grátis.",
+  "fb": "Uma lata de refrigerante pode ter 10 colheres de açúcar (OMS, 2015) 😳 Conteúdo educativo."
+ },
+ "pin_card": {
+  "title": "Quantas colheres de açúcar <em>cabem numa lata?</em>",
+  "cta": "Veja e pegue as receitas grátis →"
+ }
+}

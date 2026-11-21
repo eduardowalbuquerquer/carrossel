@@ -1,0 +1,55 @@
+{
+ "id": "a10-cardapio-dia-1",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-20-cafe-manha-ovos.jpg",
+   "value": "Dia 1",
+   "value_label": "sem açúcar adicionado",
+   "tone": "warm",
+   "title": "Dia 1 <em>sem açúcar</em>: o cardápio.",
+   "say": "Dia um sem açúcar adicionado. O cardápio inteiro em vinte segundos.",
+   "show": "Dia 1 sem açúcar adicionado. O cardápio inteiro em 20 segundos."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-18-marmitas-vidro.jpg",
+   "title": "O dia",
+   "items": [
+    "Café: <b>ovos e fruta</b>",
+    "Almoço: <b>arroz, frango, legumes</b>",
+    "Lanche: <b>fruta e castanhas</b>"
+   ],
+   "say": "Café da manhã, ovos e fruta. Almoço, arroz, frango e legumes. Lanche, fruta e castanhas."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-13-agua-limao-hortela.jpg",
+   "title": "E mais",
+   "items": [
+    "Jantar: <b>sopa de legumes</b>",
+    "Bebida: <b>água com limão</b>"
+   ],
+   "say": "Jantar, sopa de legumes. Para beber, água com limão."
+  },
+  {
+   "type": "cta",
+   "title": "Comida de verdade, <em>sem passar fome</em>.",
+   "say": "Comida de verdade, sem passar fome."
+  }
+ ],
+ "captions": {
+  "tt": "Dia 1 sem açúcar adicionado: o cardápio inteiro 📋 Comenta qual refeição é mais difícil pra você 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Dia 1 sem açúcar adicionado: o cardápio inteiro 📋 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Dia 1 sem açúcar adicionado: o cardápio inteiro 📋 Conteúdo educativo.",
+  "yt_title": "Dia 1 sem açúcar: o cardápio completo #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Cardápio sem açúcar: dia 1 completo e simples",
+  "pin": "Café, almoço, lanche e jantar sem açúcar adicionado, com comida de verdade. Pegue grátis 5 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "O que comer <em>no dia 1 sem açúcar?</em>",
+  "cta": "Veja o cardápio e as receitas →"
+ }
+}

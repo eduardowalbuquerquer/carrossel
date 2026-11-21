@@ -1,0 +1,55 @@
+{
+ "id": "a06-nomes-do-acucar",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-suco-caixa.jpg",
+   "value": "5 nomes",
+   "value_label": "que escondem o açúcar",
+   "tone": "red",
+   "title": "O açúcar <em>muda de nome</em>.",
+   "say": "O açúcar muda de nome no rótulo. Olha cinco deles.",
+   "show": "O açúcar muda de nome no rótulo. Olha 5 deles."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-03-biscoito-rotulo.jpg",
+   "title": "Procure no rótulo",
+   "items": [
+    "Xarope de <b>glicose</b>",
+    "<b>Maltodextrina</b>",
+    "Açúcar <b>invertido</b>"
+   ],
+   "say": "Xarope de glicose. Maltodextrina. Açúcar invertido."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-caderno-lista-compras.jpg",
+   "title": "E também",
+   "items": [
+    "Xarope de <b>milho</b>",
+    "<b>Dextrose</b>"
+   ],
+   "say": "Xarope de milho. Dextrose."
+  },
+  {
+   "type": "cta",
+   "title": "Achou um? <em>É açúcar.</em>",
+   "say": "Achou um desses? É açúcar."
+  }
+ ],
+ "captions": {
+  "tt": "5 nomes que o açúcar usa no rótulo 🕵️ Comenta qual você não conhecia 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "5 nomes que o açúcar usa no rótulo 🕵️ Xarope de glicose, maltodextrina, açúcar invertido, xarope de milho e dextrose. Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "5 nomes que o açúcar usa no rótulo 🕵️ Xarope de glicose, maltodextrina, açúcar invertido, xarope de milho e dextrose. Conteúdo educativo.",
+  "yt_title": "5 nomes do açúcar no rótulo #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Açúcar escondido: 5 nomes no rótulo dos alimentos",
+  "pin": "Xarope de glicose, maltodextrina, açúcar invertido, xarope de milho e dextrose. Aprenda a ler o rótulo e pegue 5 receitas doces sem açúcar grátis."
+ },
+ "pin_card": {
+  "title": "Os 5 nomes que <em>escondem o açúcar</em>",
+  "cta": "Veja a lista e pegue as receitas →"
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "id": "a04-lupa-rotulo",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-03-biscoito-rotulo.jpg",
+   "value": "1 lupa",
+   "value_label": "na frente da embalagem",
+   "tone": "red",
+   "title": "Viu essa lupa? <em>Leia antes.</em>",
+   "say": "Viu uma lupa na frente da embalagem? Ela está te avisando uma coisa."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-02-iogurte-acucar.jpg",
+   "label": "Alto em",
+   "value": "açúcar adicionado",
+   "tone": "red",
+   "text": "A lupa aparece quando o produto passa do <b>limite</b> da Anvisa.",
+   "source": "Anvisa, RDC 429/2020",
+   "say": "Alto em açúcar adicionado quer dizer que o produto passou do limite da Anvisa."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-05-carrinho-saudavel.jpg",
+   "title": "No mercado",
+   "items": [
+    "Procure <b>a lupa</b>",
+    "Compare <b>2 marcas</b>",
+    "Leve a <b>sem lupa</b>"
+   ],
+   "say": "Procure a lupa. Compare duas marcas. Leve a que não tem lupa.",
+   "show": "Procure a lupa. Compare 2 marcas. Leve a que não tem lupa."
+  },
+  {
+   "type": "cta",
+   "title": "Rótulo lido, <em>açúcar evitado</em>.",
+   "say": "Rótulo lido, açúcar evitado."
+  }
+ ],
+ "captions": {
+  "tt": "Viu essa lupa na embalagem? Ela avisa: alto em açúcar adicionado (Anvisa, RDC 429/2020) 🔍 Comenta qual produto te surpreendeu 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Viu essa lupa na embalagem? Ela avisa: alto em açúcar adicionado (Anvisa, RDC 429/2020) 🔍 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Viu essa lupa na embalagem? Ela avisa: alto em açúcar adicionado (Anvisa, RDC 429/2020) 🔍 Conteúdo educativo.",
+  "yt_title": "A lupa do rótulo: o que ela avisa #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Rótulo de alimentos: o que significa a lupa alto em açúcar",
+  "pin": "A lupa na frente da embalagem avisa quando o produto tem muito açúcar adicionado. Aprenda a usar no mercado e pegue 5 receitas doces sem açúcar grátis."
+ },
+ "pin_card": {
+  "title": "O que a lupa da embalagem <em>está te avisando?</em>",
+  "cta": "Veja e pegue as receitas grátis →"
+ }
+}

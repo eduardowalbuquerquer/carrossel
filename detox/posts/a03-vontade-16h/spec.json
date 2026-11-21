@@ -1,0 +1,53 @@
+{
+ "id": "a03-vontade-16h",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-14-mesa-cafe-maca.jpg",
+   "notif": {
+    "app": "Relógio",
+    "title": "16:00",
+    "msg": "Hora do <b>docinho</b>?",
+    "when": "agora"
+   },
+   "value": "16h",
+   "value_label": "a hora da vontade de doce",
+   "tone": "warm",
+   "title": "Bateu vontade de doce <em>às 16h?</em>",
+   "say": "Bateu vontade de doce às quatro da tarde? Faz isso antes.",
+   "show": "Bateu vontade de doce às 16h? Faz isso antes."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-17-pote-castanhas.jpg",
+   "title": "Antes do doce",
+   "items": [
+    "Beba <b>1 copo</b> de água",
+    "Coma <b>fruta + castanhas</b>",
+    "Espere <b>10 minutos</b>"
+   ],
+   "say": "Beba um copo de água. Coma uma fruta com castanhas. Espere dez minutos.",
+   "show": "Beba 1 copo de água. Coma uma fruta com castanhas. Espere 10 minutos."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-08-mousse-cacau.jpg",
+   "title": "Ainda quer? <em>Doce de fruta.</em>",
+   "say": "Ainda quer? Vai de doce de fruta."
+  }
+ ],
+ "captions": {
+  "tt": "Bateu vontade de doce às 16h? Faz isso antes 🍎 Comenta a hora que bate a sua vontade 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Bateu vontade de doce às 16h? Faz isso antes 🍎 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓",
+  "yt_title": "Vontade de doce às 16h? Faz isso #shorts",
+  "yt_desc": "5 receitas grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo.",
+  "pin_title": "Vontade de doce: o que fazer às 16h",
+  "pin": "Três passos simples para a vontade de doce da tarde e 5 receitas doces sem açúcar grátis.",
+  "fb": "Bateu vontade de doce às 16h? Faz isso antes 🍎 Conteúdo educativo."
+ },
+ "pin_card": {
+  "title": "O que fazer quando bate <em>a vontade de doce</em>",
+  "cta": "Veja e pegue as receitas grátis →"
+ }
+}

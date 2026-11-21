@@ -1,0 +1,54 @@
+{
+ "id": "a13-suco-caixinha",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-suco-caixa.jpg",
+   "value": "1 olhada",
+   "value_label": "na lista de ingredientes",
+   "tone": "red",
+   "title": "Suco de caixinha <em>é fruta?</em>",
+   "say": "Suco de caixinha é fruta? Vira a caixa antes de responder."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-03-biscoito-rotulo.jpg",
+   "title": "Vira a caixa",
+   "items": [
+    "Leia os <b>ingredientes</b>",
+    "Tem <b>açúcar</b>? Não é só fruta",
+    "Veja a <b>lupa</b>"
+   ],
+   "say": "Leia a lista de ingredientes. Se tiver açúcar, não é só fruta. Veja se tem a lupa."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-13-agua-limao-hortela.jpg",
+   "title": "Troca simples",
+   "items": [
+    "<b>Fruta inteira</b>",
+    "<b>Água</b> com limão"
+   ],
+   "say": "Prefira a fruta inteira. Ou água com limão."
+  },
+  {
+   "type": "cta",
+   "title": "Fruta de verdade <em>se mastiga</em>.",
+   "say": "Fruta de verdade se mastiga."
+  }
+ ],
+ "captions": {
+  "tt": "Suco de caixinha é fruta? Vira a caixa antes de responder 🧃 Comenta qual você toma 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Suco de caixinha é fruta? Vira a caixa antes de responder 🧃 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Suco de caixinha é fruta? Vira a caixa antes de responder 🧃 Conteúdo educativo.",
+  "yt_title": "Suco de caixinha é fruta? Vira a caixa #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Suco de caixinha: como saber se tem açúcar",
+  "pin": "Leia a lista de ingredientes e procure a lupa antes de comprar suco de caixinha. Pegue grátis 5 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "Suco de caixinha <em>é mesmo fruta?</em>",
+  "cta": "Veja como saber e pegue as receitas →"
+ }
+}
