@@ -1,0 +1,58 @@
+{
+ "id": "a05-brigadeiro-tamara",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-07-brigadeiro-tamara.jpg",
+   "value": "3 ingredientes",
+   "value_label": "sem leite condensado",
+   "tone": "warm",
+   "title": "Brigadeiro <em>sem açúcar</em>.",
+   "say": "Brigadeiro sem açúcar e sem leite condensado, com três ingredientes.",
+   "show": "Brigadeiro sem açúcar e sem leite condensado, com 3 ingredientes."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-17-pote-castanhas.jpg",
+   "title": "Só isso",
+   "items": [
+    "<b>10 tâmaras</b> hidratadas",
+    "<b>2 colheres</b> de cacau 100%",
+    "<b>Castanhas</b> trituradas"
+   ],
+   "say": "Dez tâmaras hidratadas. Duas colheres de cacau cem por cento. Castanhas trituradas.",
+   "show": "10 tâmaras hidratadas. 2 colheres de cacau 100%. Castanhas trituradas."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-08-mousse-cacau.jpg",
+   "title": "Modo de fazer",
+   "items": [
+    "Bata <b>tudo</b>",
+    "Enrole <b>no coco</b>",
+    "Gele <b>30 minutos</b>"
+   ],
+   "say": "Bata tudo. Enrole no coco ralado. Gele por trinta minutos.",
+   "show": "Bata tudo. Enrole no coco ralado. Gele por 30 minutos."
+  },
+  {
+   "type": "cta",
+   "title": "Doce de fruta, <em>sem culpa</em>.",
+   "say": "Doce de fruta, sem açúcar."
+  }
+ ],
+ "captions": {
+  "tt": "Brigadeiro de tâmara: 3 ingredientes, sem açúcar e sem leite condensado 🍫 Comenta se você faria 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Brigadeiro de tâmara: 3 ingredientes, sem açúcar e sem leite condensado 🍫 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Brigadeiro de tâmara: 3 ingredientes, sem açúcar e sem leite condensado 🍫 Conteúdo educativo.",
+  "yt_title": "Brigadeiro sem açúcar com 3 ingredientes #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Brigadeiro sem açúcar: receita de tâmara com 3 ingredientes",
+  "pin": "Brigadeiro de tâmara, cacau e castanhas, sem açúcar e sem leite condensado. Pegue grátis mais 4 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "O brigadeiro que <em>não leva açúcar</em>",
+  "cta": "Pegue a receita e mais 4 grátis →"
+ }
+}

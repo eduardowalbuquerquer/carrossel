@@ -1,0 +1,44 @@
+{
+ "id": "a08-sobremesa-almoco",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-18-marmitas-vidro.jpg",
+   "value": "1 troca",
+   "value_label": "depois do almoço",
+   "tone": "warm",
+   "title": "Almoçou e <em>pediu doce?</em>",
+   "say": "Almoçou e o corpo pediu doce? Testa uma troca só."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-10-maca-assada.jpg",
+   "title": "A troca",
+   "items": [
+    "Fruta <b>com canela</b>",
+    "Coma <b>devagar</b>",
+    "Escove <b>os dentes</b>"
+   ],
+   "say": "Troque o doce por fruta com canela. Coma devagar. Depois, escove os dentes."
+  },
+  {
+   "type": "cta",
+   "title": "Uma troca <em>por dia</em>.",
+   "say": "Uma troca por dia já faz diferença no paladar."
+  }
+ ],
+ "captions": {
+  "tt": "Almoçou e pediu doce? Testa essa troca 🍎 Comenta se você é do time da sobremesa 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Almoçou e pediu doce? Testa essa troca 🍎 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Almoçou e pediu doce? Testa essa troca 🍎 Conteúdo educativo.",
+  "yt_title": "Vontade de doce depois do almoço? Faz isso #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Vontade de doce depois do almoço: 1 troca simples",
+  "pin": "Fruta com canela, comer devagar e escovar os dentes. Uma troca simples para a sobremesa e 5 receitas doces sem açúcar grátis."
+ },
+ "pin_card": {
+  "title": "A troca simples <em>para a sobremesa</em>",
+  "cta": "Veja e pegue as receitas grátis →"
+ }
+}

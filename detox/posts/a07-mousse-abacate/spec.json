@@ -1,0 +1,56 @@
+{
+ "id": "a07-mousse-abacate",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-08-mousse-cacau.jpg",
+   "value": "0 açúcar",
+   "value_label": "adicionado",
+   "tone": "warm",
+   "title": "Mousse de chocolate <em>com abacate</em>.",
+   "say": "Mousse de chocolate sem açúcar. O segredo é o abacate."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-smoothie-verde.jpg",
+   "title": "Ingredientes",
+   "items": [
+    "<b>1 abacate</b> maduro",
+    "<b>1 banana</b> bem madura",
+    "<b>2 colheres</b> de cacau 100%"
+   ],
+   "say": "Um abacate maduro. Uma banana bem madura. Duas colheres de cacau cem por cento.",
+   "show": "1 abacate maduro. 1 banana bem madura. 2 colheres de cacau 100%."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-12-mingau-aveia.jpg",
+   "title": "Modo de fazer",
+   "items": [
+    "Bata <b>até ficar liso</b>",
+    "Gele <b>1 hora</b>"
+   ],
+   "say": "Bata até ficar liso. Leve à geladeira por uma hora.",
+   "show": "Bata até ficar liso. Leve à geladeira por 1 hora."
+  },
+  {
+   "type": "cta",
+   "title": "O abacate <em>nem aparece</em>.",
+   "say": "O abacate quase não aparece no sabor."
+  }
+ ],
+ "captions": {
+  "tt": "Mousse de chocolate com abacate e sem açúcar adicionado 🥑🍫 Comenta se você teria coragem 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Mousse de chocolate com abacate e sem açúcar adicionado 🥑🍫 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Mousse de chocolate com abacate e sem açúcar adicionado 🥑🍫 Conteúdo educativo.",
+  "yt_title": "Mousse de chocolate sem açúcar com abacate #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Mousse sem açúcar: chocolate com abacate e banana",
+  "pin": "Mousse cremosa de cacau, abacate e banana, sem açúcar adicionado. Pegue grátis mais 4 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "A mousse de chocolate <em>que leva abacate</em>",
+  "cta": "Pegue a receita e mais 4 grátis →"
+ }
+}

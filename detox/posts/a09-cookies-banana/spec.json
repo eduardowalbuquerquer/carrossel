@@ -1,0 +1,57 @@
+{
+ "id": "a09-cookies-banana",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-09-cookies-aveia.jpg",
+   "value": "4 ingredientes",
+   "value_label": "sem açúcar e sem farinha branca",
+   "tone": "warm",
+   "title": "Cookies <em>sem açúcar</em>.",
+   "say": "Cookies sem açúcar com quatro ingredientes.",
+   "show": "Cookies sem açúcar com 4 ingredientes."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-06-sorvete-banana.jpg",
+   "title": "Ingredientes",
+   "items": [
+    "<b>2 bananas</b> maduras",
+    "<b>1 xícara</b> de aveia",
+    "Passas <b>e canela</b>"
+   ],
+   "say": "Duas bananas maduras amassadas. Uma xícara de aveia. Uva-passa e canela.",
+   "show": "2 bananas maduras amassadas. 1 xícara de aveia. Uva-passa e canela."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-20-cafe-manha-ovos.jpg",
+   "title": "Forno",
+   "items": [
+    "Faça <b>bolinhas</b>",
+    "<b>180 °C</b>, 15 minutos"
+   ],
+   "say": "Faça bolinhas achatadas. Asse a cento e oitenta graus por quinze minutos.",
+   "show": "Faça bolinhas achatadas. Asse a 180 °C por 15 minutos."
+  },
+  {
+   "type": "cta",
+   "title": "Rende <em>10 cookies</em>.",
+   "say": "Rende uns dez cookies."
+  }
+ ],
+ "captions": {
+  "tt": "Cookies de banana e aveia: 4 ingredientes, sem açúcar 🍪 Comenta se você faria hoje 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Cookies de banana e aveia: 4 ingredientes, sem açúcar 🍪 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Cookies de banana e aveia: 4 ingredientes, sem açúcar 🍪 Conteúdo educativo.",
+  "yt_title": "Cookies sem açúcar com 4 ingredientes #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Cookies sem açúcar: banana e aveia com 4 ingredientes",
+  "pin": "Cookies de banana, aveia, uva-passa e canela, sem açúcar. Pegue grátis mais 4 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "O cookie que leva <em>só 4 ingredientes</em>",
+  "cta": "Pegue a receita e mais 4 grátis →"
+ }
+}

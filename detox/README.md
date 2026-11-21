@@ -8,7 +8,7 @@ e voz feminina pt-BR do Gemini TTS (`Kore`, definida em `engine/tts.py`; idioma 
 - Site: https://detoxdeacucar.netlify.app/ · isca grátis: /receitas/ (5 receitas doces sem açúcar).
 - CTA: Instagram "Comenta RECEITA" (Zorcha); TikTok "Segue o perfil" + "tira print" do endereço /receitas; YouTube "link do perfil"; Pinterest só imagem (pin.jpg).
 - Regra de saúde: o vídeo ensina, a página vende, nada promete resultado no corpo (sem emagrecer, desinchar, toxinas, doença). Dado só com fonte conferida na tela.
-- Amostras (aguardando aprovação, nada publicado): `posts/a01-*`, `a02-*`, `a03-*`.
+- Amostras aprovadas em 21/11/2026. Fila: `fila.json` (14 roteiros, 22 a 28/11), rotina em `ROTINA.md`.
 
 Render: `cd detox/engine && python3 render_video_v2.py ../posts/<pasta>/spec.json --so tt`
-Publicação e rotina ainda não ligadas (precisam do OK do Eduardo).
+Publicar: `python3 publish.py ../posts/<pasta> --so tt,pin[,fb]` (Buffer da marca, chave DETOX_BUFFER_KEY).

@@ -1,0 +1,45 @@
+{
+ "id": "a11-maca-assada",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-10-maca-assada.jpg",
+   "value": "25 minutos",
+   "value_label": "no forno, sem açúcar",
+   "tone": "warm",
+   "title": "Maçã assada <em>com canela</em>.",
+   "say": "Sobremesa quentinha sem açúcar: maçã assada com canela."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-17-pote-castanhas.jpg",
+   "title": "Como fazer",
+   "items": [
+    "Tire <b>o miolo</b>",
+    "Recheie com <b>nozes e canela</b>",
+    "<b>180 °C</b>, 25 minutos"
+   ],
+   "say": "Tire o miolo da maçã. Recheie com nozes e canela. Asse a cento e oitenta graus por vinte e cinco minutos.",
+   "show": "Tire o miolo da maçã. Recheie com nozes e canela. Asse a 180 °C por 25 minutos."
+  },
+  {
+   "type": "cta",
+   "title": "O cheiro <em>já adoça</em>.",
+   "say": "O cheiro de canela já parece sobremesa."
+  }
+ ],
+ "captions": {
+  "tt": "Maçã assada com canela e nozes, sem açúcar 🍎 Comenta se você comeria morna ou gelada 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Maçã assada com canela e nozes, sem açúcar 🍎 Comenta RECEITA que eu te mando 5 doces sem açúcar no direct 🍓 Conteúdo educativo.",
+  "fb": "Maçã assada com canela e nozes, sem açúcar 🍎 Conteúdo educativo.",
+  "yt_title": "Maçã assada sem açúcar em 25 minutos #shorts",
+  "yt_desc": "5 receitas doces sem açúcar, grátis: https://detoxdeacucar.netlify.app/receitas/?utm_source=youtube Conteúdo educativo, não substitui nutricionista.",
+  "pin_title": "Sobremesa sem açúcar: maçã assada com canela",
+  "pin": "Maçã assada com nozes e canela, sem açúcar, em 25 minutos no forno. Pegue grátis mais 4 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "A sobremesa quente <em>que não leva açúcar</em>",
+  "cta": "Pegue a receita e mais 4 grátis →"
+ }
+}
