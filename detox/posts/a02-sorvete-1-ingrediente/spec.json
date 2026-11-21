@@ -1,0 +1,46 @@
+{
+ "id": "a02-sorvete-1-ingrediente",
+ "formato": "v3",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-sorvete-banana.jpg",
+   "value": "1 ingrediente",
+   "value_label": "zero açúcar adicionado",
+   "tone": "warm",
+   "title": "Sorvete com <em>1 ingrediente</em>.",
+   "say": "Sorvete cremoso com um ingrediente só e zero açúcar.",
+   "show": "Sorvete cremoso com 1 ingrediente só e zero açúcar."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-15-geladeira-frutas.jpg",
+   "title": "Só isso",
+   "items": [
+    "Corte <b>2 bananas</b> maduras",
+    "Congele por <b>6 horas</b>",
+    "Bata até ficar <b>cremoso</b>"
+   ],
+   "say": "Corte duas bananas bem maduras. Congele por seis horas. Bata até ficar cremoso.",
+   "show": "Corte 2 bananas bem maduras. Congele por 6 horas. Bata até ficar cremoso."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-07-brigadeiro-tamara.jpg",
+   "title": "Tem mais <em>4 receitas</em> assim.",
+   "say": "Tem mais quatro receitas assim, de graça."
+  }
+ ],
+ "captions": {
+  "tt": "Sorvete de banana com 1 ingrediente e zero açúcar adicionado 🍌 Comenta se você faria 👇 ➕ Segue para a próxima! 📸 Tira print do final: receitas grátis em detoxdeacucar.netlify.app/receitas (digite no navegador) Conteúdo educativo, não substitui nutricionista. #semacucar #receitasaudavel #alimentacaosaudavel #docesemacucar #reeducacaoalimentar",
+  "ig": "Sorvete de banana com 1 ingrediente e zero açúcar adicionado 🍌 Comenta RECEITA que eu te mando mais 4 doces sem açúcar no direct 🍓",
+  "yt_title": "Sorvete de 1 ingrediente sem açúcar #shorts",
+  "yt_desc": "5 receitas grátis: https://detoxdeacucar.netlify.app/receitas?utm_source=youtube Conteúdo educativo.",
+  "pin_title": "Sorvete sem açúcar: receita com 1 ingrediente",
+  "pin": "Sorvete cremoso só com banana congelada, sem açúcar e sem adoçante. Pegue grátis mais 4 receitas doces sem açúcar."
+ },
+ "pin_card": {
+  "title": "O sorvete que leva <em>só 1 ingrediente</em>",
+  "cta": "Pegue a receita e mais 4 grátis →"
+ }
+}
