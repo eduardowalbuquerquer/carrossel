@@ -1,0 +1,208 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 540,
+     "t": 57,
+     "txt": "Cadê os <b>R$ 3.200</b> do 13º?!"
+    },
+    {
+     "x": 590,
+     "y": 60,
+     "w": 460,
+     "t": 38,
+     "txt": "Sumiu em uma semana..."
+    }
+   ],
+   "cap": "Janeiro..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 520,
+     "t": 55,
+     "txt": "Presente pra família toda: <b>R$ 1.400</b>."
+    },
+    {
+     "x": 590,
+     "y": 40,
+     "w": 450,
+     "t": 34,
+     "txt": "Natal é uma vez por ano!"
+    }
+   ],
+   "cap": "Dezembro..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 520,
+     "t": 55,
+     "txt": "Ceia caprichada: <b>R$ 650</b>."
+    },
+    {
+     "x": 580,
+     "y": 30,
+     "w": 460,
+     "t": 40,
+     "txt": "E roupa nova pra virada: <b>R$ 450</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 30,
+     "w": 520,
+     "t": 46,
+     "txt": "TV nova! Entrada de <b>R$ 700</b>..."
+    },
+    {
+     "x": 580,
+     "y": 40,
+     "w": 460,
+     "t": 40,
+     "txt": "...e o resto em 10x de <b>R$ 180</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 540,
+     "t": 57,
+     "txt": "13º zerado e ainda <b>R$ 1.800</b> de TV pra pagar."
+    },
+    {
+     "x": 590,
+     "y": 50,
+     "w": 460,
+     "t": 38,
+     "txt": "O 13º não era bônus. Era salário."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 590,
+     "t": 44,
+     "txt": "Natal com teto: <i>R$ 120</i> por mês numa caixinha."
+    },
+    {
+     "x": 640,
+     "y": 60,
+     "w": 420,
+     "t": 35,
+     "txt": "E o 13º não encosta: vai pra reserva."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 600,
+     "t": 48,
+     "txt": "Março: <i>R$ 360</i> já na caixinha do Natal."
+    },
+    {
+     "x": 650,
+     "y": 40,
+     "w": 400,
+     "t": 29,
+     "txt": "E a TV acaba em outubro!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 520,
+     "t": 50,
+     "txt": "Natal pago à vista: <i>R$ 1.320</i>!"
+    },
+    {
+     "x": 580,
+     "y": 110,
+     "w": 460,
+     "t": 45,
+     "txt": "E o 13º inteiro na reserva: <i>R$ 3.200</i>."
+    }
+   ],
+   "cap": "11 meses depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>O 13º sumiu em <em>1 semana</em>.</h1><p>Para onde foi o 13º da Bia e do Rafa (R$ 3.200 dos dois):</p><table><tr><th>Gasto</th><th class='n'>Valor</th></tr><tr><td>Presentes</td><td class='n'>R$ 1.400</td></tr><tr><td>Ceia</td><td class='n'>R$ 650</td></tr><tr><td>Roupa da virada</td><td class='n'>R$ 450</td></tr><tr><td>Entrada da TV</td><td class='n'>R$ 700</td></tr><tr class='tot'><td>Total em 1 semana</td><td class='n'>R$ 3.200</td></tr></table><p>E ainda ficaram 10x de R$ 180 da TV. Plano novo: R$ 120 por mês numa caixinha (11 meses = R$ 1.320 de Natal) e o 13º inteiro na reserva.</p>"
+  }
+ ],
+ "cta_titulo": "Quer dar destino ao seu 13º antes de ele cair?",
+ "captions": {
+  "ig": "O 13º caiu numa sexta. Na outra sexta, já não existia. 😳\n\nPresentes, ceia, roupa da virada e a entrada de uma TV: R$ 3.200 em uma semana. E a TV ainda deixou 10 parcelas de R$ 180 para o ano seguinte.\n\nA virada da Bia e do Rafa foi simples: Natal com teto, pago com uma caixinha de R$ 120 por mês, e o 13º sem encostar, direto para a reserva.\n\nE o seu 13º, já tem destino antes de cair? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#13salario #decimoterceiro #organizacaofinanceira #financaspessoais #planilhafinanceira",
+  "tt": "O 13º sumiu em 1 semana... e ainda ficou parcela 😳 Comenta o que você vai fazer com o seu 13º.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "13º líquido dos dois R$ 3.200 = presentes 1.400 + ceia 650 + roupas 450 + entrada TV 700. TV: 10x 180 = 1.800 (jan a out). Caixinha Natal 120 x 11 (jan-nov) = 1.320; em março 3 x 120 = 360. 13º seguinte inteiro na reserva: 3.200.",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
