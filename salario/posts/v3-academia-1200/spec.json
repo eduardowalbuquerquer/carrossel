@@ -1,0 +1,63 @@
+{
+ "id": "v3-academia-1200",
+ "formato": "v3",
+ "pilar": "gastos fixos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "notif": {
+    "app": "Academia",
+    "title": "Mensalidade debitada",
+    "msg": "Valor: <b>R$ 100,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.200",
+   "value_label": "por ano numa academia parada",
+   "tone": "red",
+   "title": "Academia que <em>você não vai</em>",
+   "say": "Cem reais por mês de academia. Você não vai faz meses. São mil e duzentos reais por ano.",
+   "show": "R$ 100 por mês de academia. Você não vai faz meses. São R$ 1.200 por ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Custo por treino",
+   "value": "R$ 50",
+   "tone": "red",
+   "text": "R$ 100 por mês ÷ 2 treinos = <b>R$ 50 por treino</b>. R$ 100 x 12 = <b>R$ 1.200 por ano</b>. Cenário de exemplo.",
+   "say": "Se você foi duas vezes no mês, cada treino custou cinquenta reais.",
+   "show": "Se você foi 2 vezes no mês, cada treino custou R$ 50."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Conte <b>quantas vezes</b> foi no mês",
+    "Divida a <b>mensalidade</b> por esse número",
+    "Se ficou caro, <b>pause ou cancele</b>"
+   ],
+   "say": "Faça assim. Conte quantas vezes foi no mês. Divida a mensalidade por esse número. Se ficou caro, pause ou cancele."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os <em>gastos fixos parados</em>.",
+   "say": "Ache os gastos fixos parados no seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 100 por mês de academia que você não vai = R$ 1.200 por ano 👇\n\nFaça assim:\n1. Conte quantas vezes foi no mês\n2. Divida a mensalidade por esse número\n3. Se ficou caro, pause ou cancele\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#academia #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "R$ 100 por mês de academia que você não vai = R$ 1.200 por ano 🏋️ Foi 2 vezes no mês? Cada treino custou R$ 50. Conte, divida e, se ficou caro, pause ou cancele (cenário de exemplo). Comenta quantas vezes você foi esse mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #academia #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "R$ 1.200 por ano na academia que você não vai #shorts",
+  "yt_desc": "No exemplo, uma academia de R$ 100 por mês custa R$ 1.200 por ano. Se você foi só 2 vezes no mês, cada treino saiu por R$ 50. Conte quantas vezes foi, divida a mensalidade e, se ficou caro, pause ou cancele.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #academia #organizacaofinanceira",
+  "pin_title": "Como economizar nos gastos fixos: a academia de R$ 1.200 por ano",
+  "pin": "A mensalidade da academia é um gasto fixo que continua caindo mesmo quando você não vai. Num cenário de exemplo, R$ 100 por mês com 2 treinos dá R$ 50 por treino e R$ 1.200 por ano. Descubra no site quais outros gastos fixos parados pesam no seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto custa <em>cada treino</em> que você faz?",
+  "value": "R$ 1.200",
+  "label": "por ano, num cenário de exemplo",
+  "cta": "Faça a sua conta →"
+ }
+}
