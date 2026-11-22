@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-22",
+  "series": "pergunta",
+  "series_name": "Pergunta de Domingo",
+  "title": "Quem é você quando ninguém está olhando?",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "dark",
+      "tag": "PERGUNTA DE DOMINGO",
+      "title": "Quem é você quando <em style=\"color:#E3B566\">ninguém está olhando</em>?",
+      "body": "No culto, todo mundo é crente. A pergunta é como você vive na segunda, no celular, no trânsito, no escritório vazio.",
+      "hint": "Responda com sinceridade nos comentários ↓"
+    }
+  ],
+  "caption": "No culto, todo mundo é crente. Mas caráter é o que você faz quando ninguém está vendo.\n\n\"Quem anda em integridade anda seguro, mas o que perverte os seus caminhos será conhecido\" (Pv 10:9).\n\nQuem é você quando ninguém está olhando? Responda 👇\nEnvie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #homemcristao #integridade #biblia #forjadaalma #fecrista",
+  "caption_facebook": "É fácil ser crente no domingo, cercado de gente. O teste de verdade vem na segunda: o que você assiste sozinho, como fala no trânsito, o que faz com o tempo da empresa quando o chefe não está.\n\nProvérbios é direto: \"Quem anda em integridade anda seguro, mas o que perverte os seus caminhos será conhecido\" (Provérbios 10:9). O que fazemos escondido um dia aparece. E o homem íntegro não precisa ter medo disso.\n\nA boa notícia é que integridade se constrói nas pequenas escolhas, um dia de cada vez, com a ajuda de Deus.\n\nUma pergunta para o seu domingo: quem é você quando ninguém está olhando? Conta aqui.\n\n#homemcristao #forjadaalma #integridade",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "PERGUNTA DE DOMINGO", "text": "No culto, todo mundo é crente. <em>E na segunda?</em>"},
+      {"kicker": "ENTÃO PENSE", "text": "Quem é você quando <em>ninguém está olhando</em>?"},
+      {"kicker": "SÓ UMA PERGUNTA", "text": "Ela está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "No culto, todo mundo é crente. E na segunda? A pergunta de hoje está no perfil 👆\n\n#homemdedeus #homemcristao #forjadaalma #biblia",
+    "caption_facebook": "No culto, todo mundo é crente. E na segunda? A pergunta de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
