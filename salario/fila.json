@@ -862,6 +862,19 @@
     "tt_status": "BUFFER_SENT",
     "pin_link": "https://www.pinterest.com/pin/264727284344837901",
     "fb_link": "https://facebook.com/1446527975200486_122113011543533531"
+   },
+   "v2": {
+    "pasta": "v3-academia-1200",
+    "nota": "Fila sem item: pauta nova v3 (academia R$ 100/mês sem ir = R$ 1.200/ano; 2 treinos no mês = R$ 50 por treino; cenário de exemplo; gancho notificação 'Mensalidade debitada R$ 100,00'). TT 21,7 s, YT 20,7 s.",
+    "renderizado": "v3",
+    "publicado_em": "2026-11-22T19:20-03:00",
+    "redes": "tt,yt,pin",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7711122952799997204",
+     "yt": "https://youtube.com/shorts/BkqAYCsmXKY",
+     "pin": "https://www.pinterest.com/pin/264727284344848836"
+    },
+    "tt_status": "BUFFER_SENT"
    }
   },
   {
