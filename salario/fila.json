@@ -843,7 +843,13 @@
    "formato": "v3",
    "v3": {
     "pasta": "sm08-torre",
-    "nota": "Série Sabedoria milenar (6/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 22/11. Publicar --so tt,pin."
+    "nota": "Série Sabedoria milenar (6/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 22/11. Publicar --so tt,pin. Gancho trocado para cena-17 (cena-07 foi o gancho do v3 de ontem). TikTok caiu em rascunho por push recusado (main local velho); republicado pelo Buffer: apagar o rascunho duplicado na caixa do TikTok.",
+    "publicado_em": "2026-11-22T16:05-03:00",
+    "renderizado": "v3",
+    "tt_link": "https://tiktok.com/@salrio.organizado/video/7711073809209740565",
+    "tt_status": "BUFFER_SENT",
+    "yt_link": "https://youtube.com/shorts/PJcQ4MSS7iY",
+    "pin_link": "https://www.pinterest.com/pin/264727284344845343"
    },
    "v1": {
     "pasta": "v3-janeiro-640",
