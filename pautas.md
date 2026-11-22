@@ -27,7 +27,7 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/augustusnicodemus/ · 
 - 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 2026-11-17 (reels)
 - 2026-11-22 · Hernandes Dias Lopes · A gravidade do pecado: não é pequeno nem inofensivo, afasta de Deus e destrói vidas (Mito x Verdade "todo mundo faz") · https://www.instagram.com/hernandesdiaslopes/ · 
-- 2026-11-22 · Natanael Knabben · Prever o futuro x obedecer hoje: gastamos mais tempo tentando adivinhar o mundo do que praticando a Palavra · https://www.instagram.com/reel/Df2yz4lPxBG/ · 
+- 2026-11-22 · Natanael Knabben · Prever o futuro x obedecer hoje: gastamos mais tempo tentando adivinhar o mundo do que praticando a Palavra · https://www.instagram.com/reel/Df2yz4lPxBG/ · 2026-11-22 (reels)
 - 2026-11-22 · Natanael Knabben · Prosperidade não é acumular: viver com medo de perder x confiar na provisão de Deus (sem teologia da prosperidade) · https://www.instagram.com/reel/DfxpPO4j5MC/ · 
 
 ## Aprendizados da semana (2026-10-18)
