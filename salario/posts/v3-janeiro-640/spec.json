@@ -1,0 +1,64 @@
+{
+ "id": "v3-janeiro-640",
+ "formato": "v3",
+ "pilar": "planejamento",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "notif": {
+    "app": "Escola",
+    "title": "Lista de material 2027",
+    "msg": "Estimativa: <b>R$ 400,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 640",
+   "value_label": "de contas extras em janeiro",
+   "tone": "red",
+   "title": "Janeiro já <em>está chegando.</em>",
+   "say": "Janeiro chega com seiscentos e quarenta reais de contas esquecidas.",
+   "show": "Janeiro chega com R$ 640 de contas esquecidas."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "label": "Contas extras de janeiro",
+   "value": "R$ 640",
+   "tone": "red",
+   "text": "Material escolar <b>R$ 400</b> + uniforme e tênis <b>R$ 150</b> + 1ª parcela do IPTU <b>R$ 90</b> = R$ 640. Cenário de exemplo.",
+   "say": "Material escolar, quatrocentos. Uniforme e tênis, cento e cinquenta. Primeira parcela do IPTU, noventa. Total, seiscentos e quarenta.",
+   "show": "Material escolar, R$ 400. Uniforme e tênis, R$ 150. Primeira parcela do IPTU, R$ 90. Total, R$ 640."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Prepare janeiro agora",
+   "items": [
+    "Liste as <b>contas de janeiro</b>",
+    "Separe o valor <b>no 13º</b>",
+    "Pesquise a lista <b>antes de comprar</b>"
+   ],
+   "say": "Prepare janeiro agora. Liste as contas de janeiro. Separe o valor no décimo terceiro. Pesquise a lista antes de comprar.",
+   "show": "Prepare janeiro agora. Liste as contas de janeiro. Separe o valor no 13º. Pesquise a lista antes de comprar."
+  },
+  {
+   "type": "cta",
+   "title": "Janeiro sem susto <em>começa agora</em>.",
+   "say": "Janeiro sem susto começa agora."
+  }
+ ],
+ "captions": {
+  "ig": "Janeiro chega com R$ 640 de contas que quase todo mundo esquece 👇\n\nNo exemplo, além das contas fixas:\n• Material escolar: R$ 400\n• Uniforme e tênis: R$ 150\n• 1ª parcela do IPTU: R$ 90\nTotal: R$ 640 extras, junto com a fatura do fim de ano.\n\nPrepare janeiro agora: liste as contas que chegam em janeiro, separe esse valor quando o 13º cair e pesquise a lista de material antes de comprar.\n\nJaneiro sem susto começa agora. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem tem filho na escola 👀\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #controlefinanceiro #materialescolar",
+  "tt": "Janeiro chega com R$ 640 de contas esquecidas (cenário de exemplo) 👇 Comenta qual conta de janeiro mais pesa na sua casa. ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #materialescolar #dinheiro #educacaofinanceira",
+  "yt_title": "Janeiro chega com R$ 640 de contas esquecidas #shorts",
+  "yt_desc": "Material escolar R$ 400 + uniforme e tênis R$ 150 + 1ª parcela do IPTU R$ 90 = R$ 640 de contas extras em janeiro (cenário de exemplo). Liste as contas de janeiro, separe o valor quando o 13º cair e pesquise a lista antes de comprar.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #materialescolar",
+  "pin_title": "Planejamento financeiro de janeiro: as contas que todo mundo esquece",
+  "pin": "Material escolar, uniforme e IPTU podem somar R$ 640 extras em janeiro. Liste as contas do começo do ano, separe o valor quando o 13º cair e pesquise a lista antes de comprar. Descubra no site quanto vai sobrar no seu janeiro, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "As contas de janeiro que <em>somam R$ 640</em>",
+  "value": "R$ 640",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra quanto sobra no seu →"
+ }
+}
