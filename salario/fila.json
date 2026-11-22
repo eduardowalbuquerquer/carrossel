@@ -844,6 +844,18 @@
    "v3": {
     "pasta": "sm08-torre",
     "nota": "Série Sabedoria milenar (6/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 22/11. Publicar --so tt,pin."
+   },
+   "v1": {
+    "pasta": "v3-janeiro-640",
+    "nota": "Pauta nova v3 (fila vazia): contas extras de janeiro R$ 640, notif lista de material.",
+    "renderizado": "v3",
+    "publicado_em": "2026-11-22T12:00-03:00",
+    "ig_link": "https://www.instagram.com/reel/DgDEG67AO3Z/",
+    "yt_link": "https://youtube.com/shorts/eJCoIApaThA",
+    "tt_link": "https://tiktok.com/@salrio.organizado/video/7711009134011157778",
+    "tt_status": "BUFFER_SENT",
+    "pin_link": "https://www.pinterest.com/pin/264727284344837901",
+    "fb_link": "https://facebook.com/1446527975200486_122113011543533531"
    }
   },
   {
