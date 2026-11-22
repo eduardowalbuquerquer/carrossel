@@ -19,6 +19,14 @@ if not key:
 os.environ["SO_BUFFER_KEY"] = key                     # o motor lê SO_BUFFER_KEY: aqui vale a chave da marca
 os.environ["SO_PIN_BOARD"] = os.environ.get("DETOX_PIN_BOARD", "Receitas sem açúcar")
 os.environ["SO_TIKTOK_MODO"] = "buffer"
+# Tokens próprios da marca (o token do YouTube fica numa pasta separada da do Salário Organizado).
+os.environ["SO_SEGREDOS"] = os.environ.get("DETOX_SEGREDOS", "/mnt/project-files/canais/automacao/.segredos-detox")
+IG_OK = bool(os.environ.get("DETOX_IG_ACCESS_TOKEN") and os.environ.get("DETOX_IG_USER_ID"))
+if IG_OK:
+    os.environ["SO_IG_ACCESS_TOKEN"] = os.environ["DETOX_IG_ACCESS_TOKEN"]
+    os.environ["SO_IG_USER_ID"] = os.environ["DETOX_IG_USER_ID"]
+else:  # nunca cair no Instagram do Salário Organizado
+    os.environ.pop("SO_IG_ACCESS_TOKEN", None); os.environ.pop("SO_IG_USER_ID", None)
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "salario" / "engine"))
 import publish as P  # noqa: E402
@@ -60,13 +68,17 @@ def publish_pin(post_dir, spec):
 P.publish_tt = publish_tt
 P.fb_caption = fb_caption
 P.publish_pin = publish_pin
-P.publish_ig = lambda *a: (_ for _ in ()).throw(SystemExit("Instagram do Totalmente Saudável ainda não autorizado no app"))
-P.publish_yt = lambda *a: (_ for _ in ()).throw(SystemExit("YouTube do Totalmente Saudável ainda não autorizado no app"))
+if not IG_OK:
+    P.publish_ig = lambda *a: (_ for _ in ()).throw(SystemExit("Instagram do Totalmente Saudável ainda não autorizado (faltam DETOX_IG_ACCESS_TOKEN e DETOX_IG_USER_ID)"))
+if not (P.SEGREDOS / "yt_token.json").exists():
+    P.publish_yt = lambda *a: (_ for _ in ()).throw(SystemExit("YouTube do Totalmente Saudável ainda não autorizado (falta o token em .segredos-detox)"))
 
 
 def check():
     import json
     out = {}
+    out["instagram"] = "configurado" if IG_OK else "falta autorizar"
+    out["youtube"] = "configurado" if (P.SEGREDOS / "yt_token.json").exists() else "falta autorizar"
     for s in ("tiktok", "pinterest", "facebook"):
         try:
             out[s] = P.buffer_channel(s)
@@ -79,6 +91,8 @@ if __name__ == "__main__":
     argv = sys.argv[1:]
     if "--check" in argv:
         check()
+    elif any(a.startswith("--yt-auth") for a in argv):
+        P.auth(argv)  # autoriza o canal do YouTube da marca; token vai para SO_SEGREDOS (.segredos-detox)
     else:
         if "--so" not in argv:
             argv += ["--so", "tt,pin"]
