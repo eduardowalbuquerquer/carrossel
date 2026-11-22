@@ -6,7 +6,7 @@
  "scenes": [
   {
    "type": "hook",
-   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
    "notif": {
     "app": "Cartão de crédito",
     "title": "Parcela 1 de 14",
