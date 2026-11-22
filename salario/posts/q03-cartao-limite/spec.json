@@ -1,0 +1,207 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 520,
+     "t": 46,
+     "txt": "Fatura de <b>R$ 2.900</b>?!"
+    },
+    {
+     "x": 580,
+     "y": 40,
+     "w": 470,
+     "t": 36,
+     "txt": "Mas o limite é R$ 4.000..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 560,
+     "t": 48,
+     "txt": "Mercado no cartão: <b>R$ 900</b>."
+    },
+    {
+     "x": 620,
+     "y": 40,
+     "w": 430,
+     "t": 30,
+     "txt": "Tem limite, relaxa!"
+    }
+   ],
+   "cap": "No mês passado..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 50,
+     "txt": "Delivery quase todo dia: <b>R$ 650</b>."
+    },
+    {
+     "x": 590,
+     "y": 40,
+     "w": 460,
+     "t": 40,
+     "txt": "Hoje não deu tempo de cozinhar..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 46,
+     "txt": "Compras online e assinaturas: <b>R$ 800</b>."
+    },
+    {
+     "x": 580,
+     "y": 60,
+     "w": 470,
+     "t": 38,
+     "txt": "E farmácia e gasolina: <b>R$ 550</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 540,
+     "t": 46,
+     "txt": "Depois das contas fixas, sobram só <b>R$ 1.700</b>."
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 36,
+     "txt": "Faltam <b>R$ 1.200</b> pra fatura!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 560,
+     "t": 44,
+     "txt": "Pagamos a fatura toda com a reserva: <b>R$ 1.200</b>. Sem rotativo."
+    },
+    {
+     "x": 610,
+     "y": 60,
+     "w": 440,
+     "t": 34,
+     "txt": "E o cartão agora tem teto: R$ 1.400 por mês."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 540,
+     "t": 46,
+     "txt": "Fatura deste mês: <i>R$ 1.380</i>, dentro do teto!"
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 36,
+     "txt": "Sobraram <i>R$ 320</i>: voltaram pra reserva."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 140,
+     "w": 540,
+     "t": 46,
+     "txt": "Reserva de volta: <i>R$ 1.200</i>!"
+    },
+    {
+     "x": 600,
+     "y": 90,
+     "w": 450,
+     "t": 36,
+     "txt": "E a fatura cabe no salário, não no limite."
+    }
+   ],
+   "cap": "4 meses depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>O limite do cartão <em>não é</em> seu salário.</h1><p>O mês da Bia e do Rafa (renda de R$ 3.800 dos dois):</p><table><tr><th>Conta</th><th class='n'>Valor</th></tr><tr><td>Renda</td><td class='n'>R$ 3.800</td></tr><tr><td>Contas fixas</td><td class='n'>− R$ 2.100</td></tr><tr><td>Sobra para o cartão</td><td class='n'>R$ 1.700</td></tr><tr><td>Fatura</td><td class='n'>R$ 2.900</td></tr><tr class='tot'><td>Faltou</td><td class='n'>− R$ 1.200</td></tr></table><p>Plano novo: fatura paga inteira com a reserva (sem rotativo) e teto de R$ 1.400 por mês no cartão. Sobrou R$ 320 já no 1º mês, e em 4 meses a reserva voltou.</p>"
+  }
+ ],
+ "cta_titulo": "Quer saber quanto do seu salário já está no cartão?",
+ "captions": {
+  "ig": "O limite era R$ 4.000. O salário que sobrava para o cartão era R$ 1.700. A fatura veio R$ 2.900. 😳\n\nMercado, delivery quase todo dia, compras online, assinaturas, farmácia e gasolina: tudo no cartão, porque \"tem limite\". Faltaram R$ 1.200.\n\nA virada da Bia e do Rafa: pagaram a fatura inteira com a reserva (nada de rotativo) e colocaram um teto de R$ 1.400 por mês no cartão. Em 4 meses, a reserva voltou.\n\nVocê já usou o limite como se fosse salário? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#cartaodecredito #organizacaofinanceira #financaspessoais #planilhafinanceira #educacaofinanceira",
+  "tt": "Limite de R$ 4.000 não é salário de R$ 4.000 😳 Comenta se você já caiu nessa.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Renda dos dois 3.800 - contas fixas 2.100 = 1.700 para o cartão. Fatura 2.900 = mercado 900 + delivery 650 + online/assinaturas 800 + farmácia/gasolina 550. Faltou 2.900-1.700 = 1.200, pago com a reserva (1.200). Teto 1.400; fatura do mês 1.380; sobra 1.700-1.380 = 320 para a reserva. 4 meses x 320 = 1.280, reserva de 1.200 recomposta.",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
