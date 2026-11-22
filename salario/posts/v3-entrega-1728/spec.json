@@ -1,0 +1,64 @@
+{
+ "id": "v3-entrega-1728",
+ "formato": "v3",
+ "pilar": "gastos invisíveis",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "notif": {
+    "app": "App de comida",
+    "title": "Pedido confirmado",
+    "msg": "Taxa de entrega: <b>R$ 9,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.728",
+   "value_label": "por ano só de taxa de entrega",
+   "tone": "red",
+   "title": "A taxa que <em>ninguém soma</em>",
+   "say": "Nove reais de taxa de entrega parece pouco. Quatro pedidos por semana viram mil setecentos e vinte e oito reais por ano.",
+   "show": "R$ 9 de taxa de entrega parece pouco. 4 pedidos por semana viram R$ 1.728 por ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Só de taxa, por mês",
+   "value": "R$ 144",
+   "tone": "green",
+   "text": "4 pedidos x 4 semanas = 16 pedidos. 16 x R$ 9 = <b>R$ 144 por mês</b>. R$ 144 x 12 = <b>R$ 1.728 por ano</b>. Cenário de exemplo.",
+   "say": "São dezesseis pedidos no mês. Só de taxa, cento e quarenta e quatro reais.",
+   "show": "São 16 pedidos no mês. Só de taxa, R$ 144."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Anote <b>quantos pedidos</b> faz na semana",
+    "Some <b>só as taxas</b> do mês",
+    "Troque <b>2 pedidos</b> por retirada"
+   ],
+   "say": "Faça assim. Anote quantos pedidos você faz na semana. Some só as taxas do mês. Troque dois pedidos por retirada no local.",
+   "show": "Faça assim. Anote quantos pedidos você faz na semana. Some só as taxas do mês. Troque 2 pedidos por retirada no local."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os <em>gastos invisíveis</em>.",
+   "say": "Ache os gastos invisíveis do seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 9 de taxa de entrega, 4 vezes por semana = R$ 1.728 por ano só de taxa 👇\n\nFaça assim:\n1. Anote quantos pedidos você faz na semana\n2. Some só as taxas do mês\n3. Troque 2 pedidos por retirada no local\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo: 16 pedidos x R$ 9 = R$ 144 por mês.)\n\n#delivery #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "R$ 9 de taxa de entrega, 4 vezes por semana = R$ 1.728 por ano só de taxa 🛵 Anote os pedidos, some as taxas e troque 2 por retirada (cenário de exemplo). Comenta quantos pedidos você faz por semana 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #delivery #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "R$ 1.728 por ano só de taxa de entrega #shorts",
+  "yt_desc": "No exemplo, 4 pedidos por semana com R$ 9 de taxa de entrega são 16 pedidos no mês: R$ 144 por mês e R$ 1.728 por ano só de taxa. Anote os pedidos, some as taxas e troque alguns por retirada no local.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #delivery #organizacaofinanceira",
+  "pin_title": "Como economizar no delivery: R$ 1.728 por ano só de taxa",
+  "pin": "A taxa de entrega parece pequena, mas se repete toda semana. Num cenário de exemplo, 4 pedidos por semana com R$ 9 de taxa somam R$ 1.728 por ano. Descubra no site quanto os gastos invisíveis tiram do seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto a taxa de entrega <em>custa no fim do ano?</em>",
+  "value": "R$ 1.728",
+  "label": "num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
