@@ -26,6 +26,9 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 - 2026-11-15 · Dois Dedos de Teologia · Coração inquieto: buscar nas pessoas e nas coisas o que só Deus dá (Agostinho) · https://www.instagram.com/p/DfvUS8wDYtg/ · 2026-11-15 (pergunta)
 - 2026-11-15 · Augustus Nicodemus · O dia em que achei que tinha pregado o pior sermão: Deus usa nossa fraqueza, não nossa performance · https://www.instagram.com/augustusnicodemus/ · 
 - 2026-11-15 · Dois Dedos de Teologia · Um amigo indicou a Bíblia e mudou tudo: convite simples para alguém começar a ler · https://www.instagram.com/reel/DfqPFKvjxNG/ · 2026-11-17 (reels)
+- 2026-11-22 · Hernandes Dias Lopes · A gravidade do pecado: não é pequeno nem inofensivo, afasta de Deus e destrói vidas (Mito x Verdade "todo mundo faz") · https://www.instagram.com/hernandesdiaslopes/ · 
+- 2026-11-22 · Natanael Knabben · Prever o futuro x obedecer hoje: gastamos mais tempo tentando adivinhar o mundo do que praticando a Palavra · https://www.instagram.com/reel/Df2yz4lPxBG/ · 
+- 2026-11-22 · Natanael Knabben · Prosperidade não é acumular: viver com medo de perder x confiar na provisão de Deus (sem teologia da prosperidade) · https://www.instagram.com/reel/DfxpPO4j5MC/ · 
 
 ## Aprendizados da semana (2026-10-18)
 1. Alcance ainda muito baixo (0 a 12 views por peça). Reels rendem 3 a 5x o feed; o Reels da Noite de 17/10 (trabalho) teve 8 views e o primeiro envio. Manter 2 Reels/dia e priorizar temas práticos do dia a dia do homem (trabalho, decisões).
@@ -51,3 +54,8 @@ Formato: data · fonte · ideia em 1 linha (com palavras nossas) · link de onde
 1. Reels da Noite confirma o padrão por dia: noites fortes (seg 09/11: 34 views, 2 envios, 1 curtida; sáb 14/11: 5 views em menos de 1 dia; dom 08/11: 101 views, recorde) x noites fracas de terça a sexta (2, 1, 0 e 0 views). Mantém: tema forte e foto no sáb/dom/seg; só texto de ter a sex.
 2. Feed: o versículo de 10/11 (Rm 12:2, foto) teve 35 views e 1 envio, o melhor feed da semana. Os demais ficaram entre 1 e 3. Teasers das 9h com foto ficaram entre 1 e 6. Versículo curto com foto segue sendo o formato de feed mais forte.
 3. Referências: a semana foi dominada por atualidades e política (ENEM, SUS, licitações), fora do escopo. Fora disso, o que mais engajou foi vulnerabilidade de líder (Augustus, "pior sermão") e o coração inquieto de Agostinho (usado na Pergunta de hoje). Facebook segue sem interações; feed do FB ainda não mensurável sem pages_read_user_content.
+
+## Aprendizados da semana (2026-11-22)
+1. O alcance caiu forte nesta semana. Reels da Noite de 16 a 21/11 tiveram 0 a 8 views cada (melhor: sex 20/11 com "Comente TESTE", 8 views); na semana anterior, dom 08/11 teve 101 e seg 09/11 teve 34. Até as noites fortes (seg 16/11: 0; sáb 21/11: 3 em menos de 1 dia) ficaram baixas. Hipótese: perfil novo sem seguidores ativos e sem envios; a próxima semana testa ganchos em forma de pergunta pessoal na 1ª cena e CTA de comentário em todos os Reels de noite forte.
+2. Feed: a cena de 21/11 (Pedro, foto de fogo) foi o melhor feed da semana (8 views, 1 interação). Mito, manual e frase ficaram entre 0 e 1. Cena e versículo com foto seguem como os formatos de feed mais fortes.
+3. Referências (104 posts, 62% vídeo): política e atualidades dominaram de novo (fora do escopo). Fora disso, engajaram a gravidade do pecado (Hernandes), obedecer em vez de tentar prever o futuro e prosperidade sem medo (Natanael). Natanael usa "Comente PALAVRA e eu te envio no direct", o mesmo formato do nosso TESTE. Facebook segue sem interações.
