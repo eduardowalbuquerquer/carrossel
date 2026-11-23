@@ -1,0 +1,64 @@
+{
+ "id": "v3-sem-juros-200",
+ "formato": "v3",
+ "pilar": "compras",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Loja",
+    "title": "Oferta: geladeira",
+    "msg": "10x de <b>R$ 200,00</b> sem juros",
+    "when": "agora"
+   },
+   "value": "R$ 200",
+   "value_label": "a mais no parcelado sem juros",
+   "tone": "red",
+   "title": "O <em>sem juros</em> que custa caro",
+   "say": "Geladeira em dez vezes de duzentos, sem juros. No pix, sai mil e oitocentos. O sem juros custou duzentos reais.",
+   "show": "Geladeira em 10 vezes de R$ 200, sem juros. No pix, sai R$ 1.800. O sem juros custou R$ 200."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "label": "Diferença",
+   "value": "R$ 200",
+   "tone": "red",
+   "text": "10 x R$ 200 = <b>R$ 2.000</b>. À vista com 10% de desconto = <b>R$ 1.800</b>. Cenário de exemplo.",
+   "say": "Dez vezes duzentos dá dois mil. À vista, com dez por cento de desconto, mil e oitocentos.",
+   "show": "10 vezes R$ 200 dá R$ 2.000. À vista, com 10% de desconto, R$ 1.800."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Pergunte o <b>preço à vista</b>",
+    "Compare com o <b>total parcelado</b>",
+    "Se puder, <b>junte e pague à vista</b>"
+   ],
+   "say": "Faça assim. Pergunte o preço à vista. Compare com o total parcelado. Se puder, junte e pague à vista.",
+   "show": "Faça assim. Pergunte o preço à vista. Compare com o total parcelado. Se puder, junte e pague à vista."
+  },
+  {
+   "type": "cta",
+   "title": "Veja quanto <em>suas parcelas</em> pesam.",
+   "say": "Veja quanto as suas parcelas pesam no salário."
+  }
+ ],
+ "captions": {
+  "ig": "Geladeira em 10x de R$ 200 sem juros = R$ 2.000. No pix, R$ 1.800. O \"sem juros\" custou R$ 200 👇\n\nFaça assim:\n1. Pergunte o preço à vista\n2. Compare com o total parcelado\n3. Se puder, junte e pague à vista\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#semjuros #organizacaofinanceira #financaspessoais #educacaofinanceira #economizar",
+  "tt": "10x de R$ 200 \"sem juros\" = R$ 2.000. No pix, a mesma geladeira sai R$ 1.800 🧊 O sem juros custou R$ 200 (cenário de exemplo). Antes de parcelar, pergunte o preço à vista e compare com o total. Comenta se você sempre pergunta o desconto à vista 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #semjuros #financaspessoais #organizacaofinanceira #dinheiro #economizar",
+  "yt_title": "O \"sem juros\" que custou R$ 200 a mais #shorts",
+  "yt_desc": "No exemplo, uma geladeira em 10x de R$ 200 \"sem juros\" dá R$ 2.000. No pix, com 10% de desconto, sai R$ 1.800: o parcelado custou R$ 200 a mais. Pergunte o preço à vista, compare com o total parcelado e, se puder, junte e pague à vista.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #semjuros #organizacaofinanceira",
+  "pin_title": "Parcelado sem juros ou à vista: o desconto que você perde",
+  "pin": "Parcelar sem juros parece não ter custo, mas muitas lojas dão desconto no pix ou à vista. Num cenário de exemplo, 10x de R$ 200 dá R$ 2.000, e à vista com 10% de desconto sai R$ 1.800. Descubra no site quanto as suas parcelas pesam no salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que o <em>sem juros</em> custou R$ 200?",
+  "value": "R$ 200",
+  "label": "a mais, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
