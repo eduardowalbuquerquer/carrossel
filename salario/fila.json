@@ -875,6 +875,19 @@
      "pin": "https://www.pinterest.com/pin/264727284344848836"
     },
     "tt_status": "BUFFER_SENT"
+   },
+   "v4": {
+    "pasta": "v3-garantia-300",
+    "nota": "Fila sem item: pauta nova v3 (garantia estendida R$ 300 numa TV de R$ 2.000 = 15% a mais, cenário de exemplo; garantia legal de 90 dias e venda casada, CDC arts. 26 e 39; gancho notificação 'Compra aprovada, Garantia estendida R$ 300,00'). TT 22,0 s, YT 22,5 s.",
+    "renderizado": "v3",
+    "publicado_em": "2026-11-22T21:38-03:00",
+    "redes": "tt,yt,pin",
+    "tt_status": "BUFFER_SENT",
+    "links": {
+     "tt": "https://tiktok.com/@salrio.organizado/video/7711157982188326165",
+     "yt": "https://youtube.com/shorts/eXSP37eDcUQ",
+     "pin": "https://www.pinterest.com/pin/264727284344851078"
+    }
    }
   },
   {
