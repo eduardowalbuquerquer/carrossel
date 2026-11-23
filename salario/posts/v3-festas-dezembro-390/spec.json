@@ -1,0 +1,64 @@
+{
+ "id": "v3-festas-dezembro-390",
+ "formato": "v3",
+ "pilar": "planejamento",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-14-casal-discussao.jpg",
+   "notif": {
+    "app": "Mensagens",
+    "title": "Amigo secreto da firma",
+    "msg": "Valor do presente: <b>R$ 50,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 390",
+   "value_label": "só em festas de dezembro",
+   "tone": "red",
+   "title": "Dezembro cobra <em>o que ninguém anota.</em>",
+   "say": "As festas de dezembro custam trezentos e noventa reais. E ninguém anota.",
+   "show": "As festas de dezembro custam R$ 390. E ninguém anota."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Festas de dezembro",
+   "value": "R$ 390",
+   "tone": "red",
+   "text": "3 amigos secretos de <b>R$ 50</b> = R$ 150 + 3 confraternizações de <b>R$ 80</b> = R$ 240. Total R$ 390. Cenário de exemplo.",
+   "say": "Três amigos secretos de cinquenta, cento e cinquenta. Três confraternizações de oitenta, duzentos e quarenta. Total, trezentos e noventa.",
+   "show": "Três amigos secretos de R$ 50, R$ 150. Três confraternizações de R$ 80, R$ 240. Total, R$ 390."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Antes de dizer sim",
+   "items": [
+    "Liste <b>as festas do mês</b>",
+    "Defina <b>um teto</b> por festa",
+    "Separe o valor <b>antes de ir</b>"
+   ],
+   "say": "Antes de dizer sim. Liste as festas do mês. Defina um teto por festa. Separe o valor antes de ir.",
+   "show": "Antes de dizer sim. Liste as festas do mês. Defina um teto por festa. Separe o valor antes de ir."
+  },
+  {
+   "type": "cta",
+   "title": "Festa boa é a que <em>cabe no mês</em>.",
+   "say": "Festa boa é a que cabe no mês."
+  }
+ ],
+ "captions": {
+  "ig": "As festas de dezembro custam R$ 390 e quase ninguém coloca na conta 👇\n\nNo exemplo:\n• 3 amigos secretos de R$ 50: R$ 150\n• 3 confraternizações de R$ 80: R$ 240\nTotal: R$ 390, além das contas fixas do mês.\n\nAntes de dizer sim: liste as festas do mês, defina um teto por festa e separe o valor antes de ir.\n\nFesta boa é a que cabe no mês. Comenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\nE manda para quem já tem 3 amigos secretos marcados 👀\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #controlefinanceiro #amigosecreto",
+  "tt": "As festas de dezembro custam R$ 390 (cenário de exemplo) 👇 Comenta quantos amigos secretos você tem este ano. ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #amigosecreto #dinheiro #educacaofinanceira",
+  "yt_title": "Festas de dezembro: R$ 390 que ninguém anota #shorts",
+  "yt_desc": "3 amigos secretos de R$ 50 (R$ 150) + 3 confraternizações de R$ 80 (R$ 240) = R$ 390 só em festas de dezembro (cenário de exemplo). Liste as festas do mês, defina um teto por festa e separe o valor antes de ir.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #amigosecreto",
+  "pin_title": "Orçamento de fim de ano: quanto custam as festas de dezembro",
+  "pin": "Amigo secreto e confraternizações podem somar R$ 390 em dezembro. Liste as festas do mês, defina um teto por festa e separe o valor antes de ir. Descubra no site quanto sobra no seu dezembro, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto custam <em>as festas de dezembro?</em>",
+  "value": "R$ 390",
+  "label": "num cenário de exemplo",
+  "cta": "Faça a conta do seu mês →"
+ }
+}
