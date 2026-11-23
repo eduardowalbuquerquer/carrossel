@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-23",
+  "series": "arquetipo",
+  "series_name": "Arquétipos Bíblicos",
+  "title": "Jonas: o homem que fugia de Deus",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "ARQUÉTIPOS BÍBLICOS", "title": "Deus mandou ir para o leste. Ele <em style=\"color:#C8892C\">comprou passagem para o oeste</em>.", "body": "Jonas: o homem que fugia de Deus.", "hint": "Você também está fugindo? Veja os sinais →"},
+    {"layout": "text", "theme": "dark", "tag": "O PADRÃO", "title": "Ele sabia o que Deus queria. E fez o contrário.", "quote": {"text": "Jonas se dispôs, mas para fugir da presença do SENHOR, para Társis…", "ref": "Jonas 1:3 · ARA"}, "body": "Deus mandou Jonas pregar em Nínive. Ele desceu a Jope, pagou a passagem e embarcou para o lado oposto."},
+    {"layout": "list", "theme": "light", "tag": "SINAIS DE JONAS HOJE", "title": "Você reconhece algum?", "items": [
+      {"num": "01", "title": "Sabe o que fazer e adia", "desc": "A ordem é clara. A desculpa é sempre nova."},
+      {"num": "02", "title": "Foge para o trabalho ou o celular", "desc": "Qualquer barco serve, desde que leve para longe."},
+      {"num": "03", "title": "Dorme no meio da tempestade", "desc": "Tudo desaba em volta e ele finge que não é com ele."},
+      {"num": "04", "title": "Escolhe quem merece graça", "desc": "Quer misericórdia para si, não para o inimigo."}
+    ]},
+    {"layout": "text", "theme": "dark", "tag": "O FUNDO DO POÇO", "title": "No ventre do peixe, ele <em style=\"color:#E3B566\">finalmente orou</em>.", "quote": {"text": "…Ao SENHOR pertence a salvação!", "ref": "Jonas 2:9 · ARA"}, "body": "A fuga terminou onde toda fuga termina: no fundo. E lá Deus ainda ouviu."},
+    {"layout": "text", "theme": "light", "tag": "A SEGUNDA CHANCE", "title": "Deus não desistiu do homem que fugiu.", "quote": {"text": "Veio a palavra do SENHOR, segunda vez, a Jonas…", "ref": "Jonas 3:1 · ARA"}, "body": "A mesma ordem. Agora, Jonas foi. E a cidade inteira se arrependeu."},
+    {"layout": "text", "theme": "dark", "tag": "O CAMINHO", "title": "Pare de comprar passagem para Társis. <em style=\"color:#E3B566\">Vá a Nínive</em>.", "quote": {"text": "E disse o SENHOR: É razoável essa tua ira?", "ref": "Jonas 4:4 · ARA"}, "body": "Obedecer com o corpo e resistir com o coração ainda é fugir. Hoje, dê o passo que você já sabe que Deus pediu."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Comente TESTE e descubra qual homem da Bíblia você é hoje."}
+  ],
+  "caption": "Deus mandou ir para o leste. Jonas comprou passagem para o oeste: \"se dispôs, mas para fugir da presença do SENHOR\" (Jn 1:3).\n\nMas \"veio a palavra do SENHOR, segunda vez, a Jonas\" (Jn 3:1). Deus não desiste de quem fugiu.\n\nComente TESTE e descubra qual homem da Bíblia você é hoje.\nEnvie para um irmão.\n\nSiga @forjadaalma.oficial\n\n#homemdedeus #masculinidadebiblica #homemcristao #jonas #forjadaalma #biblia #obediencia",
+  "caption_facebook": "Deus mandou Jonas pregar em Nínive, a leste. Jonas desceu ao porto, pagou a passagem e embarcou para Társis, no extremo oposto: \"Jonas se dispôs, mas para fugir da presença do SENHOR\" (Jonas 1:3).\n\nA fuga terminou numa tempestade e no ventre de um peixe. Lá no fundo, Jonas orou: \"Ao SENHOR pertence a salvação!\" (Jonas 2:9). E Deus deu a ele uma segunda chance: \"Veio a palavra do SENHOR, segunda vez, a Jonas\" (Jonas 3:1).\n\nTalvez você também saiba exatamente o que Deus está pedindo e esteja comprando passagens para longe: trabalho demais, celular, distração. Hoje é dia de virar o barco.\n\nVocê já fugiu de alguma coisa que Deus pediu? Conta aqui.\n\nTeste grátis \"Qual homem da Bíblia você é hoje?\": link no perfil do Instagram @forjadaalma.oficial.\n\n#homemcristao #forjadaalma #jonas",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VOCÊ CONHECE ESSE HOMEM", "text": "Deus mandou ir para o leste. Ele <em>foi para o oeste</em>."},
+      {"kicker": "A BÍBLIA TEM O NOME DELE", "text": "Fugiu de Deus e <em>ganhou uma segunda chance</em>."},
+      {"kicker": "QUEM É ELE?", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Deus mandou ir para o leste. Ele foi para o oeste. Quem é ele? O post completo está no perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "Deus mandou ir para o leste. Ele foi para o oeste. Quem é ele? O post completo está na Página.\n\n#homemcristao #forjadaalma"
+  }
+}
