@@ -895,7 +895,13 @@
    "formato": "v3",
    "v3": {
     "pasta": "sm09-pouco-a-pouco",
-    "nota": "Série Sabedoria milenar (7/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 23/11. Publicar --so tt,pin."
+    "nota": "Série Sabedoria milenar (7/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 23/11. Publicar --so tt,pin. TT 24,7 s, YT 22,7 s.",
+    "publicado_em": "2026-11-23T16:10-03:00",
+    "renderizado": "v3",
+    "tt_link": "https://tiktok.com/@salrio.organizado/video/7711444173429198101",
+    "tt_status": "BUFFER_SENT",
+    "yt_link": "https://youtube.com/shorts/F9n7Tqu1tek",
+    "pin_link": "https://www.pinterest.com/pin/264727284344869816"
    },
    "v1": {
     "pasta": "v3-festas-dezembro-390",
