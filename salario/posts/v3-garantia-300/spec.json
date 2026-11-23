@@ -1,0 +1,64 @@
+{
+ "id": "v3-garantia-300",
+ "formato": "v3",
+ "pilar": "compras",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Cartão de crédito",
+    "title": "Compra aprovada",
+    "msg": "Garantia estendida: <b>R$ 300,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 300",
+   "value_label": "a mais numa TV de R$ 2.000",
+   "tone": "red",
+   "title": "A garantia que <em>veio junto</em>",
+   "say": "TV de dois mil reais. No caixa, mais trezentos de garantia estendida. É quinze por cento a mais.",
+   "show": "TV de R$ 2.000. No caixa, mais R$ 300 de garantia estendida. É 15% a mais."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-15-feira-precos.jpg",
+   "label": "Garantia legal",
+   "value": "90 dias",
+   "tone": "green",
+   "text": "Produto durável já tem <b>garantia legal de 90 dias</b>, de graça. A estendida é <b>opcional</b>: empurrar junto é venda casada. R$ 300 ÷ R$ 2.000 = 15%. Cenário de exemplo.",
+   "source": "Código de Defesa do Consumidor, Lei 8.078/1990, arts. 26 e 39",
+   "say": "Só que a lei já dá noventa dias de garantia de graça. E a estendida é opcional. Empurrar junto é venda casada.",
+   "show": "Só que a lei já dá 90 dias de garantia de graça. E a estendida é opcional. Empurrar junto é venda casada."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Veja a <b>garantia do fabricante</b>",
+    "Confira se a estendida <b>veio na nota</b>",
+    "Se não pediu, <b>peça para tirar</b>"
+   ],
+   "say": "Faça assim. Veja a garantia do fabricante. Confira se a estendida veio na nota. Se não pediu, peça para tirar."
+  },
+  {
+   "type": "cta",
+   "title": "Ache os <em>gastos escondidos</em>.",
+   "say": "Ache os gastos escondidos no seu salário."
+  }
+ ],
+ "captions": {
+  "ig": "TV de R$ 2.000 + R$ 300 de garantia estendida = 15% a mais na compra 👇\n\nA lei já dá 90 dias de garantia legal de graça (CDC, art. 26) e a estendida é opcional: empurrar junto é venda casada (CDC, art. 39).\n\nFaça assim:\n1. Veja a garantia do fabricante\n2. Confira se a estendida veio na nota\n3. Se não pediu, peça para tirar\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\n(Cenário de exemplo.)\n\n#blackfriday #garantiaestendida #direitodoconsumidor #organizacaofinanceira #financaspessoais",
+  "tt": "TV de R$ 2.000 + R$ 300 de garantia estendida = 15% a mais 📺 A lei já dá 90 dias de garantia legal de graça e a estendida é opcional: empurrar junto é venda casada (CDC, arts. 26 e 39; cenário de exemplo). Comenta se já te ofereceram garantia no caixa 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #blackfriday #garantiaestendida #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "R$ 300 de garantia estendida na TV? Veja antes #shorts",
+  "yt_desc": "No exemplo, uma TV de R$ 2.000 ganha mais R$ 300 de garantia estendida no caixa: 15% a mais. Produto durável já tem 90 dias de garantia legal de graça (Código de Defesa do Consumidor, art. 26) e a garantia estendida é opcional; empurrar junto é venda casada (art. 39). Veja a garantia do fabricante, confira a nota e, se não pediu, peça para tirar.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #blackfriday #direitodoconsumidor",
+  "pin_title": "Como economizar na Black Friday: os R$ 300 da garantia estendida",
+  "pin": "Garantia estendida pode somar 15% ao preço da TV, num cenário de exemplo de R$ 300 numa compra de R$ 2.000. A lei já garante 90 dias de garantia legal de graça e a estendida é opcional. Descubra no site quais outros gastos escondidos pesam no seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O que veio <em>junto na sua nota?</em>",
+  "value": "R$ 300",
+  "label": "a mais, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
