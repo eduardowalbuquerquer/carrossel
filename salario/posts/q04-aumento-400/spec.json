@@ -1,0 +1,207 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 80,
+     "w": 470,
+     "t": 40,
+     "txt": "Aumento de <b>R$ 400</b>... e sobrou <b>zero</b>?!"
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 40,
+     "txt": "Mas a gente ganha mais agora!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 480,
+     "t": 50,
+     "txt": "Agora vai sobrar dinheiro!"
+    },
+    {
+     "x": 560,
+     "y": 40,
+     "w": 490,
+     "t": 45,
+     "txt": "Aumento de <b>R$ 400</b> por mês!"
+    }
+   ],
+   "cap": "Quando o aumento caiu..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 540,
+     "t": 40,
+     "txt": "Delivery a mais no mês: <b>R$ 180</b>."
+    },
+    {
+     "x": 610,
+     "y": 90,
+     "w": 440,
+     "t": 45,
+     "txt": "A gente merece!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 440,
+     "t": 45,
+     "txt": "É baratinho..."
+    },
+    {
+     "x": 500,
+     "y": 40,
+     "w": 550,
+     "t": 55,
+     "txt": "Mais um streaming: <b>R$ 60</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 100,
+     "w": 560,
+     "t": 30,
+     "txt": "Carro de app em vez de ônibus: <b>R$ 160</b>."
+    },
+    {
+     "x": 610,
+     "y": 140,
+     "w": 440,
+     "t": 40,
+     "txt": "180 + 60 + 160... foram os <b>R$ 400</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 540,
+     "t": 40,
+     "txt": "Novo plano: no dia do pagamento, <i>R$ 300</i> vão direto pra caixinha."
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 45,
+     "txt": "E <i>R$ 100</i> ficam pra gente curtir."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 80,
+     "w": 500,
+     "t": 40,
+     "txt": "1º mês: <i>R$ 300</i> guardados!"
+    },
+    {
+     "x": 570,
+     "y": 40,
+     "w": 480,
+     "t": 50,
+     "txt": "E o delivery do fim de semana continua."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 140,
+     "w": 500,
+     "t": 45,
+     "txt": "Caixinha: <i>R$ 1.800</i>!"
+    },
+    {
+     "x": 570,
+     "y": 100,
+     "w": 480,
+     "t": 50,
+     "txt": "Aumento guardado primeiro não some."
+    }
+   ],
+   "cap": "6 meses depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>O aumento <em>sumiu</em> em 1 mês.</h1><p>Para onde foram os R$ 400 a mais do Rafa:</p><table><tr><th>Gasto novo</th><th class='n'>Valor</th></tr><tr><td>Delivery a mais</td><td class='n'>R$ 180</td></tr><tr><td>Streaming novo</td><td class='n'>R$ 60</td></tr><tr><td>Carro de app</td><td class='n'>R$ 160</td></tr><tr class='tot'><td>Total por mês</td><td class='n'>R$ 400</td></tr></table><p>Plano novo: no dia do pagamento, R$ 300 vão direto para a caixinha e R$ 100 ficam para curtir. Em 6 meses: R$ 1.800 guardados.</p>"
+  }
+ ],
+ "cta_titulo": "Quer saber para onde vai o seu dinheiro todo mês?",
+ "captions": {
+  "ig": "O Rafa ganhou R$ 400 de aumento. No fim do mês seguinte, sobrou... zero. 😳\n\nDelivery a mais (R$ 180), um streaming novo (R$ 60) e carro de app no lugar do ônibus (R$ 160). Nenhum gasto grande, e o aumento inteiro sumiu.\n\nA virada da Bia e do Rafa: no dia do pagamento, R$ 300 vão direto para a caixinha, antes de qualquer gasto. Os outros R$ 100 ficam para curtir. Em 6 meses, R$ 1.800 guardados.\n\nE o seu último aumento, para onde foi? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#aumentodesalario #organizacaofinanceira #financaspessoais #planilhafinanceira #educacaofinanceira",
+  "tt": "Ganhou aumento e sobrou zero? 😳 Comenta para onde foi o seu último aumento.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Aumento líquido R$ 400/mês = delivery 180 + streaming 60 + carro de app 160. Plano: 300 na caixinha + 100 livre = 400. 6 meses x 300 = 1.800 (sem rendimento).",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
