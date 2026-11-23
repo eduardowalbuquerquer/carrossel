@@ -896,6 +896,20 @@
    "v3": {
     "pasta": "sm09-pouco-a-pouco",
     "nota": "Série Sabedoria milenar (7/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 23/11. Publicar --so tt,pin."
+   },
+   "v1": {
+    "pasta": "v3-festas-dezembro-390",
+    "nota": "Fila sem item: pauta nova v3 (festas de dezembro: 3 amigos secretos x R$ 50 + 3 confraternizações x R$ 80 = R$ 390; cenário de exemplo; gancho notificação 'Amigo secreto da firma R$ 50,00'). IG 23,1 s, TT 22,7 s, YT 23,5 s.",
+    "renderizado": "v3",
+    "publicado_em": "2026-11-23T11:58-03:00",
+    "links": {
+     "ig": "https://www.instagram.com/reel/DgFo0kXkZZa/",
+     "yt": "https://youtube.com/shorts/99tInnvCpHQ",
+     "tt": "https://tiktok.com/@salrio.organizado/video/7711379643198115124",
+     "pin": "https://www.pinterest.com/pin/264727284344863860",
+     "fb": "https://facebook.com/1446527975200486_122113354893533531"
+    },
+    "tt_status": "BUFFER_SENT"
    }
   },
   {
