@@ -965,6 +965,17 @@
         "tt_status": "BUFFER_SENT",
         "yt_link": "https://youtube.com/shorts/k4H7qhobGhA",
         "pin_link": "https://www.pinterest.com/pin/264727284344897210"
+      },
+      "v2": {
+        "pasta": "v3-cartao-emprestado-1500",
+        "nota": "Pauta nova v3 (fila vazia): cartão emprestado para parente. Publicar --so tt,yt,pin.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-24T19:35-03:00",
+        "links": {
+          "tt": "Buffer 6b060d4426517e3cdc4d99fb (enviando)",
+          "yt": "https://youtube.com/shorts/LDmhkSmXCOI",
+          "pin": "https://www.pinterest.com/pin/264727284344901195"
+        }
       }
     },
     {
