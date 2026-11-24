@@ -1,0 +1,207 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 480,
+     "t": 40,
+     "txt": "Outro empréstimo pra pagar o empréstimo?!"
+    },
+    {
+     "x": 600,
+     "y": 90,
+     "w": 450,
+     "t": 40,
+     "txt": "O banco aprovou <b>R$ 5.000</b> na hora..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 480,
+     "t": 45,
+     "txt": "Parcela do empréstimo: <b>R$ 350</b>."
+    },
+    {
+     "x": 560,
+     "y": 90,
+     "w": 490,
+     "t": 45,
+     "txt": "E o cartão parcelado: <b>R$ 250</b>."
+    }
+   ],
+   "cap": "Como a gente chegou aqui..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 120,
+     "w": 540,
+     "t": 50,
+     "txt": "A geladeira no crediário: <b>R$ 100</b> por mês."
+    },
+    {
+     "x": 610,
+     "y": 120,
+     "w": 440,
+     "t": 50,
+     "txt": "Dá <b>R$ 700</b> por mês só de parcela."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 80,
+     "w": 500,
+     "t": 40,
+     "txt": "Empréstimo novo só troca a dívida de lugar."
+    },
+    {
+     "x": 590,
+     "y": 80,
+     "w": 460,
+     "t": 45,
+     "txt": "E ainda vem com juros novos..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 560,
+     "t": 40,
+     "txt": "Lista: loja <b>R$ 600</b>, cartão <b>R$ 1.500</b>, empréstimo <b>R$ 3.000</b>."
+    },
+    {
+     "x": 620,
+     "y": 90,
+     "w": 430,
+     "t": 45,
+     "txt": "Total: <b>R$ 5.100</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 500,
+     "t": 40,
+     "txt": "Cortamos <i>R$ 150</i> de delivery."
+    },
+    {
+     "x": 580,
+     "y": 60,
+     "w": 470,
+     "t": 45,
+     "txt": "E esses <i>R$ 150</i> vão pra menor dívida: a loja."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 40,
+     "txt": "Loja: <i>R$ 100 + R$ 150 = R$ 250</i> por mês."
+    },
+    {
+     "x": 590,
+     "y": 60,
+     "w": 460,
+     "t": 45,
+     "txt": "As outras, só a parcela normal."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 150,
+     "w": 480,
+     "t": 40,
+     "txt": "Loja quitada!"
+    },
+    {
+     "x": 560,
+     "y": 90,
+     "w": 490,
+     "t": 45,
+     "txt": "Agora os <i>R$ 250</i> vão pro cartão. Bola de neve!"
+    }
+   ],
+   "cap": "3 meses depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>Empréstimo pra pagar empréstimo <em>não quita</em> nada.</h1><p>As dívidas da Bia e do Rafa:</p><table><tr><th>Dívida</th><th class='n'>Falta pagar</th><th class='n'>Parcela</th></tr><tr><td>Loja (geladeira)</td><td class='n'>R$ 600</td><td class='n'>R$ 100</td></tr><tr><td>Cartão parcelado</td><td class='n'>R$ 1.500</td><td class='n'>R$ 250</td></tr><tr><td>Empréstimo</td><td class='n'>R$ 3.000</td><td class='n'>R$ 350</td></tr><tr class='tot'><td>Total</td><td class='n'>R$ 5.100</td><td class='n'>R$ 700</td></tr></table><p>Bola de neve: todas as parcelas em dia e R$ 150 extras na menor dívida. Quando ela acaba, o valor dela vai para a próxima.</p>"
+  }
+ ],
+ "cta_titulo": "Quer listar suas dívidas e ver a ordem de pagar?",
+ "captions": {
+  "ig": "O banco aprovou R$ 5.000 na hora. O Rafa queria pegar para pagar as outras dívidas. 😬\n\nSó que empréstimo novo para pagar empréstimo velho não quita nada: troca a dívida de lugar e ainda traz juros novos.\n\nA Bia fez a lista: loja R$ 600, cartão R$ 1.500, empréstimo R$ 3.000. Todas as parcelas em dia, e R$ 150 cortados do delivery indo direto para a menor dívida. Em 3 meses, a loja estava quitada, e os R$ 250 dela passaram a ir para o cartão. Isso é a bola de neve.\n\nVocê sabe quanto deve, somando tudo? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#dividas #sairdasdividas #organizacaofinanceira #financaspessoais #planilhafinanceira",
+  "tt": "Empréstimo pra pagar empréstimo? 😬 Comenta se você já pensou nisso.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Dívidas: loja 600 (parcela 100) + cartão 1.500 (250) + empréstimo 3.000 (350) = 5.100; parcelas 700/mês. Extra 150 (delivery cortado) na loja: 250/mês x 3 = 750 >= 600, quitada no 3º mês (sem contar juros). Depois 250 da loja vão para o cartão (250+250).",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
