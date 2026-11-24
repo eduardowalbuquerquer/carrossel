@@ -1295,5 +1295,21 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122124420369506150",
       "fb_reel": "https://www.facebook.com/reel/1819271019159791"
     }
+  },
+  {
+    "data": "2026-11-24",
+    "serie": "reels",
+    "titulo": "Seus colegas sabem que você é cristão?",
+    "tema": "fé no trabalho / não se envergonhar do evangelho / testemunho",
+    "versiculos": [
+      "Romanos 1:16"
+    ],
+    "foto": null,
+    "formato": "Reels 8 cenas só texto + Comente TESTE",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DgI9-Y-kSp3/",
+      "fb_reel": "https://www.facebook.com/reel/1827960635007278",
+      "tiktok": "BUFFER_SENDING (sem link ainda)"
+    }
   }
 ]
