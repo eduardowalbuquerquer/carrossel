@@ -1,130 +1,140 @@
 [
-  {
-    "dia": 1,
-    "data": "2026-11-22",
-    "slot": "manha",
-    "pasta": "posts/a01-refrigerante-10-colheres",
-    "publicado_em": "2026-11-22 10:31 (BRT)",
-    "redes": "tt,pin,fb",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7710987356819426566",
-    "pin_link": "https://www.pinterest.com/pin/279926933085803306",
-    "fb_link": "https://facebook.com/953830248020487_2047534499799067"
-  },
-  {
-    "dia": 1,
-    "data": "2026-11-22",
-    "slot": "noite",
-    "pasta": "posts/a02-sorvete-1-ingrediente",
-    "publicado_em": "2026-11-21 20:15 (BRT)",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7710767286079999253",
-    "tt_id": "6b0225fb846b0ee907454617",
-    "pin": "https://www.pinterest.com/pin/279926933085777401 (publicado 21/11 23h10, depois de criar a pasta)",
-    "yt_link": "https://youtube.com/shorts/W3pEWcFO_nY",
-    "ig_link": "https://www.instagram.com/reel/DgDuxCBimVD/"
-  },
-  {
-    "dia": 2,
-    "data": "2026-11-23",
-    "slot": "manha",
-    "pasta": "posts/a03-vontade-16h",
-    "publicado_em": "2026-11-23 10:44 (BRT)",
-    "redes": "tt,ig,yt,pin,fb",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711361819729726740",
-    "ig_link": "https://www.instagram.com/reel/DgFgggpiqZi/",
-    "yt_link": "https://youtube.com/shorts/U6fyEerYSBY",
-    "pin_link": "https://www.pinterest.com/pin/279926933085860577",
-    "fb_link": "https://facebook.com/953830248020487_2048746409677876"
-  },
-  {
-    "dia": 2,
-    "data": "2026-11-23",
-    "slot": "noite",
-    "pasta": "posts/a05-brigadeiro-tamara",
-    "publicado_em": "2026-11-22 20:17 (BRT)",
-    "redes": "tt,pin",
-    "tt_id": "6b03782fc72676f5e96aa856",
-    "tt_status": "BUFFER_SENT",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711139118897499400",
-    "pin_id": "6b037866d5eabfb8cce9d59b",
-    "pin_link": "https://www.pinterest.com/pin/279926933085832786"
-  },
-  {
-    "dia": 3,
-    "data": "2026-11-24",
-    "slot": "manha",
-    "pasta": "posts/a04-lupa-rotulo",
-    "publicado_em": "2026-11-24 10:43 (BRT)",
-    "redes": "tt,ig,yt,pin,fb",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711732407216508180",
-    "ig_link": "https://www.instagram.com/reel/DgIFs4tHHhZ/",
-    "yt_link": "https://youtube.com/shorts/Q-sWApQRuWA",
-    "pin_link": "https://www.pinterest.com/pin/279926933085923622",
-    "fb_link": "https://facebook.com/953830248020487_2049928992892951",
-    "obs": "IG deu ERROR na 1a tentativa (video ainda nao estava no Pages); saiu na 2a."
-  },
-  {
-    "dia": 3,
-    "data": "2026-11-24",
-    "slot": "noite",
-    "pasta": "posts/a07-mousse-abacate",
-    "publicado_em": "2026-11-23 20:24 (BRT)",
-    "redes": "tt,ig,yt,pin",
-    "ig_id": "17942353686402290",
-    "ig_link": "https://www.instagram.com/reel/DgGjSw3k2KM/",
-    "yt_id": "4mx129lgBy4",
-    "yt_link": "https://youtube.com/shorts/4mx129lgBy4",
-    "tt_id": "6b04cb08c0a1a00006ee5520",
-    "tt_status": "BUFFER_SENT",
-    "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711511646136454407",
-    "pin_id": "6b04cb73c0a1a00006ee7ed8",
-    "pin_link": "https://www.pinterest.com/pin/279926933085886971"
-  },
-  {
-    "dia": 4,
-    "data": "2026-11-25",
-    "slot": "manha",
-    "pasta": "posts/a08-sobremesa-almoco"
-  },
-  {
-    "dia": 4,
-    "data": "2026-11-25",
-    "slot": "noite",
-    "pasta": "posts/a09-cookies-banana"
-  },
-  {
-    "dia": 5,
-    "data": "2026-11-26",
-    "slot": "manha",
-    "pasta": "posts/a06-nomes-do-acucar"
-  },
-  {
-    "dia": 5,
-    "data": "2026-11-26",
-    "slot": "noite",
-    "pasta": "posts/a11-maca-assada"
-  },
-  {
-    "dia": 6,
-    "data": "2026-11-27",
-    "slot": "manha",
-    "pasta": "posts/a10-cardapio-dia-1"
-  },
-  {
-    "dia": 6,
-    "data": "2026-11-27",
-    "slot": "noite",
-    "pasta": "posts/a12-festa-sem-exagero"
-  },
-  {
-    "dia": 7,
-    "data": "2026-11-28",
-    "slot": "manha",
-    "pasta": "posts/a13-suco-caixinha"
-  },
-  {
-    "dia": 7,
-    "data": "2026-11-28",
-    "slot": "noite",
-    "pasta": "posts/a14-lista-de-compras"
-  }
+ {
+  "dia": 1,
+  "data": "2026-11-22",
+  "slot": "manha",
+  "pasta": "posts/a01-refrigerante-10-colheres",
+  "publicado_em": "2026-11-22 10:31 (BRT)",
+  "redes": "tt,pin,fb",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7710987356819426566",
+  "pin_link": "https://www.pinterest.com/pin/279926933085803306",
+  "fb_link": "https://facebook.com/953830248020487_2047534499799067"
+ },
+ {
+  "dia": 1,
+  "data": "2026-11-22",
+  "slot": "noite",
+  "pasta": "posts/a02-sorvete-1-ingrediente",
+  "publicado_em": "2026-11-21 20:15 (BRT)",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7710767286079999253",
+  "tt_id": "6b0225fb846b0ee907454617",
+  "pin": "https://www.pinterest.com/pin/279926933085777401 (publicado 21/11 23h10, depois de criar a pasta)",
+  "yt_link": "https://youtube.com/shorts/W3pEWcFO_nY",
+  "ig_link": "https://www.instagram.com/reel/DgDuxCBimVD/"
+ },
+ {
+  "dia": 2,
+  "data": "2026-11-23",
+  "slot": "manha",
+  "pasta": "posts/a03-vontade-16h",
+  "publicado_em": "2026-11-23 10:44 (BRT)",
+  "redes": "tt,ig,yt,pin,fb",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711361819729726740",
+  "ig_link": "https://www.instagram.com/reel/DgFgggpiqZi/",
+  "yt_link": "https://youtube.com/shorts/U6fyEerYSBY",
+  "pin_link": "https://www.pinterest.com/pin/279926933085860577",
+  "fb_link": "https://facebook.com/953830248020487_2048746409677876"
+ },
+ {
+  "dia": 2,
+  "data": "2026-11-23",
+  "slot": "noite",
+  "pasta": "posts/a05-brigadeiro-tamara",
+  "publicado_em": "2026-11-22 20:17 (BRT)",
+  "redes": "tt,pin",
+  "tt_id": "6b03782fc72676f5e96aa856",
+  "tt_status": "BUFFER_SENT",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711139118897499400",
+  "pin_id": "6b037866d5eabfb8cce9d59b",
+  "pin_link": "https://www.pinterest.com/pin/279926933085832786"
+ },
+ {
+  "dia": 3,
+  "data": "2026-11-24",
+  "slot": "manha",
+  "pasta": "posts/a04-lupa-rotulo",
+  "publicado_em": "2026-11-24 10:43 (BRT)",
+  "redes": "tt,ig,yt,pin,fb",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711732407216508180",
+  "ig_link": "https://www.instagram.com/reel/DgIFs4tHHhZ/",
+  "yt_link": "https://youtube.com/shorts/Q-sWApQRuWA",
+  "pin_link": "https://www.pinterest.com/pin/279926933085923622",
+  "fb_link": "https://facebook.com/953830248020487_2049928992892951",
+  "obs": "IG deu ERROR na 1a tentativa (video ainda nao estava no Pages); saiu na 2a."
+ },
+ {
+  "dia": 3,
+  "data": "2026-11-24",
+  "slot": "noite",
+  "pasta": "posts/a07-mousse-abacate",
+  "publicado_em": "2026-11-23 20:24 (BRT)",
+  "redes": "tt,ig,yt,pin",
+  "ig_id": "17942353686402290",
+  "ig_link": "https://www.instagram.com/reel/DgGjSw3k2KM/",
+  "yt_id": "4mx129lgBy4",
+  "yt_link": "https://youtube.com/shorts/4mx129lgBy4",
+  "tt_id": "6b04cb08c0a1a00006ee5520",
+  "tt_status": "BUFFER_SENT",
+  "tt_link": "https://tiktok.com/@totalmente.saudvel/video/7711511646136454407",
+  "pin_id": "6b04cb73c0a1a00006ee7ed8",
+  "pin_link": "https://www.pinterest.com/pin/279926933085886971"
+ },
+ {
+  "dia": 4,
+  "data": "2026-11-25",
+  "slot": "manha",
+  "pasta": "posts/a08-sobremesa-almoco"
+ },
+ {
+  "dia": 4,
+  "data": "2026-11-25",
+  "slot": "noite",
+  "pasta": "posts/a09-cookies-banana",
+  "publicado_em": "2026-11-24 20:35 (BRT)",
+  "redes": "tt,ig,yt,pin",
+  "ig_id": "18613457413071663",
+  "ig_link": "https://www.instagram.com/reel/DgJIN-4ErDc/",
+  "yt_id": "VAPd9YS9Hr8",
+  "yt_link": "https://youtube.com/shorts/VAPd9YS9Hr8",
+  "tt_id": "6b061ccd493dfdd145fe5f91",
+  "tt_status": "BUFFER_SENDING",
+  "pin_id": "6b061e51493dfdd145ff07db",
+  "pin_link": "https://www.pinterest.com/pin/279926933085953201"
+ },
+ {
+  "dia": 5,
+  "data": "2026-11-26",
+  "slot": "manha",
+  "pasta": "posts/a06-nomes-do-acucar"
+ },
+ {
+  "dia": 5,
+  "data": "2026-11-26",
+  "slot": "noite",
+  "pasta": "posts/a11-maca-assada"
+ },
+ {
+  "dia": 6,
+  "data": "2026-11-27",
+  "slot": "manha",
+  "pasta": "posts/a10-cardapio-dia-1"
+ },
+ {
+  "dia": 6,
+  "data": "2026-11-27",
+  "slot": "noite",
+  "pasta": "posts/a12-festa-sem-exagero"
+ },
+ {
+  "dia": 7,
+  "data": "2026-11-28",
+  "slot": "manha",
+  "pasta": "posts/a13-suco-caixinha"
+ },
+ {
+  "dia": 7,
+  "data": "2026-11-28",
+  "slot": "noite",
+  "pasta": "posts/a14-lista-de-compras"
+ }
 ]
