@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-24",
+  "series": "versiculo",
+  "series_name": "Versículo Forjado",
+  "title": "Não nos cansemos de fazer o bem",
+  "slides": [
+    {
+      "layout": "verse",
+      "theme": "dark",
+      "image": "img/foto.jpg",
+      "focus": "center 40%",
+      "tag": "VERSÍCULO FORJADO",
+      "text": "E não nos cansemos de fazer o bem, porque a seu tempo ceifaremos, se não desfalecermos.",
+      "ref": "Gálatas 6:9 · ARA",
+      "body": "O que você planta em silêncio hoje Deus não esqueceu. A colheita tem hora marcada."
+    }
+  ],
+  "caption": "Você faz o certo e ninguém vê. Ninguém agradece. Parece que não dá em nada.\n\nSemente não brota no dia em que é plantada. A colheita tem hora marcada.\n\nSalve e envie para um irmão que está cansado.\n\nSiga @forjadaalma.oficial\n\n#versiculododia #homemdedeus #homemcristao #perseveranca #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Tem semana em que você faz tudo certo e parece que não dá em nada. Trabalha com honestidade e quem passa a perna sobe. Cuida da casa e ninguém agradece. Ora pelos filhos e não vê mudança.\n\nPaulo escreveu aos gálatas: \"E não nos cansemos de fazer o bem, porque a seu tempo ceifaremos, se não desfalecermos.\" (Gálatas 6:9)\n\nSemente não brota no dia em que é plantada. O que você planta em silêncio Deus não esqueceu. Em que área você está cansado de fazer o bem? Conta aqui.\n\n#homemcristao #forjadaalma #perseveranca",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VERSÍCULO FORJADO", "text": "Você faz o certo e <em>parece que não dá em nada</em>?"},
+      {"kicker": "A BÍBLIA RESPONDE", "text": "Semente não brota <em>no mesmo dia</em>."},
+      {"kicker": "O VERSÍCULO", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Você faz o certo e parece que não dá em nada? O versículo de hoje está no perfil 👆\n\n#versiculododia #homemdedeus #forjadaalma #homemcristao",
+    "caption_facebook": "Você faz o certo e parece que não dá em nada? O versículo de hoje está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
