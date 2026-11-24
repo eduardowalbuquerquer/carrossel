@@ -1,0 +1,63 @@
+{
+ "id": "v3-salario-minimo-79",
+ "formato": "v3",
+ "pilar": "salarios-reais",
+ "refeito_de": "r02-salario-minimo",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Salário depositado",
+    "msg": "Valor: <b>R$ 1.499,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 79",
+   "value_label": "é o que sobra de um salário mínimo",
+   "tone": "red",
+   "title": "Salário mínimo <em>dá para viver?</em>",
+   "say": "Salário mínimo dá para viver? Fiz a conta. Sobram setenta e nove reais.",
+   "show": "Salário mínimo dá para viver? Fiz a conta. Sobram R$ 79."
+  },
+  {
+   "type": "list",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "cap": "R$ 1.499 sem o INSS. Vai embora:",
+   "items": [["Aluguel", 600], ["Mercado", 450], ["Luz, água e gás", 160], ["Transporte e farmácia", 210]],
+   "say": "Sem o INSS, ficam mil quatrocentos e noventa e nove. Aluguel, seiscentos. Mercado, quatrocentos e cinquenta. Luz, água e gás, cento e sessenta. Transporte e farmácia, duzentos e dez.",
+   "show": "Sem o INSS, ficam R$ 1.499. Aluguel, R$ 600. Mercado, R$ 450. Luz, água e gás, R$ 160. Transporte e farmácia, R$ 210."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "label": "Um imprevisto de R$ 200",
+   "value": "-R$ 121",
+   "tone": "red",
+   "text": "R$ 79 de sobra menos R$ 200 = <b>R$ 121 no vermelho</b>. Vira cheque especial, com juros. Cenário de exemplo.",
+   "source": "Salário mínimo 2026 (R$ 1.621): Decreto 12.797/2025",
+   "say": "Um remédio de duzentos reais, e você cai no cheque especial.",
+   "show": "Um remédio de R$ 200, e você cai no cheque especial."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Saiba o <em>seu número</em> antes do imprevisto.",
+   "say": "Saiba o seu número antes do imprevisto."
+  }
+ ],
+ "captions": {
+  "ig": "Salário mínimo dá para viver? Fiz a conta: sobram R$ 79 👇\n\nR$ 1.621 menos INSS = R$ 1.499. Daí saem:\n• Aluguel: R$ 600\n• Mercado: R$ 450\n• Luz, água e gás: R$ 160\n• Transporte e farmácia: R$ 210\n\nSobram R$ 79. Um remédio de R$ 200 e você está R$ 121 no vermelho, no cheque especial.\n\nNão sobra muito, mas saber o número exato é o que evita o vermelho.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem vive com um salário mínimo.\n\n(Cenário de exemplo. Salário mínimo 2026: Decreto 12.797/2025.)\n\n#organizacaofinanceira #financaspessoais #salariominimo #dinheiro #educacaofinanceira",
+  "tt": "Salário mínimo dá para viver? Fiz a conta: sobram R$ 79 😬 R$ 1.499 sem o INSS, menos aluguel, mercado, contas, transporte e farmácia (cenário de exemplo; salário mínimo 2026, Decreto 12.797/2025). Comenta quanto sobra do seu no fim do mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #salariominimo #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Salário mínimo de R$ 1.621 dá para viver? Sobram R$ 79 #shorts",
+  "yt_desc": "Fiz a conta de um salário mínimo de 2026 (R$ 1.621, Decreto 12.797/2025) para uma pessoa morando sozinha. Sem o INSS ficam R$ 1.499. Aluguel R$ 600, mercado R$ 450, luz, água e gás R$ 160, transporte e farmácia R$ 210: sobram R$ 79. Um imprevisto de R$ 200 e a conta fica R$ 121 no vermelho. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #salariominimo",
+  "pin_title": "Salário mínimo 2026: dá para viver com R$ 1.621?",
+  "pin": "Conta de um salário mínimo de 2026 para quem mora sozinho, num cenário de exemplo: sem o INSS ficam R$ 1.499, e depois de aluguel, mercado, contas, transporte e farmácia sobram R$ 79. Descubra no site quanto sobra do seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Salário mínimo de R$ 1.621: <em>quanto sobra no fim?</em>",
+  "value": "R$ 79",
+  "label": "num cenário de exemplo",
+  "cta": "Faça a sua conta →"
+ }
+}
