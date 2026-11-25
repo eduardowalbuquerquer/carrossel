@@ -1331,5 +1331,22 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122124729423506150",
       "fb_reel": "https://www.facebook.com/reel/1449325570748251"
     }
+  },
+  {
+    "data": "2026-11-25",
+    "serie": "reels",
+    "titulo": "Quando foi a última vez que alguém jantou na sua casa?",
+    "tema": "hospitalidade / mesa aberta / amizade",
+    "versiculos": [
+      "Hebreus 13:2",
+      "1 Pedro 4:9"
+    ],
+    "foto": null,
+    "formato": "Reels 8 cenas só texto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DgLio0nSCAo/",
+      "fb_reel": "https://www.facebook.com/reel/2708309332959027",
+      "tiktok": "https://tiktok.com/@forjadaalma8/video/7712230913316293908"
+    }
   }
 ]
