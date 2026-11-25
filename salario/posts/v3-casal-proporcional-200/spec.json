@@ -1,0 +1,53 @@
+{
+ "id": "v3-casal-proporcional-200",
+ "formato": "v3",
+ "pilar": "casal",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-14-casal-discussao.jpg",
+   "notif": {
+    "app": "Lembrete",
+    "title": "Contas da casa vencem hoje",
+    "msg": "Total do mês: <b>R$ 2.000,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 200",
+   "value_label": "a mais por mês para ela",
+   "tone": "red",
+   "title": "Meio a meio <em>é justo?</em>",
+   "say": "Ela ganha dois mil. Ele, três mil. Dividir as contas meio a meio tira duzentos reais a mais dela.",
+   "show": "Ela ganha R$ 2.000. Ele, R$ 3.000. Dividir as contas meio a meio tira R$ 200 a mais dela."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-03-casal-boletos.jpg",
+   "label": "Dividindo pela renda",
+   "value": "R$ 800",
+   "tone": "green",
+   "text": "Ela paga <b>R$ 800</b> (40%) e ele <b>R$ 1.200</b> (60%) dos R$ 2.000. Os dois ficam com 60% do que ganham. Cenário de exemplo.",
+   "say": "Dividindo pela renda, ela paga oitocentos e ele, mil e duzentos. Os dois ficam com sessenta por cento do que ganham.",
+   "show": "Dividindo pela renda, ela paga R$ 800 e ele, R$ 1.200. Os dois ficam com 60% do que ganham."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-20-familia-mesa.jpg",
+   "title": "Coloquem <em>os números</em> na mesa.",
+   "say": "Coloquem os números na mesa, sem briga."
+  }
+ ],
+ "captions": {
+  "ig": "Meio a meio é justo? Nem sempre 👇\n\nEla ganha R$ 2.000, ele ganha R$ 3.000. As contas da casa somam R$ 2.000.\n\n• Meio a meio: cada um paga R$ 1.000. Ela fica com R$ 1.000 (50% do salário), ele com R$ 2.000 (67%).\n• Pela renda: ela paga R$ 800 (40%), ele paga R$ 1.200 (60%). Os dois ficam com 60% do que ganham.\n\nNo meio a meio, quem ganha menos paga R$ 200 a mais por mês.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para o seu par 💬\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #casal #dinheiro #educacaofinanceira",
+  "tt": "Meio a meio é justo? Ela ganha R$ 2.000, ele R$ 3.000, a casa custa R$ 2.000. Pela renda, ela paga R$ 800 e ele R$ 1.200: os dois ficam com 60% do que ganham (cenário de exemplo). Comenta como vocês dividem aí 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #casal #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Dividir as contas meio a meio é justo? Faça pela renda #shorts",
+  "yt_desc": "Ela ganha R$ 2.000, ele ganha R$ 3.000 e as contas da casa somam R$ 2.000. Meio a meio, cada um paga R$ 1.000 e ela paga R$ 200 a mais do que pagaria dividindo pela renda. Pela renda: ela paga R$ 800 (40%) e ele R$ 1.200 (60%), e os dois ficam com 60% do que ganham. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #casal",
+  "pin_title": "Organização financeira para casal: meio a meio ou pela renda?",
+  "pin": "Como dividir as contas da casa quando um ganha mais que o outro, num cenário de exemplo: R$ 2.000 de contas, salários de R$ 2.000 e R$ 3.000. Descubra no site quanto cada um deveria pagar, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Casal: quem ganha menos <em>paga mais no meio a meio?</em>",
+  "value": "R$ 200",
+  "label": "por mês, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
