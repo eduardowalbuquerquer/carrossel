@@ -1,0 +1,65 @@
+{
+ "id": "v3-promocao-internet-480",
+ "formato": "v3",
+ "pilar": "gastos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Fatura da internet",
+    "title": "Fim da promoção",
+    "msg": "Valor: <b>R$ 139,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 480",
+   "value_label": "por ano",
+   "tone": "red",
+   "title": "A promoção <em>acabou</em>",
+   "say": "A promoção da internet acabou. Quarenta reais a mais por mês, e quase ninguém percebe.",
+   "show": "A promoção da internet acabou. R$ 40 a mais por mês, e quase ninguém percebe."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "label": "Em 12 meses",
+   "value": "R$ 480",
+   "tone": "red",
+   "text": "R$ 139 - R$ 99 = <b>R$ 40</b> por mês. 12 x R$ 40 = <b>R$ 480</b>. Cenário de exemplo.",
+   "say": "Era noventa e nove, virou cento e trinta e nove. Em doze meses, quatrocentos e oitenta reais.",
+   "show": "Era R$ 99, virou R$ 139. Em 12 meses, R$ 480."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Faça assim",
+   "items": [
+    "Anote <b>quando cada promoção acaba</b>",
+    "Compare com o preço de <b>novos clientes</b>",
+    "Peça <b>um plano mais barato</b> ou cancele"
+   ],
+   "say": "Faça assim. Anote quando cada promoção acaba. Compare com o preço para novos clientes. Peça um plano mais barato ou cancele.",
+   "show": "Faça assim. Anote quando cada promoção acaba. Compare com o preço para novos clientes. Peça um plano mais barato ou cancele."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Anote <em>cada conta fixa</em>.",
+   "say": "Anote cada conta fixa na planilha."
+  }
+ ],
+ "captions": {
+  "ig": "A promoção da internet acabou e a conta subiu R$ 40 👇\n\nEra R$ 99, virou R$ 139. Em 12 meses: R$ 480 a mais.\n\nFaça assim:\n1. Anote quando cada promoção acaba\n2. Compare com o preço para novos clientes\n3. Peça um plano mais barato ou cancele\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem nunca confere a conta da internet.\n\n(Cenário de exemplo.)\n\n#contasdecasa #organizacaofinanceira #financaspessoais #educacaofinanceira #economia",
+  "tt": "A promoção da internet acabou: era R$ 99, virou R$ 139. São R$ 40 a mais por mês e R$ 480 em 12 meses 😬 (cenário de exemplo). Faça assim: anote quando cada promoção acaba, compare com o preço para novos clientes e peça um plano mais barato ou cancele. Comenta qual conta sua subiu sem você perceber 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #economia #dinheiro #educacaofinanceira",
+  "yt_title": "A promoção acabou: R$ 480 a mais por ano #shorts",
+  "yt_desc": "No exemplo, a internet de R$ 99 vira R$ 139 quando a promoção acaba: R$ 40 a mais por mês e R$ 480 em 12 meses. Faça assim: anote quando cada promoção acaba, compare com o preço para novos clientes e peça um plano mais barato ou cancele. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #economia",
+  "pin_title": "Contas da casa: quanto custa o fim da promoção da internet",
+  "pin": "Quando a promoção da internet acaba, a conta de R$ 99 pode virar R$ 139: num cenário de exemplo, são R$ 480 a mais por ano. Anote quando cada promoção vence e compare preços. Descubra no site qual conta fixa está pesando no seu salário, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "R$ 40 a mais por mês: <em>qual conta sua subiu?</em>",
+  "value": "R$ 480",
+  "label": "por ano, num cenário de exemplo",
+  "cta": "Descubra qual é a sua →"
+ }
+}
