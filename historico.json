@@ -1311,5 +1311,25 @@
       "fb_reel": "https://www.facebook.com/reel/1827960635007278",
       "tiktok": "https://tiktok.com/@forjadaalma8/video/7711860113186835718"
     }
+  },
+  {
+    "data": "2026-11-25",
+    "serie": "mito",
+    "titulo": "Manso não é fraco",
+    "tema": "mansidão como força sob controle / mansidão x covardia",
+    "versiculos": [
+      "Números 12:3",
+      "Mateus 11:29",
+      "Gálatas 5:22-23",
+      "Mateus 5:5"
+    ],
+    "foto": "pixabay:3449622",
+    "formato": "carrossel 6 slides + teaser com foto",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/DgKesw1kb9h/",
+      "ig_reel": "https://www.instagram.com/reel/DgKeuRqpYTm/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122124729423506150",
+      "fb_reel": "https://www.facebook.com/reel/1449325570748251"
+    }
   }
 ]
