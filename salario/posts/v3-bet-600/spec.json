@@ -1,0 +1,65 @@
+{
+ "id": "v3-bet-600",
+ "formato": "v3",
+ "pilar": "gastos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Pix",
+    "title": "Pix enviado",
+    "msg": "Valor: <b>R$ 20,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 600",
+   "value_label": "por mês",
+   "tone": "red",
+   "title": "Só vinte <em>na bet?</em>",
+   "say": "Só vinte reais na bet por dia? No mês, são seiscentos. E no ano assusta.",
+   "show": "Só R$ 20 na bet por dia? No mês, são R$ 600. E no ano assusta."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Em 12 meses",
+   "value": "R$ 7.200",
+   "tone": "red",
+   "text": "R$ 20 x 30 dias = <b>R$ 600</b> por mês. 12 meses x R$ 600 = <b>R$ 7.200</b>. Cenário de exemplo.",
+   "say": "Doze meses de seiscentos. Sete mil e duzentos reais saindo de Pix em Pix.",
+   "show": "12 meses de R$ 600. R$ 7.200 saindo de Pix em Pix."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Faça a conta real",
+   "items": [
+    "Some <b>cada Pix de aposta</b> do mês",
+    "Anote como <b>gasto na planilha</b>",
+    "Compare com <b>luz e mercado</b>"
+   ],
+   "say": "Faça a conta real. Some cada pix de aposta do mês. Anote como gasto na planilha. Compare com a luz e o mercado.",
+   "show": "Faça a conta real. Some cada Pix de aposta do mês. Anote como gasto na planilha. Compare com a luz e o mercado."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-20-familia-mesa.jpg",
+   "title": "Veja para onde <em>seu salário vai</em>.",
+   "say": "Veja para onde o seu salário vai."
+  }
+ ],
+ "captions": {
+  "ig": "Só R$ 20 na bet por dia? No mês são R$ 600 👇\n\nEm 12 meses: R$ 7.200 saindo de Pix em Pix.\n\nFaça a conta real:\n1. Some cada Pix de aposta do mês\n2. Anote como gasto na planilha\n3. Compare com a conta de luz e o mercado\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem diz que é \"só vinte\".\n\n(Cenário de exemplo.)\n\n#bet #organizacaofinanceira #financaspessoais #educacaofinanceira #dinheiro",
+  "tt": "Só R$ 20 na bet por dia? No mês são R$ 600, e em 12 meses R$ 7.200 saindo de Pix em Pix 😬 (cenário de exemplo). Faça a conta real: some cada Pix de aposta do mês, anote como gasto na planilha e compare com a luz e o mercado. Comenta quanto você acha que gasta por mês sem perceber 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #bet #financaspessoais #organizacaofinanceira #dinheiro #educacaofinanceira",
+  "yt_title": "Só R$ 20 na bet por dia? Veja o total no ano #shorts",
+  "yt_desc": "No exemplo, R$ 20 por dia em apostas viram R$ 600 por mês e R$ 7.200 em 12 meses, de Pix em Pix. Faça a conta real: some cada Pix de aposta do mês, anote como gasto na planilha e compare com a conta de luz e o mercado. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #bet",
+  "pin_title": "Controle de gastos: quanto a bet de R$ 20 por dia custa no ano",
+  "pin": "Um Pix de R$ 20 por dia em apostas parece pouco, mas num cenário de exemplo vira R$ 600 por mês e R$ 7.200 em 12 meses. Anote cada gasto na planilha e compare com as contas da casa. Descubra no site para onde o seu salário está indo, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "R$ 20 por dia parece pouco. <em>Quanto vira no ano?</em>",
+  "value": "R$ 600",
+  "label": "por mês, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
