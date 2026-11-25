@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-25",
+  "series": "mito",
+  "series_name": "Mito x Verdade",
+  "title": "Manso não é fraco",
+  "slides": [
+    {
+      "layout": "hero",
+      "theme": "light",
+      "tag": "MITO X VERDADE",
+      "title": "\"Homem <em style=\"color:#C8892C\">manso</em> é homem fraco.\"",
+      "body": "Muito homem confunde mansidão com covardia. A Bíblia não.",
+      "hint": "4 mentiras sobre mansidão →"
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 01",
+      "title": "\"Manso é quem não tem força.\"",
+      "left": {"label": "MITO", "text": "Manso é o homem que não aguenta enfrentar ninguém."},
+      "right": {"label": "VERDADE", "text": "\"Era o varão Moisés mui manso, mais do que todos os homens que havia sobre a terra.\" Números 12:3"},
+      "body": "O homem mais manso da terra enfrentou Faraó."
+    },
+    {
+      "layout": "compare",
+      "theme": "light",
+      "tag": "MENTIRA 02",
+      "title": "\"Jesus manso era um Jesus frágil.\"",
+      "left": {"label": "MITO", "text": "Mansidão combina com quem não tem autoridade."},
+      "right": {"label": "VERDADE", "text": "\"…aprendei de mim, porque sou manso e humilde de coração…\" Mateus 11:29"},
+      "body": "O mesmo Jesus manso virou as mesas do templo."
+    },
+    {
+      "layout": "compare",
+      "theme": "dark",
+      "tag": "MENTIRA 03",
+      "title": "\"Manso engole tudo calado.\"",
+      "left": {"label": "MITO", "text": "Ser manso é nunca confrontar nada."},
+      "right": {"label": "VERDADE", "text": "\"Mas o fruto do Espírito é: amor… mansidão, domínio próprio.\" Gálatas 5:22-23"},
+      "body": "Mansidão não é omissão. É força que não perde o controle."
+    },
+    {
+      "layout": "big",
+      "theme": "light",
+      "big": "4",
+      "tag": "A MAIS PERIGOSA",
+      "title": "\"Quem é manso sempre perde.\"",
+      "quote": {"text": "Bem-aventurados os mansos, porque herdarão a terra.", "ref": "Mateus 5:5 · ARA"},
+      "body": "Mansidão é força sob controle, como um cavalo forte que obedece às rédeas. Quem domina o próprio temperamento não perde: herda."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Qual dessas você já ouviu? Comente o número."
+    }
+  ],
+  "caption": "\"Homem manso é homem fraco.\" Será?\n\n1. \"Manso é quem não tem força.\"\n2. \"Jesus manso era frágil.\"\n3. \"Manso engole tudo calado.\"\n4. \"Quem é manso sempre perde.\"\n\nQual você já ouviu? Comente o número 👇\nSalve e envie para um irmão.\n\n#homemdedeus #masculinidadebiblica #homemcristao #mansidao #forjadaalma #biblia #fecrista",
+  "caption_facebook": "Muita gente acha que homem manso é homem fraco, que não se impõe, que leva desaforo para casa. A Bíblia pensa diferente.\n\nMoisés foi chamado \"mui manso, mais do que todos os homens que havia sobre a terra\" (Números 12:3), e foi ele quem enfrentou Faraó. Jesus disse \"sou manso e humilde de coração\" (Mateus 11:29), e foi o mesmo que virou as mesas do templo.\n\nMansidão é força sob controle, fruto do Espírito ao lado do domínio próprio (Gálatas 5:22-23). E a promessa é clara: \"Bem-aventurados os mansos, porque herdarão a terra\" (Mateus 5:5).\n\nVocê já ouviu que ser manso é ser fraco? Conta aqui.\n\n#homemcristao #forjadaalma #mansidao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "VOCÊ JÁ OUVIU ISSO", "text": "\"Homem manso é <em>homem fraco</em>.\""},
+      {"kicker": "SERÁ?", "text": "O homem mais manso da terra <em>enfrentou Faraó</em>."},
+      {"kicker": "4 MENTIRAS SOBRE MANSIDÃO", "text": "A resposta está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "\"Homem manso é homem fraco.\" Será? As 4 mentiras estão no post do perfil 👆\n\n#homemdedeus #forjadaalma #masculinidadebiblica #homemcristao",
+    "caption_facebook": "\"Homem manso é homem fraco.\" Será? As 4 mentiras estão no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
