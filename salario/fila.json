@@ -979,7 +979,13 @@
       },
       "v4": {
         "pasta": "v3-bet-600",
-        "nota": "Fila sem item: pauta nova v3 (bet R$ 20/dia = R$ 600/mês = R$ 7.200 em 12 meses; cenário de exemplo; gancho notificação 'Pix enviado R$ 20,00'). Publicar --so tt,yt,pin."
+        "nota": "Fila sem item: pauta nova v3 (bet R$ 20/dia = R$ 600/mês = R$ 7.200 em 12 meses; cenário de exemplo; gancho notificação 'Pix enviado R$ 20,00'). Publicar --so tt,yt,pin. TT 23,4 s, YT 22,8 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-24T21:40-03:00",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7711901060301950260",
+        "tt_status": "BUFFER_SENT",
+        "yt_link": "https://youtube.com/shorts/wTcj2Yl7xEE",
+        "pin_link": "https://www.pinterest.com/pin/264727284344903498"
       }
     },
     {
