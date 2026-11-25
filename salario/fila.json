@@ -1017,7 +1017,15 @@
       },
       "v2": {
         "pasta": "v3-promocao-internet-480",
-        "nota": "Fila sem item: pauta nova v3 (fim da promoção da internet: R$ 99 vira R$ 139 = R$ 40/mês = R$ 480 em 12 meses; cenário de exemplo; gancho notificação 'Fim da promoção R$ 139,00'). Publicar --so tt,yt,pin."
+        "nota": "Fila sem item: pauta nova v3 (fim da promoção da internet: R$ 99 vira R$ 139 = R$ 40/mês = R$ 480 em 12 meses; cenário de exemplo; gancho notificação 'Fim da promoção R$ 139,00'). Publicar --so tt,yt,pin. TT 24,5 s, YT 20,9 s.",
+        "publicado_em": "2026-11-25T19:20-03:00",
+        "renderizado": "v3",
+        "links": {
+          "tt_link": "https://tiktok.com/@salrio.organizado/video/7712237135599783176",
+          "tt_status": "BUFFER_SENT",
+          "yt_link": "https://youtube.com/shorts/ejBfNl62Xfc",
+          "pin_link": "https://www.pinterest.com/pin/264727284344928976"
+        }
       }
     },
     {
