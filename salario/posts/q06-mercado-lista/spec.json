@@ -1,0 +1,207 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 480,
+     "t": 40,
+     "txt": "Mercado de <b>R$ 1.100</b> de novo?!"
+    },
+    {
+     "x": 600,
+     "y": 90,
+     "w": 450,
+     "t": 40,
+     "txt": "E a despensa já tava cheia..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 480,
+     "t": 45,
+     "txt": "Sem lista, a gente pega o que vê..."
+    },
+    {
+     "x": 560,
+     "y": 40,
+     "w": 490,
+     "t": 50,
+     "txt": "Beliscos no carrinho: <b>R$ 90</b>."
+    }
+   ],
+   "cap": "No sábado..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 40,
+     "w": 560,
+     "t": 40,
+     "txt": "Coisa repetida que já tinha em casa: <b>R$ 70</b>."
+    },
+    {
+     "x": 620,
+     "y": 40,
+     "w": 430,
+     "t": 50,
+     "txt": "Três molhos de tomate?!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 480,
+     "t": 45,
+     "txt": "\"Leve 3, pague menos!\" Era promoção!"
+    },
+    {
+     "x": 560,
+     "y": 40,
+     "w": 490,
+     "t": 50,
+     "txt": "Promoção do que não tava na lista: <b>R$ 60</b>."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 40,
+     "txt": "90 + 70 + 60 = <b>R$ 220</b> fora da lista."
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 45,
+     "txt": "Todo mês?!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 40,
+     "txt": "Antes de sair: olhar a despensa e fazer a lista."
+    },
+    {
+     "x": 600,
+     "y": 60,
+     "w": 450,
+     "t": 45,
+     "txt": "E no mercado, só o que tá no papel."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 480,
+     "t": 45,
+     "txt": "Mercado com lista: <i>R$ 880</i>."
+    },
+    {
+     "x": 560,
+     "y": 40,
+     "w": 490,
+     "t": 50,
+     "txt": "<i>R$ 220</i> a menos no mês!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 140,
+     "w": 500,
+     "t": 45,
+     "txt": "<i>R$ 2.640</i> que ficaram com a gente!"
+    },
+    {
+     "x": 570,
+     "y": 100,
+     "w": 480,
+     "t": 50,
+     "txt": "Só por levar uma lista."
+    }
+   ],
+   "cap": "1 ano depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>Mercado sem lista custou <em>R$ 220</em> a mais.</h1><p>O que entrou no carrinho da Bia e do Rafa fora da lista:</p><table><tr><th>Gasto</th><th class='n'>Por mês</th></tr><tr><td>Beliscos (bolacha, chocolate, salgadinho)</td><td class='n'>R$ 90</td></tr><tr><td>Coisa repetida que já tinha em casa</td><td class='n'>R$ 70</td></tr><tr><td>\"Leve 3\" do que não precisava</td><td class='n'>R$ 60</td></tr><tr class='tot'><td>Total por mês</td><td class='n'>R$ 220</td></tr></table><p>Mercado sem lista: R$ 1.100. Com lista: R$ 880. Em 12 meses, R$ 2.640 a menos.</p>"
+  }
+ ],
+ "cta_titulo": "Quer saber quanto o mercado pesa no seu mês?",
+ "captions": {
+  "ig": "Despensa cheia e, mesmo assim, R$ 1.100 de mercado. De novo. 😳\n\nSem lista, a Bia e o Rafa pegavam o que viam: R$ 90 de beliscos, R$ 70 em coisa que já tinha em casa (três molhos de tomate!) e R$ 60 em \"leve 3\" do que nem precisava. R$ 220 por mês fora da lista.\n\nA virada: antes de sair, olhar a despensa e fazer a lista. No mercado, só o que está no papel. Mercado foi para R$ 880, e em 1 ano foram R$ 2.640 que ficaram com eles.\n\nVocê vai ao mercado com lista ou sem? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#economizar #listadecompras #organizacaofinanceira #financaspessoais #planilhafinanceira",
+  "tt": "Mercado sem lista = R$ 220 a mais todo mês 😳 Comenta se você vai com lista ou sem.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Sem lista 1.100; fora da lista = beliscos 90 + repetidos 70 + leve 3 60 = 220; com lista 1.100 - 220 = 880. 12 x 220 = 2.640.",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
