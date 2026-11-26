@@ -1,0 +1,59 @@
+{
+ "id": "v3-para-onde-foi-600",
+ "formato": "v3",
+ "pilar": "organizacao",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "notif": {
+    "app": "Conta digital",
+    "title": "Saldo do dia 25",
+    "msg": "Disponível: <b>R$ 0,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 600",
+   "value_label": "somem e ninguém sabe onde",
+   "tone": "red",
+   "title": "Para onde <em>foi o dinheiro?</em>",
+   "say": "Deveriam sobrar seiscentos reais. No dia vinte e cinco, sobra zero. E não foi o aluguel.",
+   "show": "Deveriam sobrar R$ 600. No dia 25, sobra zero. E não foi o aluguel."
+  },
+  {
+   "type": "list",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "cap": "30 dias anotando tudo. Os R$ 600 foram:",
+   "items": [["Pix pequenos", 220], ["Mercado extra", 200], ["Delivery", 180]],
+   "say": "Anotando tudo por trinta dias, apareceu. Pix pequenos, duzentos e vinte. Mercado extra, duzentos. Delivery, cento e oitenta.",
+   "show": "Anotando tudo por 30 dias, apareceu. Pix pequenos, R$ 220. Mercado extra, R$ 200. Delivery, R$ 180."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Faça o teste",
+   "items": ["Anote <b>todo gasto</b> por 30 dias", "Some por <b>tipo</b>", "Corte <b>um</b> só"],
+   "say": "Faça o teste. Anote todo gasto por trinta dias. Some por tipo. Corte um só.",
+   "show": "Faça o teste. Anote todo gasto por 30 dias. Some por tipo. Corte um só."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Descubra <em>o seu vazamento</em>.",
+   "say": "Descubra para onde vai o seu."
+  }
+ ],
+ "captions": {
+  "ig": "Deveriam sobrar R$ 600. No dia 25, sobra zero 👇\n\nNão foi o aluguel. Anotando tudo por 30 dias, os R$ 600 apareceram:\n\n• Pix pequenos: R$ 220\n• Mercado extra: R$ 200\n• Delivery: R$ 180\n\nTotal: R$ 600. Ninguém lembra de gasto pequeno, por isso ele some.\n\nO teste: anote todo gasto por 30 dias, some por tipo e corte um só.\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem vive dizendo \"não sei para onde vai meu dinheiro\" 💬\n\n(Cenário de exemplo.)\n\n#organizacaofinanceira #financaspessoais #controledegastos #dinheiro #educacaofinanceira",
+  "tt": "Deveriam sobrar R$ 600 e no dia 25 sobra zero? Anotando 30 dias: pix pequenos R$ 220, mercado extra R$ 200, delivery R$ 180 (cenário de exemplo). Comenta qual desses mais pesa aí 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #controledegastos #financaspessoais #organizacaofinanceira #dinheiro",
+  "yt_title": "Para onde foi o dinheiro? Os R$ 600 que somem #shorts",
+  "yt_desc": "Deveriam sobrar R$ 600 e no dia 25 sobra zero. Anotando todo gasto por 30 dias, os R$ 600 apareceram: pix pequenos R$ 220, mercado extra R$ 200 e delivery R$ 180. O teste: anote tudo por 30 dias, some por tipo e corte um só. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #controledegastos",
+  "pin_title": "Controle de gastos: para onde vai o seu dinheiro?",
+  "pin": "Deveriam sobrar R$ 600 no mês e sobra zero? Num cenário de exemplo, 30 dias anotando os gastos mostraram onde o dinheiro vaza. Descubra no site os 3 vazamentos mais comuns e faça a sua conta com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Os R$ 600 que somem <em>todo mês: onde estão?</em>",
+  "value": "R$ 600",
+  "label": "por mês, num cenário de exemplo",
+  "cta": "Descubra qual é o seu →"
+ }
+}
