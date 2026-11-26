@@ -1348,5 +1348,39 @@
       "fb_reel": "https://www.facebook.com/reel/2708309332959027",
       "tiktok": "https://tiktok.com/@forjadaalma8/video/7712230913316293908"
     }
+  },
+  {
+    "data": "2026-11-26",
+    "serie": "frase",
+    "titulo": "Quem teme a Deus não precisa temer mais ninguém.",
+    "tema": "temor do Senhor / medo dos homens",
+    "versiculos": [
+      "Provérbios 9:10"
+    ],
+    "foto": "pixabay:284688",
+    "formato": "1 slide photo + teaser (publicado às 20h, atrasado)",
+    "links": {
+      "ig_feed": "https://www.instagram.com/p/DgOQPJKFpQ1/",
+      "ig_reel": "https://www.instagram.com/reel/DgOQQmjJVcu/",
+      "fb_feed": "https://www.facebook.com/122103158103506150/posts/122125169829506150",
+      "fb_reel": "https://www.facebook.com/reel/1039400195845336"
+    }
+  },
+  {
+    "data": "2026-11-26",
+    "serie": "reels",
+    "titulo": "Você trata o porteiro como trata o chefe?",
+    "tema": "acepção de pessoas / humildade / como tratar quem serve",
+    "versiculos": [
+      "Tiago 2:1",
+      "Filipenses 2:3"
+    ],
+    "foto": null,
+    "formato": "Reels 8 cenas só texto",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DgORKQdhcFN/",
+      "fb_reel": "https://www.facebook.com/reel/1866721677971487",
+      "tiktok": "https://tiktok.com/@forjadaalma8/video/7712623904983928085"
+    }
   }
 ]
