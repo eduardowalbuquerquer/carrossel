@@ -1,5 +1,4 @@
 {
-  "ig_erro": "Instagram não processou o vídeo: {'status_code': 'ERROR', 'status': 'ERROR', 'id': '18132486349867332'}",
   "yt_id": "7cyPvA_uamY",
   "yt_link": "https://youtube.com/shorts/7cyPvA_uamY",
   "tt_id": "v_inbox_file~v2.7712621957891639302",
@@ -8,5 +7,7 @@
   "pin_id": "6b08c08670e2a88e2cda8eea",
   "pin_link": "https://www.pinterest.com/pin/264727284344955049",
   "fb_id": "6b08c08a548b6e180d4027f9",
-  "fb_link": "https://facebook.com/1446527975200486_122114460003533531"
+  "fb_link": "https://facebook.com/1446527975200486_122114460003533531",
+  "ig_id": "18047642990828158",
+  "ig_link": "https://www.instagram.com/reel/DgOSn6otqa0/"
 }
