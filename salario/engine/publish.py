@@ -78,12 +78,15 @@ def host(post_dir, files):
         git("commit", "-q", "-m", f"Salário Organizado: mídias de {post_dir.name}")
     for w in (0, 2, 4, 8, 16):
         time.sleep(w)
+        if w:  # outra rotina publicou antes: traz o main e tenta de novo
+            subprocess.run(["git", "-C", str(repo), "pull", "-q", "--no-rebase", "--no-edit", "origin", "main"])
         if subprocess.run(["git", "-C", str(repo), "push", "-q", "origin", "HEAD:main"]).returncode == 0:
             break
     else:
         raise SystemExit("Falha no git push das mídias")
     sha = subprocess.run(["git", "-C", str(repo), "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip()
-    urls = {f: f"{base.replace('{sha}', sha)}/{rel.as_posix()}/{f}" for f in files}
+    # ?v=<sha>: se a 1ª tentativa falhou, o Instagram guarda o erro da URL; versão nova força nova leitura
+    urls = {f: f"{base.replace('{sha}', sha)}/{rel.as_posix()}/{f}?v={sha[:8]}" for f in files}
     t0 = time.time()
     while time.time() - t0 < 300:  # o Pages leva ~1 min para publicar
         try:
