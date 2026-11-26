@@ -1026,6 +1026,10 @@
           "yt_link": "https://youtube.com/shorts/ejBfNl62Xfc",
           "pin_link": "https://www.pinterest.com/pin/264727284344928976"
         }
+      },
+      "v4": {
+        "pasta": "v3-cafezinho-132",
+        "nota": "v4 do dia 31 (25/11): a rotina das 21h30 caiu por erro de API; feito em 26/11 ~20h."
       }
     },
     {
@@ -1033,7 +1037,23 @@
       "formato": "v3",
       "v3": {
         "pasta": "sm04-tres-tercos",
-        "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin."
+        "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin.",
+        "publicado_em": "2026-11-26T23:20:00Z",
+        "renderizado": "v3",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7712622026686516481",
+        "yt_link": "https://youtube.com/shorts/a3F2s5W6Hg4",
+        "pin_link": "https://www.pinterest.com/pin/264727284344954928"
+      },
+      "v2": {
+        "pasta": "v3-salario-comprometido-660",
+        "nota": "Fila vazia: tema campeão refeito (quanto você deve -> quanto do salário já chega comprometido), criado pela rotina das 19h de 26/11/2026.",
+        "publicado_em": "2026-11-26T20:25-03:00",
+        "renderizado": "v3",
+        "tt_status": "SEND_TO_USER_INBOX (Buffer falhou porque o push das mídias foi recusado; vai como rascunho para o Eduardo publicar)",
+        "links": {
+          "yt_link": "https://youtube.com/shorts/VT6fQ46w3Aw",
+          "pin_link": "https://www.pinterest.com/pin/264727284344954906"
+        }
       }
     },
     {

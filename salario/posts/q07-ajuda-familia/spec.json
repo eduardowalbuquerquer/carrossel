@@ -1,0 +1,207 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 480,
+     "t": 40,
+     "txt": "A conta de luz venceu e não tem dinheiro?!"
+    },
+    {
+     "x": 600,
+     "y": 80,
+     "w": 450,
+     "t": 40,
+     "txt": "A gente ajudou a família com <b>R$ 700</b> este mês..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 440,
+     "t": 45,
+     "txt": "Quanto pra sua mãe?"
+    },
+    {
+     "x": 540,
+     "y": 90,
+     "w": 510,
+     "t": 45,
+     "txt": "Remédio dela: <b>R$ 300</b>."
+    }
+   ],
+   "cap": "No começo do mês..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 90,
+     "w": 520,
+     "t": 40,
+     "txt": "Minha irmã pediu pra luz dela: <b>R$ 250</b>."
+    },
+    {
+     "x": 600,
+     "y": 110,
+     "w": 450,
+     "t": 45,
+     "txt": "Pode mandar, ué."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 80,
+     "w": 500,
+     "t": 40,
+     "txt": "E o primo? \"Devolvo mês que vem\"?"
+    },
+    {
+     "x": 580,
+     "y": 60,
+     "w": 470,
+     "t": 45,
+     "txt": "É só <b>R$ 150</b>... ele devolve!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 540,
+     "t": 40,
+     "txt": "300 + 250 + 150 = <b>R$ 700</b>, sem combinar nada."
+    },
+    {
+     "x": 610,
+     "y": 60,
+     "w": 440,
+     "t": 45,
+     "txt": "E sem caber no nosso mês."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 520,
+     "t": 40,
+     "txt": "Teto pra ajudar a família: <i>R$ 300</i> por mês."
+    },
+    {
+     "x": 590,
+     "y": 60,
+     "w": 460,
+     "t": 45,
+     "txt": "Combinado. Entra no orçamento, igual conta fixa."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 440,
+     "t": 45,
+     "txt": "Contou do teto pra ela?"
+    },
+    {
+     "x": 520,
+     "y": 60,
+     "w": 530,
+     "t": 45,
+     "txt": "Mãe, o dinheiro do mês já foi, mas te levo no médico!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 150,
+     "w": 480,
+     "t": 45,
+     "txt": "Conta de luz paga em dia!"
+    },
+    {
+     "x": 560,
+     "y": 90,
+     "w": 490,
+     "t": 50,
+     "txt": "Ajudamos <i>R$ 900</i> e <i>R$ 1.200</i> ficaram no nosso orçamento."
+    }
+   ],
+   "cap": "3 meses depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>Ajudar sem combinar valor custou <em>R$ 700</em> num mês.</h1><p>O que a Bia e o Rafa mandaram para a família, sem teto:</p><table><tr><th>Ajuda</th><th class='n'>Valor</th></tr><tr><td>Remédio da mãe do Rafa</td><td class='n'>R$ 300</td></tr><tr><td>Conta de luz da irmã da Bia</td><td class='n'>R$ 250</td></tr><tr><td>\"Empréstimo\" pro primo</td><td class='n'>R$ 150</td></tr><tr class='tot'><td>Total no mês</td><td class='n'>R$ 700</td></tr></table><p>Plano novo: teto combinado de R$ 300 por mês, dentro do orçamento. Passou disso, a ajuda vira tempo (carona, companhia). Em 3 meses: R$ 900 de ajuda e R$ 1.200 a mais no orçamento deles.</p>"
+  }
+ ],
+ "cta_titulo": "Quer colocar a ajuda à família dentro do orçamento?",
+ "captions": {
+  "ig": "A conta de luz venceu e não tinha dinheiro. O motivo: R$ 700 de ajuda para a família no mês, sem combinar nada. 😬\n\nRemédio da mãe (R$ 300), a luz da irmã (R$ 250) e o primo do \"devolvo mês que vem\" (R$ 150). Tudo de coração, e nada cabendo no mês deles.\n\nA virada da Bia e do Rafa: um teto combinado de R$ 300 por mês para ajudar a família, que entra no orçamento como conta fixa. Quando o teto acaba, a ajuda vira tempo: carona, companhia no médico. Em 3 meses: R$ 900 de ajuda, nenhuma conta atrasada e R$ 1.200 a mais no orçamento.\n\nVocês têm um valor combinado para ajudar a família? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#familia #orcamentofamiliar #organizacaofinanceira #financaspessoais #planilhafinanceira",
+  "tt": "Ajudar a família sem combinar valor = conta atrasada em casa 😬 Comenta se você já passou por isso.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Ajuda no mês sem teto: remédio 300 + luz irmã 250 + primo 150 = 700. Teto 300/mês: 3 x 300 = 900 de ajuda; diferença 700 - 300 = 400/mês; 3 x 400 = 1.200 no orçamento.",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}

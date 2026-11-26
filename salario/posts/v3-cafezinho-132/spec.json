@@ -1,0 +1,65 @@
+{
+ "id": "v3-cafezinho-132",
+ "formato": "v3",
+ "pilar": "gastos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "notif": {
+    "app": "Cartão de débito",
+    "title": "Compra aprovada: Padaria",
+    "msg": "Valor: <b>R$ 6,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 132",
+   "value_label": "por mês",
+   "tone": "red",
+   "title": "Só um <em>cafezinho?</em>",
+   "say": "Só seis reais de café por dia de trabalho? No mês, são cento e trinta e dois.",
+   "show": "Só R$ 6 de café por dia de trabalho? No mês, são R$ 132."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-05-onibus-cansada.jpg",
+   "label": "Em 12 meses",
+   "value": "R$ 1.584",
+   "tone": "red",
+   "text": "R$ 6 x 22 dias úteis = <b>R$ 132</b> por mês. 12 x R$ 132 = <b>R$ 1.584</b>. Cenário de exemplo.",
+   "say": "Em doze meses, mil quinhentos e oitenta e quatro reais. Sem você perceber.",
+   "show": "Em 12 meses, R$ 1.584. Sem você perceber."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Não precisa cortar tudo",
+   "items": [
+    "Anote <b>cada café</b> da semana",
+    "Escolha <b>2 dias</b> para levar de casa",
+    "Guarde a <b>diferença</b> no mês"
+   ],
+   "say": "Não precisa cortar tudo. Anote cada café da semana. Escolha dois dias para levar de casa. Guarde a diferença no mês.",
+   "show": "Não precisa cortar tudo. Anote cada café da semana. Escolha 2 dias para levar de casa. Guarde a diferença no mês."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "title": "Veja para onde <em>seu salário vai</em>.",
+   "say": "Veja para onde o seu salário vai."
+  }
+ ],
+ "captions": {
+  "ig": "Só R$ 6 de café por dia de trabalho? No mês são R$ 132 👇\n\nEm 12 meses: R$ 1.584, sem você perceber.\n\nNão precisa cortar tudo:\n1. Anote cada café da semana\n2. Escolha 2 dias para levar de casa\n3. Guarde a diferença no mês\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para o colega do cafezinho.\n\n(Cenário de exemplo: R$ 6 x 22 dias úteis.)\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #economizar #dinheiro",
+  "tt": "Só R$ 6 de café por dia de trabalho? No mês são R$ 132, e em 12 meses R$ 1.584 sem você perceber ☕ (cenário de exemplo: R$ 6 x 22 dias úteis). Não precisa cortar tudo: anote cada café da semana, escolha 2 dias para levar de casa e guarde a diferença. Comenta quanto você gasta de café por dia 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #economizar #dinheiro #educacaofinanceira",
+  "yt_title": "Só R$ 6 de café por dia? Veja o total no ano #shorts",
+  "yt_desc": "No exemplo, R$ 6 de café por dia útil (22 dias) viram R$ 132 por mês e R$ 1.584 em 12 meses. Não precisa cortar tudo: anote cada café da semana, escolha 2 dias para levar de casa e guarde a diferença. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #economizar",
+  "pin_title": "Como economizar no dia a dia: quanto o cafezinho de R$ 6 custa no ano",
+  "pin": "Um café de R$ 6 por dia de trabalho parece pouco, mas num cenário de exemplo vira R$ 132 por mês e R$ 1.584 em 12 meses. Você não precisa cortar tudo: anote, troque 2 dias por café de casa e guarde a diferença. Descubra no site para onde o seu salário está indo, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O gasto pequeno que vira <em>R$ 1.584 no ano</em>",
+  "value": "R$ 132",
+  "label": "por mês, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
