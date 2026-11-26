@@ -1038,6 +1038,17 @@
       "v3": {
         "pasta": "sm04-tres-tercos",
         "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin."
+      },
+      "v2": {
+        "pasta": "v3-salario-comprometido-660",
+        "nota": "Fila vazia: tema campeão refeito (quanto você deve -> quanto do salário já chega comprometido), criado pela rotina das 19h de 26/11/2026.",
+        "publicado_em": "2026-11-26T20:25-03:00",
+        "renderizado": "v3",
+        "tt_status": "SEND_TO_USER_INBOX (Buffer falhou porque o push das mídias foi recusado; vai como rascunho para o Eduardo publicar)",
+        "links": {
+          "yt_link": "https://youtube.com/shorts/VT6fQ46w3Aw",
+          "pin_link": "https://www.pinterest.com/pin/264727284344954906"
+        }
       }
     },
     {
