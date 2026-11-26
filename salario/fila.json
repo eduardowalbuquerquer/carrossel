@@ -1037,7 +1037,12 @@
       "formato": "v3",
       "v3": {
         "pasta": "sm04-tres-tercos",
-        "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin."
+        "nota": "Série Sabedoria milenar (10/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 26/11. Publicar --so tt,pin.",
+        "publicado_em": "2026-11-26T23:20:00Z",
+        "renderizado": "v3",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7712622026686516481",
+        "yt_link": "https://youtube.com/shorts/a3F2s5W6Hg4",
+        "pin_link": "https://www.pinterest.com/pin/264727284344954928"
       },
       "v2": {
         "pasta": "v3-salario-comprometido-660",
