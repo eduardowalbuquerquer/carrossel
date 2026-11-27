@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-27",
+  "series": "manual",
+  "series_name": "Manual do Homem",
+  "title": "Como orar pela sua esposa",
+  "slides": [
+    {"layout": "hero", "theme": "light", "tag": "MANUAL DO HOMEM", "title": "Como orar <em style=\"color:#C8892C\">pela sua esposa</em>.", "body": "Muito marido ora pela casa, pelo emprego, pelas contas. E esquece de orar por ela. 6 pedidos para começar hoje.", "hint": "Salve e use esta noite →"},
+    {"layout": "text", "theme": "dark", "tag": "A BASE", "title": "Antes de liderar a casa, <em style=\"color:#E3B566\">interceda por ela</em>.",
+      "quote": {"text": "Orai sem cessar.", "ref": "1 Tessalonicenses 5:17 · ARA"},
+      "body": "Oração pela esposa não é extra. É parte do seu papel de marido."},
+    {"layout": "list", "theme": "light", "tag": "OS PEDIDOS · PARTE 1", "title": "Pela vida dela", "items": [
+      {"num": "01", "title": "Pela fé dela", "desc": "Que ela conheça e ame a Deus cada dia mais."},
+      {"num": "02", "title": "Pelo coração dela", "desc": "Paz no meio das preocupações que ela nem sempre conta."},
+      {"num": "03", "title": "Pelas amizades dela", "desc": "Que Deus traga mulheres que a fortaleçam na fé."}
+    ]},
+    {"layout": "list", "theme": "dark", "tag": "OS PEDIDOS · PARTE 2", "title": "Pela vida de vocês", "items": [
+      {"num": "04", "title": "Pela saúde e pelo trabalho dela", "desc": "Força para o que ela carrega, dentro e fora de casa."},
+      {"num": "05", "title": "Pela unidade de vocês", "desc": "Que nenhuma mágoa durma entre os dois."},
+      {"num": "06", "title": "Por você mesmo", "desc": "\"Senhor, me faz o marido que ela precisa.\""}
+    ]},
+    {"layout": "text", "theme": "light", "tag": "O PRÓXIMO PASSO", "title": "Ore por ela. Depois, <em style=\"color:#C8892C\">ore com ela</em>.",
+      "quote": {"text": "Muito pode, por sua eficácia, a súplica do justo.", "ref": "Tiago 5:16 · ARA"},
+      "body": "Pergunte hoje: \"Como posso orar por você esta semana?\" E ore ali mesmo, de mãos dadas."},
+    {"layout": "cta", "title": "Homem não nasce pronto.<br>É <em>forjado</em>.", "body": "Toda semana: arquétipos, mitos e o manual prático do homem de Deus.", "button": "Siga @forjadaalma.oficial", "sub": "Qual pedido você nunca tinha feito por ela? Comente o número."}
+  ],
+  "caption": "Você ora pela casa, pelo emprego, pelas contas. E pela sua esposa?\n\n1. Pela fé dela\n2. Pelo coração dela\n3. Pelas amizades dela\n4. Pela saúde e pelo trabalho dela\n5. Pela unidade de vocês\n6. Por você mesmo\n\n\"Muito pode, por sua eficácia, a súplica do justo\" (Tg 5:16).\n\nSalve e envie para um irmão casado.\n\n#homemdedeus #maridocristao #casamentocristao #oracao #forjadaalma #biblia #homemcristao",
+  "caption_facebook": "Muito marido ora pela casa, pelo emprego e pelas contas, mas quase nunca ora pela esposa pelo nome. E é justamente ela quem carrega tanta coisa que a gente nem percebe.\n\nAlguns pedidos para começar hoje: pela fé dela, pelo coração dela, pelas amizades dela, pela saúde e pelo trabalho dela, pela unidade de vocês e por você mesmo, para ser o marido que ela precisa.\n\n\"Orai sem cessar\" (1 Tessalonicenses 5:17). \"Muito pode, por sua eficácia, a súplica do justo\" (Tiago 5:16).\n\nE o próximo passo: pergunte a ela \"Como posso orar por você esta semana?\" e ore ali mesmo, de mãos dadas.\n\nVocê costuma orar pela sua esposa? Conta aqui.\n\n#homemcristao #forjadaalma #casamentocristao",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "MANUAL DO HOMEM", "text": "Você ora pelas contas. <em>E pela sua esposa?</em>"},
+      {"kicker": "6 PEDIDOS", "text": "Que todo marido <em>deveria fazer</em>."},
+      {"kicker": "O ROTEIRO COMPLETO", "text": "Está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Você ora pelas contas. E pela sua esposa? Os 6 pedidos estão no perfil 👆\n\n#homemdedeus #forjadaalma #casamentocristao #homemcristao",
+    "caption_facebook": "Você ora pelas contas. E pela sua esposa? Os 6 pedidos estão no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
