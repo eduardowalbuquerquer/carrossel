@@ -1,0 +1,62 @@
+{
+ "id": "v3-desconto-falso-100",
+ "formato": "v3",
+ "pilar": "perigo-com-numero",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-17-vitrine-tentacao.jpg",
+   "notif": {
+    "app": "Loja online",
+    "title": "BLACK FRIDAY: 50% OFF",
+    "msg": "De R$ 4.000 por <b>R$ 2.000</b>",
+    "when": "agora"
+   },
+   "value": "50%",
+   "value_label": "de desconto? Olha o preço de antes",
+   "tone": "red",
+   "title": "O desconto <em>que não existe</em>.",
+   "say": "Cinquenta por cento de desconto? Mês passado, essa TV custava dois mil e cem.",
+   "show": "50% de desconto? Mês passado, essa TV custava R$ 2.100."
+  },
+  {
+   "type": "compare",
+   "bg": "cenas/cena-15-feira-precos.jpg",
+   "label": "Preço da mesma TV",
+   "from": "R$ 2.100",
+   "to": "R$ 2.000",
+   "value": "R$ 100",
+   "text": "de desconto de verdade",
+   "after": "Menos de 5%, não 50%. Cenário de exemplo.",
+   "say": "O desconto de verdade é de cem reais. Menos de cinco por cento.",
+   "show": "O desconto de verdade é de R$ 100. Menos de 5%."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Antes de pagar",
+   "items": ["Veja o <b>histórico de preço</b>", "Compare com o <b>mês passado</b>", "Compre só o que <b>estava na lista</b>"],
+   "say": "Antes de pagar, faça assim. Veja o histórico de preço. Compare com o mês passado. Compre só o que estava na lista."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Veja se cabe <em>no seu mês</em>.",
+   "say": "Antes de comprar, veja se cabe no seu mês."
+  }
+ ],
+ "captions": {
+  "ig": "50% de desconto? Mês passado, essa TV custava R$ 2.100 👇\n\nNa Black Friday, o \"de R$ 4.000 por R$ 2.000\" chama atenção. Mas, se o preço normal era R$ 2.100, o desconto de verdade é de R$ 100. Menos de 5%, não 50%.\n\nAntes de pagar:\n1. Veja o histórico de preço do produto\n2. Compare com o preço do mês passado\n3. Compre só o que já estava na lista\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩\n\nManda pra quem está de olho nas promoções de hoje 😉\n\n(Cenário de exemplo.)\n\n#blackfriday #promocao #organizacaofinanceira #financaspessoais #consumoconsciente",
+  "tt": "\"De R$ 4.000 por R$ 2.000\"... mas mês passado custava R$ 2.100. Desconto de verdade: R$ 100, menos de 5% (cenário de exemplo) 🤔 Comenta qual promoção te pegou hoje 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #blackfriday #promocao #financaspessoais #dinheiro #consumoconsciente",
+  "yt_title": "Black Friday: o desconto de 50% que é menos de 5% #shorts",
+  "yt_desc": "\"De R$ 4.000 por R$ 2.000\" na Black Friday. Mas, se mês passado o produto custava R$ 2.100, o desconto de verdade é de R$ 100: menos de 5% (cenário de exemplo). Antes de pagar, veja o histórico de preço, compare com o mês passado e compre só o que estava na lista.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #blackfriday #organizacaofinanceira",
+  "pin_title": "Black Friday: como saber se o desconto é de verdade",
+  "pin": "\"De R$ 4.000 por R$ 2.000\" parece metade do preço, mas se o produto custava R$ 2.100 no mês passado, o desconto real é de R$ 100. Veja o histórico de preço antes de pagar. Descubra no site se a compra cabe no seu mês, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que esse 50% OFF <em>vale só R$ 100?</em>",
+  "value": "R$ 100",
+  "label": "de desconto real, num cenário de exemplo",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
