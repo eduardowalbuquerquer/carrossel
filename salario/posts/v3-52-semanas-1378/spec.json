@@ -1,0 +1,65 @@
+{
+ "id": "v3-52-semanas-1378",
+ "formato": "v3",
+ "pilar": "reserva",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-06-insonia.jpg",
+   "notif": {
+    "app": "Pix",
+    "title": "Pix enviado: Minha reserva",
+    "msg": "Valor: <b>R$ 1,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 1.378",
+   "value_label": "em 52 semanas",
+   "tone": "green",
+   "title": "Começa com <em>R$ 1</em>",
+   "say": "Acha que não sobra nada? Comece com um real. No fim do ano, são mil trezentos e setenta e oito.",
+   "show": "Acha que não sobra nada? Comece com R$ 1. No fim do ano, são R$ 1.378."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-13-pote-economia.jpg",
+   "label": "Desafio das 52 semanas",
+   "value": "R$ 1.378",
+   "tone": "green",
+   "text": "Semana 1: R$ 1. Semana 2: R$ 2. ... Semana 52: R$ 52. Soma de 1 a 52 = <b>R$ 1.378</b>.",
+   "say": "Semana um, um real. Semana dois, dois reais. Até a semana cinquenta e dois.",
+   "show": "Semana 1, R$ 1. Semana 2, R$ 2. Até a semana 52."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Para não desistir",
+   "items": [
+    "Marque <b>cada semana</b> numa lista",
+    "Dezembro aperta? <b>Inverta</b> a ordem",
+    "Guarde <b>separado</b> do dia a dia"
+   ],
+   "say": "Para não desistir. Marque cada semana numa lista. Se dezembro aperta, inverta a ordem. Guarde separado do dia a dia.",
+   "show": "Para não desistir. Marque cada semana numa lista. Se dezembro aperta, inverta a ordem. Guarde separado do dia a dia."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Comece <em>na próxima semana</em>.",
+   "say": "Comece na próxima semana."
+  }
+ ],
+ "captions": {
+  "ig": "Acha que não sobra nada? Comece com R$ 1 👇\n\nDesafio das 52 semanas: semana 1 guarda R$ 1, semana 2 guarda R$ 2... até a semana 52. No fim, R$ 1.378 (soma de 1 a 52).\n\nPara não desistir:\n1. Marque cada semana numa lista\n2. Se dezembro aperta, inverta a ordem (comece pelos R$ 52)\n3. Guarde separado da conta do dia a dia\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem vai fazer o desafio com você.\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #reservadeemergencia #dinheiro",
+  "tt": "Acha que não sobra nada? Comece com R$ 1. Desafio das 52 semanas: semana 1 guarda R$ 1, semana 2 guarda R$ 2... até a semana 52. No fim do ano: R$ 1.378 (soma de 1 a 52). Se dezembro aperta, inverta a ordem e comece pelos R$ 52. Comenta \"EU VOU\" se topa começar 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #reservadeemergencia #dinheiro #educacaofinanceira",
+  "yt_title": "Comece com R$ 1 e termine o ano com R$ 1.378 #shorts",
+  "yt_desc": "Desafio das 52 semanas: na semana 1 você guarda R$ 1, na semana 2 guarda R$ 2, e assim até a semana 52. A soma de 1 a 52 dá R$ 1.378. Se dezembro aperta, inverta a ordem e comece pelos R$ 52. Guarde separado da conta do dia a dia.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #reservadeemergencia",
+  "pin_title": "Desafio 52 semanas: como guardar R$ 1.378 começando com R$ 1",
+  "pin": "No desafio das 52 semanas você guarda R$ 1 na primeira semana, R$ 2 na segunda e assim até a semana 52, somando R$ 1.378 no ano. Se o fim do ano aperta, dá para inverter a ordem. Descubra no site como acompanhar sua meta semana a semana com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Como R$ 1 vira <em>R$ 1.378 no ano?</em>",
+  "value": "R$ 1.378",
+  "label": "em 52 semanas",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
