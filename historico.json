@@ -1400,5 +1400,22 @@
       "fb_feed": "https://www.facebook.com/122103158103506150/posts/122125316625506150",
       "fb_reel": "https://www.facebook.com/reel/2334520904060976"
     }
+  },
+  {
+    "data": "2026-11-27",
+    "serie": "reels",
+    "titulo": "Sexta à noite: quem manda no seu copo?",
+    "tema": "bebida / embriaguez / domínio próprio na sexta à noite",
+    "versiculos": [
+      "Efésios 5:18",
+      "Provérbios 20:1"
+    ],
+    "foto": null,
+    "formato": "Reels 8 cenas só texto + Comente TESTE",
+    "links": {
+      "ig_reel": "https://www.instagram.com/reel/DgQsTcBsHvO/",
+      "fb_reel": "https://www.facebook.com/reel/1144528671767721",
+      "tiktok": "https://tiktok.com/@forjadaalma8/video/7712973239533767957"
+    }
   }
 ]
