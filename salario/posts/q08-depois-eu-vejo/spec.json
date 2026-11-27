@@ -1,0 +1,208 @@
+{
+ "tipo": "carrossel",
+ "redes": [
+  "ig",
+  "tt"
+ ],
+ "slides": [
+  {
+   "tipo": "quadro",
+   "img": "img/p1.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 450,
+     "t": 30,
+     "txt": "Compra de <b>R$ 89</b> cobrada duas vezes?!"
+    },
+    {
+     "x": 600,
+     "y": 40,
+     "w": 450,
+     "t": 60,
+     "txt": "Eu nunca olho a fatura..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p2.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 420,
+     "t": 30,
+     "txt": "Chegou a fatura."
+    },
+    {
+     "x": 600,
+     "y": 110,
+     "w": 450,
+     "t": 55,
+     "txt": "Depois eu vejo!"
+    }
+   ],
+   "cap": "Há 5 meses..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p3.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 460,
+     "t": 30,
+     "txt": "Assinatura esquecida: <b>R$ 45</b> por mês, há 5 meses."
+    },
+    {
+     "x": 610,
+     "y": 60,
+     "w": 440,
+     "t": 60,
+     "txt": "Eu nem uso esse app!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p4.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 470,
+     "t": 30,
+     "txt": "Tarifa do banco: <b>R$ 32</b> por mês, num pacote que a gente não usa."
+    },
+    {
+     "x": 620,
+     "y": 60,
+     "w": 430,
+     "t": 60,
+     "txt": "<b>R$ 160</b> em 5 meses..."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p5.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 50,
+     "w": 460,
+     "t": 30,
+     "txt": "225 + 160 + 89 = <b>R$ 474</b> escorrendo sem ver."
+    },
+    {
+     "x": 610,
+     "y": 50,
+     "w": 440,
+     "t": 60,
+     "txt": "Tudo por causa do \"depois eu vejo\"."
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p6.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 110,
+     "w": 470,
+     "t": 30,
+     "txt": "Novo combinado: <i>15 minutos</i> todo domingo olhando o dinheiro."
+    },
+    {
+     "x": 640,
+     "y": 140,
+     "w": 400,
+     "t": 55,
+     "txt": "Com café!"
+    }
+   ],
+   "cap": "Domingo de manhã..."
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p7.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 60,
+     "w": 460,
+     "t": 30,
+     "txt": "Assinatura cancelada e pacote do banco trocado pelo grátis."
+    },
+    {
+     "x": 600,
+     "y": 50,
+     "w": 450,
+     "t": 60,
+     "txt": "E o banco devolveu os <i>R$ 89</i>!"
+    }
+   ]
+  },
+  {
+   "tipo": "quadro",
+   "img": "img/p8.jpg",
+   "baloes": [
+    {
+     "x": 30,
+     "y": 130,
+     "w": 440,
+     "t": 30,
+     "txt": "<i>R$ 77</i> a menos de gasto todo mês!"
+    },
+    {
+     "x": 560,
+     "y": 90,
+     "w": 490,
+     "t": 60,
+     "txt": "Em 1 ano, <i>R$ 924</i>. Com 15 minutos por semana."
+    }
+   ],
+   "cap": "1 mês depois..."
+  },
+  {
+   "tipo": "card",
+   "html": "<h1>\"Depois eu vejo\" custou <em>R$&nbsp;474</em>.</h1><p>O que a Bia e o Rafa acharam em 5 meses sem olhar a fatura:</p><table><tr><th>Item</th><th class='n'>Valor</th></tr><tr><td>Compra cobrada duas vezes</td><td class='n'>R$ 89</td></tr><tr><td>Assinatura esquecida (5 x R$ 45)</td><td class='n'>R$ 225</td></tr><tr><td>Tarifa do banco (5 x R$ 32)</td><td class='n'>R$ 160</td></tr><tr class='tot'><td>Total</td><td class='n'>R$ 474</td></tr></table><p>Plano novo: 15 minutos todo domingo olhando fatura e extrato. Cancelaram a assinatura e trocaram para o pacote grátis do banco: R$ 77 a menos por mês, R$ 924 em 1 ano. O banco ainda devolveu os R$ 89.</p>"
+  }
+ ],
+ "cta_titulo": "Quer olhar seu dinheiro em 15 minutos por semana?",
+ "captions": {
+  "ig": "\"Depois eu vejo\" a fatura custou R$ 474 para a Bia e o Rafa. 😬\n\nEm 5 meses sem olhar: uma compra de R$ 89 cobrada duas vezes, uma assinatura esquecida de R$ 45 por mês (R$ 225) e uma tarifa de R$ 32 por mês num pacote do banco que eles nem usavam (R$ 160).\n\nA virada: 15 minutos todo domingo, com café, olhando fatura e extrato. Cancelaram a assinatura, trocaram para o pacote grátis do banco e pediram o estorno da compra duplicada. Resultado: R$ 77 a menos de gasto por mês, R$ 924 em 1 ano.\n\nQuando foi a última vez que você olhou sua fatura linha por linha? Conta aqui 👇\n💬 Comenta PLANILHA que eu te mando a planilha grátis no direct.\n\n#faturadocartao #organizacaofinanceira #financaspessoais #controlefinanceiro #planilhafinanceira",
+  "tt": "\"Depois eu vejo\" a fatura = R$ 474 perdidos 😬 Comenta quando foi a última vez que você olhou a sua.\n➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador)"
+ },
+ "conta": "Compra duplicada 89; assinatura 45 x 5 = 225; tarifa 32 x 5 = 160; total 89 + 225 + 160 = 474. Economia: 45 + 32 = 77/mês; 77 x 12 = 924. Estorno 89 é à parte.",
+ "arquivos": {
+  "ig": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10.jpg"
+  ],
+  "tt": [
+   "c01.jpg",
+   "c02.jpg",
+   "c03.jpg",
+   "c04.jpg",
+   "c05.jpg",
+   "c06.jpg",
+   "c07.jpg",
+   "c08.jpg",
+   "c09.jpg",
+   "c10-tt.jpg"
+  ]
+ }
+}
