@@ -1089,6 +1089,18 @@
       "v3": {
         "pasta": "sm11-guerra-longa",
         "nota": "Série Sabedoria milenar (11/16), aprovada pelo Eduardo em 16/11/2026. Data prevista 27/11. Publicar --so tt,pin."
+      },
+      "v1": {
+        "pasta": "v3-desconto-falso-100",
+        "nota": "Fila sem item: pauta nova v3 no dia da Black Friday (27/11): 'de R$ 4.000 por R$ 2.000', mas mês passado custava R$ 2.100 = desconto real R$ 100 (<5%), cenário de exemplo; gancho notificação de loja. IG 18,6 s, TT 20,3 s, YT 18,8 s.",
+        "renderizado": "v3",
+        "publicado_em": "2026-11-27T11:58-03:00",
+        "ig_link": "https://www.instagram.com/reel/DgP8LbRBNB_/",
+        "yt_link": "https://youtube.com/shorts/hqm6V2yd8-Q",
+        "tt_link": "https://tiktok.com/@salrio.organizado/video/7712864770105363732",
+        "tt_status": "BUFFER_SENT",
+        "pin_link": "https://www.pinterest.com/pin/264727284344970432",
+        "fb_link": "https://facebook.com/1446527975200486_122114667885533531"
       }
     },
     {
