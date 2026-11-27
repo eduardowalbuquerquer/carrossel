@@ -1109,7 +1109,15 @@
       },
       "v2": {
         "pasta": "v3-fim-de-semana-2880",
-        "nota": "Fila vazia: pauta nova (gasto do fim de semana R$ 60 x 4 = R$ 240/mes = R$ 2.880/ano, cenario de exemplo; gancho notificacao Pix de sabado), criada pela rotina das 19h de 27/11/2026."
+        "nota": "Fila vazia: pauta nova (gasto do fim de semana R$ 60 x 4 = R$ 240/mes = R$ 2.880/ano, cenario de exemplo; gancho notificacao Pix de sabado), criada pela rotina das 19h de 27/11/2026. TT 20,1 s, YT 17,8 s. TikTok publico pelo Buffer.",
+        "publicado_em": "2026-11-27T19:30-03:00",
+        "renderizado": "v3",
+        "links": {
+          "tt_link": "https://tiktok.com/@salrio.organizado/video/7712979389285272840",
+          "yt_link": "https://youtube.com/shorts/InSdMBpVqQI",
+          "pin_link": "https://www.pinterest.com/pin/264727284344980291",
+          "tt_status": "BUFFER_SENT"
+        }
       }
     },
     {
