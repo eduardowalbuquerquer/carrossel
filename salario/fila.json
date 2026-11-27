@@ -1106,6 +1106,10 @@
         "tt_status": "BUFFER_SENT",
         "pin_link": "https://www.pinterest.com/pin/264727284344970432",
         "fb_link": "https://facebook.com/1446527975200486_122114667885533531"
+      },
+      "v2": {
+        "pasta": "v3-fim-de-semana-2880",
+        "nota": "Fila vazia: pauta nova (gasto do fim de semana R$ 60 x 4 = R$ 240/mes = R$ 2.880/ano, cenario de exemplo; gancho notificacao Pix de sabado), criada pela rotina das 19h de 27/11/2026."
       }
     },
     {

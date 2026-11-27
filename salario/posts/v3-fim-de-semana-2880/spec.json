@@ -1,0 +1,65 @@
+{
+ "id": "v3-fim-de-semana-2880",
+ "formato": "v3",
+ "pilar": "gastos-invisiveis",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-01-fatura-choque.jpg",
+   "notif": {
+    "app": "Pix",
+    "title": "Pix enviado: Bar da esquina",
+    "msg": "Valor: <b>R$ 60,00</b>",
+    "when": "sábado, 23:40"
+   },
+   "value": "R$ 2.880",
+   "value_label": "por ano no fim de semana",
+   "tone": "red",
+   "title": "O sábado <em>que custa caro</em>.",
+   "say": "Sessenta reais todo fim de semana viram dois mil oitocentos e oitenta por ano.",
+   "show": "R$ 60 todo fim de semana viram R$ 2.880 por ano."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Rolê do fim de semana",
+   "value": "R$ 240",
+   "tone": "red",
+   "text": "<b>R$ 60</b> x 4 fins de semana = <b>R$ 240</b> por mês. R$ 240 x 12 = <b>R$ 2.880</b> por ano. Cenário de exemplo.",
+   "say": "São duzentos e quarenta por mês. E quase ninguém anota.",
+   "show": "São R$ 240 por mês. E quase ninguém anota."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-16-jovem-organizando.jpg",
+   "title": "Sem cortar o lazer",
+   "items": [
+    "Defina um <b>valor fixo</b> para o mês",
+    "Separe no <b>dia do salário</b>",
+    "Acabou o valor, <b>acabou o rolê</b>"
+   ],
+   "say": "Sem cortar o lazer. Defina um valor fixo para o mês. Separe no dia do salário. Acabou o valor, acabou o rolê.",
+   "show": "Sem cortar o lazer. Defina um valor fixo para o mês. Separe no dia do salário. Acabou o valor, acabou o rolê."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Lazer com limite <em>não pesa</em>.",
+   "say": "Lazer com limite não pesa."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 60 todo fim de semana viram R$ 2.880 por ano 👇\n\nR$ 60 x 4 fins de semana = R$ 240 por mês. R$ 240 x 12 = R$ 2.880 por ano. E quase ninguém anota.\n\nSem cortar o lazer:\n1. Defina um valor fixo para o mês\n2. Separe no dia do salário\n3. Acabou o valor, acabou o rolê\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem divide o rolê com você.\n\n(Cenário de exemplo.)\n\n#lazer #gastosinvisiveis #organizacaofinanceira #financaspessoais #dinheiro",
+  "tt": "R$ 60 todo fim de semana viram R$ 2.880 por ano 😬 R$ 60 x 4 = R$ 240 por mês; x 12 = R$ 2.880 (cenário de exemplo). Sem cortar o lazer: defina um valor fixo para o mês, separe no dia do salário e, acabou o valor, acabou o rolê. Comenta quanto você gasta num fim de semana 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #dinheiro #organizacaofinanceira #gastos #fimdesemana",
+  "yt_title": "R$ 60 no fim de semana = R$ 2.880 por ano #shorts",
+  "yt_desc": "No exemplo, R$ 60 todo fim de semana dão R$ 240 por mês e R$ 2.880 por ano. Sem cortar o lazer: defina um valor fixo para o mês, separe no dia do salário e, acabou o valor, acabou o rolê. Cenário de exemplo.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #dinheiro",
+  "pin_title": "Planilha de gastos: quanto o fim de semana custa no ano",
+  "pin": "Num cenário de exemplo, R$ 60 por fim de semana somam R$ 240 por mês e R$ 2.880 por ano, sem ninguém perceber. Dá para manter o lazer com um valor fixo separado no dia do salário. Descubra no site quanto os seus gastos pequenos somam, com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Quanto o seu fim de semana <em>custa no ano?</em>",
+  "value": "R$ 2.880",
+  "label": "num cenário de exemplo",
+  "cta": "Descubra o seu →"
+ }
+}
