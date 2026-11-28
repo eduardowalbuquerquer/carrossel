@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-28",
+  "series": "cena",
+  "series_name": "Homens da Bíblia em 60s",
+  "title": "Noé: o homem que obedeceu antes da chuva",
+  "slides": [
+    {
+      "layout": "photo",
+      "image": "img/foto.jpg",
+      "focus": "center 55%",
+      "tag": "HOMENS DA BÍBLIA EM 60S",
+      "title": "Ele construiu um barco <em style=\"color:#E3B566\">sem ver uma gota de chuva</em>.",
+      "body": "Noé: o homem que obedeceu antes de ver."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "O CONTEXTO",
+      "title": "Uma geração inteira corrompida. Um homem diferente.",
+      "quote": {
+        "text": "Noé era homem justo e íntegro entre os seus contemporâneos; Noé andava com Deus.",
+        "ref": "Gênesis 6:9 · ARA"
+      },
+      "body": "Ele não seguiu a maioria. Seguiu a Deus, mesmo quando ninguém ao redor seguia."
+    },
+    {
+      "layout": "text",
+      "theme": "light",
+      "tag": "A OBEDIÊNCIA",
+      "title": "Deus deu as medidas. Noé fez exatamente assim.",
+      "quote": {
+        "text": "Assim fez Noé, consoante a tudo o que Deus lhe ordenara.",
+        "ref": "Gênesis 6:22 · ARA"
+      },
+      "body": "Sem atalhos, sem versão própria. Por anos, tábua por tábua, enquanto o céu continuava limpo."
+    },
+    {
+      "layout": "text",
+      "theme": "dark",
+      "tag": "A LIÇÃO PARA HOJE",
+      "title": "A fé de um homem <em style=\"color:#E3B566\">protegeu a sua casa</em>.",
+      "quote": {
+        "text": "Pela fé, Noé, divinamente instruído acerca de acontecimentos que ainda não se viam e sendo temente a Deus, aparelhou uma arca para a salvação de sua casa…",
+        "ref": "Hebreus 11:7 · ARA"
+      },
+      "body": "Obedecer quando ainda não faz sentido é fé. Sua família está sendo construída pelas decisões que você toma hoje."
+    },
+    {
+      "layout": "cta",
+      "title": "Homem não nasce pronto.<br>É <em>forjado</em>.",
+      "body": "Todo sábado: um homem da Bíblia em 60 segundos.",
+      "button": "Siga @forjadaalma.oficial",
+      "sub": "Conhece um pai que está construindo a arca da sua casa? Envie para ele."
+    }
+  ],
+  "caption": "Noé construiu uma arca sem ver uma gota de chuva. \"Assim fez Noé, consoante a tudo o que Deus lhe ordenara\" (Gn 6:22).\n\nObedecer antes de entender é fé. E a fé de um homem protegeu a sua casa.\n\nEnvie para um irmão que é pai de família.\n\nSiga @forjadaalma.oficial\n\n#noe #homensdabiblia #homemdedeus #homemcristao #forjadaalma #biblia #paidefamilia",
+  "caption_facebook": "Numa geração inteira corrompida, a Bíblia diz que \"Noé era homem justo e íntegro entre os seus contemporâneos; Noé andava com Deus\" (Gênesis 6:9).\n\nDeus mandou construir uma arca, deu as medidas, e Noé não inventou uma versão própria: \"Assim fez Noé, consoante a tudo o que Deus lhe ordenara\" (Gênesis 6:22). Por anos, tábua por tábua, enquanto o céu continuava limpo e as pessoas seguiam a vida.\n\nHebreus 11:7 resume: \"Pela fé, Noé, divinamente instruído acerca de acontecimentos que ainda não se viam e sendo temente a Deus, aparelhou uma arca para a salvação de sua casa…\"\n\nObedecer quando ainda não faz sentido é fé. E a sua família está sendo construída pelas decisões que você toma hoje. Que arca você está levantando para a sua casa?\n\nCompartilhe com um pai de família que precisa ouvir isso.\n\n#noe #homemcristao #forjadaalma",
+  "reel": {
+    "image": "img/foto.jpg",
+    "frames": [
+      {"kicker": "HOMENS DA BÍBLIA EM 60S", "text": "Ele construiu um barco <em>sem ver chuva</em>."},
+      {"kicker": "POR ANOS", "text": "Obedeceu <em>antes de entender</em>."},
+      {"kicker": "QUEM ERA ELE?", "text": "A história está no post de hoje.", "cta": "Toque no perfil →"}
+    ],
+    "caption": "Ele construiu um barco sem ver uma gota de chuva. Obedeceu antes de entender. Quem era ele? O post completo está no perfil 👆\n\n#homensdabiblia #homemdedeus #forjadaalma #biblia",
+    "caption_facebook": "Ele construiu um barco sem ver uma gota de chuva. Obedeceu antes de entender. Quem era ele? A história está no post da Página.\n\n#homemcristao #forjadaalma"
+  }
+}
