@@ -1,0 +1,65 @@
+{
+ "id": "v3-frete-gratis-960",
+ "formato": "v3",
+ "pilar": "gastos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-07-cartao-recusado.jpg",
+   "notif": {
+    "app": "Loja online",
+    "title": "Faltam R$ 40 para o frete grátis",
+    "msg": "Frete hoje: <b>R$ 15,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 960",
+   "value_label": "por ano",
+   "tone": "red",
+   "title": "O frete <em>grátis</em> que sai caro",
+   "say": "Faltam quarenta reais pro frete grátis? Você evita quinze e gasta quarenta.",
+   "show": "Faltam R$ 40 pro frete grátis? Você evita R$ 15 e gasta R$ 40."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-12-carteira-vazia.jpg",
+   "label": "Duas compras por mês",
+   "value": "R$ 960",
+   "tone": "red",
+   "text": "R$ 40 a mais × 2 compras = <b>R$ 80 por mês</b>. Em 12 meses: <b>R$ 960</b>.",
+   "say": "Duas vezes por mês, são oitenta reais. Em um ano, novecentos e sessenta.",
+   "show": "Duas vezes por mês, são R$ 80. Em um ano, R$ 960."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-19-riscando-lista.jpg",
+   "title": "Antes de completar o carrinho",
+   "items": [
+    "Frete <b>menor</b> que o extra? Pague o frete",
+    "Junte o que você <b>já ia comprar</b>",
+    "Compraria <b>sem o frete</b>? Se não, tira"
+   ],
+   "say": "Antes de completar o carrinho. Se o frete é menor, pague o frete. Junte o que você já ia comprar. Se não compraria sem o frete, tira.",
+   "show": "Antes de completar o carrinho. Se o frete é menor, pague o frete. Junte o que você já ia comprar. Se não compraria sem o frete, tira."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-04-alivio-planilha.jpg",
+   "title": "Anote <em>o que é extra</em>.",
+   "say": "Anote o que é extra."
+  }
+ ],
+ "captions": {
+  "ig": "Faltam R$ 40 para o frete grátis? Você evita R$ 15 e gasta R$ 40 👇\n\nExemplo: duas compras por mês completando o carrinho com R$ 40 em coisa que você não ia comprar = R$ 80 por mês. Em 12 meses, R$ 960.\n\nAntes de completar o carrinho:\n1. Se o frete é menor que o extra, pague o frete\n2. Espere e junte o que você já ia comprar\n3. Pergunte: eu compraria isso sem o frete? Se não, tira\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem sempre completa o carrinho.\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #comprasonline #dinheiro",
+  "tt": "Faltam R$ 40 para o frete grátis? Você evita R$ 15 e gasta R$ 40. Duas compras assim por mês = R$ 80. Em um ano, R$ 960 em coisa que você não ia comprar (exemplo). Regra: se o frete é menor que o extra, pague o frete. Comenta quanto falta no seu carrinho agora 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #comprasonline #dinheiro #educacaofinanceira",
+  "yt_title": "Frete grátis que custa R$ 960 por ano #shorts",
+  "yt_desc": "Faltam R$ 40 para o frete grátis? Você evita R$ 15 de frete e gasta R$ 40 a mais. Duas compras assim por mês dão R$ 80; em 12 meses, R$ 960 (cenário de exemplo). Antes de completar o carrinho: se o frete é menor que o extra, pague o frete; junte o que você já ia comprar; e pergunte se compraria sem o frete.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #comprasonline",
+  "pin_title": "Como economizar em compras online: o frete grátis que custa R$ 960 por ano",
+  "pin": "Completar o carrinho para ganhar frete grátis parece economia, mas R$ 40 a mais para evitar R$ 15 de frete, duas vezes por mês, somam R$ 960 no ano. Uma regra simples resolve: se o frete é menor que o extra, pague o frete. Descubra no site quanto os seus gastos extras somam com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "Por que o frete grátis <em>custa R$ 960?</em>",
+  "value": "R$ 960",
+  "label": "por ano",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
