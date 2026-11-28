@@ -1,0 +1,66 @@
+{
+ "id": "v3-generico-360",
+ "formato": "v3",
+ "pilar": "gastos",
+ "scenes": [
+  {
+   "type": "hook",
+   "bg": "cenas/cena-09-mae-conta-luz.jpg",
+   "notif": {
+    "app": "Farmácia",
+    "title": "Compra aprovada",
+    "msg": "Valor: <b>R$ 80,00</b>",
+    "when": "agora"
+   },
+   "value": "R$ 360",
+   "value_label": "por ano",
+   "tone": "red",
+   "title": "O remédio que <em>pesa</em> todo mês",
+   "say": "Oitenta reais todo mês no mesmo remédio? O genérico pode sair por cinquenta.",
+   "show": "R$ 80 todo mês no mesmo remédio? O genérico pode sair por R$ 50."
+  },
+  {
+   "type": "number",
+   "bg": "cenas/cena-10-pix-maos.jpg",
+   "label": "Um remédio de uso contínuo",
+   "value": "R$ 360",
+   "tone": "red",
+   "text": "R$ 80 − R$ 50 = <b>R$ 30 por mês</b>. Em 12 meses: <b>R$ 360</b>.",
+   "source": "Lei 9.787/1999 · valores de exemplo",
+   "say": "São trinta reais a menos por mês. Em um ano, trezentos e sessenta.",
+   "show": "São R$ 30 a menos por mês. Em um ano, R$ 360."
+  },
+  {
+   "type": "steps",
+   "bg": "cenas/cena-11-aposentado-caderno.jpg",
+   "title": "Na próxima receita",
+   "items": [
+    "Pergunte ao médico se pode <b>genérico</b>",
+    "Compare o preço em <b>2 farmácias</b>",
+    "Anote o gasto na <b>planilha</b>"
+   ],
+   "say": "Na próxima receita. Pergunte ao médico se pode genérico. Compare o preço em duas farmácias. Anote o gasto na planilha.",
+   "show": "Na próxima receita. Pergunte ao médico se pode genérico. Compare o preço em 2 farmácias. Anote o gasto na planilha."
+  },
+  {
+   "type": "cta",
+   "bg": "cenas/cena-20-familia-mesa.jpg",
+   "title": "Anote <em>o que é fixo</em>.",
+   "say": "Anote o que é fixo."
+  }
+ ],
+ "captions": {
+  "ig": "R$ 80 todo mês no mesmo remédio? O genérico pode sair por R$ 50 👇\n\nExemplo: um remédio de uso contínuo que custa R$ 80 e tem genérico por R$ 50 = R$ 30 a menos por mês. Em 12 meses, R$ 360.\n\nNa próxima receita:\n1. Pergunte ao médico se pode ser genérico (por lei, ele é intercambiável com o de referência)\n2. Compare o preço em 2 farmácias\n3. Anote o gasto na planilha, junto com as contas fixas\n\nComenta PLANILHA que eu te mando a mini-planilha grátis no direct 📩 E manda para quem compra remédio todo mês.\n\n#organizacaofinanceira #financaspessoais #educacaofinanceira #economia #dinheiro",
+  "tt": "R$ 80 todo mês no mesmo remédio? O genérico pode sair por R$ 50. São R$ 30 a menos por mês. Em um ano, R$ 360 (exemplo). Na próxima receita, pergunte ao médico se pode genérico e compare o preço em 2 farmácias. Comenta quanto você gasta de farmácia por mês 👇 ➕ Segue para o próximo! 📸 Tira print do final: planilha grátis em salarioorganizado.netlify.app/mini (digite no navegador) #financaspessoais #organizacaofinanceira #economia #dinheiro #educacaofinanceira",
+  "yt_title": "O remédio de todo mês que custa R$ 360 a mais #shorts",
+  "yt_desc": "R$ 80 todo mês no mesmo remédio? O genérico pode sair por R$ 50. São R$ 30 a menos por mês; em 12 meses, R$ 360 (cenário de exemplo). Pelo que diz a Lei 9.787/1999, o genérico é intercambiável com o medicamento de referência. Na próxima receita: pergunte ao médico se pode ser genérico, compare o preço em 2 farmácias e anote o gasto na planilha.\n\nA mini-planilha grátis está no link do perfil: https://salarioorganizado.netlify.app/mini/?utm_source=youtube&utm_medium=shorts\n\n#financaspessoais #organizacaofinanceira #economia",
+  "pin_title": "Como economizar na farmácia: o remédio de todo mês que custa R$ 360 a mais",
+  "pin": "Um remédio de uso contínuo de R$ 80 com genérico por R$ 50 deixa R$ 30 por mês na mesa, ou R$ 360 no ano. Pergunte ao médico se pode ser genérico e compare o preço em duas farmácias. Descubra no site quanto os seus gastos fixos somam com a planilha grátis."
+ },
+ "pin_card": {
+  "title": "O remédio de todo mês <em>pode custar R$ 360 a menos?</em>",
+  "value": "R$ 360",
+  "label": "por ano",
+  "cta": "Veja a conta e faça a sua →"
+ }
+}
